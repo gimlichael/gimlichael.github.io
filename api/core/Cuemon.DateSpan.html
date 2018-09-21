@@ -1,0 +1,1220 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct DateSpan
+   | Cuemon .NET Standard </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct DateSpan
+   | Cuemon .NET Standard ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/50x50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cuemon.DateSpan">
+  
+  
+  <h1 id="Cuemon_DateSpan" data-uid="Cuemon.DateSpan" class="text-break">Struct DateSpan
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a <span class="xref">System.DateTime</span> interval between two <span class="xref">System.DateTime</span> values.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="Cuemon.DateSpan.html">DateSpan</a>&gt;</div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cuemon.html">Cuemon</a></h6>
+  <h6><strong>Assembly</strong>: Cuemon.Core.dll</h6>
+  <h5 id="Cuemon_DateSpan_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct DateSpan : IEquatable&lt;DateSpan&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan__ctor_System_DateTime_.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.%23ctor(System.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan__ctor_" data-uid="Cuemon.DateSpan.#ctor*"></a>
+  <h4 id="Cuemon_DateSpan__ctor_System_DateTime_" data-uid="Cuemon.DateSpan.#ctor(System.DateTime)">DateSpan(DateTime)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure with a default <span class="xref">System.DateTime</span> value set to <span class="xref">System.DateTime.Today</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateSpan(DateTime start)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for the <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> calculation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan__ctor_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.%23ctor(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan__ctor_" data-uid="Cuemon.DateSpan.#ctor*"></a>
+  <h4 id="Cuemon_DateSpan__ctor_System_DateTime_System_DateTime_" data-uid="Cuemon.DateSpan.#ctor(System.DateTime,System.DateTime)">DateSpan(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure with a default <span class="xref">Cuemon.DateSpan.Calendar</span> value from the <span class="xref">System.Globalization.CultureInfo.InvariantCulture</span> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateSpan(DateTime start, DateTime end)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for the <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> calculation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for the <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> calculation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan__ctor_System_DateTime_System_DateTime_System_Globalization_Calendar_.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.%23ctor(System.DateTime%2CSystem.DateTime%2CSystem.Globalization.Calendar)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan__ctor_" data-uid="Cuemon.DateSpan.#ctor*"></a>
+  <h4 id="Cuemon_DateSpan__ctor_System_DateTime_System_DateTime_System_Globalization_Calendar_" data-uid="Cuemon.DateSpan.#ctor(System.DateTime,System.DateTime,System.Globalization.Calendar)">DateSpan(DateTime, DateTime, Calendar)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateSpan(DateTime start, DateTime end, Calendar calendar)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for the <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> calculation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for the <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> calculation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Globalization.Calendar</span></td>
+        <td><span class="parametername">calendar</span></td>
+        <td><p>The <span class="xref">Cuemon.DateSpan.Calendar</span> that applies to this <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_Days.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.Days%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_Days_" data-uid="Cuemon.DateSpan.Days*"></a>
+  <h4 id="Cuemon_DateSpan_Days" data-uid="Cuemon.DateSpan.Days">Days</h4>
+  <div class="markdown level1 summary"><p>Gets the number of days represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Days { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of days represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_Hours.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.Hours%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_Hours_" data-uid="Cuemon.DateSpan.Hours*"></a>
+  <h4 id="Cuemon_DateSpan_Hours" data-uid="Cuemon.DateSpan.Hours">Hours</h4>
+  <div class="markdown level1 summary"><p>Gets the number of hours represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Hours { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of hours represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_Milliseconds.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.Milliseconds%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_Milliseconds_" data-uid="Cuemon.DateSpan.Milliseconds*"></a>
+  <h4 id="Cuemon_DateSpan_Milliseconds" data-uid="Cuemon.DateSpan.Milliseconds">Milliseconds</h4>
+  <div class="markdown level1 summary"><p>Gets the number of milliseconds represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Milliseconds { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of milliseconds represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_Minutes.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.Minutes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_Minutes_" data-uid="Cuemon.DateSpan.Minutes*"></a>
+  <h4 id="Cuemon_DateSpan_Minutes" data-uid="Cuemon.DateSpan.Minutes">Minutes</h4>
+  <div class="markdown level1 summary"><p>Gets the number of minutes represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Minutes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of minutes represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_Months.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.Months%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_Months_" data-uid="Cuemon.DateSpan.Months*"></a>
+  <h4 id="Cuemon_DateSpan_Months" data-uid="Cuemon.DateSpan.Months">Months</h4>
+  <div class="markdown level1 summary"><p>Gets the number of months represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Months { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of months represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_Seconds.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.Seconds%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_Seconds_" data-uid="Cuemon.DateSpan.Seconds*"></a>
+  <h4 id="Cuemon_DateSpan_Seconds" data-uid="Cuemon.DateSpan.Seconds">Seconds</h4>
+  <div class="markdown level1 summary"><p>Gets the number of seconds represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Seconds { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of seconds represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_Ticks.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.Ticks%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_Ticks_" data-uid="Cuemon.DateSpan.Ticks*"></a>
+  <h4 id="Cuemon_DateSpan_Ticks" data-uid="Cuemon.DateSpan.Ticks">Ticks</h4>
+  <div class="markdown level1 summary"><p>Gets the number of ticks represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long Ticks { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>The number of ticks represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_TotalDays.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.TotalDays%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_TotalDays_" data-uid="Cuemon.DateSpan.TotalDays*"></a>
+  <h4 id="Cuemon_DateSpan_TotalDays" data-uid="Cuemon.DateSpan.TotalDays">TotalDays</h4>
+  <div class="markdown level1 summary"><p>Gets the total number of days represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TotalDays { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The total number of days represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_TotalHours.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.TotalHours%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_TotalHours_" data-uid="Cuemon.DateSpan.TotalHours*"></a>
+  <h4 id="Cuemon_DateSpan_TotalHours" data-uid="Cuemon.DateSpan.TotalHours">TotalHours</h4>
+  <div class="markdown level1 summary"><p>Gets the total number of hours represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long TotalHours { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>The total number of hours represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_TotalMilliseconds.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.TotalMilliseconds%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_TotalMilliseconds_" data-uid="Cuemon.DateSpan.TotalMilliseconds*"></a>
+  <h4 id="Cuemon_DateSpan_TotalMilliseconds" data-uid="Cuemon.DateSpan.TotalMilliseconds">TotalMilliseconds</h4>
+  <div class="markdown level1 summary"><p>Gets the total number of milliseconds represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long TotalMilliseconds { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>The total number of milliseconds represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_TotalMinutes.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.TotalMinutes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_TotalMinutes_" data-uid="Cuemon.DateSpan.TotalMinutes*"></a>
+  <h4 id="Cuemon_DateSpan_TotalMinutes" data-uid="Cuemon.DateSpan.TotalMinutes">TotalMinutes</h4>
+  <div class="markdown level1 summary"><p>Gets the total number of minutes represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long TotalMinutes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>The total number of minutes represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_TotalMonths.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.TotalMonths%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_TotalMonths_" data-uid="Cuemon.DateSpan.TotalMonths*"></a>
+  <h4 id="Cuemon_DateSpan_TotalMonths" data-uid="Cuemon.DateSpan.TotalMonths">TotalMonths</h4>
+  <div class="markdown level1 summary"><p>Gets the total number of months represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TotalMonths { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The total number of months represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_TotalSeconds.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.TotalSeconds%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_TotalSeconds_" data-uid="Cuemon.DateSpan.TotalSeconds*"></a>
+  <h4 id="Cuemon_DateSpan_TotalSeconds" data-uid="Cuemon.DateSpan.TotalSeconds">TotalSeconds</h4>
+  <div class="markdown level1 summary"><p>Gets the total number of seconds represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long TotalSeconds { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>The total number of seconds represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_Years.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.Years%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_Years_" data-uid="Cuemon.DateSpan.Years*"></a>
+  <h4 id="Cuemon_DateSpan_Years" data-uid="Cuemon.DateSpan.Years">Years</h4>
+  <div class="markdown level1 summary"><p>Gets the number of years represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Years { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of years represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_Equals_Cuemon_DateSpan_.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.Equals(Cuemon.DateSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_Equals_" data-uid="Cuemon.DateSpan.Equals*"></a>
+  <h4 id="Cuemon_DateSpan_Equals_Cuemon_DateSpan_" data-uid="Cuemon.DateSpan.Equals(Cuemon.DateSpan)">Equals(DateSpan)</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the current object is equal to another object of the same type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(DateSpan other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.DateSpan.html">DateSpan</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>An object to compare with this object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the current object is equal to the other parameter; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_Equals_" data-uid="Cuemon.DateSpan.Equals*"></a>
+  <h4 id="Cuemon_DateSpan_Equals_System_Object_" data-uid="Cuemon.DateSpan.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <span class="xref">System.Object</span> is equal to this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The <span class="xref">System.Object</span> to compare with this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the specified <span class="xref">System.Object</span> is equal to this instance; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_GetHashCode.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_GetHashCode_" data-uid="Cuemon.DateSpan.GetHashCode*"></a>
+  <h4 id="Cuemon_DateSpan_GetHashCode" data-uid="Cuemon.DateSpan.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Returns a hash code for this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.GetHashCode()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_GetWeeks.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.GetWeeks%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_GetWeeks_" data-uid="Cuemon.DateSpan.GetWeeks*"></a>
+  <h4 id="Cuemon_DateSpan_GetWeeks" data-uid="Cuemon.DateSpan.GetWeeks">GetWeeks()</h4>
+  <div class="markdown level1 summary"><p>Calculates the number of weeks represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetWeeks()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Calculates the number of weeks represented by the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_Parse_System_String_.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.Parse(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_Parse_" data-uid="Cuemon.DateSpan.Parse*"></a>
+  <h4 id="Cuemon_DateSpan_Parse_System_String_" data-uid="Cuemon.DateSpan.Parse(System.String)">Parse(String)</h4>
+  <div class="markdown level1 summary"><p>Constructs a new <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> object from a date and time interval specified in a string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateSpan Parse(string start)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>A string that specifies the starting date and time value for the <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> interval.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.DateSpan.html">DateSpan</a></td>
+        <td><p>A <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> that corresponds to <code data-dev-comment-type="paramref" class="paramref">start</code> and <span class="xref">System.DateTime.Today</span> for the last part of the interval.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_Parse_System_String_System_String_.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.Parse(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_Parse_" data-uid="Cuemon.DateSpan.Parse*"></a>
+  <h4 id="Cuemon_DateSpan_Parse_System_String_System_String_" data-uid="Cuemon.DateSpan.Parse(System.String,System.String)">Parse(String, String)</h4>
+  <div class="markdown level1 summary"><p>Constructs a new <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> object from a date and time interval specified in a string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateSpan Parse(string start, string end)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>A string that specifies the starting date and time value for the <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> interval.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>A string that specifies the ending date and time value for the <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> interval.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.DateSpan.html">DateSpan</a></td>
+        <td><p>A <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> that corresponds to <code data-dev-comment-type="paramref" class="paramref">start</code> and <code data-dev-comment-type="paramref" class="paramref">end</code> of the interval.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_Parse_System_String_System_String_System_Globalization_CultureInfo_.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.Parse(System.String%2CSystem.String%2CSystem.Globalization.CultureInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_Parse_" data-uid="Cuemon.DateSpan.Parse*"></a>
+  <h4 id="Cuemon_DateSpan_Parse_System_String_System_String_System_Globalization_CultureInfo_" data-uid="Cuemon.DateSpan.Parse(System.String,System.String,System.Globalization.CultureInfo)">Parse(String, String, CultureInfo)</h4>
+  <div class="markdown level1 summary"><p>Constructs a new <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> object from a date and time interval specified in a string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateSpan Parse(string start, string end, CultureInfo culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>A string that specifies the starting date and time value for the <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> interval.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>A string that specifies the ending date and time value for the <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> interval.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Globalization.CultureInfo</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td><p>A <span class="xref">System.Globalization.CultureInfo</span> to resolve a <span class="xref">Cuemon.DateSpan.Calendar</span> object from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.DateSpan.html">DateSpan</a></td>
+        <td><p>A <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> that corresponds to <code data-dev-comment-type="paramref" class="paramref">start</code> and <code data-dev-comment-type="paramref" class="paramref">end</code> of the interval.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_ToString.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_ToString_" data-uid="Cuemon.DateSpan.ToString*"></a>
+  <h4 id="Cuemon_DateSpan_ToString" data-uid="Cuemon.DateSpan.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Converts the value of the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> object to its equivalent string representation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The <span class="xref">System.String</span> representation of the current <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.ToString()</span></div>
+  <h5 id="Cuemon_DateSpan_ToString_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The returned string has the following format: y*:MM:dd:hh:mm:ss.f*, where y* is the actual calculated years and f* is the actual calculated milliseconds.</p>
+</div>
+  <h3 id="operators">Operators
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_op_Equality_Cuemon_DateSpan_Cuemon_DateSpan_.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.op_Equality(Cuemon.DateSpan%2CCuemon.DateSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_op_Equality_" data-uid="Cuemon.DateSpan.op_Equality*"></a>
+  <h4 id="Cuemon_DateSpan_op_Equality_Cuemon_DateSpan_Cuemon_DateSpan_" data-uid="Cuemon.DateSpan.op_Equality(Cuemon.DateSpan,Cuemon.DateSpan)">Equality(DateSpan, DateSpan)</h4>
+  <div class="markdown level1 summary"><p>Indicates whether two <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> instances are equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(DateSpan dateSpan1, DateSpan dateSpan2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.DateSpan.html">DateSpan</a></td>
+        <td><span class="parametername">dateSpan1</span></td>
+        <td><p>The first date interval to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.DateSpan.html">DateSpan</a></td>
+        <td><span class="parametername">dateSpan2</span></td>
+        <td><p>The second date interval to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the values of <code data-dev-comment-type="paramref" class="paramref">dateSpan1</code> and <code data-dev-comment-type="paramref" class="paramref">dateSpan2</code> are equal; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan_op_Inequality_Cuemon_DateSpan_Cuemon_DateSpan_.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan.op_Inequality(Cuemon.DateSpan%2CCuemon.DateSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateSpan_op_Inequality_" data-uid="Cuemon.DateSpan.op_Inequality*"></a>
+  <h4 id="Cuemon_DateSpan_op_Inequality_Cuemon_DateSpan_Cuemon_DateSpan_" data-uid="Cuemon.DateSpan.op_Inequality(Cuemon.DateSpan,Cuemon.DateSpan)">Inequality(DateSpan, DateSpan)</h4>
+  <div class="markdown level1 summary"><p>Indicates whether two <a class="xref" href="Cuemon.DateSpan.html">DateSpan</a> instances are not equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(DateSpan dateSpan1, DateSpan dateSpan2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.DateSpan.html">DateSpan</a></td>
+        <td><span class="parametername">dateSpan1</span></td>
+        <td><p>The first date interval to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.DateSpan.html">DateSpan</a></td>
+        <td><span class="parametername">dateSpan2</span></td>
+        <td><p>The second date interval to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the values of <code data-dev-comment-type="paramref" class="paramref">dateSpan1</code> and <code data-dev-comment-type="paramref" class="paramref">dateSpan2</code> are not equal; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__2___0_System_Func___0___1__">ConverterExtensions.ParseWith&lt;TSource, TResult&gt;(TSource, Func&lt;TSource, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__3___0_System_Func___0___1___2____1_">ConverterExtensions.ParseWith&lt;TSource, T, TResult&gt;(TSource, Func&lt;TSource, T, TResult&gt;, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__4___0_System_Func___0___1___2___3____1___2_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, TResult&gt;(TSource, Func&lt;TSource, T1, T2, TResult&gt;, T1, T2)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__5___0_System_Func___0___1___2___3___4____1___2___3_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, TResult&gt;, T1, T2, T3)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__6___0_System_Func___0___1___2___3___4___5____1___2___3___4_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, TResult&gt;, T1, T2, T3, T4)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__7___0_System_Func___0___1___2___3___4___5___6____1___2___3___4___5_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, TResult&gt;, T1, T2, T3, T4, T5)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__8___0_System_Func___0___1___2___3___4___5___6___7____1___2___3___4___5___6_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, TResult&gt;, T1, T2, T3, T4, T5, T6)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__9___0_System_Func___0___1___2___3___4___5___6___7___8____1___2___3___4___5___6___7_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, T7, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, TResult&gt;, T1, T2, T3, T4, T5, T6, T7)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__10___0_System_Func___0___1___2___3___4___5___6___7___8___9____1___2___3___4___5___6___7___8_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, TResult&gt;, T1, T2, T3, T4, T5, T6, T7, T8)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__11___0_System_Func___0___1___2___3___4___5___6___7___8___9___10____1___2___3___4___5___6___7___8___9_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult&gt;, T1, T2, T3, T4, T5, T6, T7, T8, T9)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_As__1_System_Object_">ConverterExtensions.As&lt;TResult&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_As__1_System_Object___0_">ConverterExtensions.As&lt;TResult&gt;(Object, TResult)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_As__1_System_Object___0_System_IFormatProvider_">ConverterExtensions.As&lt;TResult&gt;(Object, TResult, IFormatProvider)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.DelegateUtilityExtensions.html#Cuemon_DelegateUtilityExtensions_Wrap__1___0_">DelegateUtilityExtensions.Wrap&lt;TResult&gt;(TResult)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.DelegateUtilityExtensions.html#Cuemon_DelegateUtilityExtensions_DynamicWrap__1___0_">DelegateUtilityExtensions.DynamicWrap&lt;TResult&gt;(TResult)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TweakerExtensions.html#Cuemon_TweakerExtensions_Adjust__1___0_System_Func___0___0__">TweakerExtensions.Adjust&lt;T&gt;(T, Func&lt;T, T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TypeUtilityExtensions.html#Cuemon_TypeUtilityExtensions_Is__1_System_Object_">TypeUtilityExtensions.Is&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TypeUtilityExtensions.html#Cuemon_TypeUtilityExtensions_IsNot__1_System_Object_">TypeUtilityExtensions.IsNot&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TypeUtilityExtensions.html#Cuemon_TypeUtilityExtensions_IsNullable__1___0_">TypeUtilityExtensions.IsNullable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.WrapperExtensions.html#Cuemon_WrapperExtensions_UseWrapper__1___0_System_Action_System_Collections_Generic_IDictionary_System_String_System_Object___">WrapperExtensions.UseWrapper&lt;T&gt;(T, Action&lt;IDictionary&lt;String, Object&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.WrapperExtensions.html#Cuemon_WrapperExtensions_UseWrapper__1___0_System_Reflection_MemberInfo_System_Action_System_Collections_Generic_IDictionary_System_String_System_Object___">WrapperExtensions.UseWrapper&lt;T&gt;(T, MemberInfo, Action&lt;IDictionary&lt;String, Object&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Collections.Generic.EnumerableUtilityExtensions.html#Cuemon_Collections_Generic_EnumerableUtilityExtensions_Yield__1___0_">EnumerableUtilityExtensions.Yield&lt;TSource&gt;(TSource)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Security.Cryptography.HashUtilityExtensions.html#Cuemon_Security_Cryptography_HashUtilityExtensions_ComputeHash_System_Object_System_Action_Cuemon_Security_Cryptography_HashOptions__">HashUtilityExtensions.ComputeHash(Object, Action&lt;HashOptions&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Security.Cryptography.HmacUtilityExtensions.html#Cuemon_Security_Cryptography_HmacUtilityExtensions_ComputeKeyedHash_System_Object_System_Byte___System_Action_Cuemon_Security_Cryptography_KeyedHashOptions__">HmacUtilityExtensions.ComputeKeyedHash(Object, Byte[], Action&lt;KeyedHashOptions&gt;)</a>
+  </div>
+<div id="disqus_thread"></div>
+                <script>
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://cuemon-github.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_DateSpan.md&amp;value=---%0Auid%3A%20Cuemon.DateSpan%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright 2008-2018 Weubphoria. All rights reserved.<br>Generated by <strong>DocFX</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

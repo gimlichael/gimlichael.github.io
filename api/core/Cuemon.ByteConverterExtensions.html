@@ -1,0 +1,561 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ByteConverterExtensions
+   | Cuemon .NET Standard </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ByteConverterExtensions
+   | Cuemon .NET Standard ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/50x50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cuemon.ByteConverterExtensions">
+  
+  
+  <h1 id="Cuemon_ByteConverterExtensions" data-uid="Cuemon.ByteConverterExtensions" class="text-break">Class ByteConverterExtensions
+  </h1>
+  <div class="markdown level0 summary"><p>This is an extension implementation of the <a class="xref" href="Cuemon.ByteConverter.html">ByteConverter</a> class.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ByteConverterExtensions</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cuemon.html">Cuemon</a></h6>
+  <h6><strong>Assembly</strong>: Cuemon.Core.dll</h6>
+  <h5 id="Cuemon_ByteConverterExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ByteConverterExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_ByteConverterExtensions_FromUrlEncodedBase64_System_String_.md&amp;value=---%0Auid%3A%20Cuemon.ByteConverterExtensions.FromUrlEncodedBase64(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_ByteConverterExtensions_FromUrlEncodedBase64_" data-uid="Cuemon.ByteConverterExtensions.FromUrlEncodedBase64*"></a>
+  <h4 id="Cuemon_ByteConverterExtensions_FromUrlEncodedBase64_System_String_" data-uid="Cuemon.ByteConverterExtensions.FromUrlEncodedBase64(System.String)">FromUrlEncodedBase64(String)</h4>
+  <div class="markdown level1 summary"><p>Decodes a URL string token to its equivalent byte array using base 64 digits.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] FromUrlEncodedBase64(this string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The URL string token to decode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>The byte array containing the decoded URL string token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_ByteConverterExtensions_ToByteArray_System_IO_Stream_.md&amp;value=---%0Auid%3A%20Cuemon.ByteConverterExtensions.ToByteArray(System.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_ByteConverterExtensions_ToByteArray_" data-uid="Cuemon.ByteConverterExtensions.ToByteArray*"></a>
+  <h4 id="Cuemon_ByteConverterExtensions_ToByteArray_System_IO_Stream_" data-uid="Cuemon.ByteConverterExtensions.ToByteArray(System.IO.Stream)">ToByteArray(Stream)</h4>
+  <div class="markdown level1 summary"><p>Converts the specified <code data-dev-comment-type="paramref" class="paramref">value</code> to a byte array always starting from position 0 (when supported).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] ToByteArray(this Stream value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <span class="xref">System.IO.Stream</span> value to be converted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>A <strong>byte array</strong> containing the data from the stream.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_ByteConverterExtensions_ToByteArray_System_IO_Stream_System_Boolean_.md&amp;value=---%0Auid%3A%20Cuemon.ByteConverterExtensions.ToByteArray(System.IO.Stream%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_ByteConverterExtensions_ToByteArray_" data-uid="Cuemon.ByteConverterExtensions.ToByteArray*"></a>
+  <h4 id="Cuemon_ByteConverterExtensions_ToByteArray_System_IO_Stream_System_Boolean_" data-uid="Cuemon.ByteConverterExtensions.ToByteArray(System.IO.Stream,System.Boolean)">ToByteArray(Stream, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Converts the specified <code data-dev-comment-type="paramref" class="paramref">value</code> to a byte array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] ToByteArray(this Stream value, bool leaveStreamOpen)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <span class="xref">System.IO.Stream</span> value to be converted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">leaveStreamOpen</span></td>
+        <td><p>if <code>true</code>, the <span class="xref">System.IO.Stream</span> object is being left open; otherwise it is being closed and disposed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>A <strong>byte array</strong> containing the data from the stream.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_ByteConverterExtensions_ToByteArray_System_String_.md&amp;value=---%0Auid%3A%20Cuemon.ByteConverterExtensions.ToByteArray(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_ByteConverterExtensions_ToByteArray_" data-uid="Cuemon.ByteConverterExtensions.ToByteArray*"></a>
+  <h4 id="Cuemon_ByteConverterExtensions_ToByteArray_System_String_" data-uid="Cuemon.ByteConverterExtensions.ToByteArray(System.String)">ToByteArray(String)</h4>
+  <div class="markdown level1 summary"><p>Converts the specified <code data-dev-comment-type="paramref" class="paramref">value</code> to a byte array using <a class="xref" href="Cuemon.Text.EncodingOptions.html#Cuemon_Text_EncodingOptions_DefaultEncoding">DefaultEncoding</a> for the encoding and <a class="xref" href="Cuemon.Text.EncodingOptions.html#Cuemon_Text_EncodingOptions_DefaultPreambleSequence">DefaultPreambleSequence</a> for any preamble sequences.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] ToByteArray(this string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The string to be converted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>A <strong>byte array</strong> containing the results of encoding the specified set of characters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_ByteConverterExtensions_ToByteArray_System_String_System_Action_Cuemon_Text_EncodingOptions__.md&amp;value=---%0Auid%3A%20Cuemon.ByteConverterExtensions.ToByteArray(System.String%2CSystem.Action%7BCuemon.Text.EncodingOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_ByteConverterExtensions_ToByteArray_" data-uid="Cuemon.ByteConverterExtensions.ToByteArray*"></a>
+  <h4 id="Cuemon_ByteConverterExtensions_ToByteArray_System_String_System_Action_Cuemon_Text_EncodingOptions__" data-uid="Cuemon.ByteConverterExtensions.ToByteArray(System.String,System.Action{Cuemon.Text.EncodingOptions})">ToByteArray(String, Action&lt;EncodingOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Converts the specified <code data-dev-comment-type="paramref" class="paramref">value</code> to a byte array using the provided preferred encoding.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] ToByteArray(this string value, Action&lt;EncodingOptions&gt; setup)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The string to be converted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Text.EncodingOptions.html">EncodingOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Text.EncodingOptions.html">EncodingOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>A <strong>byte array</strong> containing the results of encoding the specified set of characters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Cuemon_ByteConverterExtensions_ToByteArray_System_String_System_Action_Cuemon_Text_EncodingOptions___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="Cuemon.Text.EncodingOptions.html">EncodingOptions</a> will be initialized with <a class="xref" href="Cuemon.Text.EncodingOptions.html#Cuemon_Text_EncodingOptions_DefaultPreambleSequence">DefaultPreambleSequence</a> and <a class="xref" href="Cuemon.Text.EncodingOptions.html#Cuemon_Text_EncodingOptions_DefaultEncoding">DefaultEncoding</a>.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_ByteConverterExtensions_ToByteArray__1___0_.md&amp;value=---%0Auid%3A%20Cuemon.ByteConverterExtensions.ToByteArray%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_ByteConverterExtensions_ToByteArray_" data-uid="Cuemon.ByteConverterExtensions.ToByteArray*"></a>
+  <h4 id="Cuemon_ByteConverterExtensions_ToByteArray__1___0_" data-uid="Cuemon.ByteConverterExtensions.ToByteArray``1(``0)">ToByteArray&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Converts the specified <code data-dev-comment-type="paramref" class="paramref">value</code> to an array of bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] ToByteArray&lt;T&gt;(this T value)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <span class="xref">System.IConvertible</span> value to convert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>An array of bytes equivalent to the data of the <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">value</code> is outside the range of allowed types.<br>
+Allowed types are: <span class="xref">System.Boolean</span>, <span class="xref">System.Char</span>, <span class="xref">System.Double</span>, <span class="xref">System.Int16</span>, <span class="xref">System.Int32</span>, <span class="xref">System.UInt16</span>, <span class="xref">System.UInt32</span> and <span class="xref">System.UInt64</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_ByteConverterExtensions_ToByteArray__1_System_Collections_Generic_IEnumerable___0__.md&amp;value=---%0Auid%3A%20Cuemon.ByteConverterExtensions.ToByteArray%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_ByteConverterExtensions_ToByteArray_" data-uid="Cuemon.ByteConverterExtensions.ToByteArray*"></a>
+  <h4 id="Cuemon_ByteConverterExtensions_ToByteArray__1_System_Collections_Generic_IEnumerable___0__" data-uid="Cuemon.ByteConverterExtensions.ToByteArray``1(System.Collections.Generic.IEnumerable{``0})">ToByteArray&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Converts the specified sequence of <code data-dev-comment-type="paramref" class="paramref">values</code> to an array of bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] ToByteArray&lt;T&gt;(this IEnumerable&lt;T&gt; values)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>A sequence of <span class="xref">System.IConvertible</span> values to convert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>An array of bytes equivalent to the sequence of the <code data-dev-comment-type="paramref" class="paramref">values</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">values</code> is outside the range of allowed types.<br>
+Allowed types are: <span class="xref">System.Boolean</span>, <span class="xref">System.Char</span>, <span class="xref">System.Double</span>, <span class="xref">System.Int16</span>, <span class="xref">System.Int32</span>, <span class="xref">System.UInt16</span>, <span class="xref">System.UInt32</span> and <span class="xref">System.UInt64</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">values</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+<div id="disqus_thread"></div>
+                <script>
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://cuemon-github.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_ByteConverterExtensions.md&amp;value=---%0Auid%3A%20Cuemon.ByteConverterExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright 2008-2018 Weubphoria. All rights reserved.<br>Generated by <strong>DocFX</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

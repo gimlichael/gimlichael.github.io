@@ -1,0 +1,2300 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DataManager
+   | Cuemon .NET Standard </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DataManager
+   | Cuemon .NET Standard ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/50x50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cuemon.Data.DataManager">
+  
+  
+  <h1 id="Cuemon_Data_DataManager" data-uid="Cuemon.Data.DataManager" class="text-break">Class DataManager
+  </h1>
+  <div class="markdown level0 summary"><p>The DataManager is an abstract class in the <a class="xref" href="Cuemon.Data.html">Cuemon.Data</a> namespace that can be used to implement execute commands of different database providers.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DataManager</span></div>
+      <div class="level2"><a class="xref" href="Cuemon.Data.SqlClient.SqlDataManager.html">SqlDataManager</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cuemon.Data.html">Cuemon.Data</a></h6>
+  <h6><strong>Assembly</strong>: Cuemon.Data.dll</h6>
+  <h5 id="Cuemon_Data_DataManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class DataManager</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ConnectionString.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ConnectionString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ConnectionString_" data-uid="Cuemon.Data.DataManager.ConnectionString*"></a>
+  <h4 id="Cuemon_Data_DataManager_ConnectionString" data-uid="Cuemon.Data.DataManager.ConnectionString">ConnectionString</h4>
+  <div class="markdown level1 summary"><p>Gets the string used to open the connection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract string ConnectionString { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The connection string used to establish the initial connection. The exact contents of the connection string depend on the specific data source for this connection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_DefaultConnectionString.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.DefaultConnectionString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_DefaultConnectionString_" data-uid="Cuemon.Data.DataManager.DefaultConnectionString*"></a>
+  <h4 id="Cuemon_Data_DataManager_DefaultConnectionString" data-uid="Cuemon.Data.DataManager.DefaultConnectionString">DefaultConnectionString</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the default connection string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string DefaultConnectionString { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The default connection string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_TransientFaultHandlingOptionsCallback.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.TransientFaultHandlingOptionsCallback%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_TransientFaultHandlingOptionsCallback_" data-uid="Cuemon.Data.DataManager.TransientFaultHandlingOptionsCallback*"></a>
+  <h4 id="Cuemon_Data_DataManager_TransientFaultHandlingOptionsCallback" data-uid="Cuemon.Data.DataManager.TransientFaultHandlingOptionsCallback">TransientFaultHandlingOptionsCallback</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the callback delegate that will provide options for transient fault handling.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Action&lt;TransientOperationOptions&gt; TransientFaultHandlingOptionsCallback { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><p>An <span class="xref">System.Action&lt;T&gt;</span> with the options for transient fault handling.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_Clone.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_Clone_" data-uid="Cuemon.Data.DataManager.Clone*"></a>
+  <h4 id="Cuemon_Data_DataManager_Clone" data-uid="Cuemon.Data.DataManager.Clone">Clone()</h4>
+  <div class="markdown level1 summary"><p>Creates a new object that is a copy of the current instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract DataManager Clone()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.DataManager.html">DataManager</a></td>
+        <td><p>A new object that is a copy of this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_Execute_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.Execute(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_Execute_" data-uid="Cuemon.Data.DataManager.Execute*"></a>
+  <h4 id="Cuemon_Data_DataManager_Execute_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.Execute(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">Execute(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement and returns the number of rows affected.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Execute(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A <strong><span class="xref">System.Int32</span></strong> value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteCommandCore_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteCommandCore(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteCommandCore_" data-uid="Cuemon.Data.DataManager.ExecuteCommandCore*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteCommandCore_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteCommandCore(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteCommandCore(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Core method for executing all commands.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual DbCommand ExecuteCommandCore(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbCommand</span></td>
+        <td><p>System.Data.Common.DbCommand</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Cuemon_Data_DataManager_ExecuteCommandCore_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_TransientFaultHandlingOptionsCallback">TransientFaultHandlingOptionsCallback</a> has the <a class="xref" href="Cuemon.TransientOperationOptions.html#Cuemon_TransientOperationOptions_EnableRecovery">EnableRecovery</a> set to <code>true</code>, this method will with it's default implementation try to gracefully recover from transient faults when the following condition is met:<br>
+<a class="xref" href="Cuemon.TransientOperationOptions.html#Cuemon_TransientOperationOptions_RetryAttempts">RetryAttempts</a> is less than the current attempt starting from 1 with a maximum of <span class="xref">System.Byte.MaxValue</span> retries<br>
+<a class="xref" href="Cuemon.TransientOperationOptions.html#Cuemon_TransientOperationOptions_DetectionStrategy">DetectionStrategy</a> must evaluate to <code>true</code><br>
+In case of a transient failure the default implementation will use <a class="xref" href="Cuemon.TransientOperationOptions.html#Cuemon_TransientOperationOptions_RetryStrategy">RetryStrategy</a>.<br>
+In any other case the originating exception is thrown.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteCore__1_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___System_Func_System_Data_Common_DbCommand___0__.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteCore%60%601(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D%2CSystem.Func%7BSystem.Data.Common.DbCommand%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteCore_" data-uid="Cuemon.Data.DataManager.ExecuteCore*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteCore__1_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___System_Func_System_Data_Common_DbCommand___0__" data-uid="Cuemon.Data.DataManager.ExecuteCore``1(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[],System.Func{System.Data.Common.DbCommand,``0})">ExecuteCore&lt;T&gt;(IDataCommand, DbParameter[], Func&lt;DbCommand, T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Core method for executing methods on the <span class="xref">System.Data.Common.DbCommand</span> object resolved from the virtual <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteCommandCore_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">ExecuteCommandCore(IDataCommand, DbParameter[])</a> method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual T ExecuteCore&lt;T&gt;(IDataCommand dataCommand, DbParameter[] parameters, Func&lt;DbCommand, T&gt; commandInvoker)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Data.Common.DbCommand</span>, T&gt;</td>
+        <td><span class="parametername">commandInvoker</span></td>
+        <td><p>The function delegate that will invoke a method on the resolved <span class="xref">System.Data.Common.DbCommand</span> from the virtual <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteCommandCore_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">ExecuteCommandCore(IDataCommand, DbParameter[])</a> method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>A value of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> that is equal to the invoked method of the <span class="xref">System.Data.Common.DbCommand</span> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteExists_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteExists(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteExists_" data-uid="Cuemon.Data.DataManager.ExecuteExists*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteExists_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteExists(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteExists(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement and returns <code>true</code> if one or more records exists; otherwise <code>false</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ExecuteExists(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A <strong><span class="xref">System.Boolean</span></strong> value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteIdentityDecimal_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteIdentityDecimal(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteIdentityDecimal_" data-uid="Cuemon.Data.DataManager.ExecuteIdentityDecimal*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteIdentityDecimal_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteIdentityDecimal(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteIdentityDecimal(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement and returns an identity value as decimal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract decimal ExecuteIdentityDecimal(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p><span class="xref">System.Decimal</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteIdentityInt32_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteIdentityInt32(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteIdentityInt32_" data-uid="Cuemon.Data.DataManager.ExecuteIdentityInt32*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteIdentityInt32_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteIdentityInt32(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteIdentityInt32(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement and returns an identity value as int.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract int ExecuteIdentityInt32(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p><span class="xref">System.Int32</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteIdentityInt64_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteIdentityInt64(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteIdentityInt64_" data-uid="Cuemon.Data.DataManager.ExecuteIdentityInt64*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteIdentityInt64_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteIdentityInt64(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteIdentityInt64(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement and returns an identity value as long.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract long ExecuteIdentityInt64(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p><span class="xref">System.Int64</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteReader_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteReader(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteReader_" data-uid="Cuemon.Data.DataManager.ExecuteReader*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteReader_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteReader(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteReader(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement and returns an object supporting the DbDataReader interface.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbDataReader ExecuteReader(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbDataReader</span></td>
+        <td><p>An object supporting the <strong><span class="xref">System.Data.Common.DbDataReader</span></strong> interface.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteScalar_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteScalar(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteScalar_" data-uid="Cuemon.Data.DataManager.ExecuteScalar*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteScalar_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteScalar(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteScalar(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement, and returns the value from the first column of the first row in the result set.
+Additional columns or rows are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ExecuteScalar(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>The first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteScalarAs__1_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteScalarAs%60%601(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteScalarAs_" data-uid="Cuemon.Data.DataManager.ExecuteScalarAs*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteScalarAs__1_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteScalarAs``1(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteScalarAs&lt;TResult&gt;(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement, and returns the value as <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> from the first column of the first row in the result set.
+Additional columns or rows are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TResult ExecuteScalarAs&lt;TResult&gt;(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><p>The first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code> as <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Cuemon_Data_DataManager_ExecuteScalarAs__1_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method uses <span class="xref">System.Globalization.CultureInfo.InvariantCulture</span> when casting the first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code>.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteScalarAs__1_Cuemon_Data_IDataCommand_System_IFormatProvider_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteScalarAs%60%601(Cuemon.Data.IDataCommand%2CSystem.IFormatProvider%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteScalarAs_" data-uid="Cuemon.Data.DataManager.ExecuteScalarAs*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteScalarAs__1_Cuemon_Data_IDataCommand_System_IFormatProvider_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteScalarAs``1(Cuemon.Data.IDataCommand,System.IFormatProvider,System.Data.Common.DbParameter[])">ExecuteScalarAs&lt;TResult&gt;(IDataCommand, IFormatProvider, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement, and returns the value as <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> from the first column of the first row in the result set.
+Additional columns or rows are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TResult ExecuteScalarAs&lt;TResult&gt;(IDataCommand dataCommand, IFormatProvider provider, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IFormatProvider</span></td>
+        <td><span class="parametername">provider</span></td>
+        <td><p>An object that supplies culture-specific formatting information.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><p>The first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code> as <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteScalarAsBoolean_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteScalarAsBoolean(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteScalarAsBoolean_" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsBoolean*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteScalarAsBoolean_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsBoolean(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteScalarAsBoolean(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement, and returns the value as <span class="xref">System.Boolean</span> from the first column of the first row in the result set.
+Additional columns or rows are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ExecuteScalarAsBoolean(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code> as <span class="xref">System.Boolean</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteScalarAsByte_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteScalarAsByte(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteScalarAsByte_" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsByte*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteScalarAsByte_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsByte(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteScalarAsByte(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement, and returns the value as <span class="xref">System.Byte</span> from the first column of the first row in the result set.
+Additional columns or rows are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte ExecuteScalarAsByte(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><p>The first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code> as <span class="xref">System.Byte</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteScalarAsDateTime_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteScalarAsDateTime(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteScalarAsDateTime_" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsDateTime*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteScalarAsDateTime_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsDateTime(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteScalarAsDateTime(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement, and returns the value as <span class="xref">System.DateTime</span> from the first column of the first row in the result set.
+Additional columns or rows are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime ExecuteScalarAsDateTime(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><p>The first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code> as <span class="xref">System.DateTime</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteScalarAsDecimal_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteScalarAsDecimal(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteScalarAsDecimal_" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsDecimal*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteScalarAsDecimal_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsDecimal(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteScalarAsDecimal(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement, and returns the value as <span class="xref">System.Decimal</span> from the first column of the first row in the result set.
+Additional columns or rows are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal ExecuteScalarAsDecimal(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>The first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code> as <span class="xref">System.Decimal</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteScalarAsDouble_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteScalarAsDouble(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteScalarAsDouble_" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsDouble*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteScalarAsDouble_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsDouble(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteScalarAsDouble(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement, and returns the value as <span class="xref">System.Double</span> from the first column of the first row in the result set.
+Additional columns or rows are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double ExecuteScalarAsDouble(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code> as <span class="xref">System.Double</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteScalarAsGuid_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteScalarAsGuid(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteScalarAsGuid_" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsGuid*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteScalarAsGuid_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsGuid(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteScalarAsGuid(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement, and returns the value as <span class="xref">System.Guid</span> from the first column of the first row in the result set.
+Additional columns or rows are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid ExecuteScalarAsGuid(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><p>The first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code> as <span class="xref">System.Guid</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteScalarAsInt16_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteScalarAsInt16(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteScalarAsInt16_" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsInt16*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteScalarAsInt16_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsInt16(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteScalarAsInt16(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement, and returns the value as <span class="xref">System.Int16</span> from the first column of the first row in the result set.
+Additional columns or rows are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short ExecuteScalarAsInt16(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><p>The first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code> as <span class="xref">System.Int16</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteScalarAsInt32_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteScalarAsInt32(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteScalarAsInt32_" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsInt32*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteScalarAsInt32_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsInt32(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteScalarAsInt32(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement, and returns the value as <span class="xref">System.Int32</span> from the first column of the first row in the result set.
+Additional columns or rows are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ExecuteScalarAsInt32(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code> as <span class="xref">System.Int32</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteScalarAsInt64_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteScalarAsInt64(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteScalarAsInt64_" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsInt64*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteScalarAsInt64_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsInt64(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteScalarAsInt64(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement, and returns the value as <span class="xref">System.Int64</span> from the first column of the first row in the result set.
+Additional columns or rows are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long ExecuteScalarAsInt64(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>The first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code> as <span class="xref">System.Int64</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteScalarAsSByte_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteScalarAsSByte(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteScalarAsSByte_" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsSByte*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteScalarAsSByte_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsSByte(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteScalarAsSByte(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement, and returns the value as <span class="xref">System.SByte</span> from the first column of the first row in the result set.
+Additional columns or rows are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sbyte ExecuteScalarAsSByte(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><p>The first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code> as <span class="xref">System.SByte</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteScalarAsString_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteScalarAsString(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteScalarAsString_" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsString*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteScalarAsString_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsString(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteScalarAsString(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement, and returns the value as <span class="xref">System.String</span> from the first column of the first row in the result set.
+Additional columns or rows are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ExecuteScalarAsString(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code> as <span class="xref">System.String</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteScalarAsType_Cuemon_Data_IDataCommand_System_Type_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteScalarAsType(Cuemon.Data.IDataCommand%2CSystem.Type%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteScalarAsType_" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsType*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteScalarAsType_Cuemon_Data_IDataCommand_System_Type_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsType(Cuemon.Data.IDataCommand,System.Type,System.Data.Common.DbParameter[])">ExecuteScalarAsType(IDataCommand, Type, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement, and returns the value as the specified <code data-dev-comment-type="paramref" class="paramref">returnType</code> from the first column of the first row in the result set.
+Additional columns or rows are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ExecuteScalarAsType(IDataCommand dataCommand, Type returnType, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">returnType</span></td>
+        <td><p>The type to return the first column value as.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>The first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code> as the specified <code data-dev-comment-type="paramref" class="paramref">returnType</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Cuemon_Data_DataManager_ExecuteScalarAsType_Cuemon_Data_IDataCommand_System_Type_System_Data_Common_DbParameter____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method uses <span class="xref">System.Globalization.CultureInfo.InvariantCulture</span> when casting the first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code>.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteScalarAsType_Cuemon_Data_IDataCommand_System_Type_System_IFormatProvider_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteScalarAsType(Cuemon.Data.IDataCommand%2CSystem.Type%2CSystem.IFormatProvider%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteScalarAsType_" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsType*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteScalarAsType_Cuemon_Data_IDataCommand_System_Type_System_IFormatProvider_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsType(Cuemon.Data.IDataCommand,System.Type,System.IFormatProvider,System.Data.Common.DbParameter[])">ExecuteScalarAsType(IDataCommand, Type, IFormatProvider, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement, and returns the value as the specified <code data-dev-comment-type="paramref" class="paramref">returnType</code> from the first column of the first row in the result set.
+Additional columns or rows are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ExecuteScalarAsType(IDataCommand dataCommand, Type returnType, IFormatProvider provider, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">returnType</span></td>
+        <td><p>The type to return the first column value as.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IFormatProvider</span></td>
+        <td><span class="parametername">provider</span></td>
+        <td><p>An object that supplies culture-specific formatting information.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>The first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code> as the specified <code data-dev-comment-type="paramref" class="paramref">returnType</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteScalarAsUInt16_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteScalarAsUInt16(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteScalarAsUInt16_" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsUInt16*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteScalarAsUInt16_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsUInt16(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteScalarAsUInt16(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement, and returns the value as <span class="xref">System.UInt16</span> from the first column of the first row in the result set.
+Additional columns or rows are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort ExecuteScalarAsUInt16(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><p>The first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code> as <span class="xref">System.UInt16</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteScalarAsUInt32_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteScalarAsUInt32(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteScalarAsUInt32_" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsUInt32*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteScalarAsUInt32_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsUInt32(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteScalarAsUInt32(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement, and returns the value as <span class="xref">System.UInt32</span> from the first column of the first row in the result set.
+Additional columns or rows are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint ExecuteScalarAsUInt32(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><p>The first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code> as <span class="xref">System.UInt32</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteScalarAsUInt64_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteScalarAsUInt64(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteScalarAsUInt64_" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsUInt64*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteScalarAsUInt64_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteScalarAsUInt64(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteScalarAsUInt64(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement, and returns the value as <span class="xref">System.UInt64</span> from the first column of the first row in the result set.
+Additional columns or rows are ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong ExecuteScalarAsUInt64(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><p>The first column of the first row in the result from <code data-dev-comment-type="paramref" class="paramref">dataCommand</code> as <span class="xref">System.UInt64</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ExecuteXmlString_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ExecuteXmlString(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ExecuteXmlString_" data-uid="Cuemon.Data.DataManager.ExecuteXmlString*"></a>
+  <h4 id="Cuemon_Data_DataManager_ExecuteXmlString_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.ExecuteXmlString(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteXmlString(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement and returns a string object with the retrieved XML.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string ExecuteXmlString(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>An <strong><span class="xref">System.String</span></strong> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_GetCommandCore_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.GetCommandCore(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_GetCommandCore_" data-uid="Cuemon.Data.DataManager.GetCommandCore*"></a>
+  <h4 id="Cuemon_Data_DataManager_GetCommandCore_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.DataManager.GetCommandCore(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">GetCommandCore(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Gets the command object to be used by all execute related methods.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract DbCommand GetCommandCore(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbCommand</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_GetReaderColumnNames_System_Data_Common_DbDataReader_.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.GetReaderColumnNames(System.Data.Common.DbDataReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_GetReaderColumnNames_" data-uid="Cuemon.Data.DataManager.GetReaderColumnNames*"></a>
+  <h4 id="Cuemon_Data_DataManager_GetReaderColumnNames_System_Data_Common_DbDataReader_" data-uid="Cuemon.Data.DataManager.GetReaderColumnNames(System.Data.Common.DbDataReader)">GetReaderColumnNames(DbDataReader)</h4>
+  <div class="markdown level1 summary"><p>Creates and returns a sequence of column names resolved from the specified <code data-dev-comment-type="paramref" class="paramref">reader</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; GetReaderColumnNames(DbDataReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbDataReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p>The reader to resolve column names from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>A sequence of column names resolved from the specified <code data-dev-comment-type="paramref" class="paramref">reader</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_GetReaderColumns_System_Data_Common_DbDataReader_.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.GetReaderColumns(System.Data.Common.DbDataReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_GetReaderColumns_" data-uid="Cuemon.Data.DataManager.GetReaderColumns*"></a>
+  <h4 id="Cuemon_Data_DataManager_GetReaderColumns_System_Data_Common_DbDataReader_" data-uid="Cuemon.Data.DataManager.GetReaderColumns(System.Data.Common.DbDataReader)">GetReaderColumns(DbDataReader)</h4>
+  <div class="markdown level1 summary"><p>Creates and returns a <span class="xref">System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;</span> sequence of column names and values resolved from the specified <code data-dev-comment-type="paramref" class="paramref">reader</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;KeyValuePair&lt;string, object&gt;&gt; GetReaderColumns(DbDataReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbDataReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p>The reader to resolve column names and values from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><p>A <span class="xref">System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;</span> sequence of column names and values resolved from the specified <code data-dev-comment-type="paramref" class="paramref">reader</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_GetReaderColumnValues_System_Data_Common_DbDataReader_.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.GetReaderColumnValues(System.Data.Common.DbDataReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_GetReaderColumnValues_" data-uid="Cuemon.Data.DataManager.GetReaderColumnValues*"></a>
+  <h4 id="Cuemon_Data_DataManager_GetReaderColumnValues_System_Data_Common_DbDataReader_" data-uid="Cuemon.Data.DataManager.GetReaderColumnValues(System.Data.Common.DbDataReader)">GetReaderColumnValues(DbDataReader)</h4>
+  <div class="markdown level1 summary"><p>Creates and returns a sequence of column values resolved from the specified <code data-dev-comment-type="paramref" class="paramref">reader</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;object&gt; GetReaderColumnValues(DbDataReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbDataReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p>The reader to resolve column values from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><p>A sequence of column values resolved from the specified <code data-dev-comment-type="paramref" class="paramref">reader</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ParseDbType_System_Data_DbType_.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ParseDbType(System.Data.DbType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ParseDbType_" data-uid="Cuemon.Data.DataManager.ParseDbType*"></a>
+  <h4 id="Cuemon_Data_DataManager_ParseDbType_System_Data_DbType_" data-uid="Cuemon.Data.DataManager.ParseDbType(System.Data.DbType)">ParseDbType(DbType)</h4>
+  <div class="markdown level1 summary"><p>Parses and returns a <span class="xref">System.Type</span> equivalent of <code data-dev-comment-type="paramref" class="paramref">dbType</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Type ParseDbType(DbType dbType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DbType</span></td>
+        <td><span class="parametername">dbType</span></td>
+        <td><p>The <span class="xref">System.Data.DbType</span> to parse.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><p>A <span class="xref">System.Type</span> equivalent of <code data-dev-comment-type="paramref" class="paramref">dbType</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ReaderToStream_System_Data_Common_DbDataReader_.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ReaderToStream(System.Data.Common.DbDataReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ReaderToStream_" data-uid="Cuemon.Data.DataManager.ReaderToStream*"></a>
+  <h4 id="Cuemon_Data_DataManager_ReaderToStream_System_Data_Common_DbDataReader_" data-uid="Cuemon.Data.DataManager.ReaderToStream(System.Data.Common.DbDataReader)">ReaderToStream(DbDataReader)</h4>
+  <div class="markdown level1 summary"><p>Converts the given <span class="xref">System.Data.Common.DbDataReader</span> compatible object to a stream.
+Note: DbDataReader must return only one field (for instance, a XML field), otherwise an exception is thrown!</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream ReaderToStream(DbDataReader value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbDataReader</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <span class="xref">System.Data.Common.DbDataReader</span> to build a stream from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <strong><span class="xref">System.IO.Stream</span></strong> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager_ReaderToString_System_Data_Common_DbDataReader_.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager.ReaderToString(System.Data.Common.DbDataReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_DataManager_ReaderToString_" data-uid="Cuemon.Data.DataManager.ReaderToString*"></a>
+  <h4 id="Cuemon_Data_DataManager_ReaderToString_System_Data_Common_DbDataReader_" data-uid="Cuemon.Data.DataManager.ReaderToString(System.Data.Common.DbDataReader)">ReaderToString(DbDataReader)</h4>
+  <div class="markdown level1 summary"><p>Converts the given <span class="xref">System.Data.Common.DbDataReader</span> compatible object to a string.
+Note: DbDataReader must return only one field, otherwise an exception is thrown!</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ReaderToString(DbDataReader value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbDataReader</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <span class="xref">System.Data.Common.DbDataReader</span> to build a string from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A <strong><span class="xref">System.String</span></strong> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__2___0_System_Func___0___1__">ConverterExtensions.ParseWith&lt;TSource, TResult&gt;(TSource, Func&lt;TSource, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__3___0_System_Func___0___1___2____1_">ConverterExtensions.ParseWith&lt;TSource, T, TResult&gt;(TSource, Func&lt;TSource, T, TResult&gt;, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__4___0_System_Func___0___1___2___3____1___2_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, TResult&gt;(TSource, Func&lt;TSource, T1, T2, TResult&gt;, T1, T2)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__5___0_System_Func___0___1___2___3___4____1___2___3_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, TResult&gt;, T1, T2, T3)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__6___0_System_Func___0___1___2___3___4___5____1___2___3___4_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, TResult&gt;, T1, T2, T3, T4)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__7___0_System_Func___0___1___2___3___4___5___6____1___2___3___4___5_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, TResult&gt;, T1, T2, T3, T4, T5)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__8___0_System_Func___0___1___2___3___4___5___6___7____1___2___3___4___5___6_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, TResult&gt;, T1, T2, T3, T4, T5, T6)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__9___0_System_Func___0___1___2___3___4___5___6___7___8____1___2___3___4___5___6___7_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, T7, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, TResult&gt;, T1, T2, T3, T4, T5, T6, T7)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__10___0_System_Func___0___1___2___3___4___5___6___7___8___9____1___2___3___4___5___6___7___8_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, TResult&gt;, T1, T2, T3, T4, T5, T6, T7, T8)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__11___0_System_Func___0___1___2___3___4___5___6___7___8___9___10____1___2___3___4___5___6___7___8___9_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult&gt;, T1, T2, T3, T4, T5, T6, T7, T8, T9)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_As__1_System_Object_">ConverterExtensions.As&lt;TResult&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_As__1_System_Object___0_">ConverterExtensions.As&lt;TResult&gt;(Object, TResult)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_As__1_System_Object___0_System_IFormatProvider_">ConverterExtensions.As&lt;TResult&gt;(Object, TResult, IFormatProvider)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.DelegateUtilityExtensions.html#Cuemon_DelegateUtilityExtensions_Wrap__1___0_">DelegateUtilityExtensions.Wrap&lt;TResult&gt;(TResult)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.DelegateUtilityExtensions.html#Cuemon_DelegateUtilityExtensions_DynamicWrap__1___0_">DelegateUtilityExtensions.DynamicWrap&lt;TResult&gt;(TResult)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TweakerExtensions.html#Cuemon_TweakerExtensions_Adjust__1___0_System_Func___0___0__">TweakerExtensions.Adjust&lt;T&gt;(T, Func&lt;T, T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TypeUtilityExtensions.html#Cuemon_TypeUtilityExtensions_Is__1_System_Object_">TypeUtilityExtensions.Is&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TypeUtilityExtensions.html#Cuemon_TypeUtilityExtensions_IsNot__1_System_Object_">TypeUtilityExtensions.IsNot&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TypeUtilityExtensions.html#Cuemon_TypeUtilityExtensions_IsNullable__1___0_">TypeUtilityExtensions.IsNullable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.WrapperExtensions.html#Cuemon_WrapperExtensions_UseWrapper__1___0_System_Action_System_Collections_Generic_IDictionary_System_String_System_Object___">WrapperExtensions.UseWrapper&lt;T&gt;(T, Action&lt;IDictionary&lt;String, Object&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.WrapperExtensions.html#Cuemon_WrapperExtensions_UseWrapper__1___0_System_Reflection_MemberInfo_System_Action_System_Collections_Generic_IDictionary_System_String_System_Object___">WrapperExtensions.UseWrapper&lt;T&gt;(T, MemberInfo, Action&lt;IDictionary&lt;String, Object&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Collections.Generic.EnumerableUtilityExtensions.html#Cuemon_Collections_Generic_EnumerableUtilityExtensions_Yield__1___0_">EnumerableUtilityExtensions.Yield&lt;TSource&gt;(TSource)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Security.Cryptography.HashUtilityExtensions.html#Cuemon_Security_Cryptography_HashUtilityExtensions_ComputeHash_System_Object_System_Action_Cuemon_Security_Cryptography_HashOptions__">HashUtilityExtensions.ComputeHash(Object, Action&lt;HashOptions&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Security.Cryptography.HmacUtilityExtensions.html#Cuemon_Security_Cryptography_HmacUtilityExtensions_ComputeKeyedHash_System_Object_System_Byte___System_Action_Cuemon_Security_Cryptography_KeyedHashOptions__">HmacUtilityExtensions.ComputeKeyedHash(Object, Byte[], Action&lt;KeyedHashOptions&gt;)</a>
+  </div>
+<div id="disqus_thread"></div>
+                <script>
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://cuemon-github.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_DataManager.md&amp;value=---%0Auid%3A%20Cuemon.Data.DataManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright 2008-2018 Weubphoria. All rights reserved.<br>Generated by <strong>DocFX</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

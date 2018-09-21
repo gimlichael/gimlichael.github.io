@@ -1,0 +1,3169 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Condition
+   | Cuemon .NET Standard </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Condition
+   | Cuemon .NET Standard ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/50x50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cuemon.Condition">
+  
+  
+  <h1 id="Cuemon_Condition" data-uid="Cuemon.Condition" class="text-break">Class Condition
+  </h1>
+  <div class="markdown level0 summary"><p>Provide ways to verify conditions a generic way for countless scenarios using true/false propositions.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Condition</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cuemon.html">Cuemon</a></h6>
+  <h6><strong>Assembly</strong>: Cuemon.Core.dll</h6>
+  <h5 id="Cuemon_Condition_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Condition</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_AreEqual__1___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.AreEqual%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_AreEqual_" data-uid="Cuemon.Condition.AreEqual*"></a>
+  <h4 id="Cuemon_Condition_AreEqual__1___0___0_" data-uid="Cuemon.Condition.AreEqual``1(``0,``0)">AreEqual&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the two specified <code data-dev-comment-type="paramref" class="paramref">x</code> and <code data-dev-comment-type="paramref" class="paramref">y</code> are equal by using the default equality operator from <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AreEqual&lt;T&gt;(T x, T y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">x</code> are equal to <code data-dev-comment-type="paramref" class="paramref">y</code>; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of objects to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_AreEqual__1___0___0_System_Collections_Generic_IEqualityComparer___0__.md&amp;value=---%0Auid%3A%20Cuemon.Condition.AreEqual%60%601(%60%600%2C%60%600%2CSystem.Collections.Generic.IEqualityComparer%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_AreEqual_" data-uid="Cuemon.Condition.AreEqual*"></a>
+  <h4 id="Cuemon_Condition_AreEqual__1___0___0_System_Collections_Generic_IEqualityComparer___0__" data-uid="Cuemon.Condition.AreEqual``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0})">AreEqual&lt;T&gt;(T, T, IEqualityComparer&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the two specified <code data-dev-comment-type="paramref" class="paramref">x</code> and <code data-dev-comment-type="paramref" class="paramref">y</code> are equal by using the equality operator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AreEqual&lt;T&gt;(T x, T y, IEqualityComparer&lt;T&gt; comparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEqualityComparer</span>&lt;T&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td><p>The <span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span> implementation to use when comparing <code data-dev-comment-type="paramref" class="paramref">x</code> and <code data-dev-comment-type="paramref" class="paramref">y</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">x</code> are equal to <code data-dev-comment-type="paramref" class="paramref">y</code>; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of objects to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">comparer</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_AreNotEqual__1___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.AreNotEqual%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_AreNotEqual_" data-uid="Cuemon.Condition.AreNotEqual*"></a>
+  <h4 id="Cuemon_Condition_AreNotEqual__1___0___0_" data-uid="Cuemon.Condition.AreNotEqual``1(``0,``0)">AreNotEqual&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the two specified <code data-dev-comment-type="paramref" class="paramref">x</code> and <code data-dev-comment-type="paramref" class="paramref">y</code> are different by using the default equality operator from <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AreNotEqual&lt;T&gt;(T x, T y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">x</code> are different from <code data-dev-comment-type="paramref" class="paramref">y</code>; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of objects to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_AreNotEqual__1___0___0_System_Collections_Generic_IEqualityComparer___0__.md&amp;value=---%0Auid%3A%20Cuemon.Condition.AreNotEqual%60%601(%60%600%2C%60%600%2CSystem.Collections.Generic.IEqualityComparer%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_AreNotEqual_" data-uid="Cuemon.Condition.AreNotEqual*"></a>
+  <h4 id="Cuemon_Condition_AreNotEqual__1___0___0_System_Collections_Generic_IEqualityComparer___0__" data-uid="Cuemon.Condition.AreNotEqual``1(``0,``0,System.Collections.Generic.IEqualityComparer{``0})">AreNotEqual&lt;T&gt;(T, T, IEqualityComparer&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the two specified <code data-dev-comment-type="paramref" class="paramref">x</code> and <code data-dev-comment-type="paramref" class="paramref">y</code> are different by using the equality operator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AreNotEqual&lt;T&gt;(T x, T y, IEqualityComparer&lt;T&gt; comparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEqualityComparer</span>&lt;T&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td><p>The <span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span> implementation to use when comparing <code data-dev-comment-type="paramref" class="paramref">x</code> and <code data-dev-comment-type="paramref" class="paramref">y</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">x</code> are different from <code data-dev-comment-type="paramref" class="paramref">y</code>; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of objects to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">comparer</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_AreNotSame__1___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.AreNotSame%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_AreNotSame_" data-uid="Cuemon.Condition.AreNotSame*"></a>
+  <h4 id="Cuemon_Condition_AreNotSame__1___0___0_" data-uid="Cuemon.Condition.AreNotSame``1(``0,``0)">AreNotSame&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the two specified <code data-dev-comment-type="paramref" class="paramref">x</code> object are not of the same instance as the <code data-dev-comment-type="paramref" class="paramref">y</code> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AreNotSame&lt;T&gt;(T x, T y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">x</code> object are not of the same instance as the <code data-dev-comment-type="paramref" class="paramref">y</code> object; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of objects to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_AreSame__1___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.AreSame%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_AreSame_" data-uid="Cuemon.Condition.AreSame*"></a>
+  <h4 id="Cuemon_Condition_AreSame__1___0___0_" data-uid="Cuemon.Condition.AreSame``1(``0,``0)">AreSame&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the two specified <code data-dev-comment-type="paramref" class="paramref">x</code> object are of the same instance as the <code data-dev-comment-type="paramref" class="paramref">y</code> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AreSame&lt;T&gt;(T x, T y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">x</code> object are of the same instance as the <code data-dev-comment-type="paramref" class="paramref">y</code> object; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of objects to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_FlipFlop_System_Boolean_System_Action_System_Action_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.FlipFlop(System.Boolean%2CSystem.Action%2CSystem.Action)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_FlipFlop_" data-uid="Cuemon.Condition.FlipFlop*"></a>
+  <h4 id="Cuemon_Condition_FlipFlop_System_Boolean_System_Action_System_Action_" data-uid="Cuemon.Condition.FlipFlop(System.Boolean,System.Action,System.Action)">FlipFlop(Boolean, Action, Action)</h4>
+  <div class="markdown level1 summary"><p>Invokes one of two expressions depending on the value of <code data-dev-comment-type="paramref" class="paramref">condition</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void FlipFlop(bool condition, Action firstExpression, Action secondExpression)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">condition</span></td>
+        <td><p>When <code>true</code>, the <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> is invoked; when <code>false</code>, the <code data-dev-comment-type="paramref" class="paramref">secondExpression</code> is invoked.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">firstExpression</span></td>
+        <td><p>The delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>true</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">secondExpression</span></td>
+        <td><p>The delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_FlipFlop__1_System_Boolean_System_Action___0__System_Action___0____0_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.FlipFlop%60%601(System.Boolean%2CSystem.Action%7B%60%600%7D%2CSystem.Action%7B%60%600%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_FlipFlop_" data-uid="Cuemon.Condition.FlipFlop*"></a>
+  <h4 id="Cuemon_Condition_FlipFlop__1_System_Boolean_System_Action___0__System_Action___0____0_" data-uid="Cuemon.Condition.FlipFlop``1(System.Boolean,System.Action{``0},System.Action{``0},``0)">FlipFlop&lt;T&gt;(Boolean, Action&lt;T&gt;, Action&lt;T&gt;, T)</h4>
+  <div class="markdown level1 summary"><p>Invokes one of two expressions depending on the value of <code data-dev-comment-type="paramref" class="paramref">condition</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void FlipFlop&lt;T&gt;(bool condition, Action&lt;T&gt; firstExpression, Action&lt;T&gt; secondExpression, T arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">condition</span></td>
+        <td><p>When <code>true</code>, the <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> is invoked; when <code>false</code>, the <code data-dev-comment-type="paramref" class="paramref">secondExpression</code> is invoked.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">firstExpression</span></td>
+        <td><p>The delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>true</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">secondExpression</span></td>
+        <td><p>The delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td><p>The parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_FlipFlop__2_System_Boolean_System_Action___0___1__System_Action___0___1____0___1_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.FlipFlop%60%602(System.Boolean%2CSystem.Action%7B%60%600%2C%60%601%7D%2CSystem.Action%7B%60%600%2C%60%601%7D%2C%60%600%2C%60%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_FlipFlop_" data-uid="Cuemon.Condition.FlipFlop*"></a>
+  <h4 id="Cuemon_Condition_FlipFlop__2_System_Boolean_System_Action___0___1__System_Action___0___1____0___1_" data-uid="Cuemon.Condition.FlipFlop``2(System.Boolean,System.Action{``0,``1},System.Action{``0,``1},``0,``1)">FlipFlop&lt;T1, T2&gt;(Boolean, Action&lt;T1, T2&gt;, Action&lt;T1, T2&gt;, T1, T2)</h4>
+  <div class="markdown level1 summary"><p>Invokes one of two expressions depending on the value of <code data-dev-comment-type="paramref" class="paramref">condition</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void FlipFlop&lt;T1, T2&gt;(bool condition, Action&lt;T1, T2&gt; firstExpression, Action&lt;T1, T2&gt; secondExpression, T1 arg1, T2 arg2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">condition</span></td>
+        <td><p>When <code>true</code>, the <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> is invoked; when <code>false</code>, the <code data-dev-comment-type="paramref" class="paramref">secondExpression</code> is invoked.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, T2&gt;</td>
+        <td><span class="parametername">firstExpression</span></td>
+        <td><p>The delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>true</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, T2&gt;</td>
+        <td><span class="parametername">secondExpression</span></td>
+        <td><p>The delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_FlipFlop__3_System_Boolean_System_Action___0___1___2__System_Action___0___1___2____0___1___2_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.FlipFlop%60%603(System.Boolean%2CSystem.Action%7B%60%600%2C%60%601%2C%60%602%7D%2CSystem.Action%7B%60%600%2C%60%601%2C%60%602%7D%2C%60%600%2C%60%601%2C%60%602)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_FlipFlop_" data-uid="Cuemon.Condition.FlipFlop*"></a>
+  <h4 id="Cuemon_Condition_FlipFlop__3_System_Boolean_System_Action___0___1___2__System_Action___0___1___2____0___1___2_" data-uid="Cuemon.Condition.FlipFlop``3(System.Boolean,System.Action{``0,``1,``2},System.Action{``0,``1,``2},``0,``1,``2)">FlipFlop&lt;T1, T2, T3&gt;(Boolean, Action&lt;T1, T2, T3&gt;, Action&lt;T1, T2, T3&gt;, T1, T2, T3)</h4>
+  <div class="markdown level1 summary"><p>Invokes one of two expressions depending on the value of <code data-dev-comment-type="paramref" class="paramref">condition</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void FlipFlop&lt;T1, T2, T3&gt;(bool condition, Action&lt;T1, T2, T3&gt; firstExpression, Action&lt;T1, T2, T3&gt; secondExpression, T1 arg1, T2 arg2, T3 arg3)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">condition</span></td>
+        <td><p>When <code>true</code>, the <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> is invoked; when <code>false</code>, the <code data-dev-comment-type="paramref" class="paramref">secondExpression</code> is invoked.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, T2, T3&gt;</td>
+        <td><span class="parametername">firstExpression</span></td>
+        <td><p>The delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>true</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, T2, T3&gt;</td>
+        <td><span class="parametername">secondExpression</span></td>
+        <td><p>The delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_FlipFlop__4_System_Boolean_System_Action___0___1___2___3__System_Action___0___1___2___3____0___1___2___3_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.FlipFlop%60%604(System.Boolean%2CSystem.Action%7B%60%600%2C%60%601%2C%60%602%2C%60%603%7D%2CSystem.Action%7B%60%600%2C%60%601%2C%60%602%2C%60%603%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_FlipFlop_" data-uid="Cuemon.Condition.FlipFlop*"></a>
+  <h4 id="Cuemon_Condition_FlipFlop__4_System_Boolean_System_Action___0___1___2___3__System_Action___0___1___2___3____0___1___2___3_" data-uid="Cuemon.Condition.FlipFlop``4(System.Boolean,System.Action{``0,``1,``2,``3},System.Action{``0,``1,``2,``3},``0,``1,``2,``3)">FlipFlop&lt;T1, T2, T3, T4&gt;(Boolean, Action&lt;T1, T2, T3, T4&gt;, Action&lt;T1, T2, T3, T4&gt;, T1, T2, T3, T4)</h4>
+  <div class="markdown level1 summary"><p>Invokes one of two expressions depending on the value of <code data-dev-comment-type="paramref" class="paramref">condition</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void FlipFlop&lt;T1, T2, T3, T4&gt;(bool condition, Action&lt;T1, T2, T3, T4&gt; firstExpression, Action&lt;T1, T2, T3, T4&gt; secondExpression, T1 arg1, T2 arg2, T3 arg3, T4 arg4)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">condition</span></td>
+        <td><p>When <code>true</code>, the <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> is invoked; when <code>false</code>, the <code data-dev-comment-type="paramref" class="paramref">secondExpression</code> is invoked.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, T2, T3, T4&gt;</td>
+        <td><span class="parametername">firstExpression</span></td>
+        <td><p>The delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>true</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, T2, T3, T4&gt;</td>
+        <td><span class="parametername">secondExpression</span></td>
+        <td><p>The delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_FlipFlop__5_System_Boolean_System_Action___0___1___2___3___4__System_Action___0___1___2___3___4____0___1___2___3___4_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.FlipFlop%60%605(System.Boolean%2CSystem.Action%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%7D%2CSystem.Action%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_FlipFlop_" data-uid="Cuemon.Condition.FlipFlop*"></a>
+  <h4 id="Cuemon_Condition_FlipFlop__5_System_Boolean_System_Action___0___1___2___3___4__System_Action___0___1___2___3___4____0___1___2___3___4_" data-uid="Cuemon.Condition.FlipFlop``5(System.Boolean,System.Action{``0,``1,``2,``3,``4},System.Action{``0,``1,``2,``3,``4},``0,``1,``2,``3,``4)">FlipFlop&lt;T1, T2, T3, T4, T5&gt;(Boolean, Action&lt;T1, T2, T3, T4, T5&gt;, Action&lt;T1, T2, T3, T4, T5&gt;, T1, T2, T3, T4, T5)</h4>
+  <div class="markdown level1 summary"><p>Invokes one of two expressions depending on the value of <code data-dev-comment-type="paramref" class="paramref">condition</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void FlipFlop&lt;T1, T2, T3, T4, T5&gt;(bool condition, Action&lt;T1, T2, T3, T4, T5&gt; firstExpression, Action&lt;T1, T2, T3, T4, T5&gt; secondExpression, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">condition</span></td>
+        <td><p>When <code>true</code>, the <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> is invoked; when <code>false</code>, the <code data-dev-comment-type="paramref" class="paramref">secondExpression</code> is invoked.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, T2, T3, T4, T5&gt;</td>
+        <td><span class="parametername">firstExpression</span></td>
+        <td><p>The delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>true</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, T2, T3, T4, T5&gt;</td>
+        <td><span class="parametername">secondExpression</span></td>
+        <td><p>The delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_Initialize__1___0_System_Boolean_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.Initialize%60%601(%60%600%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_Initialize_" data-uid="Cuemon.Condition.Initialize*"></a>
+  <h4 id="Cuemon_Condition_Initialize__1___0_System_Boolean_" data-uid="Cuemon.Condition.Initialize``1(``0,System.Boolean)">Initialize&lt;TTuple&gt;(TTuple, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.ConditionBuilder-1.html">ConditionBuilder&lt;TTuple&gt;</a> with the specified argument <code data-dev-comment-type="paramref" class="paramref">tuple</code> and the boolean <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ConditionBuilder&lt;TTuple&gt; Initialize&lt;TTuple&gt;(TTuple tuple, bool value)
+    where TTuple : Template</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TTuple</span></td>
+        <td><span class="parametername">tuple</span></td>
+        <td><p>The argument for the invoker methods of <a class="xref" href="Cuemon.ConditionBuilder-1.html">ConditionBuilder&lt;TTuple&gt;</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value of a condition that can be either <code>true</code> or <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.ConditionBuilder-1.html">ConditionBuilder</a>&lt;TTuple&gt;</td>
+        <td><p>A new instance of the <a class="xref" href="Cuemon.ConditionBuilder-1.html">ConditionBuilder&lt;TTuple&gt;</a> initialized with the specified argument <code data-dev-comment-type="paramref" class="paramref">tuple</code> and the boolean <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTuple</span></td>
+        <td><p>The type of the n-tuple representation of a <a class="xref" href="Cuemon.Template.html">Template</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_Initialize__2___0___1_System_Func___1_System_Boolean__.md&amp;value=---%0Auid%3A%20Cuemon.Condition.Initialize%60%602(%60%600%2C%60%601%2CSystem.Func%7B%60%601%2CSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_Initialize_" data-uid="Cuemon.Condition.Initialize*"></a>
+  <h4 id="Cuemon_Condition_Initialize__2___0___1_System_Func___1_System_Boolean__" data-uid="Cuemon.Condition.Initialize``2(``0,``1,System.Func{``1,System.Boolean})">Initialize&lt;TTuple, TValue&gt;(TTuple, TValue, Func&lt;TValue, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.ConditionBuilder-1.html">ConditionBuilder&lt;TTuple&gt;</a> with the specified argument <code data-dev-comment-type="paramref" class="paramref">tuple</code> and the result of the starting <code data-dev-comment-type="paramref" class="paramref">condition</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ConditionBuilder&lt;TTuple&gt; Initialize&lt;TTuple, TValue&gt;(TTuple tuple, TValue value, Func&lt;TValue, bool&gt; condition)
+    where TTuple : Template</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TTuple</span></td>
+        <td><span class="parametername">tuple</span></td>
+        <td><p>The argument for the invoker methods of <a class="xref" href="Cuemon.ConditionBuilder-1.html">ConditionBuilder&lt;TTuple&gt;</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The argument for <code data-dev-comment-type="paramref" class="paramref">condition</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TValue, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">condition</span></td>
+        <td><p>The delegate that will evaluate <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.ConditionBuilder-1.html">ConditionBuilder</a>&lt;TTuple&gt;</td>
+        <td><p>A new instance of the <a class="xref" href="Cuemon.ConditionBuilder-1.html">ConditionBuilder&lt;TTuple&gt;</a> initialized with the specified argument <code data-dev-comment-type="paramref" class="paramref">tuple</code> and the result of the starting <code data-dev-comment-type="paramref" class="paramref">condition</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTuple</span></td>
+        <td><p>The type of the n-tuple representation of a <a class="xref" href="Cuemon.Template.html">Template</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>The type of the value for <code data-dev-comment-type="paramref" class="paramref">condition</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsDefault__1___0_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsDefault%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsDefault_" data-uid="Cuemon.Condition.IsDefault*"></a>
+  <h4 id="Cuemon_Condition_IsDefault__1___0_" data-uid="Cuemon.Condition.IsDefault``1(``0)">IsDefault&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">value</code> has its initial default value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsDefault&lt;T&gt;(T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The object to verify has its initial default value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the specified <code data-dev-comment-type="paramref" class="paramref">value</code> has its initial default value; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsEmailAddress_System_String_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsEmailAddress(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsEmailAddress_" data-uid="Cuemon.Condition.IsEmailAddress*"></a>
+  <h4 id="Cuemon_Condition_IsEmailAddress_System_String_" data-uid="Cuemon.Condition.IsEmailAddress(System.String)">IsEmailAddress(String)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">value</code> has a valid format of an email address.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsEmailAddress(string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The string to verify has a valid format of an email address.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the specified <code data-dev-comment-type="paramref" class="paramref">value</code> has a valid format of an email address; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Cuemon_Condition_IsEmailAddress_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>In my search for the most comprehensive and up-to-date regular expression for email address validation, this was the article I choose to implement: <a href="http://blog.trojanhunter.com/2012/09/26/the-best-regex-to-validate-an-email-address/">http://blog.trojanhunter.com/2012/09/26/the-best-regex-to-validate-an-email-address/</a>.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsEmpty_System_String_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsEmpty(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsEmpty_" data-uid="Cuemon.Condition.IsEmpty*"></a>
+  <h4 id="Cuemon_Condition_IsEmpty_System_String_" data-uid="Cuemon.Condition.IsEmpty(System.String)">IsEmpty(String)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">value</code> is empty (&quot;&quot;).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsEmpty(string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The string to verify is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the specified <code data-dev-comment-type="paramref" class="paramref">value</code> is empty; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsFalse_System_Boolean_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsFalse(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsFalse_" data-uid="Cuemon.Condition.IsFalse*"></a>
+  <h4 id="Cuemon_Condition_IsFalse_System_Boolean_" data-uid="Cuemon.Condition.IsFalse(System.Boolean)">IsFalse(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">value</code> is <code>false</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsFalse(bool value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to verify is <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the specified <code data-dev-comment-type="paramref" class="paramref">value</code> is <code>false</code>; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsGreaterThan__1___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsGreaterThan%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsGreaterThan_" data-uid="Cuemon.Condition.IsGreaterThan*"></a>
+  <h4 id="Cuemon_Condition_IsGreaterThan__1___0___0_" data-uid="Cuemon.Condition.IsGreaterThan``1(``0,``0)">IsGreaterThan&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">x</code> is greater than <code data-dev-comment-type="paramref" class="paramref">y</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsGreaterThan&lt;T&gt;(T x, T y)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">x</code> is greater than <code data-dev-comment-type="paramref" class="paramref">y</code>; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of objects to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsGreaterThanOrEqual__1___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsGreaterThanOrEqual%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsGreaterThanOrEqual_" data-uid="Cuemon.Condition.IsGreaterThanOrEqual*"></a>
+  <h4 id="Cuemon_Condition_IsGreaterThanOrEqual__1___0___0_" data-uid="Cuemon.Condition.IsGreaterThanOrEqual``1(``0,``0)">IsGreaterThanOrEqual&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">x</code> is greater than or equal to <code data-dev-comment-type="paramref" class="paramref">y</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsGreaterThanOrEqual&lt;T&gt;(T x, T y)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">x</code> is greater than or equal to <code data-dev-comment-type="paramref" class="paramref">y</code>; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of objects to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsGuid_System_String_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsGuid(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsGuid_" data-uid="Cuemon.Condition.IsGuid*"></a>
+  <h4 id="Cuemon_Condition_IsGuid_System_String_" data-uid="Cuemon.Condition.IsGuid(System.String)">IsGuid(String)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">value</code> has a valid format of a <span class="xref">System.Guid</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsGuid(string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The string to verify has a valid format of a <span class="xref">System.Guid</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the specified <code data-dev-comment-type="paramref" class="paramref">value</code> has a format of a <span class="xref">System.Guid</span>; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Cuemon_Condition_IsGuid_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This implementation only evaluates for GUID formats of: <a class="xref" href="Cuemon.GuidFormats.html#Cuemon_GuidFormats_DigitFormat">DigitFormat</a> | <a class="xref" href="Cuemon.GuidFormats.html#Cuemon_GuidFormats_BraceFormat">BraceFormat</a> | <a class="xref" href="Cuemon.GuidFormats.html#Cuemon_GuidFormats_ParenthesisFormat">ParenthesisFormat</a>, eg. 32 digits separated by hyphens; 32 digits separated by hyphens, enclosed in brackets and 32 digits separated by hyphens, enclosed in parentheses.<br>
+The reason not to include <a class="xref" href="Cuemon.GuidFormats.html#Cuemon_GuidFormats_NumberFormat">NumberFormat</a>, eg. 32 digits is the possible unintended GUID result of a MD5 string representation.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsGuid_System_String_Cuemon_GuidFormats_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsGuid(System.String%2CCuemon.GuidFormats)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsGuid_" data-uid="Cuemon.Condition.IsGuid*"></a>
+  <h4 id="Cuemon_Condition_IsGuid_System_String_Cuemon_GuidFormats_" data-uid="Cuemon.Condition.IsGuid(System.String,Cuemon.GuidFormats)">IsGuid(String, GuidFormats)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">value</code> has a valid format of a <span class="xref">System.Guid</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsGuid(string value, GuidFormats format)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The string to verify has a valid format of a <span class="xref">System.Guid</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.GuidFormats.html">GuidFormats</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>A bitmask comprised of one or more <a class="xref" href="Cuemon.GuidFormats.html">GuidFormats</a> that specify how the GUID parsing is conducted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the specified <code data-dev-comment-type="paramref" class="paramref">value</code> has a format of a <span class="xref">System.Guid</span>; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsHex_System_Char_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsHex(System.Char)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsHex_" data-uid="Cuemon.Condition.IsHex*"></a>
+  <h4 id="Cuemon_Condition_IsHex_System_Char_" data-uid="Cuemon.Condition.IsHex(System.Char)">IsHex(Char)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">value</code> is hexadecimal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsHex(char value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The character to verify is hexadecimal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the specified <code data-dev-comment-type="paramref" class="paramref">value</code> is hexadecimal; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsHex_System_String_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsHex(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsHex_" data-uid="Cuemon.Condition.IsHex*"></a>
+  <h4 id="Cuemon_Condition_IsHex_System_String_" data-uid="Cuemon.Condition.IsHex(System.String)">IsHex(String)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">value</code> is hexadecimal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsHex(string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The string to verify is hexadecimal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the specified <code data-dev-comment-type="paramref" class="paramref">value</code> is hexadecimal; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsLowerThan__1___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsLowerThan%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsLowerThan_" data-uid="Cuemon.Condition.IsLowerThan*"></a>
+  <h4 id="Cuemon_Condition_IsLowerThan__1___0___0_" data-uid="Cuemon.Condition.IsLowerThan``1(``0,``0)">IsLowerThan&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">x</code> is lower than <code data-dev-comment-type="paramref" class="paramref">y</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsLowerThan&lt;T&gt;(T x, T y)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">x</code> is lower than <code data-dev-comment-type="paramref" class="paramref">y</code>; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of objects to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsLowerThanOrEqual__1___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsLowerThanOrEqual%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsLowerThanOrEqual_" data-uid="Cuemon.Condition.IsLowerThanOrEqual*"></a>
+  <h4 id="Cuemon_Condition_IsLowerThanOrEqual__1___0___0_" data-uid="Cuemon.Condition.IsLowerThanOrEqual``1(``0,``0)">IsLowerThanOrEqual&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">x</code> is lower than or equal to <code data-dev-comment-type="paramref" class="paramref">y</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsLowerThanOrEqual&lt;T&gt;(T x, T y)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">x</code> is lower than or equal to <code data-dev-comment-type="paramref" class="paramref">y</code>; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of objects to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsNotDefault__1___0_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsNotDefault%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsNotDefault_" data-uid="Cuemon.Condition.IsNotDefault*"></a>
+  <h4 id="Cuemon_Condition_IsNotDefault__1___0_" data-uid="Cuemon.Condition.IsNotDefault``1(``0)">IsNotDefault&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">value</code> does not have its initial default value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNotDefault&lt;T&gt;(T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The object to verify does not have its initial default value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the specified <code data-dev-comment-type="paramref" class="paramref">value</code> does not have its initial default value; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsNotNull__1___0_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsNotNull%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsNotNull_" data-uid="Cuemon.Condition.IsNotNull*"></a>
+  <h4 id="Cuemon_Condition_IsNotNull__1___0_" data-uid="Cuemon.Condition.IsNotNull``1(``0)">IsNotNull&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">value</code> is not null.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNotNull&lt;T&gt;(T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The object to verify is not null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the specified <code data-dev-comment-type="paramref" class="paramref">value</code> is not null; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsNotWithinRange__1___0___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsNotWithinRange%60%601(%60%600%2C%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsNotWithinRange_" data-uid="Cuemon.Condition.IsNotWithinRange*"></a>
+  <h4 id="Cuemon_Condition_IsNotWithinRange__1___0___0___0_" data-uid="Cuemon.Condition.IsNotWithinRange``1(``0,``0,``0)">IsNotWithinRange&lt;T&gt;(T, T, T)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">x</code> is outside the range of <code data-dev-comment-type="paramref" class="paramref">min</code> and <code data-dev-comment-type="paramref" class="paramref">max</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNotWithinRange&lt;T&gt;(T x, T min, T max)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>The minimum value of <code data-dev-comment-type="paramref" class="paramref">x</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>The maximum value of <code data-dev-comment-type="paramref" class="paramref">x</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">x</code> is outside the range of <code data-dev-comment-type="paramref" class="paramref">min</code> and <code data-dev-comment-type="paramref" class="paramref">max</code>; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of objects to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsNull__1___0_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsNull%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsNull_" data-uid="Cuemon.Condition.IsNull*"></a>
+  <h4 id="Cuemon_Condition_IsNull__1___0_" data-uid="Cuemon.Condition.IsNull``1(``0)">IsNull&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">value</code> is null.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNull&lt;T&gt;(T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The object to verify is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the specified <code data-dev-comment-type="paramref" class="paramref">value</code> is null; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsNumeric_System_String_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsNumeric(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsNumeric_" data-uid="Cuemon.Condition.IsNumeric*"></a>
+  <h4 id="Cuemon_Condition_IsNumeric_System_String_" data-uid="Cuemon.Condition.IsNumeric(System.String)">IsNumeric(String)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified value can be evaluated as a number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNumeric(string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be evaluated.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the specified value can be evaluated as a number; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Cuemon_Condition_IsNumeric_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method implements a default permitted format of <code data-dev-comment-type="paramref" class="paramref">value</code> as <span class="xref">System.Globalization.NumberStyles.Number</span>.<br>
+This method implements a default culture-specific formatting information about <code data-dev-comment-type="paramref" class="paramref">value</code> specified to <span class="xref">System.Globalization.CultureInfo.InvariantCulture</span>.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsNumeric_System_String_System_Globalization_NumberStyles_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsNumeric(System.String%2CSystem.Globalization.NumberStyles)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsNumeric_" data-uid="Cuemon.Condition.IsNumeric*"></a>
+  <h4 id="Cuemon_Condition_IsNumeric_System_String_System_Globalization_NumberStyles_" data-uid="Cuemon.Condition.IsNumeric(System.String,System.Globalization.NumberStyles)">IsNumeric(String, NumberStyles)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified value can be evaluated as a number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNumeric(string value, NumberStyles styles)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be evaluated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Globalization.NumberStyles</span></td>
+        <td><span class="parametername">styles</span></td>
+        <td><p>A bitwise combination of <span class="xref">System.Globalization.NumberStyles</span> values that indicates the permitted format of <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the specified value can be evaluated as a number; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Cuemon_Condition_IsNumeric_System_String_System_Globalization_NumberStyles__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method implements a default culture-specific formatting information about <code data-dev-comment-type="paramref" class="paramref">value</code> specified to <span class="xref">System.Globalization.CultureInfo.InvariantCulture</span>.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsNumeric_System_String_System_Globalization_NumberStyles_System_IFormatProvider_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsNumeric(System.String%2CSystem.Globalization.NumberStyles%2CSystem.IFormatProvider)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsNumeric_" data-uid="Cuemon.Condition.IsNumeric*"></a>
+  <h4 id="Cuemon_Condition_IsNumeric_System_String_System_Globalization_NumberStyles_System_IFormatProvider_" data-uid="Cuemon.Condition.IsNumeric(System.String,System.Globalization.NumberStyles,System.IFormatProvider)">IsNumeric(String, NumberStyles, IFormatProvider)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified value can be evaluated as a number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNumeric(string value, NumberStyles styles, IFormatProvider provider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be evaluated.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Globalization.NumberStyles</span></td>
+        <td><span class="parametername">styles</span></td>
+        <td><p>A bitwise combination of <span class="xref">System.Globalization.NumberStyles</span> values that indicates the permitted format of <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IFormatProvider</span></td>
+        <td><span class="parametername">provider</span></td>
+        <td><p>An <span class="xref">System.IFormatProvider</span> that supplies culture-specific formatting information about <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the specified value can be evaluated as a number; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsTrue_System_Boolean_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsTrue(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsTrue_" data-uid="Cuemon.Condition.IsTrue*"></a>
+  <h4 id="Cuemon_Condition_IsTrue_System_Boolean_" data-uid="Cuemon.Condition.IsTrue(System.Boolean)">IsTrue(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">value</code> is <code>true</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsTrue(bool value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to verify is <code>true</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the specified <code data-dev-comment-type="paramref" class="paramref">value</code> is <code>true</code>; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsWhiteSpace_System_String_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsWhiteSpace(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsWhiteSpace_" data-uid="Cuemon.Condition.IsWhiteSpace*"></a>
+  <h4 id="Cuemon_Condition_IsWhiteSpace_System_String_" data-uid="Cuemon.Condition.IsWhiteSpace(System.String)">IsWhiteSpace(String)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">value</code> consist only of white-space characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsWhiteSpace(string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The string to verify consist only of white-space characters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the specified <code data-dev-comment-type="paramref" class="paramref">value</code> consist only of white-space characters; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_IsWithinRange__1___0___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.IsWithinRange%60%601(%60%600%2C%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_IsWithinRange_" data-uid="Cuemon.Condition.IsWithinRange*"></a>
+  <h4 id="Cuemon_Condition_IsWithinRange__1___0___0___0_" data-uid="Cuemon.Condition.IsWithinRange``1(``0,``0,``0)">IsWithinRange&lt;T&gt;(T, T, T)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">x</code> is within range of <code data-dev-comment-type="paramref" class="paramref">min</code> and <code data-dev-comment-type="paramref" class="paramref">max</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsWithinRange&lt;T&gt;(T x, T min, T max)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>The minimum value of <code data-dev-comment-type="paramref" class="paramref">x</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>The maximum value of <code data-dev-comment-type="paramref" class="paramref">x</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">x</code> is within range of <code data-dev-comment-type="paramref" class="paramref">min</code> and <code data-dev-comment-type="paramref" class="paramref">max</code>; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of objects to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_TernaryIf__1_System_Boolean_System_Func___0__System_Func___0__.md&amp;value=---%0Auid%3A%20Cuemon.Condition.TernaryIf%60%601(System.Boolean%2CSystem.Func%7B%60%600%7D%2CSystem.Func%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_TernaryIf_" data-uid="Cuemon.Condition.TernaryIf*"></a>
+  <h4 id="Cuemon_Condition_TernaryIf__1_System_Boolean_System_Func___0__System_Func___0__" data-uid="Cuemon.Condition.TernaryIf``1(System.Boolean,System.Func{``0},System.Func{``0})">TernaryIf&lt;TResult&gt;(Boolean, Func&lt;TResult&gt;, Func&lt;TResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns one of two values depending on the value of <code data-dev-comment-type="paramref" class="paramref">condition</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TResult TernaryIf&lt;TResult&gt;(bool condition, Func&lt;TResult&gt; firstExpression, Func&lt;TResult&gt; secondExpression)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">condition</span></td>
+        <td><p>When <code>true</code>, the <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> is invoked and becomes the result; when <code>false</code>, the <code data-dev-comment-type="paramref" class="paramref">secondExpression</code> is invoked and becomes the result.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TResult&gt;</td>
+        <td><span class="parametername">firstExpression</span></td>
+        <td><p>The function delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>true</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TResult&gt;</td>
+        <td><span class="parametername">secondExpression</span></td>
+        <td><p>The function delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><p>The result of either function delegate <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> or function delegate <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_TernaryIf__2_System_Boolean_System_Func___0___1__System_Func___0___1____0_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.TernaryIf%60%602(System.Boolean%2CSystem.Func%7B%60%600%2C%60%601%7D%2CSystem.Func%7B%60%600%2C%60%601%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_TernaryIf_" data-uid="Cuemon.Condition.TernaryIf*"></a>
+  <h4 id="Cuemon_Condition_TernaryIf__2_System_Boolean_System_Func___0___1__System_Func___0___1____0_" data-uid="Cuemon.Condition.TernaryIf``2(System.Boolean,System.Func{``0,``1},System.Func{``0,``1},``0)">TernaryIf&lt;T, TResult&gt;(Boolean, Func&lt;T, TResult&gt;, Func&lt;T, TResult&gt;, T)</h4>
+  <div class="markdown level1 summary"><p>Returns one of two values depending on the value of <code data-dev-comment-type="paramref" class="paramref">condition</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TResult TernaryIf&lt;T, TResult&gt;(bool condition, Func&lt;T, TResult&gt; firstExpression, Func&lt;T, TResult&gt; secondExpression, T arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">condition</span></td>
+        <td><p>When <code>true</code>, the <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> is invoked and becomes the result; when <code>false</code>, the <code data-dev-comment-type="paramref" class="paramref">secondExpression</code> is invoked and becomes the result.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T, TResult&gt;</td>
+        <td><span class="parametername">firstExpression</span></td>
+        <td><p>The function delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>true</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T, TResult&gt;</td>
+        <td><span class="parametername">secondExpression</span></td>
+        <td><p>The function delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td><p>The parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><p>The result of either function delegate <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> or function delegate <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_TernaryIf__3_System_Boolean_System_Func___0___1___2__System_Func___0___1___2____0___1_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.TernaryIf%60%603(System.Boolean%2CSystem.Func%7B%60%600%2C%60%601%2C%60%602%7D%2CSystem.Func%7B%60%600%2C%60%601%2C%60%602%7D%2C%60%600%2C%60%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_TernaryIf_" data-uid="Cuemon.Condition.TernaryIf*"></a>
+  <h4 id="Cuemon_Condition_TernaryIf__3_System_Boolean_System_Func___0___1___2__System_Func___0___1___2____0___1_" data-uid="Cuemon.Condition.TernaryIf``3(System.Boolean,System.Func{``0,``1,``2},System.Func{``0,``1,``2},``0,``1)">TernaryIf&lt;T1, T2, TResult&gt;(Boolean, Func&lt;T1, T2, TResult&gt;, Func&lt;T1, T2, TResult&gt;, T1, T2)</h4>
+  <div class="markdown level1 summary"><p>Returns one of two values depending on the value of <code data-dev-comment-type="paramref" class="paramref">condition</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TResult TernaryIf&lt;T1, T2, TResult&gt;(bool condition, Func&lt;T1, T2, TResult&gt; firstExpression, Func&lt;T1, T2, TResult&gt; secondExpression, T1 arg1, T2 arg2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">condition</span></td>
+        <td><p>When <code>true</code>, the <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> is invoked and becomes the result; when <code>false</code>, the <code data-dev-comment-type="paramref" class="paramref">secondExpression</code> is invoked and becomes the result.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, TResult&gt;</td>
+        <td><span class="parametername">firstExpression</span></td>
+        <td><p>The function delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>true</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, TResult&gt;</td>
+        <td><span class="parametername">secondExpression</span></td>
+        <td><p>The function delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><p>The result of either function delegate <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> or function delegate <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_TernaryIf__4_System_Boolean_System_Func___0___1___2___3__System_Func___0___1___2___3____0___1___2_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.TernaryIf%60%604(System.Boolean%2CSystem.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%7D%2CSystem.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%7D%2C%60%600%2C%60%601%2C%60%602)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_TernaryIf_" data-uid="Cuemon.Condition.TernaryIf*"></a>
+  <h4 id="Cuemon_Condition_TernaryIf__4_System_Boolean_System_Func___0___1___2___3__System_Func___0___1___2___3____0___1___2_" data-uid="Cuemon.Condition.TernaryIf``4(System.Boolean,System.Func{``0,``1,``2,``3},System.Func{``0,``1,``2,``3},``0,``1,``2)">TernaryIf&lt;T1, T2, T3, TResult&gt;(Boolean, Func&lt;T1, T2, T3, TResult&gt;, Func&lt;T1, T2, T3, TResult&gt;, T1, T2, T3)</h4>
+  <div class="markdown level1 summary"><p>Returns one of two values depending on the value of <code data-dev-comment-type="paramref" class="paramref">condition</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TResult TernaryIf&lt;T1, T2, T3, TResult&gt;(bool condition, Func&lt;T1, T2, T3, TResult&gt; firstExpression, Func&lt;T1, T2, T3, TResult&gt; secondExpression, T1 arg1, T2 arg2, T3 arg3)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">condition</span></td>
+        <td><p>When <code>true</code>, the <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> is invoked and becomes the result; when <code>false</code>, the <code data-dev-comment-type="paramref" class="paramref">secondExpression</code> is invoked and becomes the result.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, TResult&gt;</td>
+        <td><span class="parametername">firstExpression</span></td>
+        <td><p>The function delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>true</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, TResult&gt;</td>
+        <td><span class="parametername">secondExpression</span></td>
+        <td><p>The function delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><p>The result of either function delegate <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> or function delegate <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_TernaryIf__5_System_Boolean_System_Func___0___1___2___3___4__System_Func___0___1___2___3___4____0___1___2___3_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.TernaryIf%60%605(System.Boolean%2CSystem.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%7D%2CSystem.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_TernaryIf_" data-uid="Cuemon.Condition.TernaryIf*"></a>
+  <h4 id="Cuemon_Condition_TernaryIf__5_System_Boolean_System_Func___0___1___2___3___4__System_Func___0___1___2___3___4____0___1___2___3_" data-uid="Cuemon.Condition.TernaryIf``5(System.Boolean,System.Func{``0,``1,``2,``3,``4},System.Func{``0,``1,``2,``3,``4},``0,``1,``2,``3)">TernaryIf&lt;T1, T2, T3, T4, TResult&gt;(Boolean, Func&lt;T1, T2, T3, T4, TResult&gt;, Func&lt;T1, T2, T3, T4, TResult&gt;, T1, T2, T3, T4)</h4>
+  <div class="markdown level1 summary"><p>Returns one of two values depending on the value of <code data-dev-comment-type="paramref" class="paramref">condition</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TResult TernaryIf&lt;T1, T2, T3, T4, TResult&gt;(bool condition, Func&lt;T1, T2, T3, T4, TResult&gt; firstExpression, Func&lt;T1, T2, T3, T4, TResult&gt; secondExpression, T1 arg1, T2 arg2, T3 arg3, T4 arg4)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">condition</span></td>
+        <td><p>When <code>true</code>, the <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> is invoked and becomes the result; when <code>false</code>, the <code data-dev-comment-type="paramref" class="paramref">secondExpression</code> is invoked and becomes the result.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, T4, TResult&gt;</td>
+        <td><span class="parametername">firstExpression</span></td>
+        <td><p>The function delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>true</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, T4, TResult&gt;</td>
+        <td><span class="parametername">secondExpression</span></td>
+        <td><p>The function delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><p>The result of either function delegate <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> or function delegate <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition_TernaryIf__6_System_Boolean_System_Func___0___1___2___3___4___5__System_Func___0___1___2___3___4___5____0___1___2___3___4_.md&amp;value=---%0Auid%3A%20Cuemon.Condition.TernaryIf%60%606(System.Boolean%2CSystem.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%7D%2CSystem.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Condition_TernaryIf_" data-uid="Cuemon.Condition.TernaryIf*"></a>
+  <h4 id="Cuemon_Condition_TernaryIf__6_System_Boolean_System_Func___0___1___2___3___4___5__System_Func___0___1___2___3___4___5____0___1___2___3___4_" data-uid="Cuemon.Condition.TernaryIf``6(System.Boolean,System.Func{``0,``1,``2,``3,``4,``5},System.Func{``0,``1,``2,``3,``4,``5},``0,``1,``2,``3,``4)">TernaryIf&lt;T1, T2, T3, T4, T5, TResult&gt;(Boolean, Func&lt;T1, T2, T3, T4, T5, TResult&gt;, Func&lt;T1, T2, T3, T4, T5, TResult&gt;, T1, T2, T3, T4, T5)</h4>
+  <div class="markdown level1 summary"><p>Returns one of two values depending on the value of <code data-dev-comment-type="paramref" class="paramref">condition</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TResult TernaryIf&lt;T1, T2, T3, T4, T5, TResult&gt;(bool condition, Func&lt;T1, T2, T3, T4, T5, TResult&gt; firstExpression, Func&lt;T1, T2, T3, T4, T5, TResult&gt; secondExpression, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">condition</span></td>
+        <td><p>When <code>true</code>, the <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> is invoked and becomes the result; when <code>false</code>, the <code data-dev-comment-type="paramref" class="paramref">secondExpression</code> is invoked and becomes the result.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, T4, T5, TResult&gt;</td>
+        <td><span class="parametername">firstExpression</span></td>
+        <td><p>The function delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>true</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, T4, T5, TResult&gt;</td>
+        <td><span class="parametername">secondExpression</span></td>
+        <td><p>The function delegate that is invoked when <code data-dev-comment-type="paramref" class="paramref">condition</code> is <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><p>The result of either function delegate <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> or function delegate <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the function delegates <code data-dev-comment-type="paramref" class="paramref">firstExpression</code> and <code data-dev-comment-type="paramref" class="paramref">secondExpression</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+<div id="disqus_thread"></div>
+                <script>
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://cuemon-github.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Condition.md&amp;value=---%0Auid%3A%20Cuemon.Condition%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright 2008-2018 Weubphoria. All rights reserved.<br>Generated by <strong>DocFX</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

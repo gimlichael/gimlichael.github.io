@@ -1,0 +1,2978 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TransientOperation
+   | Cuemon .NET Standard </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TransientOperation
+   | Cuemon .NET Standard ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/50x50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cuemon.TransientOperation">
+  
+  
+  <h1 id="Cuemon_TransientOperation" data-uid="Cuemon.TransientOperation" class="text-break">Class TransientOperation
+  </h1>
+  <div class="markdown level0 summary"><p>Provides developers ways to make their applications more resilient by adding robust transient fault handling logic ideal for temporary condition such as network connectivity issues or service unavailability.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">TransientOperation</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cuemon.html">Cuemon</a></h6>
+  <h6><strong>Assembly</strong>: Cuemon.Core.dll</h6>
+  <h5 id="Cuemon_TransientOperation_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class TransientOperation</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_FaultCallback.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.FaultCallback%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_FaultCallback_" data-uid="Cuemon.TransientOperation.FaultCallback*"></a>
+  <h4 id="Cuemon_TransientOperation_FaultCallback" data-uid="Cuemon.TransientOperation.FaultCallback">FaultCallback</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the callback delegate that is invoked when a transient fault occurs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;TransientFaultEvidence&gt; FaultCallback { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientFaultEvidence.html">TransientFaultEvidence</a>&gt;</td>
+        <td><p>A callback delegate that is invoked when a transient fault occurs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_TryWithFunc__2_Cuemon_TesterFunc___0___1____0__System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.TryWithFunc%60%602(Cuemon.TesterFunc%7B%60%600%2C%60%601%7D%2C%60%600%40%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_TryWithFunc_" data-uid="Cuemon.TransientOperation.TryWithFunc*"></a>
+  <h4 id="Cuemon_TransientOperation_TryWithFunc__2_Cuemon_TesterFunc___0___1____0__System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.TryWithFunc``2(Cuemon.TesterFunc{``0,``1},``0@,System.Action{Cuemon.TransientOperationOptions})">TryWithFunc&lt;TResult, TSuccess&gt;(TesterFunc&lt;TResult, TSuccess&gt;, out TResult, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSuccess TryWithFunc&lt;TResult, TSuccess&gt;(TesterFunc&lt;TResult, TSuccess&gt; faultSensitiveMethod, out TResult result, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.TesterFunc-2.html">TesterFunc</a>&lt;TResult, TSuccess&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>The result of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TSuccess</span></td>
+        <td><p>The return value that indicates success of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the out result value of the function delegate encapsulates <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TSuccess</span></td>
+        <td><p>The type of the return value that indicates success of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_TryWithFunc__3_Cuemon_TesterFunc___0___1___2____0___1__System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.TryWithFunc%60%603(Cuemon.TesterFunc%7B%60%600%2C%60%601%2C%60%602%7D%2C%60%600%2C%60%601%40%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_TryWithFunc_" data-uid="Cuemon.TransientOperation.TryWithFunc*"></a>
+  <h4 id="Cuemon_TransientOperation_TryWithFunc__3_Cuemon_TesterFunc___0___1___2____0___1__System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.TryWithFunc``3(Cuemon.TesterFunc{``0,``1,``2},``0,``1@,System.Action{Cuemon.TransientOperationOptions})">TryWithFunc&lt;T, TResult, TSuccess&gt;(TesterFunc&lt;T, TResult, TSuccess&gt;, T, out TResult, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSuccess TryWithFunc&lt;T, TResult, TSuccess&gt;(TesterFunc&lt;T, TResult, TSuccess&gt; faultSensitiveMethod, T arg, out TResult result, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.TesterFunc-3.html">TesterFunc</a>&lt;T, TResult, TSuccess&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td><p>The parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>The result of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TSuccess</span></td>
+        <td><p>The return value that indicates success of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the out result value of the function delegate encapsulates <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TSuccess</span></td>
+        <td><p>The type of the return value that indicates success of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_TryWithFunc__4_Cuemon_TesterFunc___0___1___2___3____0___1___2__System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.TryWithFunc%60%604(Cuemon.TesterFunc%7B%60%600%2C%60%601%2C%60%602%2C%60%603%7D%2C%60%600%2C%60%601%2C%60%602%40%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_TryWithFunc_" data-uid="Cuemon.TransientOperation.TryWithFunc*"></a>
+  <h4 id="Cuemon_TransientOperation_TryWithFunc__4_Cuemon_TesterFunc___0___1___2___3____0___1___2__System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.TryWithFunc``4(Cuemon.TesterFunc{``0,``1,``2,``3},``0,``1,``2@,System.Action{Cuemon.TransientOperationOptions})">TryWithFunc&lt;T1, T2, TResult, TSuccess&gt;(TesterFunc&lt;T1, T2, TResult, TSuccess&gt;, T1, T2, out TResult, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSuccess TryWithFunc&lt;T1, T2, TResult, TSuccess&gt;(TesterFunc&lt;T1, T2, TResult, TSuccess&gt; faultSensitiveMethod, T1 arg1, T2 arg2, out TResult result, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.TesterFunc-4.html">TesterFunc</a>&lt;T1, T2, TResult, TSuccess&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>The result of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TSuccess</span></td>
+        <td><p>The return value that indicates success of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the out result value of the function delegate encapsulates <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TSuccess</span></td>
+        <td><p>The type of the return value that indicates success of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_TryWithFunc__5_Cuemon_TesterFunc___0___1___2___3___4____0___1___2___3__System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.TryWithFunc%60%605(Cuemon.TesterFunc%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%40%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_TryWithFunc_" data-uid="Cuemon.TransientOperation.TryWithFunc*"></a>
+  <h4 id="Cuemon_TransientOperation_TryWithFunc__5_Cuemon_TesterFunc___0___1___2___3___4____0___1___2___3__System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.TryWithFunc``5(Cuemon.TesterFunc{``0,``1,``2,``3,``4},``0,``1,``2,``3@,System.Action{Cuemon.TransientOperationOptions})">TryWithFunc&lt;T1, T2, T3, TResult, TSuccess&gt;(TesterFunc&lt;T1, T2, T3, TResult, TSuccess&gt;, T1, T2, T3, out TResult, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSuccess TryWithFunc&lt;T1, T2, T3, TResult, TSuccess&gt;(TesterFunc&lt;T1, T2, T3, TResult, TSuccess&gt; faultSensitiveMethod, T1 arg1, T2 arg2, T3 arg3, out TResult result, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.TesterFunc-5.html">TesterFunc</a>&lt;T1, T2, T3, TResult, TSuccess&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>The result of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TSuccess</span></td>
+        <td><p>The return value that indicates success of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the out result value of the function delegate encapsulates <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TSuccess</span></td>
+        <td><p>The type of the return value that indicates success of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_TryWithFunc__6_Cuemon_TesterFunc___0___1___2___3___4___5____0___1___2___3___4__System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.TryWithFunc%60%606(Cuemon.TesterFunc%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%40%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_TryWithFunc_" data-uid="Cuemon.TransientOperation.TryWithFunc*"></a>
+  <h4 id="Cuemon_TransientOperation_TryWithFunc__6_Cuemon_TesterFunc___0___1___2___3___4___5____0___1___2___3___4__System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.TryWithFunc``6(Cuemon.TesterFunc{``0,``1,``2,``3,``4,``5},``0,``1,``2,``3,``4@,System.Action{Cuemon.TransientOperationOptions})">TryWithFunc&lt;T1, T2, T3, T4, TResult, TSuccess&gt;(TesterFunc&lt;T1, T2, T3, T4, TResult, TSuccess&gt;, T1, T2, T3, T4, out TResult, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSuccess TryWithFunc&lt;T1, T2, T3, T4, TResult, TSuccess&gt;(TesterFunc&lt;T1, T2, T3, T4, TResult, TSuccess&gt; faultSensitiveMethod, T1 arg1, T2 arg2, T3 arg3, T4 arg4, out TResult result, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.TesterFunc-6.html">TesterFunc</a>&lt;T1, T2, T3, T4, TResult, TSuccess&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>The result of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TSuccess</span></td>
+        <td><p>The return value that indicates success of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the out result value of the function delegate encapsulates <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TSuccess</span></td>
+        <td><p>The type of the return value that indicates success of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_TryWithFunc__7_Cuemon_TesterFunc___0___1___2___3___4___5___6____0___1___2___3___4___5__System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.TryWithFunc%60%607(Cuemon.TesterFunc%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%40%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_TryWithFunc_" data-uid="Cuemon.TransientOperation.TryWithFunc*"></a>
+  <h4 id="Cuemon_TransientOperation_TryWithFunc__7_Cuemon_TesterFunc___0___1___2___3___4___5___6____0___1___2___3___4___5__System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.TryWithFunc``7(Cuemon.TesterFunc{``0,``1,``2,``3,``4,``5,``6},``0,``1,``2,``3,``4,``5@,System.Action{Cuemon.TransientOperationOptions})">TryWithFunc&lt;T1, T2, T3, T4, T5, TResult, TSuccess&gt;(TesterFunc&lt;T1, T2, T3, T4, T5, TResult, TSuccess&gt;, T1, T2, T3, T4, T5, out TResult, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSuccess TryWithFunc&lt;T1, T2, T3, T4, T5, TResult, TSuccess&gt;(TesterFunc&lt;T1, T2, T3, T4, T5, TResult, TSuccess&gt; faultSensitiveMethod, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, out TResult result, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.TesterFunc-7.html">TesterFunc</a>&lt;T1, T2, T3, T4, T5, TResult, TSuccess&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>The result of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TSuccess</span></td>
+        <td><p>The return value that indicates success of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the out result value of the function delegate encapsulates <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TSuccess</span></td>
+        <td><p>The type of the return value that indicates success of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithAction_System_Action_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithAction(System.Action%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithAction_" data-uid="Cuemon.TransientOperation.WithAction*"></a>
+  <h4 id="Cuemon_TransientOperation_WithAction_System_Action_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithAction(System.Action,System.Action{Cuemon.TransientOperationOptions})">WithAction(Action, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WithAction(Action faultSensitiveMethod, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithAction__1_System_Action___0____0_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithAction%60%601(System.Action%7B%60%600%7D%2C%60%600%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithAction_" data-uid="Cuemon.TransientOperation.WithAction*"></a>
+  <h4 id="Cuemon_TransientOperation_WithAction__1_System_Action___0____0_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithAction``1(System.Action{``0},``0,System.Action{Cuemon.TransientOperationOptions})">WithAction&lt;T&gt;(Action&lt;T&gt;, T, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WithAction&lt;T&gt;(Action&lt;T&gt; faultSensitiveMethod, T arg, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td><p>The parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithAction__2_System_Action___0___1____0___1_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithAction%60%602(System.Action%7B%60%600%2C%60%601%7D%2C%60%600%2C%60%601%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithAction_" data-uid="Cuemon.TransientOperation.WithAction*"></a>
+  <h4 id="Cuemon_TransientOperation_WithAction__2_System_Action___0___1____0___1_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithAction``2(System.Action{``0,``1},``0,``1,System.Action{Cuemon.TransientOperationOptions})">WithAction&lt;T1, T2&gt;(Action&lt;T1, T2&gt;, T1, T2, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WithAction&lt;T1, T2&gt;(Action&lt;T1, T2&gt; faultSensitiveMethod, T1 arg1, T2 arg2, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, T2&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithAction__3_System_Action___0___1___2____0___1___2_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithAction%60%603(System.Action%7B%60%600%2C%60%601%2C%60%602%7D%2C%60%600%2C%60%601%2C%60%602%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithAction_" data-uid="Cuemon.TransientOperation.WithAction*"></a>
+  <h4 id="Cuemon_TransientOperation_WithAction__3_System_Action___0___1___2____0___1___2_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithAction``3(System.Action{``0,``1,``2},``0,``1,``2,System.Action{Cuemon.TransientOperationOptions})">WithAction&lt;T1, T2, T3&gt;(Action&lt;T1, T2, T3&gt;, T1, T2, T3, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WithAction&lt;T1, T2, T3&gt;(Action&lt;T1, T2, T3&gt; faultSensitiveMethod, T1 arg1, T2 arg2, T3 arg3, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, T2, T3&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithAction__4_System_Action___0___1___2___3____0___1___2___3_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithAction%60%604(System.Action%7B%60%600%2C%60%601%2C%60%602%2C%60%603%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithAction_" data-uid="Cuemon.TransientOperation.WithAction*"></a>
+  <h4 id="Cuemon_TransientOperation_WithAction__4_System_Action___0___1___2___3____0___1___2___3_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithAction``4(System.Action{``0,``1,``2,``3},``0,``1,``2,``3,System.Action{Cuemon.TransientOperationOptions})">WithAction&lt;T1, T2, T3, T4&gt;(Action&lt;T1, T2, T3, T4&gt;, T1, T2, T3, T4, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WithAction&lt;T1, T2, T3, T4&gt;(Action&lt;T1, T2, T3, T4&gt; faultSensitiveMethod, T1 arg1, T2 arg2, T3 arg3, T4 arg4, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, T2, T3, T4&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithAction__5_System_Action___0___1___2___3___4____0___1___2___3___4_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithAction%60%605(System.Action%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithAction_" data-uid="Cuemon.TransientOperation.WithAction*"></a>
+  <h4 id="Cuemon_TransientOperation_WithAction__5_System_Action___0___1___2___3___4____0___1___2___3___4_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithAction``5(System.Action{``0,``1,``2,``3,``4},``0,``1,``2,``3,``4,System.Action{Cuemon.TransientOperationOptions})">WithAction&lt;T1, T2, T3, T4, T5&gt;(Action&lt;T1, T2, T3, T4, T5&gt;, T1, T2, T3, T4, T5, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WithAction&lt;T1, T2, T3, T4, T5&gt;(Action&lt;T1, T2, T3, T4, T5&gt; faultSensitiveMethod, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, T2, T3, T4, T5&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithActionAsync_System_Func_System_Threading_Tasks_Task__System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithActionAsync(System.Func%7BSystem.Threading.Tasks.Task%7D%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithActionAsync_" data-uid="Cuemon.TransientOperation.WithActionAsync*"></a>
+  <h4 id="Cuemon_TransientOperation_WithActionAsync_System_Func_System_Threading_Tasks_Task__System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithActionAsync(System.Func{System.Threading.Tasks.Task},System.Action{Cuemon.TransientOperationOptions})">WithActionAsync(Func&lt;Task&gt;, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task WithActionAsync(Func&lt;Task&gt; faultSensitiveMethod, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Threading.Tasks.Task</span>&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive <span class="xref">System.Threading.Tasks.Task</span> based function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithActionAsync__1_System_Func___0_System_Threading_Tasks_Task____0_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithActionAsync%60%601(System.Func%7B%60%600%2CSystem.Threading.Tasks.Task%7D%2C%60%600%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithActionAsync_" data-uid="Cuemon.TransientOperation.WithActionAsync*"></a>
+  <h4 id="Cuemon_TransientOperation_WithActionAsync__1_System_Func___0_System_Threading_Tasks_Task____0_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithActionAsync``1(System.Func{``0,System.Threading.Tasks.Task},``0,System.Action{Cuemon.TransientOperationOptions})">WithActionAsync&lt;T&gt;(Func&lt;T, Task&gt;, T, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task WithActionAsync&lt;T&gt;(Func&lt;T, Task&gt; faultSensitiveMethod, T arg, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Threading.Tasks.Task</span>&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive <span class="xref">System.Threading.Tasks.Task</span> based function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td><p>The parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithActionAsync__2_System_Func___0___1_System_Threading_Tasks_Task____0___1_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithActionAsync%60%602(System.Func%7B%60%600%2C%60%601%2CSystem.Threading.Tasks.Task%7D%2C%60%600%2C%60%601%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithActionAsync_" data-uid="Cuemon.TransientOperation.WithActionAsync*"></a>
+  <h4 id="Cuemon_TransientOperation_WithActionAsync__2_System_Func___0___1_System_Threading_Tasks_Task____0___1_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithActionAsync``2(System.Func{``0,``1,System.Threading.Tasks.Task},``0,``1,System.Action{Cuemon.TransientOperationOptions})">WithActionAsync&lt;T1, T2&gt;(Func&lt;T1, T2, Task&gt;, T1, T2, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task WithActionAsync&lt;T1, T2&gt;(Func&lt;T1, T2, Task&gt; faultSensitiveMethod, T1 arg1, T2 arg2, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, <span class="xref">System.Threading.Tasks.Task</span>&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive <span class="xref">System.Threading.Tasks.Task</span> based function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithActionAsync__3_System_Func___0___1___2_System_Threading_Tasks_Task____0___1___2_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithActionAsync%60%603(System.Func%7B%60%600%2C%60%601%2C%60%602%2CSystem.Threading.Tasks.Task%7D%2C%60%600%2C%60%601%2C%60%602%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithActionAsync_" data-uid="Cuemon.TransientOperation.WithActionAsync*"></a>
+  <h4 id="Cuemon_TransientOperation_WithActionAsync__3_System_Func___0___1___2_System_Threading_Tasks_Task____0___1___2_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithActionAsync``3(System.Func{``0,``1,``2,System.Threading.Tasks.Task},``0,``1,``2,System.Action{Cuemon.TransientOperationOptions})">WithActionAsync&lt;T1, T2, T3&gt;(Func&lt;T1, T2, T3, Task&gt;, T1, T2, T3, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task WithActionAsync&lt;T1, T2, T3&gt;(Func&lt;T1, T2, T3, Task&gt; faultSensitiveMethod, T1 arg1, T2 arg2, T3 arg3, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, <span class="xref">System.Threading.Tasks.Task</span>&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive <span class="xref">System.Threading.Tasks.Task</span> based function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithActionAsync__4_System_Func___0___1___2___3_System_Threading_Tasks_Task____0___1___2___3_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithActionAsync%60%604(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2CSystem.Threading.Tasks.Task%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithActionAsync_" data-uid="Cuemon.TransientOperation.WithActionAsync*"></a>
+  <h4 id="Cuemon_TransientOperation_WithActionAsync__4_System_Func___0___1___2___3_System_Threading_Tasks_Task____0___1___2___3_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithActionAsync``4(System.Func{``0,``1,``2,``3,System.Threading.Tasks.Task},``0,``1,``2,``3,System.Action{Cuemon.TransientOperationOptions})">WithActionAsync&lt;T1, T2, T3, T4&gt;(Func&lt;T1, T2, T3, T4, Task&gt;, T1, T2, T3, T4, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task WithActionAsync&lt;T1, T2, T3, T4&gt;(Func&lt;T1, T2, T3, T4, Task&gt; faultSensitiveMethod, T1 arg1, T2 arg2, T3 arg3, T4 arg4, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, T4, <span class="xref">System.Threading.Tasks.Task</span>&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive <span class="xref">System.Threading.Tasks.Task</span> based function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithActionAsync__5_System_Func___0___1___2___3___4_System_Threading_Tasks_Task____0___1___2___3___4_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithActionAsync%60%605(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2CSystem.Threading.Tasks.Task%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithActionAsync_" data-uid="Cuemon.TransientOperation.WithActionAsync*"></a>
+  <h4 id="Cuemon_TransientOperation_WithActionAsync__5_System_Func___0___1___2___3___4_System_Threading_Tasks_Task____0___1___2___3___4_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithActionAsync``5(System.Func{``0,``1,``2,``3,``4,System.Threading.Tasks.Task},``0,``1,``2,``3,``4,System.Action{Cuemon.TransientOperationOptions})">WithActionAsync&lt;T1, T2, T3, T4, T5&gt;(Func&lt;T1, T2, T3, T4, T5, Task&gt;, T1, T2, T3, T4, T5, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task WithActionAsync&lt;T1, T2, T3, T4, T5&gt;(Func&lt;T1, T2, T3, T4, T5, Task&gt; faultSensitiveMethod, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, T4, T5, <span class="xref">System.Threading.Tasks.Task</span>&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive <span class="xref">System.Threading.Tasks.Task</span> based function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithFunc__1_System_Func___0__System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithFunc%60%601(System.Func%7B%60%600%7D%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithFunc_" data-uid="Cuemon.TransientOperation.WithFunc*"></a>
+  <h4 id="Cuemon_TransientOperation_WithFunc__1_System_Func___0__System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithFunc``1(System.Func{``0},System.Action{Cuemon.TransientOperationOptions})">WithFunc&lt;TResult&gt;(Func&lt;TResult&gt;, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TResult WithFunc&lt;TResult&gt;(Func&lt;TResult&gt; faultSensitiveMethod, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TResult&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><p>The result from the <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithFunc__2_System_Func___0___1____0_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithFunc%60%602(System.Func%7B%60%600%2C%60%601%7D%2C%60%600%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithFunc_" data-uid="Cuemon.TransientOperation.WithFunc*"></a>
+  <h4 id="Cuemon_TransientOperation_WithFunc__2_System_Func___0___1____0_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithFunc``2(System.Func{``0,``1},``0,System.Action{Cuemon.TransientOperationOptions})">WithFunc&lt;T, TResult&gt;(Func&lt;T, TResult&gt;, T, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TResult WithFunc&lt;T, TResult&gt;(Func&lt;T, TResult&gt; faultSensitiveMethod, T arg, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T, TResult&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td><p>The parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><p>The result from the <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithFunc__3_System_Func___0___1___2____0___1_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithFunc%60%603(System.Func%7B%60%600%2C%60%601%2C%60%602%7D%2C%60%600%2C%60%601%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithFunc_" data-uid="Cuemon.TransientOperation.WithFunc*"></a>
+  <h4 id="Cuemon_TransientOperation_WithFunc__3_System_Func___0___1___2____0___1_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithFunc``3(System.Func{``0,``1,``2},``0,``1,System.Action{Cuemon.TransientOperationOptions})">WithFunc&lt;T1, T2, TResult&gt;(Func&lt;T1, T2, TResult&gt;, T1, T2, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TResult WithFunc&lt;T1, T2, TResult&gt;(Func&lt;T1, T2, TResult&gt; faultSensitiveMethod, T1 arg1, T2 arg2, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, TResult&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><p>The result from the <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithFunc__4_System_Func___0___1___2___3____0___1___2_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithFunc%60%604(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%7D%2C%60%600%2C%60%601%2C%60%602%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithFunc_" data-uid="Cuemon.TransientOperation.WithFunc*"></a>
+  <h4 id="Cuemon_TransientOperation_WithFunc__4_System_Func___0___1___2___3____0___1___2_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithFunc``4(System.Func{``0,``1,``2,``3},``0,``1,``2,System.Action{Cuemon.TransientOperationOptions})">WithFunc&lt;T1, T2, T3, TResult&gt;(Func&lt;T1, T2, T3, TResult&gt;, T1, T2, T3, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TResult WithFunc&lt;T1, T2, T3, TResult&gt;(Func&lt;T1, T2, T3, TResult&gt; faultSensitiveMethod, T1 arg1, T2 arg2, T3 arg3, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, TResult&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><p>The result from the <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithFunc__5_System_Func___0___1___2___3___4____0___1___2___3_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithFunc%60%605(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithFunc_" data-uid="Cuemon.TransientOperation.WithFunc*"></a>
+  <h4 id="Cuemon_TransientOperation_WithFunc__5_System_Func___0___1___2___3___4____0___1___2___3_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithFunc``5(System.Func{``0,``1,``2,``3,``4},``0,``1,``2,``3,System.Action{Cuemon.TransientOperationOptions})">WithFunc&lt;T1, T2, T3, T4, TResult&gt;(Func&lt;T1, T2, T3, T4, TResult&gt;, T1, T2, T3, T4, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TResult WithFunc&lt;T1, T2, T3, T4, TResult&gt;(Func&lt;T1, T2, T3, T4, TResult&gt; faultSensitiveMethod, T1 arg1, T2 arg2, T3 arg3, T4 arg4, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, T4, TResult&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><p>The result from the <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithFunc__6_System_Func___0___1___2___3___4___5____0___1___2___3___4_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithFunc%60%606(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithFunc_" data-uid="Cuemon.TransientOperation.WithFunc*"></a>
+  <h4 id="Cuemon_TransientOperation_WithFunc__6_System_Func___0___1___2___3___4___5____0___1___2___3___4_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithFunc``6(System.Func{``0,``1,``2,``3,``4,``5},``0,``1,``2,``3,``4,System.Action{Cuemon.TransientOperationOptions})">WithFunc&lt;T1, T2, T3, T4, T5, TResult&gt;(Func&lt;T1, T2, T3, T4, T5, TResult&gt;, T1, T2, T3, T4, T5, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TResult WithFunc&lt;T1, T2, T3, T4, T5, TResult&gt;(Func&lt;T1, T2, T3, T4, T5, TResult&gt; faultSensitiveMethod, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, T4, T5, TResult&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><p>The result from the <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithFuncAsync__1_System_Func_System_Threading_Tasks_Task___0___System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithFuncAsync%60%601(System.Func%7BSystem.Threading.Tasks.Task%7B%60%600%7D%7D%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithFuncAsync_" data-uid="Cuemon.TransientOperation.WithFuncAsync*"></a>
+  <h4 id="Cuemon_TransientOperation_WithFuncAsync__1_System_Func_System_Threading_Tasks_Task___0___System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithFuncAsync``1(System.Func{System.Threading.Tasks.Task{``0}},System.Action{Cuemon.TransientOperationOptions})">WithFuncAsync&lt;TResult&gt;(Func&lt;Task&lt;TResult&gt;&gt;, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;TResult&gt; WithFuncAsync&lt;TResult&gt;(Func&lt;Task&lt;TResult&gt;&gt; faultSensitiveMethod, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</td>
+        <td><p>The result from the <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithFuncAsync__2_System_Func___0_System_Threading_Tasks_Task___1_____0_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithFuncAsync%60%602(System.Func%7B%60%600%2CSystem.Threading.Tasks.Task%7B%60%601%7D%7D%2C%60%600%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithFuncAsync_" data-uid="Cuemon.TransientOperation.WithFuncAsync*"></a>
+  <h4 id="Cuemon_TransientOperation_WithFuncAsync__2_System_Func___0_System_Threading_Tasks_Task___1_____0_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithFuncAsync``2(System.Func{``0,System.Threading.Tasks.Task{``1}},``0,System.Action{Cuemon.TransientOperationOptions})">WithFuncAsync&lt;T, TResult&gt;(Func&lt;T, Task&lt;TResult&gt;&gt;, T, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;TResult&gt; WithFuncAsync&lt;T, TResult&gt;(Func&lt;T, Task&lt;TResult&gt;&gt; faultSensitiveMethod, T arg, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td><p>The parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</td>
+        <td><p>The result from the <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithFuncAsync__3_System_Func___0___1_System_Threading_Tasks_Task___2_____0___1_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithFuncAsync%60%603(System.Func%7B%60%600%2C%60%601%2CSystem.Threading.Tasks.Task%7B%60%602%7D%7D%2C%60%600%2C%60%601%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithFuncAsync_" data-uid="Cuemon.TransientOperation.WithFuncAsync*"></a>
+  <h4 id="Cuemon_TransientOperation_WithFuncAsync__3_System_Func___0___1_System_Threading_Tasks_Task___2_____0___1_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithFuncAsync``3(System.Func{``0,``1,System.Threading.Tasks.Task{``2}},``0,``1,System.Action{Cuemon.TransientOperationOptions})">WithFuncAsync&lt;T1, T2, TResult&gt;(Func&lt;T1, T2, Task&lt;TResult&gt;&gt;, T1, T2, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;TResult&gt; WithFuncAsync&lt;T1, T2, TResult&gt;(Func&lt;T1, T2, Task&lt;TResult&gt;&gt; faultSensitiveMethod, T1 arg1, T2 arg2, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, <span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</td>
+        <td><p>The result from the <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithFuncAsync__4_System_Func___0___1___2_System_Threading_Tasks_Task___3_____0___1___2_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithFuncAsync%60%604(System.Func%7B%60%600%2C%60%601%2C%60%602%2CSystem.Threading.Tasks.Task%7B%60%603%7D%7D%2C%60%600%2C%60%601%2C%60%602%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithFuncAsync_" data-uid="Cuemon.TransientOperation.WithFuncAsync*"></a>
+  <h4 id="Cuemon_TransientOperation_WithFuncAsync__4_System_Func___0___1___2_System_Threading_Tasks_Task___3_____0___1___2_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithFuncAsync``4(System.Func{``0,``1,``2,System.Threading.Tasks.Task{``3}},``0,``1,``2,System.Action{Cuemon.TransientOperationOptions})">WithFuncAsync&lt;T1, T2, T3, TResult&gt;(Func&lt;T1, T2, T3, Task&lt;TResult&gt;&gt;, T1, T2, T3, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;TResult&gt; WithFuncAsync&lt;T1, T2, T3, TResult&gt;(Func&lt;T1, T2, T3, Task&lt;TResult&gt;&gt; faultSensitiveMethod, T1 arg1, T2 arg2, T3 arg3, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, <span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</td>
+        <td><p>The result from the <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithFuncAsync__5_System_Func___0___1___2___3_System_Threading_Tasks_Task___4_____0___1___2___3_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithFuncAsync%60%605(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2CSystem.Threading.Tasks.Task%7B%60%604%7D%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithFuncAsync_" data-uid="Cuemon.TransientOperation.WithFuncAsync*"></a>
+  <h4 id="Cuemon_TransientOperation_WithFuncAsync__5_System_Func___0___1___2___3_System_Threading_Tasks_Task___4_____0___1___2___3_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithFuncAsync``5(System.Func{``0,``1,``2,``3,System.Threading.Tasks.Task{``4}},``0,``1,``2,``3,System.Action{Cuemon.TransientOperationOptions})">WithFuncAsync&lt;T1, T2, T3, T4, TResult&gt;(Func&lt;T1, T2, T3, T4, Task&lt;TResult&gt;&gt;, T1, T2, T3, T4, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;TResult&gt; WithFuncAsync&lt;T1, T2, T3, T4, TResult&gt;(Func&lt;T1, T2, T3, T4, Task&lt;TResult&gt;&gt; faultSensitiveMethod, T1 arg1, T2 arg2, T3 arg3, T4 arg4, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, T4, <span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</td>
+        <td><p>The result from the <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation_WithFuncAsync__6_System_Func___0___1___2___3___4_System_Threading_Tasks_Task___5_____0___1___2___3___4_System_Action_Cuemon_TransientOperationOptions__.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation.WithFuncAsync%60%606(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2CSystem.Threading.Tasks.Task%7B%60%605%7D%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2CSystem.Action%7BCuemon.TransientOperationOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TransientOperation_WithFuncAsync_" data-uid="Cuemon.TransientOperation.WithFuncAsync*"></a>
+  <h4 id="Cuemon_TransientOperation_WithFuncAsync__6_System_Func___0___1___2___3___4_System_Threading_Tasks_Task___5_____0___1___2___3___4_System_Action_Cuemon_TransientOperationOptions__" data-uid="Cuemon.TransientOperation.WithFuncAsync``6(System.Func{``0,``1,``2,``3,``4,System.Threading.Tasks.Task{``5}},``0,``1,``2,``3,``4,System.Action{Cuemon.TransientOperationOptions})">WithFuncAsync&lt;T1, T2, T3, T4, T5, TResult&gt;(Func&lt;T1, T2, T3, T4, T5, Task&lt;TResult&gt;&gt;, T1, T2, T3, T4, T5, Action&lt;TransientOperationOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Repetitively executes the specified <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code> until the operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;TResult&gt; WithFuncAsync&lt;T1, T2, T3, T4, T5, TResult&gt;(Func&lt;T1, T2, T3, T4, T5, Task&lt;TResult&gt;&gt; faultSensitiveMethod, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, Action&lt;TransientOperationOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, T4, T5, <span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;&gt;</td>
+        <td><span class="parametername">faultSensitiveMethod</span></td>
+        <td><p>The fault sensitive function delegate that is invoked until an operation is successful, the amount of retry attempts has been reached, or a failed operation is not considered related to transient fault condition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;TResult&gt;</td>
+        <td><p>The result from the <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the function delegate <code data-dev-comment-type="paramref" class="paramref">faultSensitiveMethod</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+<div id="disqus_thread"></div>
+                <script>
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://cuemon-github.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TransientOperation.md&amp;value=---%0Auid%3A%20Cuemon.TransientOperation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright 2008-2018 Weubphoria. All rights reserved.<br>Generated by <strong>DocFX</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,529 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class XmlObfuscator
+   | Cuemon .NET Standard </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class XmlObfuscator
+   | Cuemon .NET Standard ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/50x50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cuemon.Security.XmlObfuscator">
+  
+  
+  <h1 id="Cuemon_Security_XmlObfuscator" data-uid="Cuemon.Security.XmlObfuscator" class="text-break">Class XmlObfuscator
+  </h1>
+  <div class="markdown level0 summary"><p>Provides methods for obfuscation and size reduction of human readable XML documents.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Cuemon.Security.Obfuscator.html">Obfuscator</a></div>
+    <div class="level2"><span class="xref">XmlObfuscator</span></div>
+      <div class="level3"><a class="xref" href="Cuemon.Security.SecureXmlObfuscator.html">SecureXmlObfuscator</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Cuemon.Security.Obfuscator.html#Cuemon_Security_Obfuscator_CurrentCombinationLength">Obfuscator.CurrentCombinationLength</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Security.Obfuscator.html#Cuemon_Security_Obfuscator_CurrentPermutationSize">Obfuscator.CurrentPermutationSize</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Security.Obfuscator.html#Cuemon_Security_Obfuscator_Encoding">Obfuscator.Encoding</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Security.Obfuscator.html#Cuemon_Security_Obfuscator_PermutationCharacters">Obfuscator.PermutationCharacters</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Security.Obfuscator.html#Cuemon_Security_Obfuscator_Exclusions">Obfuscator.Exclusions</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Security.Obfuscator.html#Cuemon_Security_Obfuscator_Mappings">Obfuscator.Mappings</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Security.Obfuscator.html#Cuemon_Security_Obfuscator_ComputeHash_System_String_">Obfuscator.ComputeHash(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Security.Obfuscator.html#Cuemon_Security_Obfuscator_GenerateObfuscatedValue">Obfuscator.GenerateObfuscatedValue()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cuemon.Security.html">Cuemon.Security</a></h6>
+  <h6><strong>Assembly</strong>: Cuemon.Xml.dll</h6>
+  <h5 id="Cuemon_Security_XmlObfuscator_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class XmlObfuscator : Obfuscator</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Security_XmlObfuscator__ctor.md&amp;value=---%0Auid%3A%20Cuemon.Security.XmlObfuscator.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Security_XmlObfuscator__ctor_" data-uid="Cuemon.Security.XmlObfuscator.#ctor*"></a>
+  <h4 id="Cuemon_Security_XmlObfuscator__ctor" data-uid="Cuemon.Security.XmlObfuscator.#ctor">XmlObfuscator()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.Security.XmlObfuscator.html">XmlObfuscator</a> class using <span class="xref">System.Text.Encoding.UTF8</span> for the text encoding.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XmlObfuscator()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Security_XmlObfuscator__ctor_System_Collections_Generic_IEnumerable_System_String__.md&amp;value=---%0Auid%3A%20Cuemon.Security.XmlObfuscator.%23ctor(System.Collections.Generic.IEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Security_XmlObfuscator__ctor_" data-uid="Cuemon.Security.XmlObfuscator.#ctor*"></a>
+  <h4 id="Cuemon_Security_XmlObfuscator__ctor_System_Collections_Generic_IEnumerable_System_String__" data-uid="Cuemon.Security.XmlObfuscator.#ctor(System.Collections.Generic.IEnumerable{System.String})">XmlObfuscator(IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.Security.XmlObfuscator.html">XmlObfuscator</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XmlObfuscator(IEnumerable&lt;string&gt; exclusions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">exclusions</span></td>
+        <td><p>A sequence of <span class="xref">System.String</span> values used for excluding matching original values in the obfuscation process.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Security_XmlObfuscator__ctor_System_Text_Encoding_.md&amp;value=---%0Auid%3A%20Cuemon.Security.XmlObfuscator.%23ctor(System.Text.Encoding)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Security_XmlObfuscator__ctor_" data-uid="Cuemon.Security.XmlObfuscator.#ctor*"></a>
+  <h4 id="Cuemon_Security_XmlObfuscator__ctor_System_Text_Encoding_" data-uid="Cuemon.Security.XmlObfuscator.#ctor(System.Text.Encoding)">XmlObfuscator(Encoding)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.Security.XmlObfuscator.html">XmlObfuscator</a> class using <span class="xref">System.Text.Encoding.UTF8</span> for the text encoding.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XmlObfuscator(Encoding encoding)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.Encoding</span></td>
+        <td><span class="parametername">encoding</span></td>
+        <td><p>The text encoding to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Security_XmlObfuscator__ctor_System_Text_Encoding_System_Collections_Generic_IEnumerable_System_String__.md&amp;value=---%0Auid%3A%20Cuemon.Security.XmlObfuscator.%23ctor(System.Text.Encoding%2CSystem.Collections.Generic.IEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Security_XmlObfuscator__ctor_" data-uid="Cuemon.Security.XmlObfuscator.#ctor*"></a>
+  <h4 id="Cuemon_Security_XmlObfuscator__ctor_System_Text_Encoding_System_Collections_Generic_IEnumerable_System_String__" data-uid="Cuemon.Security.XmlObfuscator.#ctor(System.Text.Encoding,System.Collections.Generic.IEnumerable{System.String})">XmlObfuscator(Encoding, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.Security.XmlObfuscator.html">XmlObfuscator</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XmlObfuscator(Encoding encoding, IEnumerable&lt;string&gt; exclusions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.Encoding</span></td>
+        <td><span class="parametername">encoding</span></td>
+        <td><p>The character encoding to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">exclusions</span></td>
+        <td><p>A sequence of <span class="xref">System.String</span> values used for excluding matching original values in the obfuscation process.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Security_XmlObfuscator_CreateMapping.md&amp;value=---%0Auid%3A%20Cuemon.Security.XmlObfuscator.CreateMapping%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Security_XmlObfuscator_CreateMapping_" data-uid="Cuemon.Security.XmlObfuscator.CreateMapping*"></a>
+  <h4 id="Cuemon_Security_XmlObfuscator_CreateMapping" data-uid="Cuemon.Security.XmlObfuscator.CreateMapping">CreateMapping()</h4>
+  <div class="markdown level1 summary"><p>Creates and returns a mappaple XML document of the original values and the obfuscated values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Stream CreateMapping()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A mappaple XML document of the original values and the obfuscated values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Cuemon.Security.Obfuscator.html#Cuemon_Security_Obfuscator_CreateMapping">Obfuscator.CreateMapping()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Security_XmlObfuscator_InitializePermutationCharacters.md&amp;value=---%0Auid%3A%20Cuemon.Security.XmlObfuscator.InitializePermutationCharacters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Security_XmlObfuscator_InitializePermutationCharacters_" data-uid="Cuemon.Security.XmlObfuscator.InitializePermutationCharacters*"></a>
+  <h4 id="Cuemon_Security_XmlObfuscator_InitializePermutationCharacters" data-uid="Cuemon.Security.XmlObfuscator.InitializePermutationCharacters">InitializePermutationCharacters()</h4>
+  <div class="markdown level1 summary"><p>Initializes the permutation characters used in the obfuscation process using the default implmentation, but with the numeric characters removed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override IList&lt;char&gt; InitializePermutationCharacters()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> compatible object holding the permuation characters used in the obfuscation process, but with the numeric characters removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Cuemon.Security.Obfuscator.html#Cuemon_Security_Obfuscator_InitializePermutationCharacters">Obfuscator.InitializePermutationCharacters()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Security_XmlObfuscator_Obfuscate_System_IO_Stream_.md&amp;value=---%0Auid%3A%20Cuemon.Security.XmlObfuscator.Obfuscate(System.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Security_XmlObfuscator_Obfuscate_" data-uid="Cuemon.Security.XmlObfuscator.Obfuscate*"></a>
+  <h4 id="Cuemon_Security_XmlObfuscator_Obfuscate_System_IO_Stream_" data-uid="Cuemon.Security.XmlObfuscator.Obfuscate(System.IO.Stream)">Obfuscate(Stream)</h4>
+  <div class="markdown level1 summary"><p>Obfuscates the XML document of the specified <span class="xref">System.IO.Stream</span> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Stream Obfuscate(Stream value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <span class="xref">System.IO.Stream</span> object to obfuscate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> object where the XML document has been obfuscated.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Cuemon.Security.Obfuscator.html#Cuemon_Security_Obfuscator_Obfuscate_System_IO_Stream_">Obfuscator.Obfuscate(Stream)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Security_XmlObfuscator_Revert_System_IO_Stream_System_IO_Stream_.md&amp;value=---%0Auid%3A%20Cuemon.Security.XmlObfuscator.Revert(System.IO.Stream%2CSystem.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Security_XmlObfuscator_Revert_" data-uid="Cuemon.Security.XmlObfuscator.Revert*"></a>
+  <h4 id="Cuemon_Security_XmlObfuscator_Revert_System_IO_Stream_System_IO_Stream_" data-uid="Cuemon.Security.XmlObfuscator.Revert(System.IO.Stream,System.IO.Stream)">Revert(Stream, Stream)</h4>
+  <div class="markdown level1 summary"><p>Revert the obfuscated XML document of <code data-dev-comment-type="paramref" class="paramref">value</code> to its original state by applying the mappaple XML document of <code data-dev-comment-type="paramref" class="paramref">mapping</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Stream Revert(Stream value, Stream mapping)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The obfuscated <span class="xref">System.IO.Stream</span> to revert.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">mapping</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> containing mappaple values necessary to revert <code data-dev-comment-type="paramref" class="paramref">value</code> to its original state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> object where the obfuscated XML document has been reverted to its original XML document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Cuemon.Security.Obfuscator.html#Cuemon_Security_Obfuscator_Revert_System_IO_Stream_System_IO_Stream_">Obfuscator.Revert(Stream, Stream)</a></div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__2___0_System_Func___0___1__">ConverterExtensions.ParseWith&lt;TSource, TResult&gt;(TSource, Func&lt;TSource, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__3___0_System_Func___0___1___2____1_">ConverterExtensions.ParseWith&lt;TSource, T, TResult&gt;(TSource, Func&lt;TSource, T, TResult&gt;, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__4___0_System_Func___0___1___2___3____1___2_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, TResult&gt;(TSource, Func&lt;TSource, T1, T2, TResult&gt;, T1, T2)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__5___0_System_Func___0___1___2___3___4____1___2___3_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, TResult&gt;, T1, T2, T3)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__6___0_System_Func___0___1___2___3___4___5____1___2___3___4_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, TResult&gt;, T1, T2, T3, T4)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__7___0_System_Func___0___1___2___3___4___5___6____1___2___3___4___5_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, TResult&gt;, T1, T2, T3, T4, T5)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__8___0_System_Func___0___1___2___3___4___5___6___7____1___2___3___4___5___6_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, TResult&gt;, T1, T2, T3, T4, T5, T6)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__9___0_System_Func___0___1___2___3___4___5___6___7___8____1___2___3___4___5___6___7_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, T7, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, TResult&gt;, T1, T2, T3, T4, T5, T6, T7)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__10___0_System_Func___0___1___2___3___4___5___6___7___8___9____1___2___3___4___5___6___7___8_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, TResult&gt;, T1, T2, T3, T4, T5, T6, T7, T8)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__11___0_System_Func___0___1___2___3___4___5___6___7___8___9___10____1___2___3___4___5___6___7___8___9_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult&gt;, T1, T2, T3, T4, T5, T6, T7, T8, T9)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_As__1_System_Object_">ConverterExtensions.As&lt;TResult&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_As__1_System_Object___0_">ConverterExtensions.As&lt;TResult&gt;(Object, TResult)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_As__1_System_Object___0_System_IFormatProvider_">ConverterExtensions.As&lt;TResult&gt;(Object, TResult, IFormatProvider)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.DelegateUtilityExtensions.html#Cuemon_DelegateUtilityExtensions_Wrap__1___0_">DelegateUtilityExtensions.Wrap&lt;TResult&gt;(TResult)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.DelegateUtilityExtensions.html#Cuemon_DelegateUtilityExtensions_DynamicWrap__1___0_">DelegateUtilityExtensions.DynamicWrap&lt;TResult&gt;(TResult)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TweakerExtensions.html#Cuemon_TweakerExtensions_Adjust__1___0_System_Func___0___0__">TweakerExtensions.Adjust&lt;T&gt;(T, Func&lt;T, T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TypeUtilityExtensions.html#Cuemon_TypeUtilityExtensions_Is__1_System_Object_">TypeUtilityExtensions.Is&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TypeUtilityExtensions.html#Cuemon_TypeUtilityExtensions_IsNot__1_System_Object_">TypeUtilityExtensions.IsNot&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TypeUtilityExtensions.html#Cuemon_TypeUtilityExtensions_IsNullable__1___0_">TypeUtilityExtensions.IsNullable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.WrapperExtensions.html#Cuemon_WrapperExtensions_UseWrapper__1___0_System_Action_System_Collections_Generic_IDictionary_System_String_System_Object___">WrapperExtensions.UseWrapper&lt;T&gt;(T, Action&lt;IDictionary&lt;String, Object&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.WrapperExtensions.html#Cuemon_WrapperExtensions_UseWrapper__1___0_System_Reflection_MemberInfo_System_Action_System_Collections_Generic_IDictionary_System_String_System_Object___">WrapperExtensions.UseWrapper&lt;T&gt;(T, MemberInfo, Action&lt;IDictionary&lt;String, Object&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Collections.Generic.EnumerableUtilityExtensions.html#Cuemon_Collections_Generic_EnumerableUtilityExtensions_Yield__1___0_">EnumerableUtilityExtensions.Yield&lt;TSource&gt;(TSource)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Security.Cryptography.HashUtilityExtensions.html#Cuemon_Security_Cryptography_HashUtilityExtensions_ComputeHash_System_Object_System_Action_Cuemon_Security_Cryptography_HashOptions__">HashUtilityExtensions.ComputeHash(Object, Action&lt;HashOptions&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Security.Cryptography.HmacUtilityExtensions.html#Cuemon_Security_Cryptography_HmacUtilityExtensions_ComputeKeyedHash_System_Object_System_Byte___System_Action_Cuemon_Security_Cryptography_KeyedHashOptions__">HmacUtilityExtensions.ComputeKeyedHash(Object, Byte[], Action&lt;KeyedHashOptions&gt;)</a>
+  </div>
+<div id="disqus_thread"></div>
+                <script>
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://cuemon-github.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Security_XmlObfuscator.md&amp;value=---%0Auid%3A%20Cuemon.Security.XmlObfuscator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright 2008-2018 Weubphoria. All rights reserved.<br>Generated by <strong>DocFX</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

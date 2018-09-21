@@ -1,0 +1,1415 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class WebSecurityUtility
+   | Cuemon .NET Standard </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class WebSecurityUtility
+   | Cuemon .NET Standard ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/50x50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cuemon.Web.Security.WebSecurityUtility">
+  
+  
+  <h1 id="Cuemon_Web_Security_WebSecurityUtility" data-uid="Cuemon.Web.Security.WebSecurityUtility" class="text-break">Class WebSecurityUtility
+  </h1>
+  <div class="markdown level0 summary"><p>This utility class is designed to make web related security operations easier to work with.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">WebSecurityUtility</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cuemon.Web.Security.html">Cuemon.Web.Security</a></h6>
+  <h6><strong>Assembly</strong>: Cuemon.Web.dll</h6>
+  <h5 id="Cuemon_Web_Security_WebSecurityUtility_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class WebSecurityUtility</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_String_System_Byte___.md&amp;value=---%0Auid%3A%20Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.String%2CSystem.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri*"></a>
+  <h4 id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_String_System_Byte___" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.String,System.Byte[])">CreateTamperingProtectedUri(String, Byte[])</h4>
+  <div class="markdown level1 summary"><p>Converts the specified <code data-dev-comment-type="paramref" class="paramref">uriLocation</code> to a tampering protected <span class="xref">System.Uri</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Uri CreateTamperingProtectedUri(string uriLocation, byte[] securityKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">uriLocation</span></td>
+        <td><p>The URI to protect from tampering.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">securityKey</span></td>
+        <td><p>The security key to use for the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a> encryption.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><p>An URI equivalent to the <code data-dev-comment-type="paramref" class="paramref">uriLocation</code> but protected from tampering - including but not limited to - MITM attacks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_String_System_Byte___Cuemon_Security_SecurityTokenSettings_.md&amp;value=---%0Auid%3A%20Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.String%2CSystem.Byte%5B%5D%2CCuemon.Security.SecurityTokenSettings)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri*"></a>
+  <h4 id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_String_System_Byte___Cuemon_Security_SecurityTokenSettings_" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.String,System.Byte[],Cuemon.Security.SecurityTokenSettings)">CreateTamperingProtectedUri(String, Byte[], SecurityTokenSettings)</h4>
+  <div class="markdown level1 summary"><p>Converts the specified <code data-dev-comment-type="paramref" class="paramref">uriLocation</code> to a tampering protected <span class="xref">System.Uri</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Uri CreateTamperingProtectedUri(string uriLocation, byte[] securityKey, SecurityTokenSettings settings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">uriLocation</span></td>
+        <td><p>The URI to protect from tampering.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">securityKey</span></td>
+        <td><p>The security key to use for the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a> encryption.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.SecurityTokenSettings.html">SecurityTokenSettings</a></td>
+        <td><span class="parametername">settings</span></td>
+        <td><p>The settings to apply to the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><p>An URI equivalent to the <code data-dev-comment-type="paramref" class="paramref">uriLocation</code> but protected from tampering - including but not limited to - MITM attacks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_String_System_Byte___Cuemon_Security_SecurityTokenSettings_Cuemon_Security_Cryptography_HashAlgorithmType_.md&amp;value=---%0Auid%3A%20Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.String%2CSystem.Byte%5B%5D%2CCuemon.Security.SecurityTokenSettings%2CCuemon.Security.Cryptography.HashAlgorithmType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri*"></a>
+  <h4 id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_String_System_Byte___Cuemon_Security_SecurityTokenSettings_Cuemon_Security_Cryptography_HashAlgorithmType_" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.String,System.Byte[],Cuemon.Security.SecurityTokenSettings,Cuemon.Security.Cryptography.HashAlgorithmType)">CreateTamperingProtectedUri(String, Byte[], SecurityTokenSettings, HashAlgorithmType)</h4>
+  <div class="markdown level1 summary"><p>Converts the specified <code data-dev-comment-type="paramref" class="paramref">uriLocation</code> to a tampering protected <span class="xref">System.Uri</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Uri CreateTamperingProtectedUri(string uriLocation, byte[] securityKey, SecurityTokenSettings settings, HashAlgorithmType algorithmType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">uriLocation</span></td>
+        <td><p>The URI to protect from tampering.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">securityKey</span></td>
+        <td><p>The security key to use for the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a> encryption.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.SecurityTokenSettings.html">SecurityTokenSettings</a></td>
+        <td><span class="parametername">settings</span></td>
+        <td><p>The settings to apply to the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.Cryptography.HashAlgorithmType.html">HashAlgorithmType</a></td>
+        <td><span class="parametername">algorithmType</span></td>
+        <td><p>The hash algorithm to use for the URI checksum computation. Default is <strong><a class="xref" href="Cuemon.Security.Cryptography.HashAlgorithmType.html#Cuemon_Security_Cryptography_HashAlgorithmType_SHA1">SHA1</a></strong>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><p>An URI equivalent to the <code data-dev-comment-type="paramref" class="paramref">uriLocation</code> but protected from tampering - including but not limited to - MITM attacks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_String_System_Byte___Cuemon_Security_SecurityTokenSettings_Cuemon_Security_Cryptography_HashAlgorithmType_System_String_.md&amp;value=---%0Auid%3A%20Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.String%2CSystem.Byte%5B%5D%2CCuemon.Security.SecurityTokenSettings%2CCuemon.Security.Cryptography.HashAlgorithmType%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri*"></a>
+  <h4 id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_String_System_Byte___Cuemon_Security_SecurityTokenSettings_Cuemon_Security_Cryptography_HashAlgorithmType_System_String_" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.String,System.Byte[],Cuemon.Security.SecurityTokenSettings,Cuemon.Security.Cryptography.HashAlgorithmType,System.String)">CreateTamperingProtectedUri(String, Byte[], SecurityTokenSettings, HashAlgorithmType, String)</h4>
+  <div class="markdown level1 summary"><p>Converts the specified <code data-dev-comment-type="paramref" class="paramref">uriLocation</code> to a tampering protected <span class="xref">System.Uri</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Uri CreateTamperingProtectedUri(string uriLocation, byte[] securityKey, SecurityTokenSettings settings, HashAlgorithmType algorithmType, string secureUriFormat)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">uriLocation</span></td>
+        <td><p>The URI to protect from tampering.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">securityKey</span></td>
+        <td><p>The security key to use for the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a> encryption.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.SecurityTokenSettings.html">SecurityTokenSettings</a></td>
+        <td><span class="parametername">settings</span></td>
+        <td><p>The settings to apply to the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.Cryptography.HashAlgorithmType.html">HashAlgorithmType</a></td>
+        <td><span class="parametername">algorithmType</span></td>
+        <td><p>The hash algorithm to use for the URI checksum computation. Default is <strong><a class="xref" href="Cuemon.Security.Cryptography.HashAlgorithmType.html#Cuemon_Security_Cryptography_HashAlgorithmType_SHA1">SHA1</a></strong>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">secureUriFormat</span></td>
+        <td><p>The naming format of the required query string parameters of the tamper protected URI. Default is <strong>?token={0}&amp;iv={1}&amp;salt={2}</strong>, where you can change the naming of the query string parameters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><p>An URI equivalent to the <code data-dev-comment-type="paramref" class="paramref">uriLocation</code> but protected from tampering - including but not limited to - MITM attacks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_String_System_Byte___Cuemon_Security_SecurityTokenSettings_Cuemon_Security_Cryptography_HashAlgorithmType_System_String_System_String_.md&amp;value=---%0Auid%3A%20Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.String%2CSystem.Byte%5B%5D%2CCuemon.Security.SecurityTokenSettings%2CCuemon.Security.Cryptography.HashAlgorithmType%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri*"></a>
+  <h4 id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_String_System_Byte___Cuemon_Security_SecurityTokenSettings_Cuemon_Security_Cryptography_HashAlgorithmType_System_String_System_String_" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.String,System.Byte[],Cuemon.Security.SecurityTokenSettings,Cuemon.Security.Cryptography.HashAlgorithmType,System.String,System.String)">CreateTamperingProtectedUri(String, Byte[], SecurityTokenSettings, HashAlgorithmType, String, String)</h4>
+  <div class="markdown level1 summary"><p>Converts the specified <code data-dev-comment-type="paramref" class="paramref">uriLocation</code> to a tampering protected <span class="xref">System.Uri</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Uri CreateTamperingProtectedUri(string uriLocation, byte[] securityKey, SecurityTokenSettings settings, HashAlgorithmType algorithmType, string secureUriFormat, string querystringParameterHashName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">uriLocation</span></td>
+        <td><p>The URI to protect from tampering.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">securityKey</span></td>
+        <td><p>The security key to use for the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a> encryption.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.SecurityTokenSettings.html">SecurityTokenSettings</a></td>
+        <td><span class="parametername">settings</span></td>
+        <td><p>The settings to apply to the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.Cryptography.HashAlgorithmType.html">HashAlgorithmType</a></td>
+        <td><span class="parametername">algorithmType</span></td>
+        <td><p>The hash algorithm to use for the URI checksum computation. Default is <strong><a class="xref" href="Cuemon.Security.Cryptography.HashAlgorithmType.html#Cuemon_Security_Cryptography_HashAlgorithmType_SHA1">SHA1</a></strong>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">secureUriFormat</span></td>
+        <td><p>The naming format of the required query string parameters of the tamper protected URI. Default is <strong>?token={0}&amp;iv={1}&amp;salt={2}</strong>, where you can change the naming of the query string parameters.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">querystringParameterHashName</span></td>
+        <td><p>The name of the checksum parameter to append to the tampering protected URI. Default is <strong>hash</strong>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><p>An URI equivalent to the <code data-dev-comment-type="paramref" class="paramref">uriLocation</code> but protected from tampering - including but not limited to - MITM attacks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_Uri_System_Byte___.md&amp;value=---%0Auid%3A%20Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.Uri%2CSystem.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri*"></a>
+  <h4 id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_Uri_System_Byte___" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.Uri,System.Byte[])">CreateTamperingProtectedUri(Uri, Byte[])</h4>
+  <div class="markdown level1 summary"><p>Converts the specified <code data-dev-comment-type="paramref" class="paramref">location</code> to a tampering protected <span class="xref">System.Uri</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Uri CreateTamperingProtectedUri(Uri location, byte[] securityKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><span class="parametername">location</span></td>
+        <td><p>The URI to protect from tampering.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">securityKey</span></td>
+        <td><p>The security key to use for the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a> encryption.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><p>An URI equivalent to the <code data-dev-comment-type="paramref" class="paramref">location</code> but protected from tampering - including but not limited to - MITM attacks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_Uri_System_Byte___Cuemon_Security_SecurityTokenSettings_.md&amp;value=---%0Auid%3A%20Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.Uri%2CSystem.Byte%5B%5D%2CCuemon.Security.SecurityTokenSettings)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri*"></a>
+  <h4 id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_Uri_System_Byte___Cuemon_Security_SecurityTokenSettings_" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.Uri,System.Byte[],Cuemon.Security.SecurityTokenSettings)">CreateTamperingProtectedUri(Uri, Byte[], SecurityTokenSettings)</h4>
+  <div class="markdown level1 summary"><p>Converts the specified <code data-dev-comment-type="paramref" class="paramref">location</code> to a tampering protected <span class="xref">System.Uri</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Uri CreateTamperingProtectedUri(Uri location, byte[] securityKey, SecurityTokenSettings settings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><span class="parametername">location</span></td>
+        <td><p>The URI to protect from tampering.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">securityKey</span></td>
+        <td><p>The security key to use for the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a> encryption.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.SecurityTokenSettings.html">SecurityTokenSettings</a></td>
+        <td><span class="parametername">settings</span></td>
+        <td><p>The settings to apply to the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><p>An URI equivalent to the <code data-dev-comment-type="paramref" class="paramref">location</code> but protected from tampering - including but not limited to - MITM attacks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_Uri_System_Byte___Cuemon_Security_SecurityTokenSettings_Cuemon_Security_Cryptography_HashAlgorithmType_.md&amp;value=---%0Auid%3A%20Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.Uri%2CSystem.Byte%5B%5D%2CCuemon.Security.SecurityTokenSettings%2CCuemon.Security.Cryptography.HashAlgorithmType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri*"></a>
+  <h4 id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_Uri_System_Byte___Cuemon_Security_SecurityTokenSettings_Cuemon_Security_Cryptography_HashAlgorithmType_" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.Uri,System.Byte[],Cuemon.Security.SecurityTokenSettings,Cuemon.Security.Cryptography.HashAlgorithmType)">CreateTamperingProtectedUri(Uri, Byte[], SecurityTokenSettings, HashAlgorithmType)</h4>
+  <div class="markdown level1 summary"><p>Converts the specified <code data-dev-comment-type="paramref" class="paramref">location</code> to a tampering protected <span class="xref">System.Uri</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Uri CreateTamperingProtectedUri(Uri location, byte[] securityKey, SecurityTokenSettings settings, HashAlgorithmType algorithmType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><span class="parametername">location</span></td>
+        <td><p>The URI to protect from tampering.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">securityKey</span></td>
+        <td><p>The security key to use for the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a> encryption.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.SecurityTokenSettings.html">SecurityTokenSettings</a></td>
+        <td><span class="parametername">settings</span></td>
+        <td><p>The settings to apply to the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.Cryptography.HashAlgorithmType.html">HashAlgorithmType</a></td>
+        <td><span class="parametername">algorithmType</span></td>
+        <td><p>The hash algorithm to use for the URI checksum computation. Default is <strong><a class="xref" href="Cuemon.Security.Cryptography.HashAlgorithmType.html#Cuemon_Security_Cryptography_HashAlgorithmType_SHA1">SHA1</a></strong>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><p>An URI equivalent to the <code data-dev-comment-type="paramref" class="paramref">location</code> but protected from tampering - including but not limited to - MITM attacks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_Uri_System_Byte___Cuemon_Security_SecurityTokenSettings_Cuemon_Security_Cryptography_HashAlgorithmType_System_String_.md&amp;value=---%0Auid%3A%20Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.Uri%2CSystem.Byte%5B%5D%2CCuemon.Security.SecurityTokenSettings%2CCuemon.Security.Cryptography.HashAlgorithmType%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri*"></a>
+  <h4 id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_Uri_System_Byte___Cuemon_Security_SecurityTokenSettings_Cuemon_Security_Cryptography_HashAlgorithmType_System_String_" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.Uri,System.Byte[],Cuemon.Security.SecurityTokenSettings,Cuemon.Security.Cryptography.HashAlgorithmType,System.String)">CreateTamperingProtectedUri(Uri, Byte[], SecurityTokenSettings, HashAlgorithmType, String)</h4>
+  <div class="markdown level1 summary"><p>Converts the specified <code data-dev-comment-type="paramref" class="paramref">location</code> to a tampering protected <span class="xref">System.Uri</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Uri CreateTamperingProtectedUri(Uri location, byte[] securityKey, SecurityTokenSettings settings, HashAlgorithmType algorithmType, string secureUriFormat)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><span class="parametername">location</span></td>
+        <td><p>The URI to protect from tampering.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">securityKey</span></td>
+        <td><p>The security key to use for the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a> encryption.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.SecurityTokenSettings.html">SecurityTokenSettings</a></td>
+        <td><span class="parametername">settings</span></td>
+        <td><p>The settings to apply to the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.Cryptography.HashAlgorithmType.html">HashAlgorithmType</a></td>
+        <td><span class="parametername">algorithmType</span></td>
+        <td><p>The hash algorithm to use for the URI checksum computation. Default is <strong><a class="xref" href="Cuemon.Security.Cryptography.HashAlgorithmType.html#Cuemon_Security_Cryptography_HashAlgorithmType_SHA1">SHA1</a></strong>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">secureUriFormat</span></td>
+        <td><p>The naming format of the required query string parameters of the tamper protected URI. Default is <strong>?token={0}&amp;iv={1}&amp;salt={2}</strong>, where you can change the naming of the query string parameters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><p>An URI equivalent to the <code data-dev-comment-type="paramref" class="paramref">location</code> but protected from tampering - including but not limited to - MITM attacks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_Uri_System_Byte___Cuemon_Security_SecurityTokenSettings_Cuemon_Security_Cryptography_HashAlgorithmType_System_String_System_String_.md&amp;value=---%0Auid%3A%20Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.Uri%2CSystem.Byte%5B%5D%2CCuemon.Security.SecurityTokenSettings%2CCuemon.Security.Cryptography.HashAlgorithmType%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri*"></a>
+  <h4 id="Cuemon_Web_Security_WebSecurityUtility_CreateTamperingProtectedUri_System_Uri_System_Byte___Cuemon_Security_SecurityTokenSettings_Cuemon_Security_Cryptography_HashAlgorithmType_System_String_System_String_" data-uid="Cuemon.Web.Security.WebSecurityUtility.CreateTamperingProtectedUri(System.Uri,System.Byte[],Cuemon.Security.SecurityTokenSettings,Cuemon.Security.Cryptography.HashAlgorithmType,System.String,System.String)">CreateTamperingProtectedUri(Uri, Byte[], SecurityTokenSettings, HashAlgorithmType, String, String)</h4>
+  <div class="markdown level1 summary"><p>Converts the specified <code data-dev-comment-type="paramref" class="paramref">location</code> to a tampering protected <span class="xref">System.Uri</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Uri CreateTamperingProtectedUri(Uri location, byte[] securityKey, SecurityTokenSettings settings, HashAlgorithmType algorithmType, string secureUriFormat, string querystringParameterHashName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><span class="parametername">location</span></td>
+        <td><p>The URI to protect from tampering.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">securityKey</span></td>
+        <td><p>The security key to use for the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a> encryption.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.SecurityTokenSettings.html">SecurityTokenSettings</a></td>
+        <td><span class="parametername">settings</span></td>
+        <td><p>The settings to apply to the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.Cryptography.HashAlgorithmType.html">HashAlgorithmType</a></td>
+        <td><span class="parametername">algorithmType</span></td>
+        <td><p>The hash algorithm to use for the URI checksum computation. Default is <strong><a class="xref" href="Cuemon.Security.Cryptography.HashAlgorithmType.html#Cuemon_Security_Cryptography_HashAlgorithmType_SHA1">SHA1</a></strong>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">secureUriFormat</span></td>
+        <td><p>The naming format of the required query string parameters of the tamper protected URI. Default is <strong>?token={0}&amp;iv={1}&amp;salt={2}</strong>, where you can change the naming of the query string parameters.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">querystringParameterHashName</span></td>
+        <td><p>The name of the checksum parameter to append to the tampering protected URI. Default is <strong>hash</strong>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><p>An URI equivalent to the <code data-dev-comment-type="paramref" class="paramref">location</code> but protected from tampering - including but not limited to - MITM attacks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_System_Uri_System_Byte___.md&amp;value=---%0Auid%3A%20Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri(System.Uri%2CSystem.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_" data-uid="Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri*"></a>
+  <h4 id="Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_System_Uri_System_Byte___" data-uid="Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri(System.Uri,System.Byte[])">ParseTamperingProtectedUri(Uri, Byte[])</h4>
+  <div class="markdown level1 summary"><p>Parses and verifies the tampering protected URI.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SecurityToken ParseTamperingProtectedUri(Uri protectedUri, byte[] securityKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><span class="parametername">protectedUri</span></td>
+        <td><p>The tampering protected URI.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">securityKey</span></td>
+        <td><p>The security key to use in the decryption of a <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a></td>
+        <td><p>An instance of the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a> object if the <code data-dev-comment-type="paramref" class="paramref">protectedUri</code> is valid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>This exception is thrown when an unsucessfull parse is meet, hence values has been tampered with, <code data-dev-comment-type="paramref" class="paramref">protectedUri</code> is invalid, token has expired or one or more of the necessary parameters is missing.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_System_Uri_System_Byte___System_String_.md&amp;value=---%0Auid%3A%20Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri(System.Uri%2CSystem.Byte%5B%5D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_" data-uid="Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri*"></a>
+  <h4 id="Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_System_Uri_System_Byte___System_String_" data-uid="Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri(System.Uri,System.Byte[],System.String)">ParseTamperingProtectedUri(Uri, Byte[], String)</h4>
+  <div class="markdown level1 summary"><p>Parses and verifies the tampering protected URI.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SecurityToken ParseTamperingProtectedUri(Uri protectedUri, byte[] securityKey, string token)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><span class="parametername">protectedUri</span></td>
+        <td><p>The tampering protected URI.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">securityKey</span></td>
+        <td><p>The security key to use in the decryption of the <code data-dev-comment-type="paramref" class="paramref">token</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The security token to decrypt and parse for a <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a></td>
+        <td><p>An instance of the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a> object if the <code data-dev-comment-type="paramref" class="paramref">protectedUri</code> is valid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>This exception is thrown when an unsucessfull parse is meet, hence values has been tampered with, <code data-dev-comment-type="paramref" class="paramref">protectedUri</code> is invalid, token has expired or one or more of the necessary parameters is missing.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_System_Uri_System_Byte___System_String_System_String_.md&amp;value=---%0Auid%3A%20Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri(System.Uri%2CSystem.Byte%5B%5D%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_" data-uid="Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri*"></a>
+  <h4 id="Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_System_Uri_System_Byte___System_String_System_String_" data-uid="Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri(System.Uri,System.Byte[],System.String,System.String)">ParseTamperingProtectedUri(Uri, Byte[], String, String)</h4>
+  <div class="markdown level1 summary"><p>Parses and verifies the tampering protected URI.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SecurityToken ParseTamperingProtectedUri(Uri protectedUri, byte[] securityKey, string token, string iv)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><span class="parametername">protectedUri</span></td>
+        <td><p>The tampering protected URI.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">securityKey</span></td>
+        <td><p>The security key to use in the decryption of the <code data-dev-comment-type="paramref" class="paramref">token</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The security token to decrypt and parse for a <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">iv</span></td>
+        <td><p>The initialization vector (IV) to use in the decryption of the <code data-dev-comment-type="paramref" class="paramref">token</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a></td>
+        <td><p>An instance of the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a> object if the <code data-dev-comment-type="paramref" class="paramref">protectedUri</code> is valid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>This exception is thrown when an unsucessfull parse is meet, hence values has been tampered with, <code data-dev-comment-type="paramref" class="paramref">protectedUri</code> is invalid, token has expired or one or more of the necessary parameters is missing.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_System_Uri_System_Byte___System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri(System.Uri%2CSystem.Byte%5B%5D%2CSystem.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_" data-uid="Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri*"></a>
+  <h4 id="Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_System_Uri_System_Byte___System_String_System_String_System_String_" data-uid="Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri(System.Uri,System.Byte[],System.String,System.String,System.String)">ParseTamperingProtectedUri(Uri, Byte[], String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Parses and verifies the tampering protected URI.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SecurityToken ParseTamperingProtectedUri(Uri protectedUri, byte[] securityKey, string token, string iv, string salt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><span class="parametername">protectedUri</span></td>
+        <td><p>The tampering protected URI.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">securityKey</span></td>
+        <td><p>The security key to use in the decryption of the <code data-dev-comment-type="paramref" class="paramref">token</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The security token to decrypt and parse for a <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">iv</span></td>
+        <td><p>The initialization vector (IV) to use in the decryption of the <code data-dev-comment-type="paramref" class="paramref">token</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">salt</span></td>
+        <td><p>The salt used in the computation of the integrity verification of <code data-dev-comment-type="paramref" class="paramref">protectedUri</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a></td>
+        <td><p>An instance of the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a> object if the <code data-dev-comment-type="paramref" class="paramref">protectedUri</code> is valid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>This exception is thrown when an unsucessfull parse is meet, hence values has been tampered with, <code data-dev-comment-type="paramref" class="paramref">protectedUri</code> is invalid, token has expired or one or more of the necessary parameters is missing.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_System_Uri_System_Byte___System_String_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri(System.Uri%2CSystem.Byte%5B%5D%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_" data-uid="Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri*"></a>
+  <h4 id="Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_System_Uri_System_Byte___System_String_System_String_System_String_System_String_" data-uid="Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri(System.Uri,System.Byte[],System.String,System.String,System.String,System.String)">ParseTamperingProtectedUri(Uri, Byte[], String, String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Parses and verifies the tampering protected URI.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SecurityToken ParseTamperingProtectedUri(Uri protectedUri, byte[] securityKey, string token, string iv, string salt, string hash)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><span class="parametername">protectedUri</span></td>
+        <td><p>The tampering protected URI.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">securityKey</span></td>
+        <td><p>The security key to use in the decryption of the <code data-dev-comment-type="paramref" class="paramref">token</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The security token to decrypt and parse for a <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">iv</span></td>
+        <td><p>The initialization vector (IV) to use in the decryption of the <code data-dev-comment-type="paramref" class="paramref">token</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">salt</span></td>
+        <td><p>The salt used in the computation of the integrity verification of <code data-dev-comment-type="paramref" class="paramref">protectedUri</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">hash</span></td>
+        <td><p>The checksum to verify the integrity of <code data-dev-comment-type="paramref" class="paramref">protectedUri</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a></td>
+        <td><p>An instance of the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a> object if the <code data-dev-comment-type="paramref" class="paramref">protectedUri</code> is valid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>This exception is thrown when an unsucessfull parse is meet, hence values has been tampered with, <code data-dev-comment-type="paramref" class="paramref">protectedUri</code> is invalid, token has expired or one or more of the necessary parameters is missing.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_System_Uri_System_Byte___System_String_System_String_System_String_System_String_Cuemon_Security_Cryptography_HashAlgorithmType_.md&amp;value=---%0Auid%3A%20Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri(System.Uri%2CSystem.Byte%5B%5D%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CCuemon.Security.Cryptography.HashAlgorithmType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_" data-uid="Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri*"></a>
+  <h4 id="Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_System_Uri_System_Byte___System_String_System_String_System_String_System_String_Cuemon_Security_Cryptography_HashAlgorithmType_" data-uid="Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri(System.Uri,System.Byte[],System.String,System.String,System.String,System.String,Cuemon.Security.Cryptography.HashAlgorithmType)">ParseTamperingProtectedUri(Uri, Byte[], String, String, String, String, HashAlgorithmType)</h4>
+  <div class="markdown level1 summary"><p>Parses and verifies the tampering protected URI.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SecurityToken ParseTamperingProtectedUri(Uri protectedUri, byte[] securityKey, string token, string iv, string salt, string hash, HashAlgorithmType algorithmType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><span class="parametername">protectedUri</span></td>
+        <td><p>The tampering protected URI.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">securityKey</span></td>
+        <td><p>The security key to use in the decryption of the <code data-dev-comment-type="paramref" class="paramref">token</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The security token to decrypt and parse for a <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">iv</span></td>
+        <td><p>The initialization vector (IV) to use in the decryption of the <code data-dev-comment-type="paramref" class="paramref">token</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">salt</span></td>
+        <td><p>The salt used in the computation of the integrity verification of <code data-dev-comment-type="paramref" class="paramref">protectedUri</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">hash</span></td>
+        <td><p>The checksum to verify the integrity of <code data-dev-comment-type="paramref" class="paramref">protectedUri</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.Cryptography.HashAlgorithmType.html">HashAlgorithmType</a></td>
+        <td><span class="parametername">algorithmType</span></td>
+        <td><p>The hash algorithm to use for the <code data-dev-comment-type="paramref" class="paramref">protectedUri</code> checksum computation. Default is <strong><a class="xref" href="Cuemon.Security.Cryptography.HashAlgorithmType.html#Cuemon_Security_Cryptography_HashAlgorithmType_SHA1">SHA1</a></strong>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a></td>
+        <td><p>An instance of the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a> object if the <code data-dev-comment-type="paramref" class="paramref">protectedUri</code> is valid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>This exception is thrown when an unsucessfull parse is meet, hence values has been tampered with, <code data-dev-comment-type="paramref" class="paramref">protectedUri</code> is invalid, token has expired or one or more of the necessary parameters is missing.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_System_Uri_System_Byte___System_String_System_String_System_String_System_String_Cuemon_Security_Cryptography_HashAlgorithmType_System_String_.md&amp;value=---%0Auid%3A%20Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri(System.Uri%2CSystem.Byte%5B%5D%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CCuemon.Security.Cryptography.HashAlgorithmType%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_" data-uid="Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri*"></a>
+  <h4 id="Cuemon_Web_Security_WebSecurityUtility_ParseTamperingProtectedUri_System_Uri_System_Byte___System_String_System_String_System_String_System_String_Cuemon_Security_Cryptography_HashAlgorithmType_System_String_" data-uid="Cuemon.Web.Security.WebSecurityUtility.ParseTamperingProtectedUri(System.Uri,System.Byte[],System.String,System.String,System.String,System.String,Cuemon.Security.Cryptography.HashAlgorithmType,System.String)">ParseTamperingProtectedUri(Uri, Byte[], String, String, String, String, HashAlgorithmType, String)</h4>
+  <div class="markdown level1 summary"><p>Parses and verifies the tampering protected URI.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SecurityToken ParseTamperingProtectedUri(Uri protectedUri, byte[] securityKey, string token, string iv, string salt, string hash, HashAlgorithmType algorithmType, string querystringParameterHashName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><span class="parametername">protectedUri</span></td>
+        <td><p>The tampering protected URI.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">securityKey</span></td>
+        <td><p>The security key to use in the decryption of the <code data-dev-comment-type="paramref" class="paramref">token</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The security token to decrypt and parse for a <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">iv</span></td>
+        <td><p>The initialization vector (IV) to use in the decryption of the <code data-dev-comment-type="paramref" class="paramref">token</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">salt</span></td>
+        <td><p>The salt used in the computation of the integrity verification of <code data-dev-comment-type="paramref" class="paramref">protectedUri</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">hash</span></td>
+        <td><p>The checksum to verify the integrity of <code data-dev-comment-type="paramref" class="paramref">protectedUri</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.Cryptography.HashAlgorithmType.html">HashAlgorithmType</a></td>
+        <td><span class="parametername">algorithmType</span></td>
+        <td><p>The hash algorithm to use for the <code data-dev-comment-type="paramref" class="paramref">protectedUri</code> checksum computation. Default is <strong><a class="xref" href="Cuemon.Security.Cryptography.HashAlgorithmType.html#Cuemon_Security_Cryptography_HashAlgorithmType_SHA1">SHA1</a></strong>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">querystringParameterHashName</span></td>
+        <td><p>The name of the checksum parameter to remove from the <code data-dev-comment-type="paramref" class="paramref">protectedUri</code> before integrity verification. Default is <strong>hash</strong>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a></td>
+        <td><p>An instance of the <a class="xref" href="Cuemon.Security.SecurityToken.html">SecurityToken</a> object if the <code data-dev-comment-type="paramref" class="paramref">protectedUri</code> is valid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>This exception is thrown when an unsucessfull parse is meet, hence values has been tampered with, <code data-dev-comment-type="paramref" class="paramref">protectedUri</code> is invalid, token has expired or one or more of the necessary parameters is missing.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+<div id="disqus_thread"></div>
+                <script>
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://cuemon-github.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Web_Security_WebSecurityUtility.md&amp;value=---%0Auid%3A%20Cuemon.Web.Security.WebSecurityUtility%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright 2008-2018 Weubphoria. All rights reserved.<br>Generated by <strong>DocFX</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

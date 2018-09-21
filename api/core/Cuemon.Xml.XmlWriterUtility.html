@@ -1,0 +1,2264 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class XmlWriterUtility
+   | Cuemon .NET Standard </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class XmlWriterUtility
+   | Cuemon .NET Standard ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/50x50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cuemon.Xml.XmlWriterUtility">
+  
+  
+  <h1 id="Cuemon_Xml_XmlWriterUtility" data-uid="Cuemon.Xml.XmlWriterUtility" class="text-break">Class XmlWriterUtility
+  </h1>
+  <div class="markdown level0 summary"><p>This utility class is designed to make <span class="xref">System.Xml.XmlWriter</span> related operations easier to work with.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">XmlWriterUtility</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cuemon.Xml.html">Cuemon.Xml</a></h6>
+  <h6><strong>Assembly</strong>: Cuemon.Xml.dll</h6>
+  <h5 id="Cuemon_Xml_XmlWriterUtility_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class XmlWriterUtility</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility_Copy_System_Xml_XmlReader_System_Action_Cuemon_Xml_XmlCopyOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility.Copy(System.Xml.XmlReader%2CSystem.Action%7BCuemon.Xml.XmlCopyOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Xml_XmlWriterUtility_Copy_" data-uid="Cuemon.Xml.XmlWriterUtility.Copy*"></a>
+  <h4 id="Cuemon_Xml_XmlWriterUtility_Copy_System_Xml_XmlReader_System_Action_Cuemon_Xml_XmlCopyOptions__" data-uid="Cuemon.Xml.XmlWriterUtility.Copy(System.Xml.XmlReader,System.Action{Cuemon.Xml.XmlCopyOptions})">Copy(XmlReader, Action&lt;XmlCopyOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Copies everything from the specified <code data-dev-comment-type="paramref" class="paramref">reader</code> and returns the result as an XML stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream Copy(XmlReader reader, Action&lt;XmlCopyOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.XmlReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p>The <span class="xref">System.Xml.XmlReader</span> object that contains the XML data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Xml.XmlCopyOptions.html">XmlCopyOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Xml.XmlCopyOptions.html">XmlCopyOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> holding an exact copy of the source <code data-dev-comment-type="paramref" class="paramref">reader</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">reader</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility_Copy_System_Xml_XmlReader_System_Action_System_Xml_XmlWriter_System_Xml_XmlReader__System_Action_Cuemon_Xml_XmlCopyOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility.Copy(System.Xml.XmlReader%2CSystem.Action%7BSystem.Xml.XmlWriter%2CSystem.Xml.XmlReader%7D%2CSystem.Action%7BCuemon.Xml.XmlCopyOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Xml_XmlWriterUtility_Copy_" data-uid="Cuemon.Xml.XmlWriterUtility.Copy*"></a>
+  <h4 id="Cuemon_Xml_XmlWriterUtility_Copy_System_Xml_XmlReader_System_Action_System_Xml_XmlWriter_System_Xml_XmlReader__System_Action_Cuemon_Xml_XmlCopyOptions__" data-uid="Cuemon.Xml.XmlWriterUtility.Copy(System.Xml.XmlReader,System.Action{System.Xml.XmlWriter,System.Xml.XmlReader},System.Action{Cuemon.Xml.XmlCopyOptions})">Copy(XmlReader, Action&lt;XmlWriter, XmlReader&gt;, Action&lt;XmlCopyOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Copies the specified <code data-dev-comment-type="paramref" class="paramref">reader</code> using the specified delegate <code data-dev-comment-type="paramref" class="paramref">copier</code> and returns the result as an XML stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream Copy(XmlReader reader, Action&lt;XmlWriter, XmlReader&gt; copier, Action&lt;XmlCopyOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.XmlReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p>The <span class="xref">System.Xml.XmlReader</span> object that contains the XML data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriter</span>, <span class="xref">System.Xml.XmlReader</span>&gt;</td>
+        <td><span class="parametername">copier</span></td>
+        <td><p>The delegate that will create an in-memory copy of <code data-dev-comment-type="paramref" class="paramref">reader</code> as a XML stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Xml.XmlCopyOptions.html">XmlCopyOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Xml.XmlCopyOptions.html">XmlCopyOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> holding the XML copied by the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code> from the source <code data-dev-comment-type="paramref" class="paramref">reader</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Cuemon_Xml_XmlWriterUtility_Copy_System_Xml_XmlReader_System_Action_System_Xml_XmlWriter_System_Xml_XmlReader__System_Action_Cuemon_Xml_XmlCopyOptions___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method uses a default implementation of <span class="xref">System.Xml.XmlWriterSettings</span> as specified by <a class="xref" href="Cuemon.Xml.XmlWriterUtility.html#Cuemon_Xml_XmlWriterUtility_CreateSettings_System_Action_System_Xml_XmlWriterSettings__">CreateSettings(Action&lt;XmlWriterSettings&gt;)</a>.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">reader</code> is null - or - <code data-dev-comment-type="paramref" class="paramref">copier</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility_Copy__1_System_Xml_XmlReader_System_Action_System_Xml_XmlWriter_System_Xml_XmlReader___0____0_System_Action_Cuemon_Xml_XmlCopyOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility.Copy%60%601(System.Xml.XmlReader%2CSystem.Action%7BSystem.Xml.XmlWriter%2CSystem.Xml.XmlReader%2C%60%600%7D%2C%60%600%2CSystem.Action%7BCuemon.Xml.XmlCopyOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Xml_XmlWriterUtility_Copy_" data-uid="Cuemon.Xml.XmlWriterUtility.Copy*"></a>
+  <h4 id="Cuemon_Xml_XmlWriterUtility_Copy__1_System_Xml_XmlReader_System_Action_System_Xml_XmlWriter_System_Xml_XmlReader___0____0_System_Action_Cuemon_Xml_XmlCopyOptions__" data-uid="Cuemon.Xml.XmlWriterUtility.Copy``1(System.Xml.XmlReader,System.Action{System.Xml.XmlWriter,System.Xml.XmlReader,``0},``0,System.Action{Cuemon.Xml.XmlCopyOptions})">Copy&lt;T&gt;(XmlReader, Action&lt;XmlWriter, XmlReader, T&gt;, T, Action&lt;XmlCopyOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Copies the specified <code data-dev-comment-type="paramref" class="paramref">reader</code> using the specified delegate <code data-dev-comment-type="paramref" class="paramref">copier</code> and returns the result as an XML stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream Copy&lt;T&gt;(XmlReader reader, Action&lt;XmlWriter, XmlReader, T&gt; copier, T arg, Action&lt;XmlCopyOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.XmlReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p>The <span class="xref">System.Xml.XmlReader</span> object that contains the XML data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriter</span>, <span class="xref">System.Xml.XmlReader</span>, T&gt;</td>
+        <td><span class="parametername">copier</span></td>
+        <td><p>The delegate that will create an in-memory copy of <code data-dev-comment-type="paramref" class="paramref">reader</code> as a XML stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td><p>The parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Xml.XmlCopyOptions.html">XmlCopyOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Xml.XmlCopyOptions.html">XmlCopyOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> holding the XML copied by the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code> from the source <code data-dev-comment-type="paramref" class="paramref">reader</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Cuemon_Xml_XmlWriterUtility_Copy__1_System_Xml_XmlReader_System_Action_System_Xml_XmlWriter_System_Xml_XmlReader___0____0_System_Action_Cuemon_Xml_XmlCopyOptions___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method uses a default implementation of <span class="xref">System.Xml.XmlWriterSettings</span> as specified by <a class="xref" href="Cuemon.Xml.XmlWriterUtility.html#Cuemon_Xml_XmlWriterUtility_CreateSettings_System_Action_System_Xml_XmlWriterSettings__">CreateSettings(Action&lt;XmlWriterSettings&gt;)</a>.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">reader</code> is null - or - <code data-dev-comment-type="paramref" class="paramref">copier</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility_Copy__2_System_Xml_XmlReader_System_Action_System_Xml_XmlWriter_System_Xml_XmlReader___0___1____0___1_System_Action_Cuemon_Xml_XmlCopyOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility.Copy%60%602(System.Xml.XmlReader%2CSystem.Action%7BSystem.Xml.XmlWriter%2CSystem.Xml.XmlReader%2C%60%600%2C%60%601%7D%2C%60%600%2C%60%601%2CSystem.Action%7BCuemon.Xml.XmlCopyOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Xml_XmlWriterUtility_Copy_" data-uid="Cuemon.Xml.XmlWriterUtility.Copy*"></a>
+  <h4 id="Cuemon_Xml_XmlWriterUtility_Copy__2_System_Xml_XmlReader_System_Action_System_Xml_XmlWriter_System_Xml_XmlReader___0___1____0___1_System_Action_Cuemon_Xml_XmlCopyOptions__" data-uid="Cuemon.Xml.XmlWriterUtility.Copy``2(System.Xml.XmlReader,System.Action{System.Xml.XmlWriter,System.Xml.XmlReader,``0,``1},``0,``1,System.Action{Cuemon.Xml.XmlCopyOptions})">Copy&lt;T1, T2&gt;(XmlReader, Action&lt;XmlWriter, XmlReader, T1, T2&gt;, T1, T2, Action&lt;XmlCopyOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Copies the specified <code data-dev-comment-type="paramref" class="paramref">reader</code> using the specified delegate <code data-dev-comment-type="paramref" class="paramref">copier</code> and returns the result as an XML stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream Copy&lt;T1, T2&gt;(XmlReader reader, Action&lt;XmlWriter, XmlReader, T1, T2&gt; copier, T1 arg1, T2 arg2, Action&lt;XmlCopyOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.XmlReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p>The <span class="xref">System.Xml.XmlReader</span> object that contains the XML data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriter</span>, <span class="xref">System.Xml.XmlReader</span>, T1, T2&gt;</td>
+        <td><span class="parametername">copier</span></td>
+        <td><p>The delegate that will create an in-memory copy of <code data-dev-comment-type="paramref" class="paramref">reader</code> as a XML stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Xml.XmlCopyOptions.html">XmlCopyOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Xml.XmlCopyOptions.html">XmlCopyOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> holding the XML copied by the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code> from the source <code data-dev-comment-type="paramref" class="paramref">reader</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Cuemon_Xml_XmlWriterUtility_Copy__2_System_Xml_XmlReader_System_Action_System_Xml_XmlWriter_System_Xml_XmlReader___0___1____0___1_System_Action_Cuemon_Xml_XmlCopyOptions___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method uses a default implementation of <span class="xref">System.Xml.XmlWriterSettings</span> as specified by <a class="xref" href="Cuemon.Xml.XmlWriterUtility.html#Cuemon_Xml_XmlWriterUtility_CreateSettings_System_Action_System_Xml_XmlWriterSettings__">CreateSettings(Action&lt;XmlWriterSettings&gt;)</a>.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">reader</code> is null - or - <code data-dev-comment-type="paramref" class="paramref">copier</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility_Copy__3_System_Xml_XmlReader_System_Action_System_Xml_XmlWriter_System_Xml_XmlReader___0___1___2____0___1___2_System_Action_Cuemon_Xml_XmlCopyOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility.Copy%60%603(System.Xml.XmlReader%2CSystem.Action%7BSystem.Xml.XmlWriter%2CSystem.Xml.XmlReader%2C%60%600%2C%60%601%2C%60%602%7D%2C%60%600%2C%60%601%2C%60%602%2CSystem.Action%7BCuemon.Xml.XmlCopyOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Xml_XmlWriterUtility_Copy_" data-uid="Cuemon.Xml.XmlWriterUtility.Copy*"></a>
+  <h4 id="Cuemon_Xml_XmlWriterUtility_Copy__3_System_Xml_XmlReader_System_Action_System_Xml_XmlWriter_System_Xml_XmlReader___0___1___2____0___1___2_System_Action_Cuemon_Xml_XmlCopyOptions__" data-uid="Cuemon.Xml.XmlWriterUtility.Copy``3(System.Xml.XmlReader,System.Action{System.Xml.XmlWriter,System.Xml.XmlReader,``0,``1,``2},``0,``1,``2,System.Action{Cuemon.Xml.XmlCopyOptions})">Copy&lt;T1, T2, T3&gt;(XmlReader, Action&lt;XmlWriter, XmlReader, T1, T2, T3&gt;, T1, T2, T3, Action&lt;XmlCopyOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Copies the specified <code data-dev-comment-type="paramref" class="paramref">reader</code> using the specified delegate <code data-dev-comment-type="paramref" class="paramref">copier</code> and returns the result as an XML stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream Copy&lt;T1, T2, T3&gt;(XmlReader reader, Action&lt;XmlWriter, XmlReader, T1, T2, T3&gt; copier, T1 arg1, T2 arg2, T3 arg3, Action&lt;XmlCopyOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.XmlReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p>The <span class="xref">System.Xml.XmlReader</span> object that contains the XML data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriter</span>, <span class="xref">System.Xml.XmlReader</span>, T1, T2, T3&gt;</td>
+        <td><span class="parametername">copier</span></td>
+        <td><p>The delegate that will create an in-memory copy of <code data-dev-comment-type="paramref" class="paramref">reader</code> as a XML stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Xml.XmlCopyOptions.html">XmlCopyOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Xml.XmlCopyOptions.html">XmlCopyOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> holding the XML copied by the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code> from the source <code data-dev-comment-type="paramref" class="paramref">reader</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Cuemon_Xml_XmlWriterUtility_Copy__3_System_Xml_XmlReader_System_Action_System_Xml_XmlWriter_System_Xml_XmlReader___0___1___2____0___1___2_System_Action_Cuemon_Xml_XmlCopyOptions___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method uses a default implementation of <span class="xref">System.Xml.XmlWriterSettings</span> as specified by <a class="xref" href="Cuemon.Xml.XmlWriterUtility.html#Cuemon_Xml_XmlWriterUtility_CreateSettings_System_Action_System_Xml_XmlWriterSettings__">CreateSettings(Action&lt;XmlWriterSettings&gt;)</a>.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">reader</code> is null - or - <code data-dev-comment-type="paramref" class="paramref">copier</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility_Copy__4_System_Xml_XmlReader_System_Action_System_Xml_XmlWriter_System_Xml_XmlReader___0___1___2___3____0___1___2___3_System_Action_Cuemon_Xml_XmlCopyOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility.Copy%60%604(System.Xml.XmlReader%2CSystem.Action%7BSystem.Xml.XmlWriter%2CSystem.Xml.XmlReader%2C%60%600%2C%60%601%2C%60%602%2C%60%603%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2CSystem.Action%7BCuemon.Xml.XmlCopyOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Xml_XmlWriterUtility_Copy_" data-uid="Cuemon.Xml.XmlWriterUtility.Copy*"></a>
+  <h4 id="Cuemon_Xml_XmlWriterUtility_Copy__4_System_Xml_XmlReader_System_Action_System_Xml_XmlWriter_System_Xml_XmlReader___0___1___2___3____0___1___2___3_System_Action_Cuemon_Xml_XmlCopyOptions__" data-uid="Cuemon.Xml.XmlWriterUtility.Copy``4(System.Xml.XmlReader,System.Action{System.Xml.XmlWriter,System.Xml.XmlReader,``0,``1,``2,``3},``0,``1,``2,``3,System.Action{Cuemon.Xml.XmlCopyOptions})">Copy&lt;T1, T2, T3, T4&gt;(XmlReader, Action&lt;XmlWriter, XmlReader, T1, T2, T3, T4&gt;, T1, T2, T3, T4, Action&lt;XmlCopyOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Copies the specified <code data-dev-comment-type="paramref" class="paramref">reader</code> using the specified delegate <code data-dev-comment-type="paramref" class="paramref">copier</code> and returns the result as an XML stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream Copy&lt;T1, T2, T3, T4&gt;(XmlReader reader, Action&lt;XmlWriter, XmlReader, T1, T2, T3, T4&gt; copier, T1 arg1, T2 arg2, T3 arg3, T4 arg4, Action&lt;XmlCopyOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.XmlReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p>The <span class="xref">System.Xml.XmlReader</span> object that contains the XML data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriter</span>, <span class="xref">System.Xml.XmlReader</span>, T1, T2, T3, T4&gt;</td>
+        <td><span class="parametername">copier</span></td>
+        <td><p>The delegate that will create an in-memory copy of <code data-dev-comment-type="paramref" class="paramref">reader</code> as a XML stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Xml.XmlCopyOptions.html">XmlCopyOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Xml.XmlCopyOptions.html">XmlCopyOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> holding the XML copied by the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code> from the source <code data-dev-comment-type="paramref" class="paramref">reader</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Cuemon_Xml_XmlWriterUtility_Copy__4_System_Xml_XmlReader_System_Action_System_Xml_XmlWriter_System_Xml_XmlReader___0___1___2___3____0___1___2___3_System_Action_Cuemon_Xml_XmlCopyOptions___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method uses a default implementation of <span class="xref">System.Xml.XmlWriterSettings</span> as specified by <a class="xref" href="Cuemon.Xml.XmlWriterUtility.html#Cuemon_Xml_XmlWriterUtility_CreateSettings_System_Action_System_Xml_XmlWriterSettings__">CreateSettings(Action&lt;XmlWriterSettings&gt;)</a>.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">reader</code> is null - or - <code data-dev-comment-type="paramref" class="paramref">copier</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility_Copy__5_System_Xml_XmlReader_System_Action_System_Xml_XmlWriter_System_Xml_XmlReader___0___1___2___3___4____0___1___2___3___4_System_Action_Cuemon_Xml_XmlCopyOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility.Copy%60%605(System.Xml.XmlReader%2CSystem.Action%7BSystem.Xml.XmlWriter%2CSystem.Xml.XmlReader%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2CSystem.Action%7BCuemon.Xml.XmlCopyOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Xml_XmlWriterUtility_Copy_" data-uid="Cuemon.Xml.XmlWriterUtility.Copy*"></a>
+  <h4 id="Cuemon_Xml_XmlWriterUtility_Copy__5_System_Xml_XmlReader_System_Action_System_Xml_XmlWriter_System_Xml_XmlReader___0___1___2___3___4____0___1___2___3___4_System_Action_Cuemon_Xml_XmlCopyOptions__" data-uid="Cuemon.Xml.XmlWriterUtility.Copy``5(System.Xml.XmlReader,System.Action{System.Xml.XmlWriter,System.Xml.XmlReader,``0,``1,``2,``3,``4},``0,``1,``2,``3,``4,System.Action{Cuemon.Xml.XmlCopyOptions})">Copy&lt;T1, T2, T3, T4, T5&gt;(XmlReader, Action&lt;XmlWriter, XmlReader, T1, T2, T3, T4, T5&gt;, T1, T2, T3, T4, T5, Action&lt;XmlCopyOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Copies the specified <code data-dev-comment-type="paramref" class="paramref">reader</code> using the specified delegate <code data-dev-comment-type="paramref" class="paramref">copier</code> and returns the result as an XML stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream Copy&lt;T1, T2, T3, T4, T5&gt;(XmlReader reader, Action&lt;XmlWriter, XmlReader, T1, T2, T3, T4, T5&gt; copier, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, Action&lt;XmlCopyOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.XmlReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p>The <span class="xref">System.Xml.XmlReader</span> object that contains the XML data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriter</span>, <span class="xref">System.Xml.XmlReader</span>, T1, T2, T3, T4, T5&gt;</td>
+        <td><span class="parametername">copier</span></td>
+        <td><p>The delegate that will create an in-memory copy of <code data-dev-comment-type="paramref" class="paramref">reader</code> as a XML stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Xml.XmlCopyOptions.html">XmlCopyOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Xml.XmlCopyOptions.html">XmlCopyOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> holding the XML copied by the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code> from the source <code data-dev-comment-type="paramref" class="paramref">reader</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">copier</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Cuemon_Xml_XmlWriterUtility_Copy__5_System_Xml_XmlReader_System_Action_System_Xml_XmlWriter_System_Xml_XmlReader___0___1___2___3___4____0___1___2___3___4_System_Action_Cuemon_Xml_XmlCopyOptions___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method uses a default implementation of <span class="xref">System.Xml.XmlWriterSettings</span> as specified by <a class="xref" href="Cuemon.Xml.XmlWriterUtility.html#Cuemon_Xml_XmlWriterUtility_CreateSettings_System_Action_System_Xml_XmlWriterSettings__">CreateSettings(Action&lt;XmlWriterSettings&gt;)</a>.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">reader</code> is null - or - <code data-dev-comment-type="paramref" class="paramref">copier</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility_CreateSettings_System_Action_System_Xml_XmlWriterSettings__.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility.CreateSettings(System.Action%7BSystem.Xml.XmlWriterSettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Xml_XmlWriterUtility_CreateSettings_" data-uid="Cuemon.Xml.XmlWriterUtility.CreateSettings*"></a>
+  <h4 id="Cuemon_Xml_XmlWriterUtility_CreateSettings_System_Action_System_Xml_XmlWriterSettings__" data-uid="Cuemon.Xml.XmlWriterUtility.CreateSettings(System.Action{System.Xml.XmlWriterSettings})">CreateSettings(Action&lt;XmlWriterSettings&gt;)</h4>
+  <div class="markdown level1 summary"><p>Specifies a set of features to support the <span class="xref">System.Xml.XmlWriter</span> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static XmlWriterSettings CreateSettings(Action&lt;XmlWriterSettings&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriterSettings</span>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.XmlWriterSettings</span></td>
+        <td><p>A <span class="xref">System.Xml.XmlWriterSettings</span> instance that specifies a set of features to support the <span class="xref">System.Xml.XmlWriter</span> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Cuemon_Xml_XmlWriterUtility_CreateSettings_System_Action_System_Xml_XmlWriterSettings___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The following table shows the overridden initial property values for an instance of <span class="xref">System.Xml.XmlWriterSettings</span>.<br>
+The initial property values can be viewed here: <a href="https://msdn.microsoft.com/EN-US/library/536k980t(v=VS.110,d=hv.2).aspx">https://msdn.microsoft.com/EN-US/library/536k980t(v=VS.110,d=hv.2).aspx</a></p>
+<table><thead><tr><th>Property</th><th>Initial Value</th></tr></thead><tbody><tr><td><span class="xref">System.Xml.XmlWriterSettings.IndentChars</span></td><td><a class="xref" href="Cuemon.StringUtility.html#Cuemon_StringUtility_Tab">Tab</a></td></tr></tbody></table>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility_CreateXml_System_Action_System_Xml_XmlWriter__System_Action_System_Xml_XmlWriterSettings__.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility.CreateXml(System.Action%7BSystem.Xml.XmlWriter%7D%2CSystem.Action%7BSystem.Xml.XmlWriterSettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Xml_XmlWriterUtility_CreateXml_" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml*"></a>
+  <h4 id="Cuemon_Xml_XmlWriterUtility_CreateXml_System_Action_System_Xml_XmlWriter__System_Action_System_Xml_XmlWriterSettings__" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml(System.Action{System.Xml.XmlWriter},System.Action{System.Xml.XmlWriterSettings})">CreateXml(Action&lt;XmlWriter&gt;, Action&lt;XmlWriterSettings&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates and returns a XML stream by the specified delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream CreateXml(Action&lt;XmlWriter&gt; writer, Action&lt;XmlWriterSettings&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriter</span>&gt;</td>
+        <td><span class="parametername">writer</span></td>
+        <td><p>The delegate that will create an in-memory XML stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriterSettings</span>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <span class="xref">System.Xml.XmlWriterSettings</span> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> holding the XML created by the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility_CreateXml__1_System_Action_System_Xml_XmlWriter___0____0_System_Action_System_Xml_XmlWriterSettings__.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility.CreateXml%60%601(System.Action%7BSystem.Xml.XmlWriter%2C%60%600%7D%2C%60%600%2CSystem.Action%7BSystem.Xml.XmlWriterSettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Xml_XmlWriterUtility_CreateXml_" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml*"></a>
+  <h4 id="Cuemon_Xml_XmlWriterUtility_CreateXml__1_System_Action_System_Xml_XmlWriter___0____0_System_Action_System_Xml_XmlWriterSettings__" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml``1(System.Action{System.Xml.XmlWriter,``0},``0,System.Action{System.Xml.XmlWriterSettings})">CreateXml&lt;T&gt;(Action&lt;XmlWriter, T&gt;, T, Action&lt;XmlWriterSettings&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates and returns a XML stream by the specified delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream CreateXml&lt;T&gt;(Action&lt;XmlWriter, T&gt; writer, T arg, Action&lt;XmlWriterSettings&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriter</span>, T&gt;</td>
+        <td><span class="parametername">writer</span></td>
+        <td><p>The delegate that will create an in-memory XML stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td><p>The parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriterSettings</span>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <span class="xref">System.Xml.XmlWriterSettings</span> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> holding the XML created by the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility_CreateXml__10_System_Action_System_Xml_XmlWriter___0___1___2___3___4___5___6___7___8___9____0___1___2___3___4___5___6___7___8___9_System_Action_System_Xml_XmlWriterSettings__.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility.CreateXml%60%6010(System.Action%7BSystem.Xml.XmlWriter%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606%2C%60%607%2C%60%608%2C%60%609%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606%2C%60%607%2C%60%608%2C%60%609%2CSystem.Action%7BSystem.Xml.XmlWriterSettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Xml_XmlWriterUtility_CreateXml_" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml*"></a>
+  <h4 id="Cuemon_Xml_XmlWriterUtility_CreateXml__10_System_Action_System_Xml_XmlWriter___0___1___2___3___4___5___6___7___8___9____0___1___2___3___4___5___6___7___8___9_System_Action_System_Xml_XmlWriterSettings__" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml``10(System.Action{System.Xml.XmlWriter,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9},``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,System.Action{System.Xml.XmlWriterSettings})">CreateXml&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10&gt;(Action&lt;XmlWriter, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10&gt;, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, Action&lt;XmlWriterSettings&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates and returns a XML stream by the specified delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream CreateXml&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10&gt;(Action&lt;XmlWriter, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10&gt; writer, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, Action&lt;XmlWriterSettings&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriter</span>, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10&gt;</td>
+        <td><span class="parametername">writer</span></td>
+        <td><p>The delegate that will create an in-memory XML stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T6</span></td>
+        <td><span class="parametername">arg6</span></td>
+        <td><p>The sixth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T7</span></td>
+        <td><span class="parametername">arg7</span></td>
+        <td><p>The seventh parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T8</span></td>
+        <td><span class="parametername">arg8</span></td>
+        <td><p>The eighth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T9</span></td>
+        <td><span class="parametername">arg9</span></td>
+        <td><p>The ninth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T10</span></td>
+        <td><span class="parametername">arg10</span></td>
+        <td><p>The tenth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriterSettings</span>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <span class="xref">System.Xml.XmlWriterSettings</span> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> holding the XML created by the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td><p>The type of the sixth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T7</span></td>
+        <td><p>The type of the seventh parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T8</span></td>
+        <td><p>The type of the eighth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T9</span></td>
+        <td><p>The type of the ninth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T10</span></td>
+        <td><p>The type of the tenth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility_CreateXml__2_System_Action_System_Xml_XmlWriter___0___1____0___1_System_Action_System_Xml_XmlWriterSettings__.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility.CreateXml%60%602(System.Action%7BSystem.Xml.XmlWriter%2C%60%600%2C%60%601%7D%2C%60%600%2C%60%601%2CSystem.Action%7BSystem.Xml.XmlWriterSettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Xml_XmlWriterUtility_CreateXml_" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml*"></a>
+  <h4 id="Cuemon_Xml_XmlWriterUtility_CreateXml__2_System_Action_System_Xml_XmlWriter___0___1____0___1_System_Action_System_Xml_XmlWriterSettings__" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml``2(System.Action{System.Xml.XmlWriter,``0,``1},``0,``1,System.Action{System.Xml.XmlWriterSettings})">CreateXml&lt;T1, T2&gt;(Action&lt;XmlWriter, T1, T2&gt;, T1, T2, Action&lt;XmlWriterSettings&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates and returns a XML stream by the specified delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream CreateXml&lt;T1, T2&gt;(Action&lt;XmlWriter, T1, T2&gt; writer, T1 arg1, T2 arg2, Action&lt;XmlWriterSettings&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriter</span>, T1, T2&gt;</td>
+        <td><span class="parametername">writer</span></td>
+        <td><p>The delegate that will create an in-memory XML stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriterSettings</span>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <span class="xref">System.Xml.XmlWriterSettings</span> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> holding the XML created by the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility_CreateXml__3_System_Action_System_Xml_XmlWriter___0___1___2____0___1___2_System_Action_System_Xml_XmlWriterSettings__.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility.CreateXml%60%603(System.Action%7BSystem.Xml.XmlWriter%2C%60%600%2C%60%601%2C%60%602%7D%2C%60%600%2C%60%601%2C%60%602%2CSystem.Action%7BSystem.Xml.XmlWriterSettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Xml_XmlWriterUtility_CreateXml_" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml*"></a>
+  <h4 id="Cuemon_Xml_XmlWriterUtility_CreateXml__3_System_Action_System_Xml_XmlWriter___0___1___2____0___1___2_System_Action_System_Xml_XmlWriterSettings__" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml``3(System.Action{System.Xml.XmlWriter,``0,``1,``2},``0,``1,``2,System.Action{System.Xml.XmlWriterSettings})">CreateXml&lt;T1, T2, T3&gt;(Action&lt;XmlWriter, T1, T2, T3&gt;, T1, T2, T3, Action&lt;XmlWriterSettings&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates and returns a XML stream by the specified delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream CreateXml&lt;T1, T2, T3&gt;(Action&lt;XmlWriter, T1, T2, T3&gt; writer, T1 arg1, T2 arg2, T3 arg3, Action&lt;XmlWriterSettings&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriter</span>, T1, T2, T3&gt;</td>
+        <td><span class="parametername">writer</span></td>
+        <td><p>The delegate that will create an in-memory XML stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriterSettings</span>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <span class="xref">System.Xml.XmlWriterSettings</span> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> holding the XML created by the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility_CreateXml__4_System_Action_System_Xml_XmlWriter___0___1___2___3____0___1___2___3_System_Action_System_Xml_XmlWriterSettings__.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility.CreateXml%60%604(System.Action%7BSystem.Xml.XmlWriter%2C%60%600%2C%60%601%2C%60%602%2C%60%603%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2CSystem.Action%7BSystem.Xml.XmlWriterSettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Xml_XmlWriterUtility_CreateXml_" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml*"></a>
+  <h4 id="Cuemon_Xml_XmlWriterUtility_CreateXml__4_System_Action_System_Xml_XmlWriter___0___1___2___3____0___1___2___3_System_Action_System_Xml_XmlWriterSettings__" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml``4(System.Action{System.Xml.XmlWriter,``0,``1,``2,``3},``0,``1,``2,``3,System.Action{System.Xml.XmlWriterSettings})">CreateXml&lt;T1, T2, T3, T4&gt;(Action&lt;XmlWriter, T1, T2, T3, T4&gt;, T1, T2, T3, T4, Action&lt;XmlWriterSettings&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates and returns a XML stream by the specified delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream CreateXml&lt;T1, T2, T3, T4&gt;(Action&lt;XmlWriter, T1, T2, T3, T4&gt; writer, T1 arg1, T2 arg2, T3 arg3, T4 arg4, Action&lt;XmlWriterSettings&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriter</span>, T1, T2, T3, T4&gt;</td>
+        <td><span class="parametername">writer</span></td>
+        <td><p>The delegate that will create an in-memory XML stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriterSettings</span>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <span class="xref">System.Xml.XmlWriterSettings</span> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> holding the XML created by the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility_CreateXml__5_System_Action_System_Xml_XmlWriter___0___1___2___3___4____0___1___2___3___4_System_Action_System_Xml_XmlWriterSettings__.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility.CreateXml%60%605(System.Action%7BSystem.Xml.XmlWriter%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2CSystem.Action%7BSystem.Xml.XmlWriterSettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Xml_XmlWriterUtility_CreateXml_" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml*"></a>
+  <h4 id="Cuemon_Xml_XmlWriterUtility_CreateXml__5_System_Action_System_Xml_XmlWriter___0___1___2___3___4____0___1___2___3___4_System_Action_System_Xml_XmlWriterSettings__" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml``5(System.Action{System.Xml.XmlWriter,``0,``1,``2,``3,``4},``0,``1,``2,``3,``4,System.Action{System.Xml.XmlWriterSettings})">CreateXml&lt;T1, T2, T3, T4, T5&gt;(Action&lt;XmlWriter, T1, T2, T3, T4, T5&gt;, T1, T2, T3, T4, T5, Action&lt;XmlWriterSettings&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates and returns a XML stream by the specified delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream CreateXml&lt;T1, T2, T3, T4, T5&gt;(Action&lt;XmlWriter, T1, T2, T3, T4, T5&gt; writer, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, Action&lt;XmlWriterSettings&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriter</span>, T1, T2, T3, T4, T5&gt;</td>
+        <td><span class="parametername">writer</span></td>
+        <td><p>The delegate that will create an in-memory XML stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriterSettings</span>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <span class="xref">System.Xml.XmlWriterSettings</span> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> holding the XML created by the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility_CreateXml__6_System_Action_System_Xml_XmlWriter___0___1___2___3___4___5____0___1___2___3___4___5_System_Action_System_Xml_XmlWriterSettings__.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility.CreateXml%60%606(System.Action%7BSystem.Xml.XmlWriter%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2CSystem.Action%7BSystem.Xml.XmlWriterSettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Xml_XmlWriterUtility_CreateXml_" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml*"></a>
+  <h4 id="Cuemon_Xml_XmlWriterUtility_CreateXml__6_System_Action_System_Xml_XmlWriter___0___1___2___3___4___5____0___1___2___3___4___5_System_Action_System_Xml_XmlWriterSettings__" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml``6(System.Action{System.Xml.XmlWriter,``0,``1,``2,``3,``4,``5},``0,``1,``2,``3,``4,``5,System.Action{System.Xml.XmlWriterSettings})">CreateXml&lt;T1, T2, T3, T4, T5, T6&gt;(Action&lt;XmlWriter, T1, T2, T3, T4, T5, T6&gt;, T1, T2, T3, T4, T5, T6, Action&lt;XmlWriterSettings&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates and returns a XML stream by the specified delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream CreateXml&lt;T1, T2, T3, T4, T5, T6&gt;(Action&lt;XmlWriter, T1, T2, T3, T4, T5, T6&gt; writer, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, Action&lt;XmlWriterSettings&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriter</span>, T1, T2, T3, T4, T5, T6&gt;</td>
+        <td><span class="parametername">writer</span></td>
+        <td><p>The delegate that will create an in-memory XML stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T6</span></td>
+        <td><span class="parametername">arg6</span></td>
+        <td><p>The sixth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriterSettings</span>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <span class="xref">System.Xml.XmlWriterSettings</span> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> holding the XML created by the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td><p>The type of the sixth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility_CreateXml__7_System_Action_System_Xml_XmlWriter___0___1___2___3___4___5___6____0___1___2___3___4___5___6_System_Action_System_Xml_XmlWriterSettings__.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility.CreateXml%60%607(System.Action%7BSystem.Xml.XmlWriter%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606%2CSystem.Action%7BSystem.Xml.XmlWriterSettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Xml_XmlWriterUtility_CreateXml_" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml*"></a>
+  <h4 id="Cuemon_Xml_XmlWriterUtility_CreateXml__7_System_Action_System_Xml_XmlWriter___0___1___2___3___4___5___6____0___1___2___3___4___5___6_System_Action_System_Xml_XmlWriterSettings__" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml``7(System.Action{System.Xml.XmlWriter,``0,``1,``2,``3,``4,``5,``6},``0,``1,``2,``3,``4,``5,``6,System.Action{System.Xml.XmlWriterSettings})">CreateXml&lt;T1, T2, T3, T4, T5, T6, T7&gt;(Action&lt;XmlWriter, T1, T2, T3, T4, T5, T6, T7&gt;, T1, T2, T3, T4, T5, T6, T7, Action&lt;XmlWriterSettings&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates and returns a XML stream by the specified delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream CreateXml&lt;T1, T2, T3, T4, T5, T6, T7&gt;(Action&lt;XmlWriter, T1, T2, T3, T4, T5, T6, T7&gt; writer, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, Action&lt;XmlWriterSettings&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriter</span>, T1, T2, T3, T4, T5, T6, T7&gt;</td>
+        <td><span class="parametername">writer</span></td>
+        <td><p>The delegate that will create an in-memory XML stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T6</span></td>
+        <td><span class="parametername">arg6</span></td>
+        <td><p>The sixth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T7</span></td>
+        <td><span class="parametername">arg7</span></td>
+        <td><p>The seventh parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriterSettings</span>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <span class="xref">System.Xml.XmlWriterSettings</span> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> holding the XML created by the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td><p>The type of the sixth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T7</span></td>
+        <td><p>The type of the seventh parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility_CreateXml__8_System_Action_System_Xml_XmlWriter___0___1___2___3___4___5___6___7____0___1___2___3___4___5___6___7_System_Action_System_Xml_XmlWriterSettings__.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility.CreateXml%60%608(System.Action%7BSystem.Xml.XmlWriter%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606%2C%60%607%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606%2C%60%607%2CSystem.Action%7BSystem.Xml.XmlWriterSettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Xml_XmlWriterUtility_CreateXml_" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml*"></a>
+  <h4 id="Cuemon_Xml_XmlWriterUtility_CreateXml__8_System_Action_System_Xml_XmlWriter___0___1___2___3___4___5___6___7____0___1___2___3___4___5___6___7_System_Action_System_Xml_XmlWriterSettings__" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml``8(System.Action{System.Xml.XmlWriter,``0,``1,``2,``3,``4,``5,``6,``7},``0,``1,``2,``3,``4,``5,``6,``7,System.Action{System.Xml.XmlWriterSettings})">CreateXml&lt;T1, T2, T3, T4, T5, T6, T7, T8&gt;(Action&lt;XmlWriter, T1, T2, T3, T4, T5, T6, T7, T8&gt;, T1, T2, T3, T4, T5, T6, T7, T8, Action&lt;XmlWriterSettings&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates and returns a XML stream by the specified delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream CreateXml&lt;T1, T2, T3, T4, T5, T6, T7, T8&gt;(Action&lt;XmlWriter, T1, T2, T3, T4, T5, T6, T7, T8&gt; writer, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, Action&lt;XmlWriterSettings&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriter</span>, T1, T2, T3, T4, T5, T6, T7, T8&gt;</td>
+        <td><span class="parametername">writer</span></td>
+        <td><p>The delegate that will create an in-memory XML stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T6</span></td>
+        <td><span class="parametername">arg6</span></td>
+        <td><p>The sixth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T7</span></td>
+        <td><span class="parametername">arg7</span></td>
+        <td><p>The seventh parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T8</span></td>
+        <td><span class="parametername">arg8</span></td>
+        <td><p>The eighth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriterSettings</span>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <span class="xref">System.Xml.XmlWriterSettings</span> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> holding the XML created by the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td><p>The type of the sixth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T7</span></td>
+        <td><p>The type of the seventh parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T8</span></td>
+        <td><p>The type of the eighth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility_CreateXml__9_System_Action_System_Xml_XmlWriter___0___1___2___3___4___5___6___7___8____0___1___2___3___4___5___6___7___8_System_Action_System_Xml_XmlWriterSettings__.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility.CreateXml%60%609(System.Action%7BSystem.Xml.XmlWriter%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606%2C%60%607%2C%60%608%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606%2C%60%607%2C%60%608%2CSystem.Action%7BSystem.Xml.XmlWriterSettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Xml_XmlWriterUtility_CreateXml_" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml*"></a>
+  <h4 id="Cuemon_Xml_XmlWriterUtility_CreateXml__9_System_Action_System_Xml_XmlWriter___0___1___2___3___4___5___6___7___8____0___1___2___3___4___5___6___7___8_System_Action_System_Xml_XmlWriterSettings__" data-uid="Cuemon.Xml.XmlWriterUtility.CreateXml``9(System.Action{System.Xml.XmlWriter,``0,``1,``2,``3,``4,``5,``6,``7,``8},``0,``1,``2,``3,``4,``5,``6,``7,``8,System.Action{System.Xml.XmlWriterSettings})">CreateXml&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9&gt;(Action&lt;XmlWriter, T1, T2, T3, T4, T5, T6, T7, T8, T9&gt;, T1, T2, T3, T4, T5, T6, T7, T8, T9, Action&lt;XmlWriterSettings&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates and returns a XML stream by the specified delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Stream CreateXml&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9&gt;(Action&lt;XmlWriter, T1, T2, T3, T4, T5, T6, T7, T8, T9&gt; writer, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, Action&lt;XmlWriterSettings&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriter</span>, T1, T2, T3, T4, T5, T6, T7, T8, T9&gt;</td>
+        <td><span class="parametername">writer</span></td>
+        <td><p>The delegate that will create an in-memory XML stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T6</span></td>
+        <td><span class="parametername">arg6</span></td>
+        <td><p>The sixth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T7</span></td>
+        <td><span class="parametername">arg7</span></td>
+        <td><p>The seventh parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T8</span></td>
+        <td><span class="parametername">arg8</span></td>
+        <td><p>The eighth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T9</span></td>
+        <td><span class="parametername">arg9</span></td>
+        <td><p>The ninth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.XmlWriterSettings</span>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <span class="xref">System.Xml.XmlWriterSettings</span> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><p>A <span class="xref">System.IO.Stream</span> holding the XML created by the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td><p>The type of the sixth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T7</span></td>
+        <td><p>The type of the seventh parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T8</span></td>
+        <td><p>The type of the eighth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T9</span></td>
+        <td><p>The type of the ninth parameter of the delegate <code data-dev-comment-type="paramref" class="paramref">writer</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+<div id="disqus_thread"></div>
+                <script>
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://cuemon-github.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Xml_XmlWriterUtility.md&amp;value=---%0Auid%3A%20Cuemon.Xml.XmlWriterUtility%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright 2008-2018 Weubphoria. All rights reserved.<br>Generated by <strong>DocFX</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

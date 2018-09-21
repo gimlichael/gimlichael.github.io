@@ -1,0 +1,1717 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TesterFuncUtility
+   | Cuemon .NET Standard </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TesterFuncUtility
+   | Cuemon .NET Standard ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/50x50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cuemon.TesterFuncUtility">
+  
+  
+  <h1 id="Cuemon_TesterFuncUtility" data-uid="Cuemon.TesterFuncUtility" class="text-break">Class TesterFuncUtility
+  </h1>
+  <div class="markdown level0 summary"><p>This utility class is designed to handle those rare scenarios where you have knowledge about potential exceptions that can be safely ignored.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">TesterFuncUtility</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cuemon.html">Cuemon</a></h6>
+  <h6><strong>Assembly</strong>: Cuemon.Core.dll</h6>
+  <h5 id="Cuemon_TesterFuncUtility_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class TesterFuncUtility</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TesterFuncUtility_TryExecuteAction_System_Action_.md&amp;value=---%0Auid%3A%20Cuemon.TesterFuncUtility.TryExecuteAction(System.Action)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TesterFuncUtility_TryExecuteAction_" data-uid="Cuemon.TesterFuncUtility.TryExecuteAction*"></a>
+  <h4 id="Cuemon_TesterFuncUtility_TryExecuteAction_System_Action_" data-uid="Cuemon.TesterFuncUtility.TryExecuteAction(System.Action)">TryExecuteAction(Action)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the specified <code data-dev-comment-type="paramref" class="paramref">method</code> can be invoked without an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryExecuteAction(Action method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The delegate to invoke.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the delegate <code data-dev-comment-type="paramref" class="paramref">method</code> was invoked without triggering an exception; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TesterFuncUtility_TryExecuteAction__1_System_Action___0____0_.md&amp;value=---%0Auid%3A%20Cuemon.TesterFuncUtility.TryExecuteAction%60%601(System.Action%7B%60%600%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TesterFuncUtility_TryExecuteAction_" data-uid="Cuemon.TesterFuncUtility.TryExecuteAction*"></a>
+  <h4 id="Cuemon_TesterFuncUtility_TryExecuteAction__1_System_Action___0____0_" data-uid="Cuemon.TesterFuncUtility.TryExecuteAction``1(System.Action{``0},``0)">TryExecuteAction&lt;T&gt;(Action&lt;T&gt;, T)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the specified <code data-dev-comment-type="paramref" class="paramref">method</code> can be invoked without an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryExecuteAction&lt;T&gt;(Action&lt;T&gt; method, T arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The delegate to invoke.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td><p>The first parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the delegate <code data-dev-comment-type="paramref" class="paramref">method</code> was invoked without triggering an exception; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the parameter of the method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TesterFuncUtility_TryExecuteAction__2_System_Action___0___1____0___1_.md&amp;value=---%0Auid%3A%20Cuemon.TesterFuncUtility.TryExecuteAction%60%602(System.Action%7B%60%600%2C%60%601%7D%2C%60%600%2C%60%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TesterFuncUtility_TryExecuteAction_" data-uid="Cuemon.TesterFuncUtility.TryExecuteAction*"></a>
+  <h4 id="Cuemon_TesterFuncUtility_TryExecuteAction__2_System_Action___0___1____0___1_" data-uid="Cuemon.TesterFuncUtility.TryExecuteAction``2(System.Action{``0,``1},``0,``1)">TryExecuteAction&lt;T1, T2&gt;(Action&lt;T1, T2&gt;, T1, T2)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the specified <code data-dev-comment-type="paramref" class="paramref">method</code> can be invoked without an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryExecuteAction&lt;T1, T2&gt;(Action&lt;T1, T2&gt; method, T1 arg1, T2 arg2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, T2&gt;</td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The delegate to invoke.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the delegate <code data-dev-comment-type="paramref" class="paramref">method</code> was invoked without triggering an exception; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TesterFuncUtility_TryExecuteAction__3_System_Action___0___1___2____0___1___2_.md&amp;value=---%0Auid%3A%20Cuemon.TesterFuncUtility.TryExecuteAction%60%603(System.Action%7B%60%600%2C%60%601%2C%60%602%7D%2C%60%600%2C%60%601%2C%60%602)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TesterFuncUtility_TryExecuteAction_" data-uid="Cuemon.TesterFuncUtility.TryExecuteAction*"></a>
+  <h4 id="Cuemon_TesterFuncUtility_TryExecuteAction__3_System_Action___0___1___2____0___1___2_" data-uid="Cuemon.TesterFuncUtility.TryExecuteAction``3(System.Action{``0,``1,``2},``0,``1,``2)">TryExecuteAction&lt;T1, T2, T3&gt;(Action&lt;T1, T2, T3&gt;, T1, T2, T3)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the specified <code data-dev-comment-type="paramref" class="paramref">method</code> can be invoked without an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryExecuteAction&lt;T1, T2, T3&gt;(Action&lt;T1, T2, T3&gt; method, T1 arg1, T2 arg2, T3 arg3)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, T2, T3&gt;</td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The delegate to invoke.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the delegate <code data-dev-comment-type="paramref" class="paramref">method</code> was invoked without triggering an exception; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TesterFuncUtility_TryExecuteAction__4_System_Action___0___1___2___3____0___1___2___3_.md&amp;value=---%0Auid%3A%20Cuemon.TesterFuncUtility.TryExecuteAction%60%604(System.Action%7B%60%600%2C%60%601%2C%60%602%2C%60%603%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TesterFuncUtility_TryExecuteAction_" data-uid="Cuemon.TesterFuncUtility.TryExecuteAction*"></a>
+  <h4 id="Cuemon_TesterFuncUtility_TryExecuteAction__4_System_Action___0___1___2___3____0___1___2___3_" data-uid="Cuemon.TesterFuncUtility.TryExecuteAction``4(System.Action{``0,``1,``2,``3},``0,``1,``2,``3)">TryExecuteAction&lt;T1, T2, T3, T4&gt;(Action&lt;T1, T2, T3, T4&gt;, T1, T2, T3, T4)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the specified <code data-dev-comment-type="paramref" class="paramref">method</code> can be invoked without an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryExecuteAction&lt;T1, T2, T3, T4&gt;(Action&lt;T1, T2, T3, T4&gt; method, T1 arg1, T2 arg2, T3 arg3, T4 arg4)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, T2, T3, T4&gt;</td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The delegate to invoke.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the delegate <code data-dev-comment-type="paramref" class="paramref">method</code> was invoked without triggering an exception; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TesterFuncUtility_TryExecuteAction__5_System_Action___0___1___2___3___4____0___1___2___3___4_.md&amp;value=---%0Auid%3A%20Cuemon.TesterFuncUtility.TryExecuteAction%60%605(System.Action%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TesterFuncUtility_TryExecuteAction_" data-uid="Cuemon.TesterFuncUtility.TryExecuteAction*"></a>
+  <h4 id="Cuemon_TesterFuncUtility_TryExecuteAction__5_System_Action___0___1___2___3___4____0___1___2___3___4_" data-uid="Cuemon.TesterFuncUtility.TryExecuteAction``5(System.Action{``0,``1,``2,``3,``4},``0,``1,``2,``3,``4)">TryExecuteAction&lt;T1, T2, T3, T4, T5&gt;(Action&lt;T1, T2, T3, T4, T5&gt;, T1, T2, T3, T4, T5)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the specified <code data-dev-comment-type="paramref" class="paramref">method</code> can be invoked without an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryExecuteAction&lt;T1, T2, T3, T4, T5&gt;(Action&lt;T1, T2, T3, T4, T5&gt; method, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, T2, T3, T4, T5&gt;</td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The delegate to invoke.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the delegate <code data-dev-comment-type="paramref" class="paramref">method</code> was invoked without triggering an exception; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TesterFuncUtility_TryExecuteFunction__1_System_Func___0____0__.md&amp;value=---%0Auid%3A%20Cuemon.TesterFuncUtility.TryExecuteFunction%60%601(System.Func%7B%60%600%7D%2C%60%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TesterFuncUtility_TryExecuteFunction_" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction*"></a>
+  <h4 id="Cuemon_TesterFuncUtility_TryExecuteFunction__1_System_Func___0____0__" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction``1(System.Func{``0},``0@)">TryExecuteFunction&lt;TResult&gt;(Func&lt;TResult&gt;, out TResult)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the specified <code data-dev-comment-type="paramref" class="paramref">method</code> can be invoked without an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryExecuteFunction&lt;TResult&gt;(Func&lt;TResult&gt; method, out TResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TResult&gt;</td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The function delegate to invoke to try and get the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>When this method returns, contains the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> from <code data-dev-comment-type="paramref" class="paramref">method</code>, or <strong>default</strong>(<code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code>) if an exception is thrown.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> has been created; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TesterFuncUtility_TryExecuteFunction__2_System_Func___0___1____0_.md&amp;value=---%0Auid%3A%20Cuemon.TesterFuncUtility.TryExecuteFunction%60%602(System.Func%7B%60%600%2C%60%601%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TesterFuncUtility_TryExecuteFunction_" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction*"></a>
+  <h4 id="Cuemon_TesterFuncUtility_TryExecuteFunction__2_System_Func___0___1____0_" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction``2(System.Func{``0,``1},``0)">TryExecuteFunction&lt;T, TResult&gt;(Func&lt;T, TResult&gt;, T)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the specified <code data-dev-comment-type="paramref" class="paramref">method</code> was invoked without an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryExecuteFunction&lt;T, TResult&gt;(Func&lt;T, TResult&gt; method, T arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T, TResult&gt;</td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The function delegate to invoke.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td><p>The parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> has been created; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the method that you explicitly have chosen to ignore.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TesterFuncUtility_TryExecuteFunction__2_System_Func___0___1____0___1__.md&amp;value=---%0Auid%3A%20Cuemon.TesterFuncUtility.TryExecuteFunction%60%602(System.Func%7B%60%600%2C%60%601%7D%2C%60%600%2C%60%601%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TesterFuncUtility_TryExecuteFunction_" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction*"></a>
+  <h4 id="Cuemon_TesterFuncUtility_TryExecuteFunction__2_System_Func___0___1____0___1__" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction``2(System.Func{``0,``1},``0,``1@)">TryExecuteFunction&lt;T, TResult&gt;(Func&lt;T, TResult&gt;, T, out TResult)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the specified <code data-dev-comment-type="paramref" class="paramref">method</code> can be invoked without an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryExecuteFunction&lt;T, TResult&gt;(Func&lt;T, TResult&gt; method, T arg, out TResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T, TResult&gt;</td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The function delegate to invoke to try and get the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td><p>The first parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>When this method returns, contains the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> from <code data-dev-comment-type="paramref" class="paramref">method</code>, or <strong>default</strong>(<code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code>) if an exception is thrown.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> has been created; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the first parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TesterFuncUtility_TryExecuteFunction__3_System_Func___0___1___2____0___1_.md&amp;value=---%0Auid%3A%20Cuemon.TesterFuncUtility.TryExecuteFunction%60%603(System.Func%7B%60%600%2C%60%601%2C%60%602%7D%2C%60%600%2C%60%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TesterFuncUtility_TryExecuteFunction_" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction*"></a>
+  <h4 id="Cuemon_TesterFuncUtility_TryExecuteFunction__3_System_Func___0___1___2____0___1_" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction``3(System.Func{``0,``1,``2},``0,``1)">TryExecuteFunction&lt;T1, T2, TResult&gt;(Func&lt;T1, T2, TResult&gt;, T1, T2)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the specified <code data-dev-comment-type="paramref" class="paramref">method</code> was invoked without an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryExecuteFunction&lt;T1, T2, TResult&gt;(Func&lt;T1, T2, TResult&gt; method, T1 arg1, T2 arg2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, TResult&gt;</td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The function delegate to invoke.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> has been created; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the method that you explicitly have chosen to ignore.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TesterFuncUtility_TryExecuteFunction__3_System_Func___0___1___2____0___1___2__.md&amp;value=---%0Auid%3A%20Cuemon.TesterFuncUtility.TryExecuteFunction%60%603(System.Func%7B%60%600%2C%60%601%2C%60%602%7D%2C%60%600%2C%60%601%2C%60%602%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TesterFuncUtility_TryExecuteFunction_" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction*"></a>
+  <h4 id="Cuemon_TesterFuncUtility_TryExecuteFunction__3_System_Func___0___1___2____0___1___2__" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction``3(System.Func{``0,``1,``2},``0,``1,``2@)">TryExecuteFunction&lt;T1, T2, TResult&gt;(Func&lt;T1, T2, TResult&gt;, T1, T2, out TResult)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the specified <code data-dev-comment-type="paramref" class="paramref">method</code> can be invoked without an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryExecuteFunction&lt;T1, T2, TResult&gt;(Func&lt;T1, T2, TResult&gt; method, T1 arg1, T2 arg2, out TResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, TResult&gt;</td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The function delegate to invoke to try and get the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>When this method returns, contains the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> from <code data-dev-comment-type="paramref" class="paramref">method</code>, or <strong>default</strong>(<code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code>) if an exception is thrown.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> has been created; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TesterFuncUtility_TryExecuteFunction__4_System_Func___0___1___2___3____0___1___2_.md&amp;value=---%0Auid%3A%20Cuemon.TesterFuncUtility.TryExecuteFunction%60%604(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%7D%2C%60%600%2C%60%601%2C%60%602)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TesterFuncUtility_TryExecuteFunction_" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction*"></a>
+  <h4 id="Cuemon_TesterFuncUtility_TryExecuteFunction__4_System_Func___0___1___2___3____0___1___2_" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction``4(System.Func{``0,``1,``2,``3},``0,``1,``2)">TryExecuteFunction&lt;T1, T2, T3, TResult&gt;(Func&lt;T1, T2, T3, TResult&gt;, T1, T2, T3)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the specified <code data-dev-comment-type="paramref" class="paramref">method</code> was invoked without an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryExecuteFunction&lt;T1, T2, T3, TResult&gt;(Func&lt;T1, T2, T3, TResult&gt; method, T1 arg1, T2 arg2, T3 arg3)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, TResult&gt;</td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The function delegate to invoke.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> has been created; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the method that you explicitly have chosen to ignore.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TesterFuncUtility_TryExecuteFunction__4_System_Func___0___1___2___3____0___1___2___3__.md&amp;value=---%0Auid%3A%20Cuemon.TesterFuncUtility.TryExecuteFunction%60%604(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TesterFuncUtility_TryExecuteFunction_" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction*"></a>
+  <h4 id="Cuemon_TesterFuncUtility_TryExecuteFunction__4_System_Func___0___1___2___3____0___1___2___3__" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction``4(System.Func{``0,``1,``2,``3},``0,``1,``2,``3@)">TryExecuteFunction&lt;T1, T2, T3, TResult&gt;(Func&lt;T1, T2, T3, TResult&gt;, T1, T2, T3, out TResult)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the specified <code data-dev-comment-type="paramref" class="paramref">method</code> can be invoked without an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryExecuteFunction&lt;T1, T2, T3, TResult&gt;(Func&lt;T1, T2, T3, TResult&gt; method, T1 arg1, T2 arg2, T3 arg3, out TResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, TResult&gt;</td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The function delegate to invoke to try and get the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>When this method returns, contains the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> from <code data-dev-comment-type="paramref" class="paramref">method</code>, or <strong>default</strong>(<code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code>) if an exception is thrown.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> has been created; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TesterFuncUtility_TryExecuteFunction__5_System_Func___0___1___2___3___4____0___1___2___3_.md&amp;value=---%0Auid%3A%20Cuemon.TesterFuncUtility.TryExecuteFunction%60%605(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TesterFuncUtility_TryExecuteFunction_" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction*"></a>
+  <h4 id="Cuemon_TesterFuncUtility_TryExecuteFunction__5_System_Func___0___1___2___3___4____0___1___2___3_" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction``5(System.Func{``0,``1,``2,``3,``4},``0,``1,``2,``3)">TryExecuteFunction&lt;T1, T2, T3, T4, TResult&gt;(Func&lt;T1, T2, T3, T4, TResult&gt;, T1, T2, T3, T4)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the specified <code data-dev-comment-type="paramref" class="paramref">method</code> was invoked without an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryExecuteFunction&lt;T1, T2, T3, T4, TResult&gt;(Func&lt;T1, T2, T3, T4, TResult&gt; method, T1 arg1, T2 arg2, T3 arg3, T4 arg4)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, T4, TResult&gt;</td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The function delegate to invoke.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> has been created; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the method that you explicitly have chosen to ignore.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TesterFuncUtility_TryExecuteFunction__5_System_Func___0___1___2___3___4____0___1___2___3___4__.md&amp;value=---%0Auid%3A%20Cuemon.TesterFuncUtility.TryExecuteFunction%60%605(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TesterFuncUtility_TryExecuteFunction_" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction*"></a>
+  <h4 id="Cuemon_TesterFuncUtility_TryExecuteFunction__5_System_Func___0___1___2___3___4____0___1___2___3___4__" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction``5(System.Func{``0,``1,``2,``3,``4},``0,``1,``2,``3,``4@)">TryExecuteFunction&lt;T1, T2, T3, T4, TResult&gt;(Func&lt;T1, T2, T3, T4, TResult&gt;, T1, T2, T3, T4, out TResult)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the specified <code data-dev-comment-type="paramref" class="paramref">method</code> can be invoked without an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryExecuteFunction&lt;T1, T2, T3, T4, TResult&gt;(Func&lt;T1, T2, T3, T4, TResult&gt; method, T1 arg1, T2 arg2, T3 arg3, T4 arg4, out TResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, T4, TResult&gt;</td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The function delegate to invoke to try and get the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>When this method returns, contains the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> from <code data-dev-comment-type="paramref" class="paramref">method</code>, or <strong>default</strong>(<code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code>) if an exception is thrown.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> has been created; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TesterFuncUtility_TryExecuteFunction__6_System_Func___0___1___2___3___4___5____0___1___2___3___4_.md&amp;value=---%0Auid%3A%20Cuemon.TesterFuncUtility.TryExecuteFunction%60%606(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TesterFuncUtility_TryExecuteFunction_" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction*"></a>
+  <h4 id="Cuemon_TesterFuncUtility_TryExecuteFunction__6_System_Func___0___1___2___3___4___5____0___1___2___3___4_" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction``6(System.Func{``0,``1,``2,``3,``4,``5},``0,``1,``2,``3,``4)">TryExecuteFunction&lt;T1, T2, T3, T4, T5, TResult&gt;(Func&lt;T1, T2, T3, T4, T5, TResult&gt;, T1, T2, T3, T4, T5)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the specified <code data-dev-comment-type="paramref" class="paramref">method</code> was invoked without an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryExecuteFunction&lt;T1, T2, T3, T4, T5, TResult&gt;(Func&lt;T1, T2, T3, T4, T5, TResult&gt; method, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, T4, T5, TResult&gt;</td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The function delegate to invoke.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> has been created; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the method that you explicitly have chosen to ignore.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TesterFuncUtility_TryExecuteFunction__6_System_Func___0___1___2___3___4___5____0___1___2___3___4___5__.md&amp;value=---%0Auid%3A%20Cuemon.TesterFuncUtility.TryExecuteFunction%60%606(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TesterFuncUtility_TryExecuteFunction_" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction*"></a>
+  <h4 id="Cuemon_TesterFuncUtility_TryExecuteFunction__6_System_Func___0___1___2___3___4___5____0___1___2___3___4___5__" data-uid="Cuemon.TesterFuncUtility.TryExecuteFunction``6(System.Func{``0,``1,``2,``3,``4,``5},``0,``1,``2,``3,``4,``5@)">TryExecuteFunction&lt;T1, T2, T3, T4, T5, TResult&gt;(Func&lt;T1, T2, T3, T4, T5, TResult&gt;, T1, T2, T3, T4, T5, out TResult)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the specified <code data-dev-comment-type="paramref" class="paramref">method</code> can be invoked without an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryExecuteFunction&lt;T1, T2, T3, T4, T5, TResult&gt;(Func&lt;T1, T2, T3, T4, T5, TResult&gt; method, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, out TResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, T2, T3, T4, T5, TResult&gt;</td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The function delegate to invoke to try and get the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the <code data-dev-comment-type="paramref" class="paramref">method</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>When this method returns, contains the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> from <code data-dev-comment-type="paramref" class="paramref">method</code>, or <strong>default</strong>(<code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code>) if an exception is thrown.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> has been created; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the return value of the method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+<div id="disqus_thread"></div>
+                <script>
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://cuemon-github.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TesterFuncUtility.md&amp;value=---%0Auid%3A%20Cuemon.TesterFuncUtility%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright 2008-2018 Weubphoria. All rights reserved.<br>Generated by <strong>DocFX</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

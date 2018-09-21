@@ -1,0 +1,392 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Delegate TesterFunc&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult, TSuccess&gt;
+   | Cuemon .NET Standard </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Delegate TesterFunc&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult, TSuccess&gt;
+   | Cuemon .NET Standard ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/50x50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cuemon.TesterFunc`14">
+  
+  
+  <h1 id="Cuemon_TesterFunc_14" data-uid="Cuemon.TesterFunc`14" class="text-break">Delegate TesterFunc&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult, TSuccess&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Encapsulates a method that has five parameters and returns a value that indicates success of the type specified by the <code data-dev-comment-type="typeparamref" class="typeparamref">TSuccess</code> parameter and returns a out result value of the type specified by the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> parameter.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cuemon.html">Cuemon</a></h6>
+  <h6><strong>Assembly</strong>: Cuemon.Core.dll</h6>
+  <h5 id="Cuemon_TesterFunc_14_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public delegate TSuccess TesterFunc&lt;in T1, in T2, in T3, in T4, in T5, in T6, in T7, in T8, in T9, in T10, in T11, in T12, TResult, out TSuccess&gt;(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, out TResult result);</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T6</span></td>
+        <td><span class="parametername">arg6</span></td>
+        <td><p>The sixth parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T7</span></td>
+        <td><span class="parametername">arg7</span></td>
+        <td><p>The seventh parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T8</span></td>
+        <td><span class="parametername">arg8</span></td>
+        <td><p>The eighth parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T9</span></td>
+        <td><span class="parametername">arg9</span></td>
+        <td><p>The ninth parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T10</span></td>
+        <td><span class="parametername">arg10</span></td>
+        <td><p>The tenth parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T11</span></td>
+        <td><span class="parametername">arg11</span></td>
+        <td><p>The eleventh parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T12</span></td>
+        <td><span class="parametername">arg12</span></td>
+        <td><p>The twelfth parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>The result of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TSuccess</span></td>
+        <td><p>The return value that indicates success of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fourth parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td><p>The type of the sixth parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T7</span></td>
+        <td><p>The type of the seventh parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T8</span></td>
+        <td><p>The type of the eighth parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T9</span></td>
+        <td><p>The type of the ninth parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T10</span></td>
+        <td><p>The type of the tenth parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T11</span></td>
+        <td><p>The type of the eleventh parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T12</span></td>
+        <td><p>The type of the twelfth parameter of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the out result value of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TSuccess</span></td>
+        <td><p>The type of the return value that indicates success of the method that this function delegate encapsulates.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__2___0_System_Func___0___1__">ConverterExtensions.ParseWith&lt;TSource, TResult&gt;(TSource, Func&lt;TSource, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__3___0_System_Func___0___1___2____1_">ConverterExtensions.ParseWith&lt;TSource, T, TResult&gt;(TSource, Func&lt;TSource, T, TResult&gt;, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__4___0_System_Func___0___1___2___3____1___2_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, TResult&gt;(TSource, Func&lt;TSource, T1, T2, TResult&gt;, T1, T2)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__5___0_System_Func___0___1___2___3___4____1___2___3_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, TResult&gt;, T1, T2, T3)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__6___0_System_Func___0___1___2___3___4___5____1___2___3___4_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, TResult&gt;, T1, T2, T3, T4)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__7___0_System_Func___0___1___2___3___4___5___6____1___2___3___4___5_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, TResult&gt;, T1, T2, T3, T4, T5)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__8___0_System_Func___0___1___2___3___4___5___6___7____1___2___3___4___5___6_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, TResult&gt;, T1, T2, T3, T4, T5, T6)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__9___0_System_Func___0___1___2___3___4___5___6___7___8____1___2___3___4___5___6___7_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, T7, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, TResult&gt;, T1, T2, T3, T4, T5, T6, T7)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__10___0_System_Func___0___1___2___3___4___5___6___7___8___9____1___2___3___4___5___6___7___8_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, TResult&gt;, T1, T2, T3, T4, T5, T6, T7, T8)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__11___0_System_Func___0___1___2___3___4___5___6___7___8___9___10____1___2___3___4___5___6___7___8___9_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult&gt;, T1, T2, T3, T4, T5, T6, T7, T8, T9)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_As__1_System_Object_">ConverterExtensions.As&lt;TResult&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_As__1_System_Object___0_">ConverterExtensions.As&lt;TResult&gt;(Object, TResult)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_As__1_System_Object___0_System_IFormatProvider_">ConverterExtensions.As&lt;TResult&gt;(Object, TResult, IFormatProvider)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.DelegateUtilityExtensions.html#Cuemon_DelegateUtilityExtensions_Wrap__1___0_">DelegateUtilityExtensions.Wrap&lt;TResult&gt;(TResult)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.DelegateUtilityExtensions.html#Cuemon_DelegateUtilityExtensions_DynamicWrap__1___0_">DelegateUtilityExtensions.DynamicWrap&lt;TResult&gt;(TResult)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TweakerExtensions.html#Cuemon_TweakerExtensions_Adjust__1___0_System_Func___0___0__">TweakerExtensions.Adjust&lt;T&gt;(T, Func&lt;T, T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TypeUtilityExtensions.html#Cuemon_TypeUtilityExtensions_Is__1_System_Object_">TypeUtilityExtensions.Is&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TypeUtilityExtensions.html#Cuemon_TypeUtilityExtensions_IsNot__1_System_Object_">TypeUtilityExtensions.IsNot&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TypeUtilityExtensions.html#Cuemon_TypeUtilityExtensions_IsNullable__1___0_">TypeUtilityExtensions.IsNullable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.WrapperExtensions.html#Cuemon_WrapperExtensions_UseWrapper__1___0_System_Action_System_Collections_Generic_IDictionary_System_String_System_Object___">WrapperExtensions.UseWrapper&lt;T&gt;(T, Action&lt;IDictionary&lt;String, Object&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.WrapperExtensions.html#Cuemon_WrapperExtensions_UseWrapper__1___0_System_Reflection_MemberInfo_System_Action_System_Collections_Generic_IDictionary_System_String_System_Object___">WrapperExtensions.UseWrapper&lt;T&gt;(T, MemberInfo, Action&lt;IDictionary&lt;String, Object&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Collections.Generic.EnumerableUtilityExtensions.html#Cuemon_Collections_Generic_EnumerableUtilityExtensions_Yield__1___0_">EnumerableUtilityExtensions.Yield&lt;TSource&gt;(TSource)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Security.Cryptography.HashUtilityExtensions.html#Cuemon_Security_Cryptography_HashUtilityExtensions_ComputeHash_System_Object_System_Action_Cuemon_Security_Cryptography_HashOptions__">HashUtilityExtensions.ComputeHash(Object, Action&lt;HashOptions&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Security.Cryptography.HmacUtilityExtensions.html#Cuemon_Security_Cryptography_HmacUtilityExtensions_ComputeKeyedHash_System_Object_System_Byte___System_Action_Cuemon_Security_Cryptography_KeyedHashOptions__">HmacUtilityExtensions.ComputeKeyedHash(Object, Byte[], Action&lt;KeyedHashOptions&gt;)</a>
+  </div>
+<div id="disqus_thread"></div>
+                <script>
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://cuemon-github.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_TesterFunc_14.md&amp;value=---%0Auid%3A%20Cuemon.TesterFunc%6014%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright 2008-2018 Weubphoria. All rights reserved.<br>Generated by <strong>DocFX</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

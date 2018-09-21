@@ -1,0 +1,686 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SqlDataManager
+   | Cuemon .NET Standard </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SqlDataManager
+   | Cuemon .NET Standard ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/50x50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cuemon.Data.SqlClient.SqlDataManager">
+  
+  
+  <h1 id="Cuemon_Data_SqlClient_SqlDataManager" data-uid="Cuemon.Data.SqlClient.SqlDataManager" class="text-break">Class SqlDataManager
+  </h1>
+  <div class="markdown level0 summary"><p>The SqlDataManager is the primary class of the <a class="xref" href="Cuemon.Data.SqlClient.html">Cuemon.Data.SqlClient</a> namespace that can be used to execute commands targeted Microsoft SQL Server.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Cuemon.Data.DataManager.html">DataManager</a></div>
+    <div class="level2"><span class="xref">SqlDataManager</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_DefaultConnectionString">DataManager.DefaultConnectionString</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ParseDbType_System_Data_DbType_">DataManager.ParseDbType(DbType)</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_GetReaderColumnNames_System_Data_Common_DbDataReader_">DataManager.GetReaderColumnNames(DbDataReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_GetReaderColumnValues_System_Data_Common_DbDataReader_">DataManager.GetReaderColumnValues(DbDataReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_GetReaderColumns_System_Data_Common_DbDataReader_">DataManager.GetReaderColumns(DbDataReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ReaderToStream_System_Data_Common_DbDataReader_">DataManager.ReaderToStream(DbDataReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ReaderToString_System_Data_Common_DbDataReader_">DataManager.ReaderToString(DbDataReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_Execute_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.Execute(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteExists_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteExists(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteReader_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteReader(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteXmlString_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteXmlString(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteScalar_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteScalar(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteScalarAsType_Cuemon_Data_IDataCommand_System_Type_System_Data_Common_DbParameter___">DataManager.ExecuteScalarAsType(IDataCommand, Type, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteScalarAsType_Cuemon_Data_IDataCommand_System_Type_System_IFormatProvider_System_Data_Common_DbParameter___">DataManager.ExecuteScalarAsType(IDataCommand, Type, IFormatProvider, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteScalarAs__1_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteScalarAs&lt;TResult&gt;(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteScalarAs__1_Cuemon_Data_IDataCommand_System_IFormatProvider_System_Data_Common_DbParameter___">DataManager.ExecuteScalarAs&lt;TResult&gt;(IDataCommand, IFormatProvider, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteScalarAsBoolean_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteScalarAsBoolean(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteScalarAsDateTime_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteScalarAsDateTime(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteScalarAsInt16_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteScalarAsInt16(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteScalarAsInt32_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteScalarAsInt32(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteScalarAsInt64_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteScalarAsInt64(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteScalarAsByte_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteScalarAsByte(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteScalarAsSByte_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteScalarAsSByte(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteScalarAsDecimal_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteScalarAsDecimal(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteScalarAsDouble_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteScalarAsDouble(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteScalarAsUInt16_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteScalarAsUInt16(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteScalarAsUInt32_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteScalarAsUInt32(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteScalarAsUInt64_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteScalarAsUInt64(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteScalarAsString_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteScalarAsString(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteScalarAsGuid_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteScalarAsGuid(IDataCommand, DbParameter[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteCore__1_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___System_Func_System_Data_Common_DbCommand___0__">DataManager.ExecuteCore&lt;T&gt;(IDataCommand, DbParameter[], Func&lt;DbCommand, T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteCommandCore_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteCommandCore(IDataCommand, DbParameter[])</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cuemon.Data.SqlClient.html">Cuemon.Data.SqlClient</a></h6>
+  <h6><strong>Assembly</strong>: Cuemon.Data.dll</h6>
+  <h5 id="Cuemon_Data_SqlClient_SqlDataManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SqlDataManager : DataManager</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_SqlClient_SqlDataManager__ctor.md&amp;value=---%0Auid%3A%20Cuemon.Data.SqlClient.SqlDataManager.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_SqlClient_SqlDataManager__ctor_" data-uid="Cuemon.Data.SqlClient.SqlDataManager.#ctor*"></a>
+  <h4 id="Cuemon_Data_SqlClient_SqlDataManager__ctor" data-uid="Cuemon.Data.SqlClient.SqlDataManager.#ctor">SqlDataManager()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.Data.SqlClient.SqlDataManager.html">SqlDataManager</a> class.
+Will resolve the default data connection element from the calling application, using the ConfigurationManager to get a CuemonDataSection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SqlDataManager()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_SqlClient_SqlDataManager__ctor_System_String_.md&amp;value=---%0Auid%3A%20Cuemon.Data.SqlClient.SqlDataManager.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_SqlClient_SqlDataManager__ctor_" data-uid="Cuemon.Data.SqlClient.SqlDataManager.#ctor*"></a>
+  <h4 id="Cuemon_Data_SqlClient_SqlDataManager__ctor_System_String_" data-uid="Cuemon.Data.SqlClient.SqlDataManager.#ctor(System.String)">SqlDataManager(String)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.Data.SqlClient.SqlDataManager.html">SqlDataManager</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SqlDataManager(string connectionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string used to establish the connection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_SqlClient_SqlDataManager_ConnectionString.md&amp;value=---%0Auid%3A%20Cuemon.Data.SqlClient.SqlDataManager.ConnectionString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_SqlClient_SqlDataManager_ConnectionString_" data-uid="Cuemon.Data.SqlClient.SqlDataManager.ConnectionString*"></a>
+  <h4 id="Cuemon_Data_SqlClient_SqlDataManager_ConnectionString" data-uid="Cuemon.Data.SqlClient.SqlDataManager.ConnectionString">ConnectionString</h4>
+  <div class="markdown level1 summary"><p>Gets the string used to open a SQL Server database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ConnectionString { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The connection string that includes the source database name, and other parameters needed to establish the initial connection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ConnectionString">DataManager.ConnectionString</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_SqlClient_SqlDataManager_TransientFaultHandlingOptionsCallback.md&amp;value=---%0Auid%3A%20Cuemon.Data.SqlClient.SqlDataManager.TransientFaultHandlingOptionsCallback%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_SqlClient_SqlDataManager_TransientFaultHandlingOptionsCallback_" data-uid="Cuemon.Data.SqlClient.SqlDataManager.TransientFaultHandlingOptionsCallback*"></a>
+  <h4 id="Cuemon_Data_SqlClient_SqlDataManager_TransientFaultHandlingOptionsCallback" data-uid="Cuemon.Data.SqlClient.SqlDataManager.TransientFaultHandlingOptionsCallback">TransientFaultHandlingOptionsCallback</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the callback delegate that will provide options for transient fault handling.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Action&lt;TransientOperationOptions&gt; TransientFaultHandlingOptionsCallback { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.TransientOperationOptions.html">TransientOperationOptions</a>&gt;</td>
+        <td><p>An <span class="xref">System.Action&lt;T&gt;</span> with the options for transient fault handling.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_TransientFaultHandlingOptionsCallback">DataManager.TransientFaultHandlingOptionsCallback</a></div>
+  <h5 id="Cuemon_Data_SqlClient_SqlDataManager_TransientFaultHandlingOptionsCallback_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This implementation is compatible with transient related faults on Microsoft SQL Azure including the latest addition of error code 10928 and 10929.<br>
+Microsoft SQL Server is supported as well.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_SqlClient_SqlDataManager_Clone.md&amp;value=---%0Auid%3A%20Cuemon.Data.SqlClient.SqlDataManager.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_SqlClient_SqlDataManager_Clone_" data-uid="Cuemon.Data.SqlClient.SqlDataManager.Clone*"></a>
+  <h4 id="Cuemon_Data_SqlClient_SqlDataManager_Clone" data-uid="Cuemon.Data.SqlClient.SqlDataManager.Clone">Clone()</h4>
+  <div class="markdown level1 summary"><p>Creates a new object that is a copy of the current instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override DataManager Clone()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.DataManager.html">DataManager</a></td>
+        <td><p>A new object that is a copy of this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_Clone">DataManager.Clone()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_SqlClient_SqlDataManager_ExecuteIdentityDecimal_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.SqlClient.SqlDataManager.ExecuteIdentityDecimal(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_SqlClient_SqlDataManager_ExecuteIdentityDecimal_" data-uid="Cuemon.Data.SqlClient.SqlDataManager.ExecuteIdentityDecimal*"></a>
+  <h4 id="Cuemon_Data_SqlClient_SqlDataManager_ExecuteIdentityDecimal_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.SqlClient.SqlDataManager.ExecuteIdentityDecimal(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteIdentityDecimal(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement and returns an identity value as decimal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override decimal ExecuteIdentityDecimal(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p><span class="xref">System.Decimal</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteIdentityDecimal_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteIdentityDecimal(IDataCommand, DbParameter[])</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_SqlClient_SqlDataManager_ExecuteIdentityInt32_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.SqlClient.SqlDataManager.ExecuteIdentityInt32(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_SqlClient_SqlDataManager_ExecuteIdentityInt32_" data-uid="Cuemon.Data.SqlClient.SqlDataManager.ExecuteIdentityInt32*"></a>
+  <h4 id="Cuemon_Data_SqlClient_SqlDataManager_ExecuteIdentityInt32_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.SqlClient.SqlDataManager.ExecuteIdentityInt32(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteIdentityInt32(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement and returns an identity value as int.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int ExecuteIdentityInt32(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p><span class="xref">System.Int32</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteIdentityInt32_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteIdentityInt32(IDataCommand, DbParameter[])</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_SqlClient_SqlDataManager_ExecuteIdentityInt64_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.SqlClient.SqlDataManager.ExecuteIdentityInt64(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_SqlClient_SqlDataManager_ExecuteIdentityInt64_" data-uid="Cuemon.Data.SqlClient.SqlDataManager.ExecuteIdentityInt64*"></a>
+  <h4 id="Cuemon_Data_SqlClient_SqlDataManager_ExecuteIdentityInt64_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.SqlClient.SqlDataManager.ExecuteIdentityInt64(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">ExecuteIdentityInt64(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Executes the command statement and returns an identity value as long.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override long ExecuteIdentityInt64(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p><span class="xref">System.Int64</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_ExecuteIdentityInt64_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.ExecuteIdentityInt64(IDataCommand, DbParameter[])</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_SqlClient_SqlDataManager_GetCommandCore_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___.md&amp;value=---%0Auid%3A%20Cuemon.Data.SqlClient.SqlDataManager.GetCommandCore(Cuemon.Data.IDataCommand%2CSystem.Data.Common.DbParameter%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Data_SqlClient_SqlDataManager_GetCommandCore_" data-uid="Cuemon.Data.SqlClient.SqlDataManager.GetCommandCore*"></a>
+  <h4 id="Cuemon_Data_SqlClient_SqlDataManager_GetCommandCore_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___" data-uid="Cuemon.Data.SqlClient.SqlDataManager.GetCommandCore(Cuemon.Data.IDataCommand,System.Data.Common.DbParameter[])">GetCommandCore(IDataCommand, DbParameter[])</h4>
+  <div class="markdown level1 summary"><p>Gets the command object used by all execute related methods.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override DbCommand GetCommandCore(IDataCommand dataCommand, params DbParameter[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Data.IDataCommand.html">IDataCommand</a></td>
+        <td><span class="parametername">dataCommand</span></td>
+        <td><p>The data command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbParameter</span>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters to use in the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbCommand</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Cuemon.Data.DataManager.html#Cuemon_Data_DataManager_GetCommandCore_Cuemon_Data_IDataCommand_System_Data_Common_DbParameter___">DataManager.GetCommandCore(IDataCommand, DbParameter[])</a></div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__2___0_System_Func___0___1__">ConverterExtensions.ParseWith&lt;TSource, TResult&gt;(TSource, Func&lt;TSource, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__3___0_System_Func___0___1___2____1_">ConverterExtensions.ParseWith&lt;TSource, T, TResult&gt;(TSource, Func&lt;TSource, T, TResult&gt;, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__4___0_System_Func___0___1___2___3____1___2_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, TResult&gt;(TSource, Func&lt;TSource, T1, T2, TResult&gt;, T1, T2)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__5___0_System_Func___0___1___2___3___4____1___2___3_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, TResult&gt;, T1, T2, T3)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__6___0_System_Func___0___1___2___3___4___5____1___2___3___4_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, TResult&gt;, T1, T2, T3, T4)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__7___0_System_Func___0___1___2___3___4___5___6____1___2___3___4___5_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, TResult&gt;, T1, T2, T3, T4, T5)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__8___0_System_Func___0___1___2___3___4___5___6___7____1___2___3___4___5___6_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, TResult&gt;, T1, T2, T3, T4, T5, T6)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__9___0_System_Func___0___1___2___3___4___5___6___7___8____1___2___3___4___5___6___7_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, T7, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, TResult&gt;, T1, T2, T3, T4, T5, T6, T7)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__10___0_System_Func___0___1___2___3___4___5___6___7___8___9____1___2___3___4___5___6___7___8_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, TResult&gt;, T1, T2, T3, T4, T5, T6, T7, T8)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__11___0_System_Func___0___1___2___3___4___5___6___7___8___9___10____1___2___3___4___5___6___7___8___9_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult&gt;, T1, T2, T3, T4, T5, T6, T7, T8, T9)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_As__1_System_Object_">ConverterExtensions.As&lt;TResult&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_As__1_System_Object___0_">ConverterExtensions.As&lt;TResult&gt;(Object, TResult)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_As__1_System_Object___0_System_IFormatProvider_">ConverterExtensions.As&lt;TResult&gt;(Object, TResult, IFormatProvider)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.DelegateUtilityExtensions.html#Cuemon_DelegateUtilityExtensions_Wrap__1___0_">DelegateUtilityExtensions.Wrap&lt;TResult&gt;(TResult)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.DelegateUtilityExtensions.html#Cuemon_DelegateUtilityExtensions_DynamicWrap__1___0_">DelegateUtilityExtensions.DynamicWrap&lt;TResult&gt;(TResult)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TweakerExtensions.html#Cuemon_TweakerExtensions_Adjust__1___0_System_Func___0___0__">TweakerExtensions.Adjust&lt;T&gt;(T, Func&lt;T, T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TypeUtilityExtensions.html#Cuemon_TypeUtilityExtensions_Is__1_System_Object_">TypeUtilityExtensions.Is&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TypeUtilityExtensions.html#Cuemon_TypeUtilityExtensions_IsNot__1_System_Object_">TypeUtilityExtensions.IsNot&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TypeUtilityExtensions.html#Cuemon_TypeUtilityExtensions_IsNullable__1___0_">TypeUtilityExtensions.IsNullable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.WrapperExtensions.html#Cuemon_WrapperExtensions_UseWrapper__1___0_System_Action_System_Collections_Generic_IDictionary_System_String_System_Object___">WrapperExtensions.UseWrapper&lt;T&gt;(T, Action&lt;IDictionary&lt;String, Object&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.WrapperExtensions.html#Cuemon_WrapperExtensions_UseWrapper__1___0_System_Reflection_MemberInfo_System_Action_System_Collections_Generic_IDictionary_System_String_System_Object___">WrapperExtensions.UseWrapper&lt;T&gt;(T, MemberInfo, Action&lt;IDictionary&lt;String, Object&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Collections.Generic.EnumerableUtilityExtensions.html#Cuemon_Collections_Generic_EnumerableUtilityExtensions_Yield__1___0_">EnumerableUtilityExtensions.Yield&lt;TSource&gt;(TSource)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Security.Cryptography.HashUtilityExtensions.html#Cuemon_Security_Cryptography_HashUtilityExtensions_ComputeHash_System_Object_System_Action_Cuemon_Security_Cryptography_HashOptions__">HashUtilityExtensions.ComputeHash(Object, Action&lt;HashOptions&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Security.Cryptography.HmacUtilityExtensions.html#Cuemon_Security_Cryptography_HmacUtilityExtensions_ComputeKeyedHash_System_Object_System_Byte___System_Action_Cuemon_Security_Cryptography_KeyedHashOptions__">HmacUtilityExtensions.ComputeKeyedHash(Object, Byte[], Action&lt;KeyedHashOptions&gt;)</a>
+  </div>
+<div id="disqus_thread"></div>
+                <script>
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://cuemon-github.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Data_SqlClient_SqlDataManager.md&amp;value=---%0Auid%3A%20Cuemon.Data.SqlClient.SqlDataManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright 2008-2018 Weubphoria. All rights reserved.<br>Generated by <strong>DocFX</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1284 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AssignmentUtility
+   | Cuemon .NET Standard </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AssignmentUtility
+   | Cuemon .NET Standard ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/50x50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cuemon.AssignmentUtility">
+  
+  
+  <h1 id="Cuemon_AssignmentUtility" data-uid="Cuemon.AssignmentUtility" class="text-break">Class AssignmentUtility
+  </h1>
+  <div class="markdown level0 summary"><p>This utility class is designed to make arithmetic assignment operations for numeric operands easier to work with by using generics.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AssignmentUtility</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cuemon.html">Cuemon</a></h6>
+  <h6><strong>Assembly</strong>: Cuemon.Core.dll</h6>
+  <h5 id="Cuemon_AssignmentUtility_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class AssignmentUtility</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_AssignmentUtility_Add__1___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.AssignmentUtility.Add%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_AssignmentUtility_Add_" data-uid="Cuemon.AssignmentUtility.Add*"></a>
+  <h4 id="Cuemon_AssignmentUtility_Add__1___0___0_" data-uid="Cuemon.AssignmentUtility.Add``1(``0,``0)">Add&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Performs a binary addition of the two specified values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Add&lt;T&gt;(T x, T y)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first value to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second value to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref" class="paramref">x</code> and <code data-dev-comment-type="paramref" class="paramref">y</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the values for the operand operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.TypeArgumentException.html">TypeArgumentException</a></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is outside the range of allowed types.<br>
+Allowed types are: <span class="xref">System.Byte</span>, <span class="xref">System.Decimal</span>, <span class="xref">System.Double</span>, <span class="xref">System.Int16</span>, <span class="xref">System.Int32</span>, <span class="xref">System.Int64</span>, <span class="xref">System.SByte</span>, <span class="xref">System.Single</span>, <span class="xref">System.UInt16</span>, <span class="xref">System.UInt32</span> or <span class="xref">System.UInt64</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref" class="paramref">x</code> and <code data-dev-comment-type="paramref" class="paramref">y</code> is less than or greater than the by <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> valid <code>MinValue</code> and <code>MaxValue</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_AssignmentUtility_And__1___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.AssignmentUtility.And%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_AssignmentUtility_And_" data-uid="Cuemon.AssignmentUtility.And*"></a>
+  <h4 id="Cuemon_AssignmentUtility_And__1___0___0_" data-uid="Cuemon.AssignmentUtility.And``1(``0,``0)">And&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Performs a a bitwise logical conjunction (AND) operation of the two specified values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T And&lt;T&gt;(T x, T y)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first value to AND.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second value to AND.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The result of <code data-dev-comment-type="paramref" class="paramref">x</code> AND <code data-dev-comment-type="paramref" class="paramref">y</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the values for the operand operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.TypeArgumentException.html">TypeArgumentException</a></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is outside the range of allowed types.<br>
+Allowed types are: <span class="xref">System.Byte</span>, <span class="xref">System.Int16</span>, <span class="xref">System.Int32</span>, <span class="xref">System.Int64</span>, <span class="xref">System.SByte</span>, <span class="xref">System.UInt16</span>, <span class="xref">System.UInt32</span> or <span class="xref">System.UInt64</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_AssignmentUtility_Assign__1___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.AssignmentUtility.Assign%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_AssignmentUtility_Assign_" data-uid="Cuemon.AssignmentUtility.Assign*"></a>
+  <h4 id="Cuemon_AssignmentUtility_Assign__1___0___0_" data-uid="Cuemon.AssignmentUtility.Assign``1(``0,``0)">Assign&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Performs an assignment of the right-hand operand to the left-hand operand.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Assign&lt;T&gt;(T x, T y)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The left-hand operand.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The right-hand operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The value of <code data-dev-comment-type="paramref" class="paramref">y</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the values for the operand operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.TypeArgumentException.html">TypeArgumentException</a></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is outside the range of allowed types.<br>
+Allowed types are: <span class="xref">System.Byte</span>, <span class="xref">System.Decimal</span>, <span class="xref">System.Double</span>, <span class="xref">System.Int16</span>, <span class="xref">System.Int32</span>, <span class="xref">System.Int64</span>, <span class="xref">System.SByte</span>, <span class="xref">System.Single</span>, <span class="xref">System.UInt16</span>, <span class="xref">System.UInt32</span> or <span class="xref">System.UInt64</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_AssignmentUtility_Calculate__1___0_Cuemon_AssignmentOperator___0_.md&amp;value=---%0Auid%3A%20Cuemon.AssignmentUtility.Calculate%60%601(%60%600%2CCuemon.AssignmentOperator%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_AssignmentUtility_Calculate_" data-uid="Cuemon.AssignmentUtility.Calculate*"></a>
+  <h4 id="Cuemon_AssignmentUtility_Calculate__1___0_Cuemon_AssignmentOperator___0_" data-uid="Cuemon.AssignmentUtility.Calculate``1(``0,Cuemon.AssignmentOperator,``0)">Calculate&lt;T&gt;(T, AssignmentOperator, T)</h4>
+  <div class="markdown level1 summary"><p>Performs a calculation following the <code data-dev-comment-type="paramref" class="paramref">assignment</code> of the two specified values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Calculate&lt;T&gt;(T x, AssignmentOperator assignment, T y)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The value to calculate with <code data-dev-comment-type="paramref" class="paramref">y</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.AssignmentOperator.html">AssignmentOperator</a></td>
+        <td><span class="parametername">assignment</span></td>
+        <td><p>One of the enumeration values that specifies the rules to apply for the assignment operator of <code data-dev-comment-type="paramref" class="paramref">x</code> and <code data-dev-comment-type="paramref" class="paramref">y</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The value to calculate with <code data-dev-comment-type="paramref" class="paramref">x</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The result of the <code data-dev-comment-type="paramref" class="paramref">assignment</code> for <code data-dev-comment-type="paramref" class="paramref">x</code> and <code data-dev-comment-type="paramref" class="paramref">y</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the values for the operand operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.TypeArgumentException.html">TypeArgumentException</a></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is outside the range of allowed types.<br>
+Allowed types are: <span class="xref">System.Byte</span>, <span class="xref">System.Decimal</span>, <span class="xref">System.Double</span>, <span class="xref">System.Int16</span>, <span class="xref">System.Int32</span>, <span class="xref">System.Int64</span>, <span class="xref">System.SByte</span>, <span class="xref">System.Single</span>, <span class="xref">System.UInt16</span>, <span class="xref">System.UInt32</span> or <span class="xref">System.UInt64</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_AssignmentUtility_Divide__1___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.AssignmentUtility.Divide%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_AssignmentUtility_Divide_" data-uid="Cuemon.AssignmentUtility.Divide*"></a>
+  <h4 id="Cuemon_AssignmentUtility_Divide__1___0___0_" data-uid="Cuemon.AssignmentUtility.Divide``1(``0,``0)">Divide&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Performs a binary division of the two specified values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Divide&lt;T&gt;(T x, T y)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The dividend.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The divisor.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The result of dividing <code data-dev-comment-type="paramref" class="paramref">x</code> by <code data-dev-comment-type="paramref" class="paramref">y</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the values for the operand operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.TypeArgumentException.html">TypeArgumentException</a></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is outside the range of allowed types.<br>
+Allowed types are: <span class="xref">System.Byte</span>, <span class="xref">System.Decimal</span>, <span class="xref">System.Double</span>, <span class="xref">System.Int16</span>, <span class="xref">System.Int32</span>, <span class="xref">System.Int64</span>, <span class="xref">System.SByte</span>, <span class="xref">System.Single</span>, <span class="xref">System.UInt16</span>, <span class="xref">System.UInt32</span> or <span class="xref">System.UInt64</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DivideByZeroException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">y</code> is zero.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref" class="paramref">x</code> and <code data-dev-comment-type="paramref" class="paramref">y</code> is less than or greater than the by <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> valid <code>MinValue</code> and <code>MaxValue</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_AssignmentUtility_ExclusiveOr__1___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.AssignmentUtility.ExclusiveOr%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_AssignmentUtility_ExclusiveOr_" data-uid="Cuemon.AssignmentUtility.ExclusiveOr*"></a>
+  <h4 id="Cuemon_AssignmentUtility_ExclusiveOr__1___0___0_" data-uid="Cuemon.AssignmentUtility.ExclusiveOr``1(``0,``0)">ExclusiveOr&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Performs a bitwise exclusive or (XOR) operation of the two specified values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T ExclusiveOr&lt;T&gt;(T x, T y)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first value to XOR.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second value to XOR.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The result of <code data-dev-comment-type="paramref" class="paramref">x</code> XOR <code data-dev-comment-type="paramref" class="paramref">y</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the values for the operand operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.TypeArgumentException.html">TypeArgumentException</a></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is outside the range of allowed types.<br>
+Allowed types are: <span class="xref">System.Byte</span>, <span class="xref">System.Int16</span>, <span class="xref">System.Int32</span>, <span class="xref">System.Int64</span>, <span class="xref">System.SByte</span>, <span class="xref">System.UInt16</span>, <span class="xref">System.UInt32</span> or <span class="xref">System.UInt64</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_AssignmentUtility_LeftShift__1___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.AssignmentUtility.LeftShift%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_AssignmentUtility_LeftShift_" data-uid="Cuemon.AssignmentUtility.LeftShift*"></a>
+  <h4 id="Cuemon_AssignmentUtility_LeftShift__1___0___0_" data-uid="Cuemon.AssignmentUtility.LeftShift``1(``0,``0)">LeftShift&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Performs an arithmetic left shift (&lt;&lt;) operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T LeftShift&lt;T&gt;(T x, T y)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The bit pattern to be shifted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The number of bits to shift the bit pattern.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The result of shifting the bit pattern.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the values for the operand operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.TypeArgumentException.html">TypeArgumentException</a></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is outside the range of allowed types.<br>
+Allowed types are: <span class="xref">System.Byte</span>, <span class="xref">System.Int16</span>, <span class="xref">System.Int32</span>, <span class="xref">System.SByte</span>, <span class="xref">System.UInt16</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_AssignmentUtility_Multiply__1___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.AssignmentUtility.Multiply%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_AssignmentUtility_Multiply_" data-uid="Cuemon.AssignmentUtility.Multiply*"></a>
+  <h4 id="Cuemon_AssignmentUtility_Multiply__1___0___0_" data-uid="Cuemon.AssignmentUtility.Multiply``1(``0,``0)">Multiply&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Performs a binary multiplication of the two specified values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Multiply&lt;T&gt;(T x, T y)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The multiplicand.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The multiplier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The result of multiplying <code data-dev-comment-type="paramref" class="paramref">x</code> and <code data-dev-comment-type="paramref" class="paramref">y</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the values for the operand operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.TypeArgumentException.html">TypeArgumentException</a></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is outside the range of allowed types.<br>
+Allowed types are: <span class="xref">System.Byte</span>, <span class="xref">System.Decimal</span>, <span class="xref">System.Double</span>, <span class="xref">System.Int16</span>, <span class="xref">System.Int32</span>, <span class="xref">System.Int64</span>, <span class="xref">System.SByte</span>, <span class="xref">System.Single</span>, <span class="xref">System.UInt16</span>, <span class="xref">System.UInt32</span> or <span class="xref">System.UInt64</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref" class="paramref">x</code> and <code data-dev-comment-type="paramref" class="paramref">y</code> is less than or greater than the by <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> valid <code>MinValue</code> and <code>MaxValue</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_AssignmentUtility_Or__1___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.AssignmentUtility.Or%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_AssignmentUtility_Or_" data-uid="Cuemon.AssignmentUtility.Or*"></a>
+  <h4 id="Cuemon_AssignmentUtility_Or__1___0___0_" data-uid="Cuemon.AssignmentUtility.Or``1(``0,``0)">Or&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Performs a bitwise logical disjunction (OR) operation of the two specified values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Or&lt;T&gt;(T x, T y)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first value to OR.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second value to OR.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The result of <code data-dev-comment-type="paramref" class="paramref">x</code> OR <code data-dev-comment-type="paramref" class="paramref">y</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the values for the operand operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.TypeArgumentException.html">TypeArgumentException</a></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is outside the range of allowed types.<br>
+Allowed types are: <span class="xref">System.Byte</span>, <span class="xref">System.Int16</span>, <span class="xref">System.Int32</span>, <span class="xref">System.Int64</span>, <span class="xref">System.SByte</span>, <span class="xref">System.UInt16</span>, <span class="xref">System.UInt32</span> or <span class="xref">System.UInt64</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_AssignmentUtility_Remainder__1___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.AssignmentUtility.Remainder%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_AssignmentUtility_Remainder_" data-uid="Cuemon.AssignmentUtility.Remainder*"></a>
+  <h4 id="Cuemon_AssignmentUtility_Remainder__1___0___0_" data-uid="Cuemon.AssignmentUtility.Remainder``1(``0,``0)">Remainder&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Performs a binary division of the two specified values and computes the remainder hereof.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Remainder&lt;T&gt;(T x, T y)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The dividend.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The divisor.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The remainder after dividing <code data-dev-comment-type="paramref" class="paramref">x</code> by <code data-dev-comment-type="paramref" class="paramref">y</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the values for the operand operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.TypeArgumentException.html">TypeArgumentException</a></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is outside the range of allowed types.<br>
+Allowed types are: <span class="xref">System.Byte</span>, <span class="xref">System.Decimal</span>, <span class="xref">System.Double</span>, <span class="xref">System.Int16</span>, <span class="xref">System.Int32</span>, <span class="xref">System.Int64</span>, <span class="xref">System.SByte</span>, <span class="xref">System.Single</span>, <span class="xref">System.UInt16</span>, <span class="xref">System.UInt32</span> or <span class="xref">System.UInt64</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DivideByZeroException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">y</code> is zero.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref" class="paramref">x</code> and <code data-dev-comment-type="paramref" class="paramref">y</code> is less than or greater than the by <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> valid <code>MinValue</code> and <code>MaxValue</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_AssignmentUtility_RightShift__1___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.AssignmentUtility.RightShift%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_AssignmentUtility_RightShift_" data-uid="Cuemon.AssignmentUtility.RightShift*"></a>
+  <h4 id="Cuemon_AssignmentUtility_RightShift__1___0___0_" data-uid="Cuemon.AssignmentUtility.RightShift``1(``0,``0)">RightShift&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Performs an arithmetic right shift (&gt;&gt;) operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T RightShift&lt;T&gt;(T x, T y)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The bit pattern to be shifted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The number of bits to shift the bit pattern.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The result of shifting the bit pattern.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the values for the operand operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.TypeArgumentException.html">TypeArgumentException</a></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is outside the range of allowed types.<br>
+Allowed types are: <span class="xref">System.Byte</span>, <span class="xref">System.Int16</span>, <span class="xref">System.Int32</span>, <span class="xref">System.SByte</span>, <span class="xref">System.UInt16</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_AssignmentUtility_Subtract__1___0___0_.md&amp;value=---%0Auid%3A%20Cuemon.AssignmentUtility.Subtract%60%601(%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_AssignmentUtility_Subtract_" data-uid="Cuemon.AssignmentUtility.Subtract*"></a>
+  <h4 id="Cuemon_AssignmentUtility_Subtract__1___0___0_" data-uid="Cuemon.AssignmentUtility.Subtract``1(``0,``0)">Subtract&lt;T&gt;(T, T)</h4>
+  <div class="markdown level1 summary"><p>Performs a binary subtraction of the two specified values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Subtract&lt;T&gt;(T x, T y)
+    where T : struct, IConvertible</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The minuend.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The subtrahend.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The result of subtracting <code data-dev-comment-type="paramref" class="paramref">y</code> from <code data-dev-comment-type="paramref" class="paramref">x</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the values for the operand operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.TypeArgumentException.html">TypeArgumentException</a></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is outside the range of allowed types.<br>
+Allowed types are: <span class="xref">System.Byte</span>, <span class="xref">System.Decimal</span>, <span class="xref">System.Double</span>, <span class="xref">System.Int16</span>, <span class="xref">System.Int32</span>, <span class="xref">System.Int64</span>, <span class="xref">System.SByte</span>, <span class="xref">System.Single</span>, <span class="xref">System.UInt16</span>, <span class="xref">System.UInt32</span> or <span class="xref">System.UInt64</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref" class="paramref">x</code> and <code data-dev-comment-type="paramref" class="paramref">y</code> is less than or greater than the by <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> valid <code>MinValue</code> and <code>MaxValue</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_AssignmentUtility_ValidAsNumericOperand__1.md&amp;value=---%0Auid%3A%20Cuemon.AssignmentUtility.ValidAsNumericOperand%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_AssignmentUtility_ValidAsNumericOperand_" data-uid="Cuemon.AssignmentUtility.ValidAsNumericOperand*"></a>
+  <h4 id="Cuemon_AssignmentUtility_ValidAsNumericOperand__1" data-uid="Cuemon.AssignmentUtility.ValidAsNumericOperand``1">ValidAsNumericOperand&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Validates if the specified <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is within the allowed range of numeric operands.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ValidAsNumericOperand&lt;T&gt;()
+    where T : struct, IComparable&lt;T&gt;, IEquatable&lt;T&gt;, IConvertible</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the value for an operand operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is outside the range of allowed types.<br>
+Allowed types are: <span class="xref">System.Byte</span>, <span class="xref">System.Decimal</span>, <span class="xref">System.Double</span>, <span class="xref">System.Int16</span>, <span class="xref">System.Int32</span>, <span class="xref">System.Int64</span>, <span class="xref">System.SByte</span>, <span class="xref">System.Single</span>, <span class="xref">System.UInt16</span>, <span class="xref">System.UInt32</span> or <span class="xref">System.UInt64</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+<div id="disqus_thread"></div>
+                <script>
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://cuemon-github.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_AssignmentUtility.md&amp;value=---%0Auid%3A%20Cuemon.AssignmentUtility%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright 2008-2018 Weubphoria. All rights reserved.<br>Generated by <strong>DocFX</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

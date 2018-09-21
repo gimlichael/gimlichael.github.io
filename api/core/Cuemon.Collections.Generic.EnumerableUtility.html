@@ -1,0 +1,3004 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class EnumerableUtility
+   | Cuemon .NET Standard </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class EnumerableUtility
+   | Cuemon .NET Standard ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/50x50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cuemon.Collections.Generic.EnumerableUtility">
+  
+  
+  <h1 id="Cuemon_Collections_Generic_EnumerableUtility" data-uid="Cuemon.Collections.Generic.EnumerableUtility" class="text-break">Class EnumerableUtility
+  </h1>
+  <div class="markdown level0 summary"><p>This utility class provides a set of static methods for querying objects that implement <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">EnumerableUtility</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cuemon.Collections.Generic.html">Cuemon.Collections.Generic</a></h6>
+  <h6><strong>Assembly</strong>: Cuemon.Core.dll</h6>
+  <h5 id="Cuemon_Collections_Generic_EnumerableUtility_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class EnumerableUtility</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_Chunk__1_System_Collections_Generic_IEnumerable___0___.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.Chunk%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_Chunk_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.Chunk*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_Chunk__1_System_Collections_Generic_IEnumerable___0___" data-uid="Cuemon.Collections.Generic.EnumerableUtility.Chunk``1(System.Collections.Generic.IEnumerable{``0}@)">Chunk&lt;TSource&gt;(ref IEnumerable&lt;TSource&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns a chunked <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> sequence with a maximum of 128 elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; Chunk&lt;TSource&gt;(ref IEnumerable&lt;TSource&gt; source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> to chunk into smaller slices for a batch run or similar.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> that contains no more than 128 elements from the <code data-dev-comment-type="paramref" class="paramref">source</code> sequence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of <code data-dev-comment-type="paramref" class="paramref">source</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Cuemon_Collections_Generic_EnumerableUtility_Chunk__1_System_Collections_Generic_IEnumerable___0____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The original <code data-dev-comment-type="paramref" class="paramref">source</code> is reduced equivalent to the number of elements in the returned sequence.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_Chunk__1_System_Collections_Generic_IEnumerable___0___System_Int32_.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.Chunk%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D%40%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_Chunk_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.Chunk*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_Chunk__1_System_Collections_Generic_IEnumerable___0___System_Int32_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.Chunk``1(System.Collections.Generic.IEnumerable{``0}@,System.Int32)">Chunk&lt;TSource&gt;(ref IEnumerable&lt;TSource&gt;, Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns a chunked <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> sequence with a maximum of the specified <code data-dev-comment-type="paramref" class="paramref">size</code>. Default is 128.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; Chunk&lt;TSource&gt;(ref IEnumerable&lt;TSource&gt; source, int size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> to chunk into smaller slices for a batch run or similar.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>The amount of elements to process at a time.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> that contains no more than the specified <code data-dev-comment-type="paramref" class="paramref">size</code> of elements from the <code data-dev-comment-type="paramref" class="paramref">source</code> sequence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of <code data-dev-comment-type="paramref" class="paramref">source</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Cuemon_Collections_Generic_EnumerableUtility_Chunk__1_System_Collections_Generic_IEnumerable___0___System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The original <code data-dev-comment-type="paramref" class="paramref">source</code> is reduced equivalent to the number of elements in the returned sequence.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">size</code> is less or equal to 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_Concat__1_System_Collections_Generic_IEnumerable___0____.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.Concat%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_Concat_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.Concat*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_Concat__1_System_Collections_Generic_IEnumerable___0____" data-uid="Cuemon.Collections.Generic.EnumerableUtility.Concat``1(System.Collections.Generic.IEnumerable{``0}[])">Concat&lt;TSource&gt;(IEnumerable&lt;TSource&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Concatenates the specified sequences in <code data-dev-comment-type="paramref" class="paramref">sources</code> into one sequence.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; Concat&lt;TSource&gt;(params IEnumerable&lt;TSource&gt;[] sources)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;[]</td>
+        <td><span class="parametername">sources</span></td>
+        <td><p>The sequences to concatenate into one <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> that contains the concatenated elements of the specified sequences in <code data-dev-comment-type="paramref" class="paramref">sources</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of the input sequences of <see paramref="sources"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_Contains__1_System_Collections_Generic_IEnumerable___0____0_System_Collections_Generic_IEqualityComparer___0__.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.Contains%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D%2C%60%600%2CSystem.Collections.Generic.IEqualityComparer%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_Contains_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.Contains*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_Contains__1_System_Collections_Generic_IEnumerable___0____0_System_Collections_Generic_IEqualityComparer___0__" data-uid="Cuemon.Collections.Generic.EnumerableUtility.Contains``1(System.Collections.Generic.IEnumerable{``0},``0,System.Collections.Generic.IEqualityComparer{``0})">Contains&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, TSource, IEqualityComparer&lt;TSource&gt;)</h4>
+  <div class="markdown level1 summary"><p>Determines whether a sequence contains a specified element by using a specified <span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Contains&lt;TSource&gt;(IEnumerable&lt;TSource&gt; source, TSource value, IEqualityComparer&lt;TSource&gt; comparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>A sequence in which to locate a value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TSource</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to locate in the sequence.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEqualityComparer</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td><p>An equality comparer to compare values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the source sequence contains an element that has the specified value; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of <see paramref="source"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_Contains__1_System_Collections_Generic_IEnumerable___0____0_System_Func___0___0_System_Boolean__.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.Contains%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D%2C%60%600%2CSystem.Func%7B%60%600%2C%60%600%2CSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_Contains_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.Contains*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_Contains__1_System_Collections_Generic_IEnumerable___0____0_System_Func___0___0_System_Boolean__" data-uid="Cuemon.Collections.Generic.EnumerableUtility.Contains``1(System.Collections.Generic.IEnumerable{``0},``0,System.Func{``0,``0,System.Boolean})">Contains&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, TSource, Func&lt;TSource, TSource, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Determines whether a sequence contains a specified element by using a specified <span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Contains&lt;TSource&gt;(IEnumerable&lt;TSource&gt; source, TSource value, Func&lt;TSource, TSource, bool&gt; condition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>A sequence in which to locate a value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TSource</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to locate in the sequence.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TSource, TSource, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">condition</span></td>
+        <td><p>The function delegate that will compare values from the <code data-dev-comment-type="paramref" class="paramref">source</code> sequence with <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the source sequence contains an element that has the specified value; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of <see paramref="source"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_FindAll__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.FindAll%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7B%60%600%2CSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_FindAll_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_FindAll__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})">FindAll&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Retrieves all the elements that match the conditions defined by the specified predicate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; FindAll&lt;TSource&gt;(IEnumerable&lt;TSource&gt; source, Func&lt;TSource, bool&gt; match)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The sequence to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TSource, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">match</span></td>
+        <td><p>The function delegate that defines the conditions of the elements to search for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> sequence containing all the elements that match the conditions defined by the specified predicate, if found; otherwise, an empty <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of the sequence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_FindAll__10_System_Collections_Generic_IEnumerable___0__System_Func___0___1___2___3___4___5___6___7___8___9_System_Boolean____1___2___3___4___5___6___7___8___9_.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.FindAll%60%6010(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606%2C%60%607%2C%60%608%2C%60%609%2CSystem.Boolean%7D%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606%2C%60%607%2C%60%608%2C%60%609)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_FindAll_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_FindAll__10_System_Collections_Generic_IEnumerable___0__System_Func___0___1___2___3___4___5___6___7___8___9_System_Boolean____1___2___3___4___5___6___7___8___9_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll``10(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,System.Boolean},``1,``2,``3,``4,``5,``6,``7,``8,``9)">FindAll&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, T9&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, T9, Boolean&gt;, T1, T2, T3, T4, T5, T6, T7, T8, T9)</h4>
+  <div class="markdown level1 summary"><p>Retrieves all the elements that match the conditions defined by the specified function delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; FindAll&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, T9&gt;(IEnumerable&lt;TSource&gt; source, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, T9, bool&gt; match, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The sequence to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, T9, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">match</span></td>
+        <td><p>The function delegate that defines the conditions of the elements to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T6</span></td>
+        <td><span class="parametername">arg6</span></td>
+        <td><p>The sixth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T7</span></td>
+        <td><span class="parametername">arg7</span></td>
+        <td><p>The seventh parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T8</span></td>
+        <td><span class="parametername">arg8</span></td>
+        <td><p>The eighth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T9</span></td>
+        <td><span class="parametername">arg9</span></td>
+        <td><p>The ninth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> sequence containing all the elements that match the conditions defined by the specified predicate, if found; otherwise, an empty <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of the sequence.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td><p>The type of the sixth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T7</span></td>
+        <td><p>The type of the seventh parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T8</span></td>
+        <td><p>The type of the eighth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T9</span></td>
+        <td><p>The type of the ninth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_FindAll__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1_System_Boolean____1_.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.FindAll%60%602(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7B%60%600%2C%60%601%2CSystem.Boolean%7D%2C%60%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_FindAll_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_FindAll__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1_System_Boolean____1_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1,System.Boolean},``1)">FindAll&lt;TSource, T&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, T, Boolean&gt;, T)</h4>
+  <div class="markdown level1 summary"><p>Retrieves all the elements that match the conditions defined by the specified function delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; FindAll&lt;TSource, T&gt;(IEnumerable&lt;TSource&gt; source, Func&lt;TSource, T, bool&gt; match, T arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The sequence to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TSource, T, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">match</span></td>
+        <td><p>The function delegate that defines the conditions of the elements to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> sequence containing all the elements that match the conditions defined by the specified predicate, if found; otherwise, an empty <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of the sequence.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_FindAll__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1___2_System_Boolean____1___2_.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.FindAll%60%603(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7B%60%600%2C%60%601%2C%60%602%2CSystem.Boolean%7D%2C%60%601%2C%60%602)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_FindAll_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_FindAll__3_System_Collections_Generic_IEnumerable___0__System_Func___0___1___2_System_Boolean____1___2_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1,``2,System.Boolean},``1,``2)">FindAll&lt;TSource, T1, T2&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, T1, T2, Boolean&gt;, T1, T2)</h4>
+  <div class="markdown level1 summary"><p>Retrieves all the elements that match the conditions defined by the specified function delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; FindAll&lt;TSource, T1, T2&gt;(IEnumerable&lt;TSource&gt; source, Func&lt;TSource, T1, T2, bool&gt; match, T1 arg1, T2 arg2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The sequence to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TSource, T1, T2, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">match</span></td>
+        <td><p>The function delegate that defines the conditions of the elements to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> sequence containing all the elements that match the conditions defined by the specified predicate, if found; otherwise, an empty <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of the sequence.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_FindAll__4_System_Collections_Generic_IEnumerable___0__System_Func___0___1___2___3_System_Boolean____1___2___3_.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.FindAll%60%604(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2CSystem.Boolean%7D%2C%60%601%2C%60%602%2C%60%603)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_FindAll_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_FindAll__4_System_Collections_Generic_IEnumerable___0__System_Func___0___1___2___3_System_Boolean____1___2___3_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll``4(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1,``2,``3,System.Boolean},``1,``2,``3)">FindAll&lt;TSource, T1, T2, T3&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, T1, T2, T3, Boolean&gt;, T1, T2, T3)</h4>
+  <div class="markdown level1 summary"><p>Retrieves all the elements that match the conditions defined by the specified function delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; FindAll&lt;TSource, T1, T2, T3&gt;(IEnumerable&lt;TSource&gt; source, Func&lt;TSource, T1, T2, T3, bool&gt; match, T1 arg1, T2 arg2, T3 arg3)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The sequence to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TSource, T1, T2, T3, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">match</span></td>
+        <td><p>The function delegate that defines the conditions of the elements to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> sequence containing all the elements that match the conditions defined by the specified predicate, if found; otherwise, an empty <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of the sequence.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_FindAll__5_System_Collections_Generic_IEnumerable___0__System_Func___0___1___2___3___4_System_Boolean____1___2___3___4_.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.FindAll%60%605(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2CSystem.Boolean%7D%2C%60%601%2C%60%602%2C%60%603%2C%60%604)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_FindAll_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_FindAll__5_System_Collections_Generic_IEnumerable___0__System_Func___0___1___2___3___4_System_Boolean____1___2___3___4_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll``5(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1,``2,``3,``4,System.Boolean},``1,``2,``3,``4)">FindAll&lt;TSource, T1, T2, T3, T4&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, T1, T2, T3, T4, Boolean&gt;, T1, T2, T3, T4)</h4>
+  <div class="markdown level1 summary"><p>Retrieves all the elements that match the conditions defined by the specified function delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; FindAll&lt;TSource, T1, T2, T3, T4&gt;(IEnumerable&lt;TSource&gt; source, Func&lt;TSource, T1, T2, T3, T4, bool&gt; match, T1 arg1, T2 arg2, T3 arg3, T4 arg4)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The sequence to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TSource, T1, T2, T3, T4, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">match</span></td>
+        <td><p>The function delegate that defines the conditions of the elements to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> sequence containing all the elements that match the conditions defined by the specified predicate, if found; otherwise, an empty <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of the sequence.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_FindAll__6_System_Collections_Generic_IEnumerable___0__System_Func___0___1___2___3___4___5_System_Boolean____1___2___3___4___5_.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.FindAll%60%606(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2CSystem.Boolean%7D%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_FindAll_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_FindAll__6_System_Collections_Generic_IEnumerable___0__System_Func___0___1___2___3___4___5_System_Boolean____1___2___3___4___5_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll``6(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1,``2,``3,``4,``5,System.Boolean},``1,``2,``3,``4,``5)">FindAll&lt;TSource, T1, T2, T3, T4, T5&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, T1, T2, T3, T4, T5, Boolean&gt;, T1, T2, T3, T4, T5)</h4>
+  <div class="markdown level1 summary"><p>Retrieves all the elements that match the conditions defined by the specified function delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; FindAll&lt;TSource, T1, T2, T3, T4, T5&gt;(IEnumerable&lt;TSource&gt; source, Func&lt;TSource, T1, T2, T3, T4, T5, bool&gt; match, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The sequence to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TSource, T1, T2, T3, T4, T5, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">match</span></td>
+        <td><p>The function delegate that defines the conditions of the elements to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> sequence containing all the elements that match the conditions defined by the specified predicate, if found; otherwise, an empty <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of the sequence.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_FindAll__7_System_Collections_Generic_IEnumerable___0__System_Func___0___1___2___3___4___5___6_System_Boolean____1___2___3___4___5___6_.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.FindAll%60%607(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606%2CSystem.Boolean%7D%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_FindAll_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_FindAll__7_System_Collections_Generic_IEnumerable___0__System_Func___0___1___2___3___4___5___6_System_Boolean____1___2___3___4___5___6_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll``7(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1,``2,``3,``4,``5,``6,System.Boolean},``1,``2,``3,``4,``5,``6)">FindAll&lt;TSource, T1, T2, T3, T4, T5, T6&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, T1, T2, T3, T4, T5, T6, Boolean&gt;, T1, T2, T3, T4, T5, T6)</h4>
+  <div class="markdown level1 summary"><p>Retrieves all the elements that match the conditions defined by the specified function delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; FindAll&lt;TSource, T1, T2, T3, T4, T5, T6&gt;(IEnumerable&lt;TSource&gt; source, Func&lt;TSource, T1, T2, T3, T4, T5, T6, bool&gt; match, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The sequence to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TSource, T1, T2, T3, T4, T5, T6, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">match</span></td>
+        <td><p>The function delegate that defines the conditions of the elements to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T6</span></td>
+        <td><span class="parametername">arg6</span></td>
+        <td><p>The sixth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> sequence containing all the elements that match the conditions defined by the specified predicate, if found; otherwise, an empty <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of the sequence.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td><p>The type of the sixth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_FindAll__8_System_Collections_Generic_IEnumerable___0__System_Func___0___1___2___3___4___5___6___7_System_Boolean____1___2___3___4___5___6___7_.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.FindAll%60%608(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606%2C%60%607%2CSystem.Boolean%7D%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606%2C%60%607)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_FindAll_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_FindAll__8_System_Collections_Generic_IEnumerable___0__System_Func___0___1___2___3___4___5___6___7_System_Boolean____1___2___3___4___5___6___7_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll``8(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1,``2,``3,``4,``5,``6,``7,System.Boolean},``1,``2,``3,``4,``5,``6,``7)">FindAll&lt;TSource, T1, T2, T3, T4, T5, T6, T7&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, Boolean&gt;, T1, T2, T3, T4, T5, T6, T7)</h4>
+  <div class="markdown level1 summary"><p>Retrieves all the elements that match the conditions defined by the specified function delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; FindAll&lt;TSource, T1, T2, T3, T4, T5, T6, T7&gt;(IEnumerable&lt;TSource&gt; source, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, bool&gt; match, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The sequence to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TSource, T1, T2, T3, T4, T5, T6, T7, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">match</span></td>
+        <td><p>The function delegate that defines the conditions of the elements to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T6</span></td>
+        <td><span class="parametername">arg6</span></td>
+        <td><p>The sixth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T7</span></td>
+        <td><span class="parametername">arg7</span></td>
+        <td><p>The seventh parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> sequence containing all the elements that match the conditions defined by the specified predicate, if found; otherwise, an empty <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of the sequence.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td><p>The type of the sixth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T7</span></td>
+        <td><p>The type of the seventh parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_FindAll__9_System_Collections_Generic_IEnumerable___0__System_Func___0___1___2___3___4___5___6___7___8_System_Boolean____1___2___3___4___5___6___7___8_.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.FindAll%60%609(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606%2C%60%607%2C%60%608%2CSystem.Boolean%7D%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606%2C%60%607%2C%60%608)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_FindAll_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_FindAll__9_System_Collections_Generic_IEnumerable___0__System_Func___0___1___2___3___4___5___6___7___8_System_Boolean____1___2___3___4___5___6___7___8_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.FindAll``9(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,System.Boolean},``1,``2,``3,``4,``5,``6,``7,``8)">FindAll&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, Boolean&gt;, T1, T2, T3, T4, T5, T6, T7, T8)</h4>
+  <div class="markdown level1 summary"><p>Retrieves all the elements that match the conditions defined by the specified function delegate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; FindAll&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8&gt;(IEnumerable&lt;TSource&gt; source, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, bool&gt; match, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The sequence to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">match</span></td>
+        <td><p>The function delegate that defines the conditions of the elements to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T6</span></td>
+        <td><span class="parametername">arg6</span></td>
+        <td><p>The sixth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T7</span></td>
+        <td><span class="parametername">arg7</span></td>
+        <td><p>The seventh parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T8</span></td>
+        <td><span class="parametername">arg8</span></td>
+        <td><p>The eighth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> sequence containing all the elements that match the conditions defined by the specified predicate, if found; otherwise, an empty <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of the sequence.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td><p>The type of the sixth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T7</span></td>
+        <td><p>The type of the seventh parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T8</span></td>
+        <td><p>The type of the eighth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">match</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_RandomOrDefault__1_System_Collections_Generic_IEnumerable___0__.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.RandomOrDefault%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_RandomOrDefault_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.RandomOrDefault*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_RandomOrDefault__1_System_Collections_Generic_IEnumerable___0__" data-uid="Cuemon.Collections.Generic.EnumerableUtility.RandomOrDefault``1(System.Collections.Generic.IEnumerable{``0})">RandomOrDefault&lt;TSource&gt;(IEnumerable&lt;TSource&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns a random element of a sequence of elements, or a default value if no element is found.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSource RandomOrDefault&lt;TSource&gt;(IEnumerable&lt;TSource&gt; source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> to return a random element of.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TSource</span></td>
+        <td><p>default(TSource) if source is empty; otherwise, a random element of <code data-dev-comment-type="paramref" class="paramref">source</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of <code data-dev-comment-type="paramref" class="paramref">source</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_RandomOrDefault__1_System_Collections_Generic_IEnumerable___0__System_Func_System_Collections_Generic_IEnumerable___0____0__.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.RandomOrDefault%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7BSystem.Collections.Generic.IEnumerable%7B%60%600%7D%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_RandomOrDefault_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.RandomOrDefault*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_RandomOrDefault__1_System_Collections_Generic_IEnumerable___0__System_Func_System_Collections_Generic_IEnumerable___0____0__" data-uid="Cuemon.Collections.Generic.EnumerableUtility.RandomOrDefault``1(System.Collections.Generic.IEnumerable{``0},System.Func{System.Collections.Generic.IEnumerable{``0},``0})">RandomOrDefault&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, Func&lt;IEnumerable&lt;TSource&gt;, TSource&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns a random element of a sequence of elements, or a default value if no element is found.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSource RandomOrDefault&lt;TSource&gt;(IEnumerable&lt;TSource&gt; source, Func&lt;IEnumerable&lt;TSource&gt;, TSource&gt; randomizer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> to return a random element of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;, TSource&gt;</td>
+        <td><span class="parametername">randomizer</span></td>
+        <td><p>The function delegate that will select a random element of <code data-dev-comment-type="paramref" class="paramref">source</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TSource</span></td>
+        <td><p>default(TSource) if source is empty; otherwise, a random element of <code data-dev-comment-type="paramref" class="paramref">source</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of <code data-dev-comment-type="paramref" class="paramref">source</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_RangeOf__1_System_Int32_System_Func_System_Int32___0__.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.RangeOf%60%601(System.Int32%2CSystem.Func%7BSystem.Int32%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_RangeOf_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.RangeOf*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_RangeOf__1_System_Int32_System_Func_System_Int32___0__" data-uid="Cuemon.Collections.Generic.EnumerableUtility.RangeOf``1(System.Int32,System.Func{System.Int32,``0})">RangeOf&lt;T&gt;(Int32, Func&lt;Int32, T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Generates a sequence of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> within a specified range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; RangeOf&lt;T&gt;(int count, Func&lt;int, T&gt; resolver)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>The number of objects of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> to generate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Int32</span>, T&gt;</td>
+        <td><span class="parametername">resolver</span></td>
+        <td><p>The function delegate that will resolve the value of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>; the parameter passed to the delegate represents the index of the element to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> that contains a range of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the elements to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">count</code> is less than 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_SelectOne__1_System_Collections_Generic_IEnumerable___0__System_Func_System_Collections_Generic_IEnumerable___0____0__.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.SelectOne%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7BSystem.Collections.Generic.IEnumerable%7B%60%600%7D%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_SelectOne_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SelectOne*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_SelectOne__1_System_Collections_Generic_IEnumerable___0__System_Func_System_Collections_Generic_IEnumerable___0____0__" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SelectOne``1(System.Collections.Generic.IEnumerable{``0},System.Func{System.Collections.Generic.IEnumerable{``0},``0})">SelectOne&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, Func&lt;IEnumerable&lt;TSource&gt;, TSource&gt;)</h4>
+  <div class="markdown level1 summary"><p>Retrieves the element that matches the conditions defined by the specified <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSource SelectOne&lt;TSource&gt;(IEnumerable&lt;TSource&gt; source, Func&lt;IEnumerable&lt;TSource&gt;, TSource&gt; selector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The sequence to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;, TSource&gt;</td>
+        <td><span class="parametername">selector</span></td>
+        <td><p>The function delegate that defines the condition of the element to retrieve.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TSource</span></td>
+        <td><p>A <code data-dev-comment-type="typeparamref" class="typeparamref">TSource</code> element that matched the conditions defined by the specified <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of the sequence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_SelectOne__2_System_Collections_Generic_IEnumerable___0__System_Func_System_Collections_Generic_IEnumerable___0____1___0____1_.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.SelectOne%60%602(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7BSystem.Collections.Generic.IEnumerable%7B%60%600%7D%2C%60%601%2C%60%600%7D%2C%60%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_SelectOne_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SelectOne*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_SelectOne__2_System_Collections_Generic_IEnumerable___0__System_Func_System_Collections_Generic_IEnumerable___0____1___0____1_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SelectOne``2(System.Collections.Generic.IEnumerable{``0},System.Func{System.Collections.Generic.IEnumerable{``0},``1,``0},``1)">SelectOne&lt;TSource, T&gt;(IEnumerable&lt;TSource&gt;, Func&lt;IEnumerable&lt;TSource&gt;, T, TSource&gt;, T)</h4>
+  <div class="markdown level1 summary"><p>Retrieves the element that matches the conditions defined by the specified <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSource SelectOne&lt;TSource, T&gt;(IEnumerable&lt;TSource&gt; source, Func&lt;IEnumerable&lt;TSource&gt;, T, TSource&gt; selector, T arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The sequence to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;, T, TSource&gt;</td>
+        <td><span class="parametername">selector</span></td>
+        <td><p>The function delegate that defines the condition of the element to retrieve.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td><p>The parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TSource</span></td>
+        <td><p>A <code data-dev-comment-type="typeparamref" class="typeparamref">TSource</code> element that matched the conditions defined by the specified <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of the sequence.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_SelectOne__3_System_Collections_Generic_IEnumerable___0__System_Func_System_Collections_Generic_IEnumerable___0____1___2___0____1___2_.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.SelectOne%60%603(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7BSystem.Collections.Generic.IEnumerable%7B%60%600%7D%2C%60%601%2C%60%602%2C%60%600%7D%2C%60%601%2C%60%602)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_SelectOne_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SelectOne*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_SelectOne__3_System_Collections_Generic_IEnumerable___0__System_Func_System_Collections_Generic_IEnumerable___0____1___2___0____1___2_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SelectOne``3(System.Collections.Generic.IEnumerable{``0},System.Func{System.Collections.Generic.IEnumerable{``0},``1,``2,``0},``1,``2)">SelectOne&lt;TSource, T1, T2&gt;(IEnumerable&lt;TSource&gt;, Func&lt;IEnumerable&lt;TSource&gt;, T1, T2, TSource&gt;, T1, T2)</h4>
+  <div class="markdown level1 summary"><p>Retrieves the element that matches the conditions defined by the specified <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSource SelectOne&lt;TSource, T1, T2&gt;(IEnumerable&lt;TSource&gt; source, Func&lt;IEnumerable&lt;TSource&gt;, T1, T2, TSource&gt; selector, T1 arg1, T2 arg2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The sequence to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;, T1, T2, TSource&gt;</td>
+        <td><span class="parametername">selector</span></td>
+        <td><p>The function delegate that defines the condition of the element to retrieve.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TSource</span></td>
+        <td><p>A <code data-dev-comment-type="typeparamref" class="typeparamref">TSource</code> element that matched the conditions defined by the specified <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of the sequence.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_SelectOne__4_System_Collections_Generic_IEnumerable___0__System_Func_System_Collections_Generic_IEnumerable___0____1___2___3___0____1___2___3_.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.SelectOne%60%604(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7BSystem.Collections.Generic.IEnumerable%7B%60%600%7D%2C%60%601%2C%60%602%2C%60%603%2C%60%600%7D%2C%60%601%2C%60%602%2C%60%603)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_SelectOne_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SelectOne*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_SelectOne__4_System_Collections_Generic_IEnumerable___0__System_Func_System_Collections_Generic_IEnumerable___0____1___2___3___0____1___2___3_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SelectOne``4(System.Collections.Generic.IEnumerable{``0},System.Func{System.Collections.Generic.IEnumerable{``0},``1,``2,``3,``0},``1,``2,``3)">SelectOne&lt;TSource, T1, T2, T3&gt;(IEnumerable&lt;TSource&gt;, Func&lt;IEnumerable&lt;TSource&gt;, T1, T2, T3, TSource&gt;, T1, T2, T3)</h4>
+  <div class="markdown level1 summary"><p>Retrieves the element that matches the conditions defined by the specified <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSource SelectOne&lt;TSource, T1, T2, T3&gt;(IEnumerable&lt;TSource&gt; source, Func&lt;IEnumerable&lt;TSource&gt;, T1, T2, T3, TSource&gt; selector, T1 arg1, T2 arg2, T3 arg3)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The sequence to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;, T1, T2, T3, TSource&gt;</td>
+        <td><span class="parametername">selector</span></td>
+        <td><p>The function delegate that defines the condition of the element to retrieve.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TSource</span></td>
+        <td><p>A <code data-dev-comment-type="typeparamref" class="typeparamref">TSource</code> element that matched the conditions defined by the specified <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of the sequence.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_SelectOne__5_System_Collections_Generic_IEnumerable___0__System_Func_System_Collections_Generic_IEnumerable___0____1___2___3___4___0____1___2___3___4_.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.SelectOne%60%605(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7BSystem.Collections.Generic.IEnumerable%7B%60%600%7D%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%600%7D%2C%60%601%2C%60%602%2C%60%603%2C%60%604)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_SelectOne_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SelectOne*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_SelectOne__5_System_Collections_Generic_IEnumerable___0__System_Func_System_Collections_Generic_IEnumerable___0____1___2___3___4___0____1___2___3___4_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SelectOne``5(System.Collections.Generic.IEnumerable{``0},System.Func{System.Collections.Generic.IEnumerable{``0},``1,``2,``3,``4,``0},``1,``2,``3,``4)">SelectOne&lt;TSource, T1, T2, T3, T4&gt;(IEnumerable&lt;TSource&gt;, Func&lt;IEnumerable&lt;TSource&gt;, T1, T2, T3, T4, TSource&gt;, T1, T2, T3, T4)</h4>
+  <div class="markdown level1 summary"><p>Retrieves the element that matches the conditions defined by the specified <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSource SelectOne&lt;TSource, T1, T2, T3, T4&gt;(IEnumerable&lt;TSource&gt; source, Func&lt;IEnumerable&lt;TSource&gt;, T1, T2, T3, T4, TSource&gt; selector, T1 arg1, T2 arg2, T3 arg3, T4 arg4)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The sequence to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;, T1, T2, T3, T4, TSource&gt;</td>
+        <td><span class="parametername">selector</span></td>
+        <td><p>The function delegate that defines the condition of the element to retrieve.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TSource</span></td>
+        <td><p>A <code data-dev-comment-type="typeparamref" class="typeparamref">TSource</code> element that matched the conditions defined by the specified <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of the sequence.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_SelectOne__6_System_Collections_Generic_IEnumerable___0__System_Func_System_Collections_Generic_IEnumerable___0____1___2___3___4___5___0____1___2___3___4___5_.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.SelectOne%60%606(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Func%7BSystem.Collections.Generic.IEnumerable%7B%60%600%7D%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%600%7D%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_SelectOne_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SelectOne*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_SelectOne__6_System_Collections_Generic_IEnumerable___0__System_Func_System_Collections_Generic_IEnumerable___0____1___2___3___4___5___0____1___2___3___4___5_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SelectOne``6(System.Collections.Generic.IEnumerable{``0},System.Func{System.Collections.Generic.IEnumerable{``0},``1,``2,``3,``4,``5,``0},``1,``2,``3,``4,``5)">SelectOne&lt;TSource, T1, T2, T3, T4, T5&gt;(IEnumerable&lt;TSource&gt;, Func&lt;IEnumerable&lt;TSource&gt;, T1, T2, T3, T4, T5, TSource&gt;, T1, T2, T3, T4, T5)</h4>
+  <div class="markdown level1 summary"><p>Retrieves the element that matches the conditions defined by the specified <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSource SelectOne&lt;TSource, T1, T2, T3, T4, T5&gt;(IEnumerable&lt;TSource&gt; source, Func&lt;IEnumerable&lt;TSource&gt;, T1, T2, T3, T4, T5, TSource&gt; selector, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The sequence to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;, T1, T2, T3, T4, T5, TSource&gt;</td>
+        <td><span class="parametername">selector</span></td>
+        <td><p>The function delegate that defines the condition of the element to retrieve.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">arg1</span></td>
+        <td><p>The first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">arg2</span></td>
+        <td><p>The second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T3</span></td>
+        <td><span class="parametername">arg3</span></td>
+        <td><p>The third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T4</span></td>
+        <td><span class="parametername">arg4</span></td>
+        <td><p>The fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T5</span></td>
+        <td><span class="parametername">arg5</span></td>
+        <td><p>The fifth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TSource</span></td>
+        <td><p>A <code data-dev-comment-type="typeparamref" class="typeparamref">TSource</code> element that matched the conditions defined by the specified <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of the sequence.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>The type of the first parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>The type of the second parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td><p>The type of the third parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td><p>The type of the fourth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td><p>The type of the fifth parameter of the function delegate <code data-dev-comment-type="paramref" class="paramref">selector</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_SortAscending__1_System_Collections_Generic_IEnumerable___0__.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.SortAscending%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_SortAscending_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SortAscending*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_SortAscending__1_System_Collections_Generic_IEnumerable___0__" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SortAscending``1(System.Collections.Generic.IEnumerable{``0})">SortAscending&lt;TSource&gt;(IEnumerable&lt;TSource&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns ascending sorted elements from a sequence by using the default comparer to compare values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; SortAscending&lt;TSource&gt;(IEnumerable&lt;TSource&gt; source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>A sequence of values to order.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> that contains ascending sorted elements from the source sequence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of <code data-dev-comment-type="paramref" class="paramref">source</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_SortAscending__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IComparer___0__.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.SortAscending%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Collections.Generic.IComparer%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_SortAscending_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SortAscending*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_SortAscending__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IComparer___0__" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SortAscending``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IComparer{``0})">SortAscending&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, IComparer&lt;TSource&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns ascending sorted elements from a sequence by using a specified <span class="xref">System.Collections.Generic.Comparer&lt;T&gt;</span> to compare values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; SortAscending&lt;TSource&gt;(IEnumerable&lt;TSource&gt; source, IComparer&lt;TSource&gt; comparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>A sequence of values to order.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IComparer</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td><p>An <span class="xref">System.Collections.Generic.IComparer&lt;T&gt;</span> to compare values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> that contains ascending sorted elements from the source sequence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of <code data-dev-comment-type="paramref" class="paramref">source</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_SortAscending__1_System_Collections_Generic_IEnumerable___0__System_Comparison___0__.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.SortAscending%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Comparison%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_SortAscending_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SortAscending*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_SortAscending__1_System_Collections_Generic_IEnumerable___0__System_Comparison___0__" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SortAscending``1(System.Collections.Generic.IEnumerable{``0},System.Comparison{``0})">SortAscending&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, Comparison&lt;TSource&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns ascending sorted elements from a sequence by using a specified <span class="xref">System.Collections.Generic.Comparer&lt;T&gt;</span> to compare values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; SortAscending&lt;TSource&gt;(IEnumerable&lt;TSource&gt; source, Comparison&lt;TSource&gt; comparison)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>A sequence of values to order.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Comparison</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">comparison</span></td>
+        <td><p>The <span class="xref">System.Comparison&lt;T&gt;</span> to use when comparing elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> that contains ascending sorted elements from the source sequence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of <code data-dev-comment-type="paramref" class="paramref">source</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_SortDescending__1_System_Collections_Generic_IEnumerable___0__.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.SortDescending%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_SortDescending_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SortDescending*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_SortDescending__1_System_Collections_Generic_IEnumerable___0__" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SortDescending``1(System.Collections.Generic.IEnumerable{``0})">SortDescending&lt;TSource&gt;(IEnumerable&lt;TSource&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns ascending sorted elements from a sequence by using the default comparer to compare values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; SortDescending&lt;TSource&gt;(IEnumerable&lt;TSource&gt; source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>A sequence of values to order.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> that contains descending sorted elements from the source sequence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of <code data-dev-comment-type="paramref" class="paramref">source</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_SortDescending__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IComparer___0__.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.SortDescending%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Collections.Generic.IComparer%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_SortDescending_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SortDescending*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_SortDescending__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IComparer___0__" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SortDescending``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IComparer{``0})">SortDescending&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, IComparer&lt;TSource&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns descending sorted elements from a sequence by using a specified <span class="xref">System.Collections.Generic.Comparer&lt;T&gt;</span> to compare values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; SortDescending&lt;TSource&gt;(IEnumerable&lt;TSource&gt; source, IComparer&lt;TSource&gt; comparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>A sequence of values to order.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IComparer</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td><p>An <span class="xref">System.Collections.Generic.IComparer&lt;T&gt;</span> to compare values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> that contains descending sorted elements from the source sequence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of <code data-dev-comment-type="paramref" class="paramref">source</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_SortDescending__1_System_Collections_Generic_IEnumerable___0__System_Comparison___0__.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.SortDescending%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D%2CSystem.Comparison%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_SortDescending_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SortDescending*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_SortDescending__1_System_Collections_Generic_IEnumerable___0__System_Comparison___0__" data-uid="Cuemon.Collections.Generic.EnumerableUtility.SortDescending``1(System.Collections.Generic.IEnumerable{``0},System.Comparison{``0})">SortDescending&lt;TSource&gt;(IEnumerable&lt;TSource&gt;, Comparison&lt;TSource&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns descending sorted elements from a sequence by using a specified <span class="xref">System.Collections.Generic.Comparer&lt;T&gt;</span> to compare values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; SortDescending&lt;TSource&gt;(IEnumerable&lt;TSource&gt; source, Comparison&lt;TSource&gt; comparison)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>A sequence of values to order.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Comparison</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">comparison</span></td>
+        <td><p>The <span class="xref">System.Comparison&lt;T&gt;</span> to use when comparing elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> that contains descending sorted elements from the source sequence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of the elements of <code data-dev-comment-type="paramref" class="paramref">source</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility_Yield__1___0_.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility.Yield%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Collections_Generic_EnumerableUtility_Yield_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.Yield*"></a>
+  <h4 id="Cuemon_Collections_Generic_EnumerableUtility_Yield__1___0_" data-uid="Cuemon.Collections.Generic.EnumerableUtility.Yield``1(``0)">Yield&lt;TSource&gt;(TSource)</h4>
+  <div class="markdown level1 summary"><p>Returns an <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> sequence with the specified <code data-dev-comment-type="paramref" class="paramref">source</code> as the only element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TSource&gt; Yield&lt;TSource&gt;(TSource source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TSource</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The value to yield into an <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> sequence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TSource&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> sequence with the specified <code data-dev-comment-type="paramref" class="paramref">source</code> as the only element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of <code data-dev-comment-type="paramref" class="paramref">source</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+<div id="disqus_thread"></div>
+                <script>
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://cuemon-github.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Collections_Generic_EnumerableUtility.md&amp;value=---%0Auid%3A%20Cuemon.Collections.Generic.EnumerableUtility%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright 2008-2018 Weubphoria. All rights reserved.<br>Generated by <strong>DocFX</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

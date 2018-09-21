@@ -1,0 +1,1192 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CacheValidator
+   | Cuemon .NET Standard </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CacheValidator
+   | Cuemon .NET Standard ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/50x50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cuemon.Integrity.CacheValidator">
+  
+  
+  <h1 id="Cuemon_Integrity_CacheValidator" data-uid="Cuemon.Integrity.CacheValidator" class="text-break">Class CacheValidator
+  </h1>
+  <div class="markdown level0 summary"><p>Provides a way to represent cacheable data-centric content that can be validated by cache-aware applications.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Cuemon.Integrity.ChecksumBuilder.html">ChecksumBuilder</a></div>
+    <div class="level2"><span class="xref">CacheValidator</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Cuemon.Integrity.ICacheableTimestamp.html">ICacheableTimestamp</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Cuemon.Integrity.ChecksumBuilder.html#Cuemon_Integrity_ChecksumBuilder_AlgorithmType">ChecksumBuilder.AlgorithmType</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Integrity.ChecksumBuilder.html#Cuemon_Integrity_ChecksumBuilder_Checksum">ChecksumBuilder.Checksum</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Integrity.ChecksumBuilder.html#Cuemon_Integrity_ChecksumBuilder_GetHashCode">ChecksumBuilder.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Integrity.ChecksumBuilder.html#Cuemon_Integrity_ChecksumBuilder_Equals_System_Object_">ChecksumBuilder.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Integrity.ChecksumBuilder.html#Cuemon_Integrity_ChecksumBuilder_Equals_Cuemon_Integrity_ChecksumBuilder_">ChecksumBuilder.Equals(ChecksumBuilder)</a>
+    </div>
+    <div>
+      <a class="xref" href="Cuemon.Integrity.ChecksumBuilder.html#Cuemon_Integrity_ChecksumBuilder_ToString">ChecksumBuilder.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cuemon.Integrity.html">Cuemon.Integrity</a></h6>
+  <h6><strong>Assembly</strong>: Cuemon.Integrity.dll</h6>
+  <h5 id="Cuemon_Integrity_CacheValidator_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CacheValidator : ChecksumBuilder, ICacheableTimestamp</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Action_Cuemon_Integrity_CacheValidatorOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.%23ctor(System.DateTime%2CSystem.Action%7BCuemon.Integrity.CacheValidatorOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator__ctor_" data-uid="Cuemon.Integrity.CacheValidator.#ctor*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Action_Cuemon_Integrity_CacheValidatorOptions__" data-uid="Cuemon.Integrity.CacheValidator.#ctor(System.DateTime,System.Action{Cuemon.Integrity.CacheValidatorOptions})">CacheValidator(DateTime, Action&lt;CacheValidatorOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheValidator(DateTime created, Action&lt;CacheValidatorOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">created</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was first created.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_Action_Cuemon_Integrity_CacheValidatorOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.%23ctor(System.DateTime%2CSystem.Nullable%7BSystem.DateTime%7D%2CSystem.Action%7BCuemon.Integrity.CacheValidatorOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator__ctor_" data-uid="Cuemon.Integrity.CacheValidator.#ctor*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_Action_Cuemon_Integrity_CacheValidatorOptions__" data-uid="Cuemon.Integrity.CacheValidator.#ctor(System.DateTime,System.Nullable{System.DateTime},System.Action{Cuemon.Integrity.CacheValidatorOptions})">CacheValidator(DateTime, Nullable&lt;DateTime&gt;, Action&lt;CacheValidatorOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheValidator(DateTime created, DateTime? modified, Action&lt;CacheValidatorOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">created</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was first created.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">modified</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was last modified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_Byte___System_Action_Cuemon_Integrity_CacheValidatorOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.%23ctor(System.DateTime%2CSystem.Nullable%7BSystem.DateTime%7D%2CSystem.Byte%5B%5D%2CSystem.Action%7BCuemon.Integrity.CacheValidatorOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator__ctor_" data-uid="Cuemon.Integrity.CacheValidator.#ctor*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_Byte___System_Action_Cuemon_Integrity_CacheValidatorOptions__" data-uid="Cuemon.Integrity.CacheValidator.#ctor(System.DateTime,System.Nullable{System.DateTime},System.Byte[],System.Action{Cuemon.Integrity.CacheValidatorOptions})">CacheValidator(DateTime, Nullable&lt;DateTime&gt;, Byte[], Action&lt;CacheValidatorOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheValidator(DateTime created, DateTime? modified, byte[] checksum, Action&lt;CacheValidatorOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">created</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was first created.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">modified</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was last modified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">checksum</span></td>
+        <td><p>An array of bytes containing a checksum of the data this instance represents.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_Double_System_Action_Cuemon_Integrity_CacheValidatorOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.%23ctor(System.DateTime%2CSystem.Nullable%7BSystem.DateTime%7D%2CSystem.Double%2CSystem.Action%7BCuemon.Integrity.CacheValidatorOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator__ctor_" data-uid="Cuemon.Integrity.CacheValidator.#ctor*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_Double_System_Action_Cuemon_Integrity_CacheValidatorOptions__" data-uid="Cuemon.Integrity.CacheValidator.#ctor(System.DateTime,System.Nullable{System.DateTime},System.Double,System.Action{Cuemon.Integrity.CacheValidatorOptions})">CacheValidator(DateTime, Nullable&lt;DateTime&gt;, Double, Action&lt;CacheValidatorOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheValidator(DateTime created, DateTime? modified, double checksum, Action&lt;CacheValidatorOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">created</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was first created.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">modified</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was last modified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">checksum</span></td>
+        <td><p>A <span class="xref">System.Double</span> value containing a byte-for-byte checksum of the data this instance represents.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_Int16_System_Action_Cuemon_Integrity_CacheValidatorOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.%23ctor(System.DateTime%2CSystem.Nullable%7BSystem.DateTime%7D%2CSystem.Int16%2CSystem.Action%7BCuemon.Integrity.CacheValidatorOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator__ctor_" data-uid="Cuemon.Integrity.CacheValidator.#ctor*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_Int16_System_Action_Cuemon_Integrity_CacheValidatorOptions__" data-uid="Cuemon.Integrity.CacheValidator.#ctor(System.DateTime,System.Nullable{System.DateTime},System.Int16,System.Action{Cuemon.Integrity.CacheValidatorOptions})">CacheValidator(DateTime, Nullable&lt;DateTime&gt;, Int16, Action&lt;CacheValidatorOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheValidator(DateTime created, DateTime? modified, short checksum, Action&lt;CacheValidatorOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">created</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was first created.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">modified</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was last modified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">checksum</span></td>
+        <td><p>A <span class="xref">System.Int16</span> value containing a byte-for-byte checksum of the data this instance represents.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_Int32_System_Action_Cuemon_Integrity_CacheValidatorOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.%23ctor(System.DateTime%2CSystem.Nullable%7BSystem.DateTime%7D%2CSystem.Int32%2CSystem.Action%7BCuemon.Integrity.CacheValidatorOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator__ctor_" data-uid="Cuemon.Integrity.CacheValidator.#ctor*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_Int32_System_Action_Cuemon_Integrity_CacheValidatorOptions__" data-uid="Cuemon.Integrity.CacheValidator.#ctor(System.DateTime,System.Nullable{System.DateTime},System.Int32,System.Action{Cuemon.Integrity.CacheValidatorOptions})">CacheValidator(DateTime, Nullable&lt;DateTime&gt;, Int32, Action&lt;CacheValidatorOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheValidator(DateTime created, DateTime? modified, int checksum, Action&lt;CacheValidatorOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">created</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was first created.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">modified</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was last modified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">checksum</span></td>
+        <td><p>A <span class="xref">System.Int32</span> value containing a byte-for-byte checksum of the data this instance represents.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_Int64_System_Action_Cuemon_Integrity_CacheValidatorOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.%23ctor(System.DateTime%2CSystem.Nullable%7BSystem.DateTime%7D%2CSystem.Int64%2CSystem.Action%7BCuemon.Integrity.CacheValidatorOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator__ctor_" data-uid="Cuemon.Integrity.CacheValidator.#ctor*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_Int64_System_Action_Cuemon_Integrity_CacheValidatorOptions__" data-uid="Cuemon.Integrity.CacheValidator.#ctor(System.DateTime,System.Nullable{System.DateTime},System.Int64,System.Action{Cuemon.Integrity.CacheValidatorOptions})">CacheValidator(DateTime, Nullable&lt;DateTime&gt;, Int64, Action&lt;CacheValidatorOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheValidator(DateTime created, DateTime? modified, long checksum, Action&lt;CacheValidatorOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">created</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was first created.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">modified</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was last modified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">checksum</span></td>
+        <td><p>A <span class="xref">System.Int64</span> value containing a byte-for-byte checksum of the data this instance represents.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_Single_System_Action_Cuemon_Integrity_CacheValidatorOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.%23ctor(System.DateTime%2CSystem.Nullable%7BSystem.DateTime%7D%2CSystem.Single%2CSystem.Action%7BCuemon.Integrity.CacheValidatorOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator__ctor_" data-uid="Cuemon.Integrity.CacheValidator.#ctor*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_Single_System_Action_Cuemon_Integrity_CacheValidatorOptions__" data-uid="Cuemon.Integrity.CacheValidator.#ctor(System.DateTime,System.Nullable{System.DateTime},System.Single,System.Action{Cuemon.Integrity.CacheValidatorOptions})">CacheValidator(DateTime, Nullable&lt;DateTime&gt;, Single, Action&lt;CacheValidatorOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheValidator(DateTime created, DateTime? modified, float checksum, Action&lt;CacheValidatorOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">created</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was first created.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">modified</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was last modified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">checksum</span></td>
+        <td><p>A <span class="xref">System.Single</span> value containing a byte-for-byte checksum of the data this instance represents.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_String_System_Action_Cuemon_Integrity_CacheValidatorOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.%23ctor(System.DateTime%2CSystem.Nullable%7BSystem.DateTime%7D%2CSystem.String%2CSystem.Action%7BCuemon.Integrity.CacheValidatorOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator__ctor_" data-uid="Cuemon.Integrity.CacheValidator.#ctor*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_String_System_Action_Cuemon_Integrity_CacheValidatorOptions__" data-uid="Cuemon.Integrity.CacheValidator.#ctor(System.DateTime,System.Nullable{System.DateTime},System.String,System.Action{Cuemon.Integrity.CacheValidatorOptions})">CacheValidator(DateTime, Nullable&lt;DateTime&gt;, String, Action&lt;CacheValidatorOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheValidator(DateTime created, DateTime? modified, string checksum, Action&lt;CacheValidatorOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">created</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was first created.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">modified</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was last modified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">checksum</span></td>
+        <td><p>A <span class="xref">System.String</span> value containing a byte-for-byte checksum of the data this instance represents.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_UInt16_System_Action_Cuemon_Integrity_CacheValidatorOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.%23ctor(System.DateTime%2CSystem.Nullable%7BSystem.DateTime%7D%2CSystem.UInt16%2CSystem.Action%7BCuemon.Integrity.CacheValidatorOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator__ctor_" data-uid="Cuemon.Integrity.CacheValidator.#ctor*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_UInt16_System_Action_Cuemon_Integrity_CacheValidatorOptions__" data-uid="Cuemon.Integrity.CacheValidator.#ctor(System.DateTime,System.Nullable{System.DateTime},System.UInt16,System.Action{Cuemon.Integrity.CacheValidatorOptions})">CacheValidator(DateTime, Nullable&lt;DateTime&gt;, UInt16, Action&lt;CacheValidatorOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheValidator(DateTime created, DateTime? modified, ushort checksum, Action&lt;CacheValidatorOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">created</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was first created.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">modified</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was last modified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">checksum</span></td>
+        <td><p>A <span class="xref">System.UInt16</span> value containing a byte-for-byte checksum of the data this instance represents.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_UInt32_System_Action_Cuemon_Integrity_CacheValidatorOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.%23ctor(System.DateTime%2CSystem.Nullable%7BSystem.DateTime%7D%2CSystem.UInt32%2CSystem.Action%7BCuemon.Integrity.CacheValidatorOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator__ctor_" data-uid="Cuemon.Integrity.CacheValidator.#ctor*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_UInt32_System_Action_Cuemon_Integrity_CacheValidatorOptions__" data-uid="Cuemon.Integrity.CacheValidator.#ctor(System.DateTime,System.Nullable{System.DateTime},System.UInt32,System.Action{Cuemon.Integrity.CacheValidatorOptions})">CacheValidator(DateTime, Nullable&lt;DateTime&gt;, UInt32, Action&lt;CacheValidatorOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheValidator(DateTime created, DateTime? modified, uint checksum, Action&lt;CacheValidatorOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">created</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was first created.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">modified</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was last modified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">checksum</span></td>
+        <td><p>A <span class="xref">System.UInt32</span> value containing a byte-for-byte checksum of the data this instance represents.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_UInt64_System_Action_Cuemon_Integrity_CacheValidatorOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.%23ctor(System.DateTime%2CSystem.Nullable%7BSystem.DateTime%7D%2CSystem.UInt64%2CSystem.Action%7BCuemon.Integrity.CacheValidatorOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator__ctor_" data-uid="Cuemon.Integrity.CacheValidator.#ctor*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator__ctor_System_DateTime_System_Nullable_System_DateTime__System_UInt64_System_Action_Cuemon_Integrity_CacheValidatorOptions__" data-uid="Cuemon.Integrity.CacheValidator.#ctor(System.DateTime,System.Nullable{System.DateTime},System.UInt64,System.Action{Cuemon.Integrity.CacheValidatorOptions})">CacheValidator(DateTime, Nullable&lt;DateTime&gt;, UInt64, Action&lt;CacheValidatorOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CacheValidator(DateTime created, DateTime? modified, ulong checksum, Action&lt;CacheValidatorOptions&gt; setup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">created</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was first created.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">modified</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value for when data this instance represents was last modified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">checksum</span></td>
+        <td><p>A <span class="xref">System.UInt64</span> value containing a byte-for-byte checksum of the data this instance represents.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a>&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <a class="xref" href="Cuemon.Integrity.CacheValidatorOptions.html">CacheValidatorOptions</a> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator_Assembly.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.Assembly%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator_Assembly_" data-uid="Cuemon.Integrity.CacheValidator.Assembly*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator_Assembly" data-uid="Cuemon.Integrity.CacheValidator.Assembly">Assembly</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the <span class="xref">System.Reflection.Assembly</span> that will serve as the ideal candidate for a <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> reference point. Default is <a class="xref" href="Cuemon.html">Cuemon</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Assembly Assembly { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Assembly</span></td>
+        <td><p>The assembly to use as a <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> reference point.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">value</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator_Created.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.Created%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator_Created_" data-uid="Cuemon.Integrity.CacheValidator.Created*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator_Created" data-uid="Cuemon.Integrity.CacheValidator.Created">Created</h4>
+  <div class="markdown level1 summary"><p>Gets a <span class="xref">System.DateTime</span> value from when data this instance represents was first created, expressed as the Coordinated Universal Time (UTC).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime Created { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value from when data this instance represents was first created, expressed as the Coordinated Universal Time (UTC).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator_Default.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.Default%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator_Default_" data-uid="Cuemon.Integrity.CacheValidator.Default*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator_Default" data-uid="Cuemon.Integrity.CacheValidator.Default">Default</h4>
+  <div class="markdown level1 summary"><p>Gets a <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> object that is initialized to a default representation that should be considered invalid for usage beyond this check.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CacheValidator Default { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a></td>
+        <td><p>A <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> object that is initialized to a default representation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator_Method.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.Method%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator_Method_" data-uid="Cuemon.Integrity.CacheValidator.Method*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator_Method" data-uid="Cuemon.Integrity.CacheValidator.Method">Method</h4>
+  <div class="markdown level1 summary"><p>Gets an enumeration value of <a class="xref" href="Cuemon.Integrity.ChecksumMethod.html">ChecksumMethod</a> indicating the usage method of this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChecksumMethod Method { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Integrity.ChecksumMethod.html">ChecksumMethod</a></td>
+        <td><p>One of the enumeration values of <a class="xref" href="Cuemon.Integrity.ChecksumMethod.html">ChecksumMethod</a> that indicates the usage method of this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator_Modified.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.Modified%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator_Modified_" data-uid="Cuemon.Integrity.CacheValidator.Modified*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator_Modified" data-uid="Cuemon.Integrity.CacheValidator.Modified">Modified</h4>
+  <div class="markdown level1 summary"><p>Gets a <span class="xref">System.DateTime</span> value from when data this instance represents was last modified, expressed as the Coordinated Universal Time (UTC).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime? Modified { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><p>A <span class="xref">System.DateTime</span> value from when data this instance represents was last modified, expressed as the Coordinated Universal Time (UTC).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator_ReferencePoint.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.ReferencePoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator_ReferencePoint_" data-uid="Cuemon.Integrity.CacheValidator.ReferencePoint*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator_ReferencePoint" data-uid="Cuemon.Integrity.CacheValidator.ReferencePoint">ReferencePoint</h4>
+  <div class="markdown level1 summary"><p>Gets a <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> object that represents an <span class="xref">System.Reflection.Assembly</span> reference point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CacheValidator ReferencePoint { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a></td>
+        <td><p>A <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> object that represents an <span class="xref">System.Reflection.Assembly</span> reference point.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator_Strength.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.Strength%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator_Strength_" data-uid="Cuemon.Integrity.CacheValidator.Strength*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator_Strength" data-uid="Cuemon.Integrity.CacheValidator.Strength">Strength</h4>
+  <div class="markdown level1 summary"><p>Gets an enumeration value of <a class="xref" href="Cuemon.Integrity.ChecksumStrength.html">ChecksumStrength</a> indicating the strength of this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChecksumStrength Strength { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Integrity.ChecksumStrength.html">ChecksumStrength</a></td>
+        <td><p>One of the enumeration values of <a class="xref" href="Cuemon.Integrity.ChecksumStrength.html">ChecksumStrength</a> that specifies the strength of this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator_Clone.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator_Clone_" data-uid="Cuemon.Integrity.CacheValidator.Clone*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator_Clone" data-uid="Cuemon.Integrity.CacheValidator.Clone">Clone()</h4>
+  <div class="markdown level1 summary"><p>Creates a shallow copy of the current <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual CacheValidator Clone()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a></td>
+        <td><p>A new <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> that is a copy of this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator_GetMostSignificant.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.GetMostSignificant%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator_GetMostSignificant_" data-uid="Cuemon.Integrity.CacheValidator.GetMostSignificant*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator_GetMostSignificant" data-uid="Cuemon.Integrity.CacheValidator.GetMostSignificant">GetMostSignificant()</h4>
+  <div class="markdown level1 summary"><p>Gets the most significant (largest) value of either <a class="xref" href="Cuemon.Integrity.CacheValidator.html#Cuemon_Integrity_CacheValidator_Created">Created</a> or <a class="xref" href="Cuemon.Integrity.CacheValidator.html#Cuemon_Integrity_CacheValidator_Modified">Modified</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime GetMostSignificant()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><p>The most significant (largest) value of either <a class="xref" href="Cuemon.Integrity.CacheValidator.html#Cuemon_Integrity_CacheValidator_Created">Created</a> or <a class="xref" href="Cuemon.Integrity.CacheValidator.html#Cuemon_Integrity_CacheValidator_Modified">Modified</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator_GetMostSignificant_Cuemon_Integrity_CacheValidator___.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator.GetMostSignificant(Cuemon.Integrity.CacheValidator%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Integrity_CacheValidator_GetMostSignificant_" data-uid="Cuemon.Integrity.CacheValidator.GetMostSignificant*"></a>
+  <h4 id="Cuemon_Integrity_CacheValidator_GetMostSignificant_Cuemon_Integrity_CacheValidator___" data-uid="Cuemon.Integrity.CacheValidator.GetMostSignificant(Cuemon.Integrity.CacheValidator[])">GetMostSignificant(CacheValidator[])</h4>
+  <div class="markdown level1 summary"><p>Gets the most significant <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> object from the most significant (largest) value of either <a class="xref" href="Cuemon.Integrity.CacheValidator.html#Cuemon_Integrity_CacheValidator_Created">Created</a> or <a class="xref" href="Cuemon.Integrity.CacheValidator.html#Cuemon_Integrity_CacheValidator_Modified">Modified</a> in the specified <code data-dev-comment-type="paramref" class="paramref">sequence</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CacheValidator GetMostSignificant(params CacheValidator[] sequence)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a>[]</td>
+        <td><span class="parametername">sequence</span></td>
+        <td><p>A sequence of  <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> objects to parse for the most significant (largest) value of either <a class="xref" href="Cuemon.Integrity.CacheValidator.html#Cuemon_Integrity_CacheValidator_Created">Created</a> or <a class="xref" href="Cuemon.Integrity.CacheValidator.html#Cuemon_Integrity_CacheValidator_Modified">Modified</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a></td>
+        <td><p>The most significant <a class="xref" href="Cuemon.Integrity.CacheValidator.html">CacheValidator</a> object from the specified <code data-dev-comment-type="paramref" class="paramref">sequence</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Cuemon.Integrity.ICacheableTimestamp.html">ICacheableTimestamp</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__2___0_System_Func___0___1__">ConverterExtensions.ParseWith&lt;TSource, TResult&gt;(TSource, Func&lt;TSource, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__3___0_System_Func___0___1___2____1_">ConverterExtensions.ParseWith&lt;TSource, T, TResult&gt;(TSource, Func&lt;TSource, T, TResult&gt;, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__4___0_System_Func___0___1___2___3____1___2_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, TResult&gt;(TSource, Func&lt;TSource, T1, T2, TResult&gt;, T1, T2)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__5___0_System_Func___0___1___2___3___4____1___2___3_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, TResult&gt;, T1, T2, T3)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__6___0_System_Func___0___1___2___3___4___5____1___2___3___4_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, TResult&gt;, T1, T2, T3, T4)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__7___0_System_Func___0___1___2___3___4___5___6____1___2___3___4___5_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, TResult&gt;, T1, T2, T3, T4, T5)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__8___0_System_Func___0___1___2___3___4___5___6___7____1___2___3___4___5___6_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, TResult&gt;, T1, T2, T3, T4, T5, T6)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__9___0_System_Func___0___1___2___3___4___5___6___7___8____1___2___3___4___5___6___7_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, T7, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, TResult&gt;, T1, T2, T3, T4, T5, T6, T7)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__10___0_System_Func___0___1___2___3___4___5___6___7___8___9____1___2___3___4___5___6___7___8_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, TResult&gt;, T1, T2, T3, T4, T5, T6, T7, T8)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_ParseWith__11___0_System_Func___0___1___2___3___4___5___6___7___8___9___10____1___2___3___4___5___6___7___8___9_">ConverterExtensions.ParseWith&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult&gt;(TSource, Func&lt;TSource, T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult&gt;, T1, T2, T3, T4, T5, T6, T7, T8, T9)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_As__1_System_Object_">ConverterExtensions.As&lt;TResult&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_As__1_System_Object___0_">ConverterExtensions.As&lt;TResult&gt;(Object, TResult)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.ConverterExtensions.html#Cuemon_ConverterExtensions_As__1_System_Object___0_System_IFormatProvider_">ConverterExtensions.As&lt;TResult&gt;(Object, TResult, IFormatProvider)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.DelegateUtilityExtensions.html#Cuemon_DelegateUtilityExtensions_Wrap__1___0_">DelegateUtilityExtensions.Wrap&lt;TResult&gt;(TResult)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.DelegateUtilityExtensions.html#Cuemon_DelegateUtilityExtensions_DynamicWrap__1___0_">DelegateUtilityExtensions.DynamicWrap&lt;TResult&gt;(TResult)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TweakerExtensions.html#Cuemon_TweakerExtensions_Adjust__1___0_System_Func___0___0__">TweakerExtensions.Adjust&lt;T&gt;(T, Func&lt;T, T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TypeUtilityExtensions.html#Cuemon_TypeUtilityExtensions_Is__1_System_Object_">TypeUtilityExtensions.Is&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TypeUtilityExtensions.html#Cuemon_TypeUtilityExtensions_IsNot__1_System_Object_">TypeUtilityExtensions.IsNot&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.TypeUtilityExtensions.html#Cuemon_TypeUtilityExtensions_IsNullable__1___0_">TypeUtilityExtensions.IsNullable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.WrapperExtensions.html#Cuemon_WrapperExtensions_UseWrapper__1___0_System_Action_System_Collections_Generic_IDictionary_System_String_System_Object___">WrapperExtensions.UseWrapper&lt;T&gt;(T, Action&lt;IDictionary&lt;String, Object&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.WrapperExtensions.html#Cuemon_WrapperExtensions_UseWrapper__1___0_System_Reflection_MemberInfo_System_Action_System_Collections_Generic_IDictionary_System_String_System_Object___">WrapperExtensions.UseWrapper&lt;T&gt;(T, MemberInfo, Action&lt;IDictionary&lt;String, Object&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Collections.Generic.EnumerableUtilityExtensions.html#Cuemon_Collections_Generic_EnumerableUtilityExtensions_Yield__1___0_">EnumerableUtilityExtensions.Yield&lt;TSource&gt;(TSource)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Security.Cryptography.HashUtilityExtensions.html#Cuemon_Security_Cryptography_HashUtilityExtensions_ComputeHash_System_Object_System_Action_Cuemon_Security_Cryptography_HashOptions__">HashUtilityExtensions.ComputeHash(Object, Action&lt;HashOptions&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Security.Cryptography.HmacUtilityExtensions.html#Cuemon_Security_Cryptography_HmacUtilityExtensions_ComputeKeyedHash_System_Object_System_Byte___System_Action_Cuemon_Security_Cryptography_KeyedHashOptions__">HmacUtilityExtensions.ComputeKeyedHash(Object, Byte[], Action&lt;KeyedHashOptions&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Integrity.ChecksumBuilderExtensions.html#Cuemon_Integrity_ChecksumBuilderExtensions_CombineWith__1___0_System_Double___">ChecksumBuilderExtensions.CombineWith&lt;T&gt;(T, Double[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Integrity.ChecksumBuilderExtensions.html#Cuemon_Integrity_ChecksumBuilderExtensions_CombineWith__1___0_System_Int16___">ChecksumBuilderExtensions.CombineWith&lt;T&gt;(T, Int16[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Integrity.ChecksumBuilderExtensions.html#Cuemon_Integrity_ChecksumBuilderExtensions_CombineWith__1___0_System_String___">ChecksumBuilderExtensions.CombineWith&lt;T&gt;(T, String[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Integrity.ChecksumBuilderExtensions.html#Cuemon_Integrity_ChecksumBuilderExtensions_CombineWith__1___0_System_Int32___">ChecksumBuilderExtensions.CombineWith&lt;T&gt;(T, Int32[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Integrity.ChecksumBuilderExtensions.html#Cuemon_Integrity_ChecksumBuilderExtensions_CombineWith__1___0_System_Int64___">ChecksumBuilderExtensions.CombineWith&lt;T&gt;(T, Int64[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Integrity.ChecksumBuilderExtensions.html#Cuemon_Integrity_ChecksumBuilderExtensions_CombineWith__1___0_System_Single___">ChecksumBuilderExtensions.CombineWith&lt;T&gt;(T, Single[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Integrity.ChecksumBuilderExtensions.html#Cuemon_Integrity_ChecksumBuilderExtensions_CombineWith__1___0_System_UInt16___">ChecksumBuilderExtensions.CombineWith&lt;T&gt;(T, UInt16[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Integrity.ChecksumBuilderExtensions.html#Cuemon_Integrity_ChecksumBuilderExtensions_CombineWith__1___0_System_UInt32___">ChecksumBuilderExtensions.CombineWith&lt;T&gt;(T, UInt32[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Integrity.ChecksumBuilderExtensions.html#Cuemon_Integrity_ChecksumBuilderExtensions_CombineWith__1___0_System_UInt64___">ChecksumBuilderExtensions.CombineWith&lt;T&gt;(T, UInt64[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Cuemon.Integrity.ChecksumBuilderExtensions.html#Cuemon_Integrity_ChecksumBuilderExtensions_CombineWith__1___0_System_Byte___">ChecksumBuilderExtensions.CombineWith&lt;T&gt;(T, Byte[])</a>
+  </div>
+<div id="disqus_thread"></div>
+                <script>
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://cuemon-github.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/gimlichael/CuemonCore/new/master/docs/new?filename=Cuemon_Integrity_CacheValidator.md&amp;value=---%0Auid%3A%20Cuemon.Integrity.CacheValidator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright 2008-2018 Weubphoria. All rights reserved.<br>Generated by <strong>DocFX</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

@@ -37,7 +37,7 @@ nav .container {
         color: white;
     }
 
-#wrapper .container {
+#wrapper .container.nuget {
     padding-top: 25px;
 }
 

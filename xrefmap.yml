@@ -28817,6 +28817,57 @@ references:
   isSpec: "True"
   fullName: Cuemon.Security.XmlObfuscator.Revert
   nameWithType: XmlObfuscator.Revert
+- uid: Cuemon.Serialization
+  name: Cuemon.Serialization
+  href: api/core/Cuemon.Serialization.html
+  commentId: N:Cuemon.Serialization
+  fullName: Cuemon.Serialization
+  nameWithType: Cuemon.Serialization
+- uid: Cuemon.Serialization.ExceptionDescriptorSerializationOptions
+  name: ExceptionDescriptorSerializationOptions
+  href: api/core/Cuemon.Serialization.ExceptionDescriptorSerializationOptions.html
+  commentId: T:Cuemon.Serialization.ExceptionDescriptorSerializationOptions
+  fullName: Cuemon.Serialization.ExceptionDescriptorSerializationOptions
+  nameWithType: ExceptionDescriptorSerializationOptions
+- uid: Cuemon.Serialization.ExceptionDescriptorSerializationOptions.#ctor
+  name: ExceptionDescriptorSerializationOptions()
+  href: api/core/Cuemon.Serialization.ExceptionDescriptorSerializationOptions.html#Cuemon_Serialization_ExceptionDescriptorSerializationOptions__ctor
+  commentId: M:Cuemon.Serialization.ExceptionDescriptorSerializationOptions.#ctor
+  fullName: Cuemon.Serialization.ExceptionDescriptorSerializationOptions.ExceptionDescriptorSerializationOptions()
+  nameWithType: ExceptionDescriptorSerializationOptions.ExceptionDescriptorSerializationOptions()
+- uid: Cuemon.Serialization.ExceptionDescriptorSerializationOptions.#ctor*
+  name: ExceptionDescriptorSerializationOptions
+  href: api/core/Cuemon.Serialization.ExceptionDescriptorSerializationOptions.html#Cuemon_Serialization_ExceptionDescriptorSerializationOptions__ctor_
+  commentId: Overload:Cuemon.Serialization.ExceptionDescriptorSerializationOptions.#ctor
+  isSpec: "True"
+  fullName: Cuemon.Serialization.ExceptionDescriptorSerializationOptions.ExceptionDescriptorSerializationOptions
+  nameWithType: ExceptionDescriptorSerializationOptions.ExceptionDescriptorSerializationOptions
+- uid: Cuemon.Serialization.ExceptionDescriptorSerializationOptions.IncludeEvidence
+  name: IncludeEvidence
+  href: api/core/Cuemon.Serialization.ExceptionDescriptorSerializationOptions.html#Cuemon_Serialization_ExceptionDescriptorSerializationOptions_IncludeEvidence
+  commentId: P:Cuemon.Serialization.ExceptionDescriptorSerializationOptions.IncludeEvidence
+  fullName: Cuemon.Serialization.ExceptionDescriptorSerializationOptions.IncludeEvidence
+  nameWithType: ExceptionDescriptorSerializationOptions.IncludeEvidence
+- uid: Cuemon.Serialization.ExceptionDescriptorSerializationOptions.IncludeEvidence*
+  name: IncludeEvidence
+  href: api/core/Cuemon.Serialization.ExceptionDescriptorSerializationOptions.html#Cuemon_Serialization_ExceptionDescriptorSerializationOptions_IncludeEvidence_
+  commentId: Overload:Cuemon.Serialization.ExceptionDescriptorSerializationOptions.IncludeEvidence
+  isSpec: "True"
+  fullName: Cuemon.Serialization.ExceptionDescriptorSerializationOptions.IncludeEvidence
+  nameWithType: ExceptionDescriptorSerializationOptions.IncludeEvidence
+- uid: Cuemon.Serialization.ExceptionDescriptorSerializationOptions.IncludeFailure
+  name: IncludeFailure
+  href: api/core/Cuemon.Serialization.ExceptionDescriptorSerializationOptions.html#Cuemon_Serialization_ExceptionDescriptorSerializationOptions_IncludeFailure
+  commentId: P:Cuemon.Serialization.ExceptionDescriptorSerializationOptions.IncludeFailure
+  fullName: Cuemon.Serialization.ExceptionDescriptorSerializationOptions.IncludeFailure
+  nameWithType: ExceptionDescriptorSerializationOptions.IncludeFailure
+- uid: Cuemon.Serialization.ExceptionDescriptorSerializationOptions.IncludeFailure*
+  name: IncludeFailure
+  href: api/core/Cuemon.Serialization.ExceptionDescriptorSerializationOptions.html#Cuemon_Serialization_ExceptionDescriptorSerializationOptions_IncludeFailure_
+  commentId: Overload:Cuemon.Serialization.ExceptionDescriptorSerializationOptions.IncludeFailure
+  isSpec: "True"
+  fullName: Cuemon.Serialization.ExceptionDescriptorSerializationOptions.IncludeFailure
+  nameWithType: ExceptionDescriptorSerializationOptions.IncludeFailure
 - uid: Cuemon.Serialization.Formatters
   name: Cuemon.Serialization.Formatters
   href: api/core/Cuemon.Serialization.Formatters.html
@@ -29100,15 +29151,15 @@ references:
   isSpec: "True"
   fullName: Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.AddExceptionConverter
   nameWithType: JsonConverterCollectionExtensions.AddExceptionConverter
-- uid: Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.AddExceptionDescriptorConverter(ICollection{JsonConverter})
-  name: AddExceptionDescriptorConverter(ICollection<JsonConverter>)
-  href: api/jsoncore/Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.html#Cuemon_Serialization_Json_Converters_JsonConverterCollectionExtensions_AddExceptionDescriptorConverter_ICollection_JsonConverter__
-  commentId: M:Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.AddExceptionDescriptorConverter(ICollection{JsonConverter})
-  name.vb: AddExceptionDescriptorConverter(ICollection(Of JsonConverter))
-  fullName: Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.AddExceptionDescriptorConverter(ICollection<JsonConverter>)
-  fullName.vb: Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.AddExceptionDescriptorConverter(ICollection(Of JsonConverter))
-  nameWithType: JsonConverterCollectionExtensions.AddExceptionDescriptorConverter(ICollection<JsonConverter>)
-  nameWithType.vb: JsonConverterCollectionExtensions.AddExceptionDescriptorConverter(ICollection(Of JsonConverter))
+- uid: Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.AddExceptionDescriptorConverter(ICollection{JsonConverter},Action{Cuemon.Serialization.ExceptionDescriptorSerializationOptions})
+  name: AddExceptionDescriptorConverter(ICollection<JsonConverter>, Action<ExceptionDescriptorSerializationOptions>)
+  href: api/jsoncore/Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.html#Cuemon_Serialization_Json_Converters_JsonConverterCollectionExtensions_AddExceptionDescriptorConverter_ICollection_JsonConverter__Action_Cuemon_Serialization_ExceptionDescriptorSerializationOptions__
+  commentId: M:Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.AddExceptionDescriptorConverter(ICollection{JsonConverter},Action{Cuemon.Serialization.ExceptionDescriptorSerializationOptions})
+  name.vb: AddExceptionDescriptorConverter(ICollection(Of JsonConverter), Action(Of ExceptionDescriptorSerializationOptions))
+  fullName: Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.AddExceptionDescriptorConverter(ICollection<JsonConverter>, Action<Cuemon.Serialization.ExceptionDescriptorSerializationOptions>)
+  fullName.vb: Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.AddExceptionDescriptorConverter(ICollection(Of JsonConverter), Action(Of Cuemon.Serialization.ExceptionDescriptorSerializationOptions))
+  nameWithType: JsonConverterCollectionExtensions.AddExceptionDescriptorConverter(ICollection<JsonConverter>, Action<ExceptionDescriptorSerializationOptions>)
+  nameWithType.vb: JsonConverterCollectionExtensions.AddExceptionDescriptorConverter(ICollection(Of JsonConverter), Action(Of ExceptionDescriptorSerializationOptions))
 - uid: Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.AddExceptionDescriptorConverter*
   name: AddExceptionDescriptorConverter
   href: api/jsoncore/Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.html#Cuemon_Serialization_Json_Converters_JsonConverterCollectionExtensions_AddExceptionDescriptorConverter_
@@ -29902,15 +29953,15 @@ references:
   isSpec: "True"
   fullName: Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.AddExceptionConverter
   nameWithType: XmlConverterListExtensions.AddExceptionConverter
-- uid: Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.AddExceptionDescriptorConverter(System.Collections.Generic.IList{Cuemon.Serialization.Xml.Converters.XmlConverter})
-  name: AddExceptionDescriptorConverter(IList<XmlConverter>)
-  href: api/core/Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.html#Cuemon_Serialization_Xml_Converters_XmlConverterListExtensions_AddExceptionDescriptorConverter_System_Collections_Generic_IList_Cuemon_Serialization_Xml_Converters_XmlConverter__
-  commentId: M:Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.AddExceptionDescriptorConverter(System.Collections.Generic.IList{Cuemon.Serialization.Xml.Converters.XmlConverter})
-  name.vb: AddExceptionDescriptorConverter(IList(Of XmlConverter))
-  fullName: Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.AddExceptionDescriptorConverter(System.Collections.Generic.IList<Cuemon.Serialization.Xml.Converters.XmlConverter>)
-  fullName.vb: Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.AddExceptionDescriptorConverter(System.Collections.Generic.IList(Of Cuemon.Serialization.Xml.Converters.XmlConverter))
-  nameWithType: XmlConverterListExtensions.AddExceptionDescriptorConverter(IList<XmlConverter>)
-  nameWithType.vb: XmlConverterListExtensions.AddExceptionDescriptorConverter(IList(Of XmlConverter))
+- uid: Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.AddExceptionDescriptorConverter(System.Collections.Generic.IList{Cuemon.Serialization.Xml.Converters.XmlConverter},System.Action{Cuemon.Serialization.ExceptionDescriptorSerializationOptions})
+  name: AddExceptionDescriptorConverter(IList<XmlConverter>, Action<ExceptionDescriptorSerializationOptions>)
+  href: api/core/Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.html#Cuemon_Serialization_Xml_Converters_XmlConverterListExtensions_AddExceptionDescriptorConverter_System_Collections_Generic_IList_Cuemon_Serialization_Xml_Converters_XmlConverter__System_Action_Cuemon_Serialization_ExceptionDescriptorSerializationOptions__
+  commentId: M:Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.AddExceptionDescriptorConverter(System.Collections.Generic.IList{Cuemon.Serialization.Xml.Converters.XmlConverter},System.Action{Cuemon.Serialization.ExceptionDescriptorSerializationOptions})
+  name.vb: AddExceptionDescriptorConverter(IList(Of XmlConverter), Action(Of ExceptionDescriptorSerializationOptions))
+  fullName: Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.AddExceptionDescriptorConverter(System.Collections.Generic.IList<Cuemon.Serialization.Xml.Converters.XmlConverter>, System.Action<Cuemon.Serialization.ExceptionDescriptorSerializationOptions>)
+  fullName.vb: Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.AddExceptionDescriptorConverter(System.Collections.Generic.IList(Of Cuemon.Serialization.Xml.Converters.XmlConverter), System.Action(Of Cuemon.Serialization.ExceptionDescriptorSerializationOptions))
+  nameWithType: XmlConverterListExtensions.AddExceptionDescriptorConverter(IList<XmlConverter>, Action<ExceptionDescriptorSerializationOptions>)
+  nameWithType.vb: XmlConverterListExtensions.AddExceptionDescriptorConverter(IList(Of XmlConverter), Action(Of ExceptionDescriptorSerializationOptions))
 - uid: Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.AddExceptionDescriptorConverter*
   name: AddExceptionDescriptorConverter
   href: api/core/Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.html#Cuemon_Serialization_Xml_Converters_XmlConverterListExtensions_AddExceptionDescriptorConverter_

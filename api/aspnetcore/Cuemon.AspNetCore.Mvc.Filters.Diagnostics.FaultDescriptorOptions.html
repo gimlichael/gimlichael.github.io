@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class FaultDescriptorOptions
    | Cuemon .NET Standard ">
-    <meta name="generator" content="docfx 2.40.0.0">
+    <meta name="generator" content="docfx 2.40.4.0">
     
     <link rel="shortcut icon" href="../../images/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -123,7 +123,7 @@
   </div>
   <h5 id="Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions__ctor_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The following table shows the initial property values for an instance of <a class="xref" href="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html">FaultDescriptorOptions</a>.</p>
-<table><thead><tr><th>Property</th><th>Initial Value</th></tr></thead><tbody><tr><td><a class="xref" href="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_HttpStatusCodeResolver">HttpStatusCodeResolver</a></td><td>if an exception inherits from <span class="xref">System.ArgumentException</span>, is of type <span class="xref">System.ComponentModel.DataAnnotations.ValidationException</span> or <span class="xref">System.FormatException</span>, a <span class="xref">System.Net.HttpStatusCode.BadRequest</span> is returned; otherwise <span class="xref">System.Net.HttpStatusCode.InternalServerError</span>.</td></tr><tr><td><a class="xref" href="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_ExceptionDescriptorResolver">ExceptionDescriptorResolver</a></td><td><code>null</code></td></tr><tr><td><a class="xref" href="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_ExceptionCallback">ExceptionCallback</a></td><td><code>null</code></td></tr><tr><td><a class="xref" href="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_IncludeRequest">IncludeRequest</a></td><td><code>false</code></td></tr><tr><td><a class="xref" href="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_RequestBodyParser">RequestBodyParser</a></td><td><code>null</code></td></tr></tbody></table>
+<table><thead><tr><th>Property</th><th>Initial Value</th></tr></thead><tbody><tr><td><a class="xref" href="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_HttpStatusCodeResolver">HttpStatusCodeResolver</a></td><td>if an exception inherits from <span class="xref">System.ArgumentException</span>, is of type <span class="xref">System.ComponentModel.DataAnnotations.ValidationException</span> or <span class="xref">System.FormatException</span>, a <span class="xref">System.Net.HttpStatusCode.BadRequest</span> is returned; otherwise <span class="xref">System.Net.HttpStatusCode.InternalServerError</span>.</td></tr><tr><td><a class="xref" href="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_ExceptionDescriptorHandler">ExceptionDescriptorHandler</a></td><td><code>null</code></td></tr><tr><td><a class="xref" href="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_ExceptionDescriptorResolver">ExceptionDescriptorResolver</a></td><td><code>e => new ExceptionDescriptor(e, &quot;UnhandledException&quot;, $&quot;An exception was raised by {Assembly.GetEntryAssembly().GetName().Name}&quot;);</code></td></tr><tr><td><a class="xref" href="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_ExceptionCallback">ExceptionCallback</a></td><td><code>null</code></td></tr><tr><td><a class="xref" href="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_IncludeRequest">IncludeRequest</a></td><td><code>false</code></td></tr><tr><td><a class="xref" href="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_RequestBodyParser">RequestBodyParser</a></td><td><code>null</code></td></tr></tbody></table>
 </div>
   <h3 id="properties">Properties
   </h3>
@@ -153,6 +153,37 @@
       <tr>
         <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Exception</span>, <a class="xref" href="../core/Cuemon.Diagnostics.ExceptionDescriptor.html">ExceptionDescriptor</a>&gt;</td>
         <td><p>A <span class="xref">System.Action&lt;T&gt;</span>. The default value is <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_ExceptionDescriptorHandler.md&amp;value=---%0Auid%3A%20Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.ExceptionDescriptorHandler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_ExceptionDescriptorHandler_" data-uid="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.ExceptionDescriptorHandler*"></a>
+  <h4 id="Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_ExceptionDescriptorHandler" data-uid="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.ExceptionDescriptorHandler">ExceptionDescriptorHandler</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the delegate that provides a way to handle and customize an <a class="xref" href="../core/Cuemon.Diagnostics.ExceptionDescriptor.html">ExceptionDescriptor</a>.
+In the default implementation, this is invoked just before the <a class="xref" href="Cuemon.AspNetCore.Mvc.ExceptionDescriptorResult.html">ExceptionDescriptorResult</a> is assigned to <span class="xref">Microsoft.AspNetCore.Mvc.Filters.ExceptionContext.Result</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;ExceptionContext, ExceptionDescriptor&gt; ExceptionDescriptorHandler { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">Microsoft.AspNetCore.Mvc.Filters.ExceptionContext</span>, <a class="xref" href="../core/Cuemon.Diagnostics.ExceptionDescriptor.html">ExceptionDescriptor</a>&gt;</td>
+        <td><p>The delegate that provides a way to handle and customize an <a class="xref" href="../core/Cuemon.Diagnostics.ExceptionDescriptor.html">ExceptionDescriptor</a>.</p>
 </td>
       </tr>
     </tbody>

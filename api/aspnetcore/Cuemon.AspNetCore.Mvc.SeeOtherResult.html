@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class SeeOtherResult
    | Cuemon .NET Standard ">
-    <meta name="generator" content="docfx 2.40.0.0">
+    <meta name="generator" content="docfx 2.40.4.0">
     
     <link rel="shortcut icon" href="../../images/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -103,6 +103,8 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
+    <div><span class="xref">Microsoft.AspNetCore.Mvc.Infrastructure.IClientErrorActionResult</span></div>
+    <div><span class="xref">Microsoft.AspNetCore.Mvc.Infrastructure.IStatusCodeActionResult</span></div>
     <div><span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span></div>
   </div>
   <div class="inheritedMembers">
@@ -113,12 +115,15 @@
     <div>
       <span class="xref">Microsoft.AspNetCore.Mvc.StatusCodeResult.StatusCode</span>
     </div>
+    <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.StatusCodeResult.Microsoft.AspNetCore.Mvc.Infrastructure.IStatusCodeActionResult.StatusCode</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Cuemon.AspNetCore.Mvc.html">Cuemon.AspNetCore.Mvc</a></h6>
   <h6><strong id="assemblyName" data-assembly-name="Cuemon.AspNetCore.Mvc">Assembly</strong>: Cuemon.AspNetCore.Mvc.dll</h6>
   <h5 id="Cuemon_AspNetCore_Mvc_SeeOtherResult_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SeeOtherResult : StatusCodeResult, IActionResult</code></pre>
+    <pre><code class="lang-csharp hljs">public class SeeOtherResult : StatusCodeResult, IClientErrorActionResult, IStatusCodeActionResult, IActionResult</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -239,6 +244,12 @@
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">Microsoft.AspNetCore.Mvc.ActionResult.ExecuteResultAsync(Microsoft.AspNetCore.Mvc.ActionContext)</span></div>
   <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.Infrastructure.IClientErrorActionResult</span>
+  </div>
+  <div>
+      <span class="xref">Microsoft.AspNetCore.Mvc.Infrastructure.IStatusCodeActionResult</span>
+  </div>
   <div>
       <span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span>
   </div>

@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class HttpResponseExtensions
    | Cuemon .NET Standard ">
-    <meta name="generator" content="docfx 2.40.4.0">
+    <meta name="generator" content="docfx 2.40.8.0">
     
     <link rel="shortcut icon" href="../../images/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -293,6 +293,60 @@
         <td><span class="xref">System.DateTime</span></td>
         <td><span class="parametername">lastModified</span></td>
         <td><p>A value that represents when the resource was either created or last modified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_AspNetCore_Http_HttpResponseExtensions_WriteBodyAsync_Microsoft_AspNetCore_Http_HttpResponse_System_Func_System_Byte____.md&amp;value=---%0Auid%3A%20Cuemon.AspNetCore.Http.HttpResponseExtensions.WriteBodyAsync(Microsoft.AspNetCore.Http.HttpResponse%2CSystem.Func%7BSystem.Byte%5B%5D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_AspNetCore_Http_HttpResponseExtensions_WriteBodyAsync_" data-uid="Cuemon.AspNetCore.Http.HttpResponseExtensions.WriteBodyAsync*"></a>
+  <h4 id="Cuemon_AspNetCore_Http_HttpResponseExtensions_WriteBodyAsync_Microsoft_AspNetCore_Http_HttpResponse_System_Func_System_Byte____" data-uid="Cuemon.AspNetCore.Http.HttpResponseExtensions.WriteBodyAsync(Microsoft.AspNetCore.Http.HttpResponse,System.Func{System.Byte[]})">WriteBodyAsync(HttpResponse, Func&lt;Byte[]&gt;)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously writes a sequence of bytes to the response body stream and advances the current position within this stream by the number of bytes written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task WriteBodyAsync(this HttpResponse response, Func&lt;byte[]&gt; body)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Http.HttpResponse</span></td>
+        <td><span class="parametername">response</span></td>
+        <td><p>The <span class="xref">Microsoft.AspNetCore.Http.HttpResponse</span> to extend.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Byte</span>[]&gt;</td>
+        <td><span class="parametername">body</span></td>
+        <td><p>The function delegate that resolves the bytes to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>A task that represents the asynchronous write operation.</p>
 </td>
       </tr>
     </tbody>

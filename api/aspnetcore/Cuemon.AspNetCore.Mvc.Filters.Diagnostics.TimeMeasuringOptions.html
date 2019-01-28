@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TimeMeasuringOptions
    | Cuemon .NET Standard ">
-    <meta name="generator" content="docfx 2.40.4.0">
+    <meta name="generator" content="docfx 2.40.8.0">
     
     <link rel="shortcut icon" href="../../images/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -140,7 +140,7 @@
   </div>
   <h5 id="Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions__ctor_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The following table shows the initial property values for an instance of <a class="xref" href="../core/Cuemon.Diagnostics.TimeMeasureOptions.html">TimeMeasureOptions</a>.</p>
-<table><thead><tr><th>Property</th><th>Initial Value</th></tr></thead><tbody><tr><td><a class="xref" href="../core/Cuemon.Diagnostics.TimeMeasureOptions.html#Cuemon_Diagnostics_TimeMeasureOptions_TimeMeasureCompletedThreshold">TimeMeasureCompletedThreshold</a></td><td><span class="xref">System.TimeSpan.Zero</span></td></tr><tr><td><a class="xref" href="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_HeaderName">HeaderName</a></td><td><code>X-Action-Profiler</code></td></tr><tr><td><a class="xref" href="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_SuppressHeaderPredicate">SuppressHeaderPredicate</a></td><td><code>_ => false</code></td></tr></tbody></table>
+<table><thead><tr><th>Property</th><th>Initial Value</th></tr></thead><tbody><tr><td><a class="xref" href="../core/Cuemon.Diagnostics.TimeMeasureOptions.html#Cuemon_Diagnostics_TimeMeasureOptions_TimeMeasureCompletedThreshold">TimeMeasureCompletedThreshold</a></td><td><span class="xref">System.TimeSpan.Zero</span></td></tr><tr><td><a class="xref" href="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_HeaderName">HeaderName</a></td><td><code>X-Action-Profiler</code></td></tr><tr><td><a class="xref" href="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_SuppressHeaderPredicate">SuppressHeaderPredicate</a></td><td><code>_ => false</code></td></tr><tr><td><a class="xref" href="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_UseServerTimingHeader">UseServerTimingHeader</a></td><td><code>true</code></td></tr></tbody></table>
 </div>
   <h3 id="properties">Properties
   </h3>
@@ -200,6 +200,36 @@
       <tr>
         <td><span class="xref">System.Func</span>&lt;<span class="xref">Microsoft.Extensions.Hosting.IHostingEnvironment</span>, <span class="xref">System.Boolean</span>&gt;</td>
         <td><p>The function delegate that can determine if the time-measured HTTP header should be suppressed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_UseServerTimingHeader.md&amp;value=---%0Auid%3A%20Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.UseServerTimingHeader%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_UseServerTimingHeader_" data-uid="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.UseServerTimingHeader*"></a>
+  <h4 id="Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_UseServerTimingHeader" data-uid="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.UseServerTimingHeader">UseServerTimingHeader</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether to include a Server-Timing HTTP header specifying how long an action took to execute.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseServerTimingHeader { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> to include a Server-Timing HTTP header specifying how long an action took to execute; otherwise, <code>false</code>.</p>
 </td>
       </tr>
     </tbody>

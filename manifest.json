@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.AuthenticationOptions.html",
-          "hash": "zqD1EsBRNocOaeUOKyBZ2A=="
+          "hash": "Gnv2z31j0S3rNbN8xH+lRA=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.AuthenticationUtility.html",
-          "hash": "Meslf2GdcwUY46n3kuWFew=="
+          "hash": "aOy5+l/zM6GoWCnjZIcZmw=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.BasicAuthenticationBuilderExtension.html",
-          "hash": "PQkqTSpxR2QOsszBgOCPBQ=="
+          "hash": "OyzkbFxDZsFvnMOdFrywiw=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.BasicAuthenticationMiddleware.html",
-          "hash": "IGGz0yA48iNMhN2KNKbOXQ=="
+          "hash": "hpjBaXQsUfMrRED1QFJuKQ=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.BasicAuthenticationOptions.html",
-          "hash": "JmuNbaFgcsBzXlfJ0DaskQ=="
+          "hash": "YU8qqGlrf4owcp5SZMViEg=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.BasicAuthenticator.html",
-          "hash": "Gvc20pOaoeYmuPGzUb8V4A=="
+          "hash": "W4tPLeKw+/2ecH2SYoP02Q=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.DigestAccessAuthenticationBuilderExtension.html",
-          "hash": "TlV4cHWzBifpcgfFRze/0w=="
+          "hash": "sq8Gu9chbyzAm3KmewZ5AA=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.DigestAccessAuthenticationMiddleware.html",
-          "hash": "Ii7dFb50OyIiRaOetRHefg=="
+          "hash": "ZP8dSPcTgMxABB7D7yn6eg=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.DigestAccessAuthenticationOptions.html",
-          "hash": "F4cipLc5x3XXXCxWOPKIbw=="
+          "hash": "2jfGkr76cIpZZMolJ/S84A=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.DigestAccessAuthenticationParameters.html",
-          "hash": "ahpeNZzL5NTZAh4rfCITiQ=="
+          "hash": "UZCkHnrMD0vv/zA5f+V3AA=="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.DigestAccessAuthenticator.html",
-          "hash": "kfUA6emkp0hJZfzRNwcOag=="
+          "hash": "h227GxdKuSmsy/s/W4QdqQ=="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.DigestAuthenticationUtility.html",
-          "hash": "z3VG6jJM+5cpIJH/Q7ma1g=="
+          "hash": "t/pUR9y/x/n5r8Yt4cWHOg=="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.HmacAuthenticationBuilderExtension.html",
-          "hash": "9xrFVIXYxRYrvJ8F9oWhEA=="
+          "hash": "nri+lNwUrco1aUdRbN1GnQ=="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.HmacAuthenticationMiddleware.html",
-          "hash": "oRcbm/Jvf6wODMsllDYIpw=="
+          "hash": "WeGNvw7hVtFheXmlKY2Zkw=="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.HmacAuthenticationOptions.html",
-          "hash": "ut9vz+a2oN/g/mzSbxb9nQ=="
+          "hash": "3AoPPfOW5TKUh6sf5MDo6Q=="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.HmacAuthenticationParameters.html",
-          "hash": "MGKH/3ZkQk4rI6aeHUNBIA=="
+          "hash": "L15JMZII7UHlJMDx+vHiXQ=="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,19 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.HmacAuthenticator.html",
-          "hash": "1YPmLrR9mWLYfGG4u62K3Q=="
+          "hash": "qATpXiotcmDdHco+73OEdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.UnauthorizedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.UnauthorizedException.html",
+          "hash": "fpdWEKchPl9XGqSEj93UXw=="
         }
       },
       "is_incremental": false,
@@ -222,7 +234,19 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Authentication.html",
-          "hash": "VnIVGavN43r1V3Hw6TLe3A=="
+          "hash": "2Ag6IMHOLlFP3NPj45Z4fw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.html",
+          "hash": "31dDg7z+Av5vR7heYndSvA=="
         }
       },
       "is_incremental": false,
@@ -234,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Builder.ApplicationBuilderFactory.html",
-          "hash": "lLSKeJeVr6cv0PswFdqZRg=="
+          "hash": "N1Whapr1uEQSsV0i6X35fQ=="
         }
       },
       "is_incremental": false,
@@ -246,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Builder.html",
-          "hash": "77KFlOpSowC2eAlHc4dw/g=="
+          "hash": "4k7+ZYNRSunVd5o8gYVzvQ=="
         }
       },
       "is_incremental": false,
@@ -258,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.ConfigurableMiddleware-1.html",
-          "hash": "2jQjEeGD2hB6LH6VnroVJQ=="
+          "hash": "liwuK/E70kanm8wxNDcNig=="
         }
       },
       "is_incremental": false,
@@ -270,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.ConfigurableMiddleware-2.html",
-          "hash": "SycWHAhRxuKABOj6X60uBg=="
+          "hash": "mS3uCV7y5g4gLoLLijgUOg=="
         }
       },
       "is_incremental": false,
@@ -282,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.ConfigurableMiddleware-3.html",
-          "hash": "u7GKiySxtQKq2fnlrIreFg=="
+          "hash": "fyZoq0bCXJvpJejBB7LQdQ=="
         }
       },
       "is_incremental": false,
@@ -294,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.ConfigurableMiddleware-4.html",
-          "hash": "vBh/Jp/2F1/d+79JMnrtLw=="
+          "hash": "i1ZLXHWH+kPLMZtC3xV2NA=="
         }
       },
       "is_incremental": false,
@@ -306,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.ConfigurableMiddleware-5.html",
-          "hash": "EOY1yfY2IIAKLEYb4+Qk3w=="
+          "hash": "wqn28OzwVkYVevuVIODU3A=="
         }
       },
       "is_incremental": false,
@@ -318,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.ConfigurableMiddleware-6.html",
-          "hash": "cOWkdXOmvcUWa6SVHW9X9g=="
+          "hash": "omUMLhB0/0C1mtdJCPdAzg=="
         }
       },
       "is_incremental": false,
@@ -326,11 +350,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.CorrelationBuilderExtension.yml",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.DependencyInjection.ServiceCollectionExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.CorrelationBuilderExtension.html",
-          "hash": "kltLGqGYh/EEA2vZoZ1iGQ=="
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.DependencyInjection.ServiceCollectionExtensions.html",
+          "hash": "pqPlGPJHt1NgTabI9L0hbA=="
         }
       },
       "is_incremental": false,
@@ -338,11 +362,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.CorrelationIdentifierMiddleware.yml",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.DependencyInjection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.CorrelationIdentifierMiddleware.html",
-          "hash": "KRJU8B6G5Tc43HDC675hxA=="
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.DependencyInjection.html",
+          "hash": "zRkp3wgmhHOkePyFRkdb0w=="
         }
       },
       "is_incremental": false,
@@ -350,11 +374,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.CorrelationIdentifierOptions.yml",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.yml",
       "output": {
         ".html": {
-          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.CorrelationIdentifierOptions.html",
-          "hash": "ToCAmjRSUIYeczHln77Lpg=="
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.html",
+          "hash": "iwL6V+j/awQwXCDAYPgOlg=="
         }
       },
       "is_incremental": false,
@@ -362,11 +386,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentBuilderExtension.yml",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentBuilderExtension.html",
-          "hash": "Oe/8/cEq+OnfrcLSSZjoJA=="
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.html",
+          "hash": "nbJcixax+zZmqhJqOctOcA=="
         }
       },
       "is_incremental": false,
@@ -374,23 +398,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentMiddleware.yml",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Hosting.yml",
       "output": {
         ".html": {
-          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentMiddleware.html",
-          "hash": "TajSnPGO6BnfGK/GK+INoA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentOptions.html",
-          "hash": "qP/7D3hGJrdsVA3JCpb54A=="
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Hosting.html",
+          "hash": "fQ4f8fPXM/ahvVnQqq3rTA=="
         }
       },
       "is_incremental": false,
@@ -402,7 +414,79 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.HeaderDictionaryExtensions.html",
-          "hash": "zVeGB5rF02PNsUa35soNTg=="
+          "hash": "EmxL0XJ0vX43PjZjQB6geA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.html",
+          "hash": "SAJ+q5DMBdgIlqLIgeQ15Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.html",
+          "hash": "vXtNPH7efmDxGaN5Qzj/+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentException.html",
+          "hash": "QQ7i9b8GrkNrDWRpXaoKug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.html",
+          "hash": "r17Ei3FIv9GLVEcznCcCIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.html",
+          "hash": "1GhWNcAnTbOBM7XamOXFBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Headers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Headers.html",
+          "hash": "B8Y/m/USvsrZUtrrAcYrww=="
         }
       },
       "is_incremental": false,
@@ -414,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.HttpRequestExtensions.html",
-          "hash": "5VdZY/tMrZ/TlI/5KCFkEg=="
+          "hash": "OZpTpCRgZ5wA/UsYVjJ8DQ=="
         }
       },
       "is_incremental": false,
@@ -426,7 +510,139 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.HttpResponseExtensions.html",
-          "hash": "Hi3yPLZ06/FXE3Aukqhr/g=="
+          "hash": "8CFlYZ7JtH7mASqBiwSjTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.HttpResponseMessageExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.HttpResponseMessageExtensions.html",
+          "hash": "wMtoIqGFzbN4KuGPDwoQsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.HttpStatusCodeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.HttpStatusCodeException.html",
+          "hash": "+RNMc/pxNfn0ViEjd6w9Tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.IThrottlingCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.IThrottlingCache.html",
+          "hash": "i51uS8lTIVnz8K68bkXeyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.MemoryThrottlingCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.MemoryThrottlingCache.html",
+          "hash": "YldV27I/KO87QpYr2Uo/0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.html",
+          "hash": "6TZfrEFwO7whT5dn4YcZ2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.html",
+          "hash": "JOgpn+YzEOWylHWxCPa3Yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingException.html",
+          "hash": "rRFeLMwjkNP/rZO+JU5pWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingRetryAfterHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingRetryAfterHeader.html",
+          "hash": "n6Li9Db3knMGoar5qlKi4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.html",
+          "hash": "m4c8b1GD2weFeljKTOhlQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html",
+          "hash": "1NUbSmkjqcroWyfX34wcTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.html",
+          "hash": "3S1i/5+VXH9xXWwJ6MoEig=="
         }
       },
       "is_incremental": false,
@@ -438,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Http.html",
-          "hash": "AJWT4Bv1B4UbD21OWsoCvA=="
+          "hash": "FC/LrXeogAmoVXuxd8MzOA=="
         }
       },
       "is_incremental": false,
@@ -450,7 +666,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Infrastructure.ConfigurableMiddlewareCore-1.html",
-          "hash": "vMYmRDaZmBTz7TXBlT+MWA=="
+          "hash": "u0pEGNPHxYxn9KpU5naLrw=="
         }
       },
       "is_incremental": false,
@@ -462,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Infrastructure.MiddlewareCore.html",
-          "hash": "bvQ18i/m+M/jD6w2IkmOHw=="
+          "hash": "3vPwPzV1o0M6/bgfq4BDXg=="
         }
       },
       "is_incremental": false,
@@ -474,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Infrastructure.html",
-          "hash": "yvVg1RKH4M5Dt1K+zk9XNg=="
+          "hash": "OdgQ8vTOEF2MFjR2osvI2Q=="
         }
       },
       "is_incremental": false,
@@ -486,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Integrity.CacheValidatorExtensions.html",
-          "hash": "0Z7SAT3+JgbLPpOdxzoWJg=="
+          "hash": "tCS6dj26J5MdIlfw5/gewQ=="
         }
       },
       "is_incremental": false,
@@ -498,7 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Integrity.ChecksumBuilderExtensions.html",
-          "hash": "AcyIuoCrCqAk9rEPH5ikZw=="
+          "hash": "YHcoXYMIk13b3fplny/jYA=="
         }
       },
       "is_incremental": false,
@@ -510,7 +726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Integrity.html",
-          "hash": "KrKdcK8VCJLW/inp+JAktQ=="
+          "hash": "fOW3wR6GVBJNnW5gEzBbIQ=="
         }
       },
       "is_incremental": false,
@@ -522,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Middleware-1.html",
-          "hash": "xe2X+kpGMSzMGk4CekkYug=="
+          "hash": "zYKOOIC93F2JQ4C+lMerjA=="
         }
       },
       "is_incremental": false,
@@ -534,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Middleware-2.html",
-          "hash": "0O+/LtFEg+FdCZEyOJTrbg=="
+          "hash": "Ccg0BbgZIxZrSk1K30O1pw=="
         }
       },
       "is_incremental": false,
@@ -546,7 +762,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Middleware-3.html",
-          "hash": "bQoqRwBg/bjOBrJgqA4cHw=="
+          "hash": "wFsfOiDSbraCUJ7odykcAQ=="
         }
       },
       "is_incremental": false,
@@ -558,7 +774,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Middleware-4.html",
-          "hash": "WX7tHJp9I4KVA/u0U8MReg=="
+          "hash": "zPtKzWgIbzVGaoO9M83woA=="
         }
       },
       "is_incremental": false,
@@ -570,7 +786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Middleware-5.html",
-          "hash": "cM6fOtz+MmzQUgMGligyJg=="
+          "hash": "IvgYCBGlcnbdyCbAqHGtKQ=="
         }
       },
       "is_incremental": false,
@@ -582,7 +798,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Middleware.html",
-          "hash": "+Ab8IFMUUu2k6S86d3SkjQ=="
+          "hash": "dogMPyO7gJ20vcvjdJJ2hg=="
         }
       },
       "is_incremental": false,
@@ -594,7 +810,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.ApplicationBuilderExtensions.html",
-          "hash": "E4GauhIjB2yQzDFDj0itcQ=="
+          "hash": "dlF/HfThpW/MAycJiH0IuQ=="
         }
       },
       "is_incremental": false,
@@ -606,7 +822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Breadcrumb.html",
-          "hash": "L/wNIoHE6GamOFywHEzuvQ=="
+          "hash": "j93vCDNHjS7vTGQr+12RgQ=="
         }
       },
       "is_incremental": false,
@@ -618,7 +834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Configuration.AssemblyCacheBusting.html",
-          "hash": "7o+pEMRx9bKwKVjUhytBJA=="
+          "hash": "9I09wYrSOx/NP+JHu6K9+Q=="
         }
       },
       "is_incremental": false,
@@ -630,7 +846,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Configuration.AssemblyCacheBustingOptions.html",
-          "hash": "VJr3ndmpdWM+VXOXlLwr+g=="
+          "hash": "NQLEB6ztFyz1xAZzk5YELw=="
         }
       },
       "is_incremental": false,
@@ -642,7 +858,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Configuration.CacheBusting.html",
-          "hash": "qo83Ofujkw1ALJNka4Cg/Q=="
+          "hash": "juxhSszvToHMOZaATBprgQ=="
         }
       },
       "is_incremental": false,
@@ -654,7 +870,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Configuration.CacheBustingOptions.html",
-          "hash": "xJIRxtPpJ/QcwHu/RI/siA=="
+          "hash": "yrk/t89stGnOlC9KBWnBGw=="
         }
       },
       "is_incremental": false,
@@ -666,7 +882,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Configuration.DynamicCacheBusting.html",
-          "hash": "ggwXdw3cLW+buSCgzUmceg=="
+          "hash": "Z9IRPrOKbRMRy+XL8IPg0g=="
         }
       },
       "is_incremental": false,
@@ -678,7 +894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Configuration.DynamicCacheBustingOptions.html",
-          "hash": "IwRtRTpNd3jWA7fpC1t5ZQ=="
+          "hash": "/pwQ26qCU7yPQ2nm/b89SA=="
         }
       },
       "is_incremental": false,
@@ -690,7 +906,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Configuration.ICacheBusting.html",
-          "hash": "/LX9zjN3b9AurdDsC1o10w=="
+          "hash": "H+EkhzvshtrkZ8H7i5nB5g=="
         }
       },
       "is_incremental": false,
@@ -702,7 +918,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Configuration.html",
-          "hash": "2uO/+Y74QstgoN8IWGih9A=="
+          "hash": "gVnfRXDOro+nnh8bulnSUQ=="
         }
       },
       "is_incremental": false,
@@ -714,7 +930,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.DependencyInjection.ServiceCollectionExtensions.html",
-          "hash": "zqY1QG4jComrtCDqtEEgHA=="
+          "hash": "jWiJKQ2xJ7YpWPhlkMUu2w=="
         }
       },
       "is_incremental": false,
@@ -726,7 +942,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.DependencyInjection.html",
-          "hash": "7eluHwzZXlNUgYOI27+k5g=="
+          "hash": "UhC1EkYDuWHprSoF6bOhgw=="
         }
       },
       "is_incremental": false,
@@ -738,7 +954,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.ExceptionDescriptorResult.html",
-          "hash": "Xn2EPGRevsw0BoLTwnGDxw=="
+          "hash": "8nNLU50TQGp/Sxzx3Z4YFw=="
         }
       },
       "is_incremental": false,
@@ -750,7 +966,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Cacheable.CacheableAsyncResultFilterListExtensions.html",
-          "hash": "cc6M1GE9E62QndhmpeW+ew=="
+          "hash": "oHUnQOwQkxapb/5caD+azA=="
         }
       },
       "is_incremental": false,
@@ -762,7 +978,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Cacheable.CacheableObjectResult-2.html",
-          "hash": "kaRWWYL7Hvjj/q3652shIg=="
+          "hash": "Nxy0pfoGAl/wyUu82fYK7Q=="
         }
       },
       "is_incremental": false,
@@ -774,7 +990,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Cacheable.CacheableObjectResultExtensions.html",
-          "hash": "NgV+RqR5kWK/lO4/cn6iAw=="
+          "hash": "uomXpaUbFXFqm+843c5FIQ=="
         }
       },
       "is_incremental": false,
@@ -786,7 +1002,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Cacheable.ContentBasedObjectResult-1.html",
-          "hash": "XcYl1CLVT/OtJmEwItwpJQ=="
+          "hash": "SONYPw5CcGM4xU75g8Ek6g=="
         }
       },
       "is_incremental": false,
@@ -798,7 +1014,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Cacheable.ContentBasedOptions.html",
-          "hash": "J03iID0P7kmYD2j79lyEoQ=="
+          "hash": "fIPW0Y/KZxJ1yUDFJ6gp2g=="
         }
       },
       "is_incremental": false,
@@ -810,7 +1026,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Cacheable.ContentTimeBasedObjectResult-1.html",
-          "hash": "hfJcCidIuQFy8Bm0QsyTFw=="
+          "hash": "dqbJ3xKmA3CJBQbAtLbkfA=="
         }
       },
       "is_incremental": false,
@@ -822,7 +1038,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Cacheable.ContentTimeBasedOptions.html",
-          "hash": "rsVfsyrSKr+iu4E83isKVQ=="
+          "hash": "ulpILI5HD5LnvjEu+Vh+OA=="
         }
       },
       "is_incremental": false,
@@ -834,7 +1050,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Cacheable.HttpCacheableFilter.html",
-          "hash": "lMdDx3aL6ZseRWjGbWPiNA=="
+          "hash": "eu4Uao7uo9hcYpoEYUNLvQ=="
         }
       },
       "is_incremental": false,
@@ -846,7 +1062,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Cacheable.HttpCacheableOptions.html",
-          "hash": "1gXvGYgrydNLjQJzquOaaA=="
+          "hash": "UJC3M412MVXtqCt4RW88YA=="
         }
       },
       "is_incremental": false,
@@ -858,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Cacheable.HttpEntityTagHeader.html",
-          "hash": "/5+mZKZ4qvwL4C6UEfhfcw=="
+          "hash": "62xan0V3Tp/Noohpje2hoA=="
         }
       },
       "is_incremental": false,
@@ -870,7 +1086,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Cacheable.HttpEntityTagHeaderOptions.html",
-          "hash": "OH4PMebjA1RZETXzeDVumQ=="
+          "hash": "Qo44RuFpKbMVuN0gip6K6g=="
         }
       },
       "is_incremental": false,
@@ -882,7 +1098,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Cacheable.HttpLastModifiedHeader.html",
-          "hash": "VHXaQm6cKD9By9Osp2I/HA=="
+          "hash": "cmzawqDIp11+sT5RAmg/9Q=="
         }
       },
       "is_incremental": false,
@@ -894,7 +1110,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Cacheable.HttpLastModifiedHeaderOptions.html",
-          "hash": "BV1jSxe/bwSQ8mKuozaPPw=="
+          "hash": "S11WD45DtVfvA1eNWwpoAg=="
         }
       },
       "is_incremental": false,
@@ -906,7 +1122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Cacheable.ICacheableAsyncResultFilter.html",
-          "hash": "sxUz2JLz8jAN6Nh5rJ69Ug=="
+          "hash": "mfjOWw65IfEtBjyQMm2W0A=="
         }
       },
       "is_incremental": false,
@@ -918,7 +1134,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Cacheable.ICacheableObjectResult.html",
-          "hash": "JSF808b7uEzEV4ZbbNu+Ww=="
+          "hash": "XwMsSUCY5NeL9jRGsNENhg=="
         }
       },
       "is_incremental": false,
@@ -930,7 +1146,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Cacheable.TimeBasedObjectResult-1.html",
-          "hash": "SQYNTZoOxicluatV0Z4nqA=="
+          "hash": "cHMNkgZPrw7pG/4Fjl0KeQ=="
         }
       },
       "is_incremental": false,
@@ -942,7 +1158,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Cacheable.TimeBasedOptions.html",
-          "hash": "14uGdbqhlXbfFh8THdKYYw=="
+          "hash": "M4gqIMBw3vFdMfdZ7YfF0A=="
         }
       },
       "is_incremental": false,
@@ -954,7 +1170,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Cacheable.html",
-          "hash": "H6EVD664pq53zznbdAaoVA=="
+          "hash": "Y2DuAI3XPZbDFyXC5ASkGw=="
         }
       },
       "is_incremental": false,
@@ -966,7 +1182,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.ConfigurableActionFilter-1.html",
-          "hash": "HOuTOxR0UGnwMPRnjYeCwg=="
+          "hash": "5LoqYCOkRRk2a4Xem18CiA=="
         }
       },
       "is_incremental": false,
@@ -978,7 +1194,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.ConfigurableAsyncActionFilter-1.html",
-          "hash": "jwCg0vPWjArv0BgTPuIlng=="
+          "hash": "li3b3oM6QgGHYG8kmnSepQ=="
         }
       },
       "is_incremental": false,
@@ -990,7 +1206,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.ConfigurableAsyncResultFilter-1.html",
-          "hash": "sZpNYFhlaVrIH1iKppaQZg=="
+          "hash": "zt+iVhcHTLWscqRkyptKzw=="
         }
       },
       "is_incremental": false,
@@ -1002,7 +1218,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.ConfigurableFactoryFilter-1.html",
-          "hash": "RYNa6WICP4fQkPaselHlvQ=="
+          "hash": "m4ioTSQYmVfH0gxm+0qZsA=="
         }
       },
       "is_incremental": false,
@@ -1014,7 +1230,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorFilter.html",
-          "hash": "u4Zpm6jGoVghpiJM6JRHGQ=="
+          "hash": "6GMgXBJ6IAtSLN7bLhCkfg=="
         }
       },
       "is_incremental": false,
@@ -1026,7 +1242,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html",
-          "hash": "1UVMiMTtIN9tuGgH8eyqNA=="
+          "hash": "lTRz8vFvBgbZ1jqpUrddDQ=="
         }
       },
       "is_incremental": false,
@@ -1038,7 +1254,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.HttpRequestEvidence.html",
-          "hash": "/uux6dRvMZ/mOcYV1mWL3w=="
+          "hash": "plf6dr3RGHlSEQA3tDSHFg=="
         }
       },
       "is_incremental": false,
@@ -1050,7 +1266,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasureAttribute.html",
-          "hash": "rS/eZJmRQiPImfr0I1VhPg=="
+          "hash": "4djdSwqnnEERYQ9VQCh1cQ=="
         }
       },
       "is_incremental": false,
@@ -1062,7 +1278,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringFilter.html",
-          "hash": "5F88g0ZYQiGjCZw4TnJtAQ=="
+          "hash": "MuoABhISjbQoKgtgMU3GaQ=="
         }
       },
       "is_incremental": false,
@@ -1074,7 +1290,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.html",
-          "hash": "zMMGD2EbyqlBZjfJ0xfiCw=="
+          "hash": "NO1spTPAbc5pkxGTIKisAw=="
         }
       },
       "is_incremental": false,
@@ -1086,7 +1302,31 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.html",
-          "hash": "GzsUmPwGSJDkcc68XuM7Eg=="
+          "hash": "FKmP6J0OogK0IQPJDQ1oPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.html",
+          "hash": "muGMp2ZKsUcs7c17N2/iAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Headers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Headers.html",
+          "hash": "lNPPI9J568DyrdIPHYzkqg=="
         }
       },
       "is_incremental": false,
@@ -1098,7 +1338,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.ModelBinding.DisableModelBindingAttribute.html",
-          "hash": "01WopSfh7g3NneUO8J4snw=="
+          "hash": "Y9StJciT4M/NmnbRD0WS4w=="
         }
       },
       "is_incremental": false,
@@ -1110,7 +1350,43 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.ModelBinding.html",
-          "hash": "DieFI8+zuKwmQzs8dXUqRQ=="
+          "hash": "cdFfU6WfAxPJX86V3zirMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html",
+          "hash": "rEi33l7pqkgPuCMVRU1TiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.html",
+          "hash": "iQnX5t9m9RDH6r159S/3Xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.html",
+          "hash": "IVNEqKYjcMDWJLsCbcFo4w=="
         }
       },
       "is_incremental": false,
@@ -1122,7 +1398,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.html",
-          "hash": "JU9EpMBLqhq4a0XMqI3tBQ=="
+          "hash": "GOLanNBrv5j4wpBy9JXHGg=="
         }
       },
       "is_incremental": false,
@@ -1134,7 +1410,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.Converters.JsonConverterCollectionExtensions.html",
-          "hash": "Pteyl/6tfEBqyqHxUwTaYg=="
+          "hash": "rQb4qvcwUlrf2wiqUF13FA=="
         }
       },
       "is_incremental": false,
@@ -1146,7 +1422,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.Converters.html",
-          "hash": "2Kj4x1HBiEUXiZhpVHZ+iQ=="
+          "hash": "xgykgI8fyXbgcD2tsRwFpg=="
         }
       },
       "is_incremental": false,
@@ -1158,7 +1434,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.JsonMvcCoreBuilderExtensions.html",
-          "hash": "gma1IBSFfpnABjFYKU/wVg=="
+          "hash": "KKhw0+5opBGwGf1aIcdgHw=="
         }
       },
       "is_incremental": false,
@@ -1170,7 +1446,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.JsonSerializationInputFormatter.html",
-          "hash": "InbYUwJm/2G7r7BixiTgLw=="
+          "hash": "9adzkRGkocKzvGQjGQTIjw=="
         }
       },
       "is_incremental": false,
@@ -1182,7 +1458,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.JsonSerializationMvcOptionsSetup.html",
-          "hash": "BCuFk7O0YarRl2n+lJ4RkQ=="
+          "hash": "LmiYQvZaWphBkf8+Il4YAQ=="
         }
       },
       "is_incremental": false,
@@ -1194,7 +1470,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.JsonSerializationOutputFormatter.html",
-          "hash": "NZ86dyzxAWPtRRCE4gw9Qw=="
+          "hash": "7MM4xI+SLWiPnfeRPjrtKQ=="
         }
       },
       "is_incremental": false,
@@ -1206,7 +1482,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.html",
-          "hash": "Zt70i/auBLCkh+adNzg2Sw=="
+          "hash": "XQlu8dDo3PDa21agNiRRuw=="
         }
       },
       "is_incremental": false,
@@ -1218,7 +1494,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Xml.Converters.XmlConverterListExtensions.html",
-          "hash": "K8sjVaGTTIA4Iuhxj132dw=="
+          "hash": "fRFiGz+0HYRx5w0ctkf4kA=="
         }
       },
       "is_incremental": false,
@@ -1230,7 +1506,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Xml.Converters.html",
-          "hash": "7l9YvUnzejTM/tWfUV8tsg=="
+          "hash": "nzUgKvvGQOw3WyeUbMPyrw=="
         }
       },
       "is_incremental": false,
@@ -1242,7 +1518,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Xml.XmlMvcCoreBuilderExtensions.html",
-          "hash": "oqNkZyoavu/wStsVwjctbg=="
+          "hash": "ZlcgMW/Z6VBRaSHuSitTXA=="
         }
       },
       "is_incremental": false,
@@ -1254,7 +1530,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Xml.XmlSerializationInputFormatter.html",
-          "hash": "AW+DoNbmJ/anfCnLVf/f8g=="
+          "hash": "ChdEeKv7bfpav3F3gHgEkA=="
         }
       },
       "is_incremental": false,
@@ -1266,7 +1542,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Xml.XmlSerializationMvcOptionsSetup.html",
-          "hash": "twAqtIHpJ73jeYKAmJCuVg=="
+          "hash": "688CAA3nCk96XsjI83ZL2Q=="
         }
       },
       "is_incremental": false,
@@ -1278,7 +1554,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Xml.XmlSerializationOutputFormatter.html",
-          "hash": "+Gpl+pX6535lH4JYdkVDQQ=="
+          "hash": "3kAekorQVtAZWG9q6psYKw=="
         }
       },
       "is_incremental": false,
@@ -1290,7 +1566,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Xml.html",
-          "hash": "RmDr+oPBzY2wkVEHda/h2Q=="
+          "hash": "rKlkUYxPZAYTTFS16Qa2Fw=="
         }
       },
       "is_incremental": false,
@@ -1302,7 +1578,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Rendering.HtmlHelperExtensions.html",
-          "hash": "frpozLCkYLsjq3oECIsnMQ=="
+          "hash": "9LEhw1TdIVtc6SOEk/qGXA=="
         }
       },
       "is_incremental": false,
@@ -1314,7 +1590,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.Rendering.html",
-          "hash": "ENNAKNPQBM0h/bfFwkd23w=="
+          "hash": "9xUfCixqoYEd1wlv9lb7tQ=="
         }
       },
       "is_incremental": false,
@@ -1326,7 +1602,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.SeeOtherResult.html",
-          "hash": "Ayqs+dkTuw1CECZl0xEUzA=="
+          "hash": "jg0aVvor0wgNG3c6J1Xajw=="
         }
       },
       "is_incremental": false,
@@ -1338,7 +1614,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.ViewDataDictionaryExtensions.html",
-          "hash": "+TNXsqpkeS6tdI2FgBteNQ=="
+          "hash": "fPy4n70h9nzIcM6cNh/7IA=="
         }
       },
       "is_incremental": false,
@@ -1350,7 +1626,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Mvc.html",
-          "hash": "Eu+40Gi9bKA9PhpE1x/HAw=="
+          "hash": "oAcqWr7Z+m1eJ5EgbsK+nw=="
         }
       },
       "is_incremental": false,
@@ -1362,7 +1638,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Razor.TagHelpers.CdnTagHelper.html",
-          "hash": "DaDffKgWA2p1pbxgXYCSag=="
+          "hash": "6aE82sQZsCBEPDoL7n8XIA=="
         }
       },
       "is_incremental": false,
@@ -1374,7 +1650,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Razor.TagHelpers.CdnTagHelperOptions.html",
-          "hash": "CPp3M397c4L1QkJPQVZTxw=="
+          "hash": "5c6rB3l0AS6getNpzkcA1A=="
         }
       },
       "is_incremental": false,
@@ -1386,7 +1662,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Razor.TagHelpers.CdnUriScheme.html",
-          "hash": "dV7SODkUw1dOh0/EHaaa0g=="
+          "hash": "PRKja1YpL34+52sGLVzyMQ=="
         }
       },
       "is_incremental": false,
@@ -1398,7 +1674,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Razor.TagHelpers.ImageCdnTagHelper.html",
-          "hash": "leAXkUbw3Nwqc3dzr6UQpA=="
+          "hash": "08eaG9R/btolgWnfBaC26g=="
         }
       },
       "is_incremental": false,
@@ -1410,7 +1686,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Razor.TagHelpers.LinkCdnTagHelper.html",
-          "hash": "6y2/TvLuJUgabsj+uxsAoA=="
+          "hash": "WnFHFneQ1BSF6FqXP+Ms0Q=="
         }
       },
       "is_incremental": false,
@@ -1422,7 +1698,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Razor.TagHelpers.ScriptCdnTagHelper.html",
-          "hash": "swBrOtQst4GlhAux5VjgXg=="
+          "hash": "+a8ToMqN+LNL6fONlhmuPg=="
         }
       },
       "is_incremental": false,
@@ -1434,7 +1710,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Razor.TagHelpers.StringExtensions.html",
-          "hash": "MBfDuO1Yrzyj7teUQnZSFg=="
+          "hash": "lffIoPDvIZDKNKXXBTd17w=="
         }
       },
       "is_incremental": false,
@@ -1446,7 +1722,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.Razor.TagHelpers.html",
-          "hash": "n0mUaHzASJIqbiAepykbdA=="
+          "hash": "vkdfjRkKA6BQ5ShqK+N5kA=="
         }
       },
       "is_incremental": false,
@@ -1458,7 +1734,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/Cuemon.AspNetCore.html",
-          "hash": "RJwPeQ1uNe4Qd/iUhoTKRA=="
+          "hash": "lYb+erMuL3inwFR7IgE9fg=="
         }
       },
       "is_incremental": false,
@@ -1470,7 +1746,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/index.html",
-          "hash": "AqCB7P/gmvvfPzLrAgOMLg=="
+          "hash": "DlRwjxRJv/v+TER4rCAtrQ=="
         }
       },
       "is_incremental": false,
@@ -1482,7 +1758,7 @@
       "output": {
         ".html": {
           "relative_path": "api/aspnetcore/toc.html",
-          "hash": "QQfM24Z6I6AElvVEyaWNhA=="
+          "hash": "rfqqiPHVL3i9JavvbDAZ+A=="
         }
       },
       "is_incremental": false,
@@ -1494,7 +1770,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.ActionFactory-1.html",
-          "hash": "CQHOSe62ci08wcXMf3wuzA=="
+          "hash": "Vy2WI2TUcpiQtTa+zZVaLw=="
         }
       },
       "is_incremental": false,
@@ -1506,7 +1782,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.ActionFactory.html",
-          "hash": "Z27DWkm7BogKyPgSiiC4CQ=="
+          "hash": "aSHz19mHP9mE6nLvfnnswg=="
         }
       },
       "is_incremental": false,
@@ -1518,7 +1794,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.ArgumentEmptyException.html",
-          "hash": "m14rWzAzR7tObubk69pCDw=="
+          "hash": "oSBBR4mD23R/aCMThZBlKQ=="
         }
       },
       "is_incremental": false,
@@ -1530,7 +1806,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.AssignmentOperator.html",
-          "hash": "5kENuFC16wg+RfM2fh1WEQ=="
+          "hash": "jNQvsNLYLforsGXNVWemDw=="
         }
       },
       "is_incremental": false,
@@ -1542,7 +1818,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.AssignmentUtility.html",
-          "hash": "IaOzrSgOHY1HYU3J0occFg=="
+          "hash": "gcWCBXJCVxKwPCfkGOua3g=="
         }
       },
       "is_incremental": false,
@@ -1554,7 +1830,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.ByteConverter.html",
-          "hash": "NyQIBvtBHn/BMydQdqf9Hw=="
+          "hash": "4Tbm8K04b8AwUbSI1lBLsQ=="
         }
       },
       "is_incremental": false,
@@ -1566,7 +1842,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.ByteConverterExtensions.html",
-          "hash": "3T4lAXzlt18Ckba5VqZdcw=="
+          "hash": "shCYslYOMWrWzNJeATUyIw=="
         }
       },
       "is_incremental": false,
@@ -1578,7 +1854,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.ByteExtensions.html",
-          "hash": "4/MxOMY4qKHwAMUtddFvnQ=="
+          "hash": "ztAQM/knZk4jG16xBWU7wA=="
         }
       },
       "is_incremental": false,
@@ -1590,7 +1866,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.ByteUtility.html",
-          "hash": "1HB8FsHWasXGginVto6b7Q=="
+          "hash": "BpZ8d0C309D6ThRpwp9RmA=="
         }
       },
       "is_incremental": false,
@@ -1602,7 +1878,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.ByteUtilityExtensions.html",
-          "hash": "JH+Pd8KThuo6OxCEuGm5Hg=="
+          "hash": "jIr/VAALwHEyqWXCoCdlYQ=="
         }
       },
       "is_incremental": false,
@@ -1614,7 +1890,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.CasingMethod.html",
-          "hash": "rNu7CZiGr31EaosbzBFa+A=="
+          "hash": "kkRMHpY1ALblIFbItahU1g=="
         }
       },
       "is_incremental": false,
@@ -1626,7 +1902,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.CharConverter.html",
-          "hash": "h9MM9dFJxZJq/1a3l3AZjw=="
+          "hash": "LRkqmA9+C4rBlIqhYHlzZQ=="
         }
       },
       "is_incremental": false,
@@ -1638,7 +1914,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.CharConverterExtensions.html",
-          "hash": "8PIjdMdGPjs23OsaPfzVkg=="
+          "hash": "ElTkyJk0kC9JCjWRv3lgeA=="
         }
       },
       "is_incremental": false,
@@ -1650,7 +1926,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.DataPairCollection.html",
-          "hash": "MIFl5Zr8QOyzrN3XsftRpA=="
+          "hash": "cqyod5rMoQuupDHl5cbUuQ=="
         }
       },
       "is_incremental": false,
@@ -1662,7 +1938,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.DataPairDictionary.html",
-          "hash": "6w7hxyL7ElGAvsgl9u/oqg=="
+          "hash": "v8FsUgHdURY8mXRuLvjI2g=="
         }
       },
       "is_incremental": false,
@@ -1674,7 +1950,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.CollectionExtensions.html",
-          "hash": "MLiF1iypFUTML/H/Q2x3kQ=="
+          "hash": "c48vaUlzliuKggEBFhrvag=="
         }
       },
       "is_incremental": false,
@@ -1686,7 +1962,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.ComparisonUtility.html",
-          "hash": "JuF05HvsYLSgR5YQkh7tag=="
+          "hash": "V8fHjlABi4vVl9NcjEQHog=="
         }
       },
       "is_incremental": false,
@@ -1698,7 +1974,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.ConditionalCollection-1.html",
-          "hash": "D/lsP7n5SkAhgHjJJ5yS3A=="
+          "hash": "XlgdiI8MSKiyeTB2nQsqRA=="
         }
       },
       "is_incremental": false,
@@ -1710,7 +1986,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.DictionaryConverter.html",
-          "hash": "S1gAZQEkX11iyy1vAWHB4A=="
+          "hash": "LrhljNXTCyntKH1fKcH6LQ=="
         }
       },
       "is_incremental": false,
@@ -1722,7 +1998,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.DictionaryConverterExtensions.html",
-          "hash": "PqXqLzRciXbvcW9Hqwdusw=="
+          "hash": "cyfAz9WRJsI/ho2duc/Urg=="
         }
       },
       "is_incremental": false,
@@ -1734,7 +2010,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.DictionaryExtensions.html",
-          "hash": "4iaSUECpxeJ1IAwLxJkCdA=="
+          "hash": "lffXv5DJzLGmMtmu3aeRQQ=="
         }
       },
       "is_incremental": false,
@@ -1746,7 +2022,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.DictionaryUtility.html",
-          "hash": "L8wOz1KFvMsjb6MlQfBscg=="
+          "hash": "LPe7XKVtU5ledVflW7Ce1g=="
         }
       },
       "is_incremental": false,
@@ -1758,7 +2034,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.DictionaryUtilityExtensions.html",
-          "hash": "IlVuNfkSarMim03pm7tXcA=="
+          "hash": "2VtTmT5uDIPh6v2Q2/ogqg=="
         }
       },
       "is_incremental": false,
@@ -1770,7 +2046,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.DynamicComparer.html",
-          "hash": "SD6B4x4MecI7Fo7l3bmG2w=="
+          "hash": "5QQkvxMW1/gXEYO0oQCfvA=="
         }
       },
       "is_incremental": false,
@@ -1782,7 +2058,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.DynamicEqualityComparer.html",
-          "hash": "0th5ZDa5E5fxLsnmcQeEpA=="
+          "hash": "rCG10htQnbfosrMPVAP+Ug=="
         }
       },
       "is_incremental": false,
@@ -1794,7 +2070,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.EnumerableConverter.html",
-          "hash": "28/lN2AFLGF/iCtNtl5NFA=="
+          "hash": "E3UBH5B7XVkL6ArDHTmLXw=="
         }
       },
       "is_incremental": false,
@@ -1806,7 +2082,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.EnumerableConverterExtensions.html",
-          "hash": "+UBIQk+GHk7GIzEGDA8q3Q=="
+          "hash": "BDkOouof7XttvDSmJ0bn3Q=="
         }
       },
       "is_incremental": false,
@@ -1818,7 +2094,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.EnumerableExtensions.html",
-          "hash": "xFb6ICK/Z3Ax8J27ItIIyg=="
+          "hash": "Jlq11rL5pWisTDpelSrZWQ=="
         }
       },
       "is_incremental": false,
@@ -1830,7 +2106,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.EnumerableSizeComparer-1.html",
-          "hash": "i4N+rf5oHqcLfkaXI6V+uQ=="
+          "hash": "MZxDIex8X77bJY3QXbPBYQ=="
         }
       },
       "is_incremental": false,
@@ -1842,7 +2118,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.EnumerableUtility.html",
-          "hash": "+QiNk8r5fPUM5fnPMc71aA=="
+          "hash": "2+1fTHnvQeCmxVSeUZYb/w=="
         }
       },
       "is_incremental": false,
@@ -1854,7 +2130,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.EnumerableUtilityExtensions.html",
-          "hash": "+NbZBooL20X5jeru00kHog=="
+          "hash": "QJsE0Q0OQfSlZeV0MDYwpw=="
         }
       },
       "is_incremental": false,
@@ -1866,7 +2142,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.ISortableTable-1.html",
-          "hash": "3AasToc7woY7zLsaYCmTNw=="
+          "hash": "G5EPX6WOp4g1A93Bo5J4Vw=="
         }
       },
       "is_incremental": false,
@@ -1878,7 +2154,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.ListExtensions.html",
-          "hash": "SM6ITudAHgiPqgiHE3NIiA=="
+          "hash": "QuF09AZnHxTxcLvL6Lts+g=="
         }
       },
       "is_incremental": false,
@@ -1890,7 +2166,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.ListUtility.html",
-          "hash": "mFbQLiKck4Gw68OIdl2dFw=="
+          "hash": "PxMTb+lN5QDI91MW8HVi9w=="
         }
       },
       "is_incremental": false,
@@ -1902,7 +2178,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.ListUtilityExtensions.html",
-          "hash": "7eV0BXJc1BBpbouVy3C93Q=="
+          "hash": "MAWbr/AVC63zM/LVwDr03w=="
         }
       },
       "is_incremental": false,
@@ -1914,7 +2190,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.PagedCollection-1.html",
-          "hash": "9/XEd0vgMcjPhls+28IK1A=="
+          "hash": "IPUnyGVa/OYO52SxwOjuoA=="
         }
       },
       "is_incremental": false,
@@ -1926,7 +2202,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.PagedCollection.html",
-          "hash": "vSp6WSX83Rup1De2MrgMEg=="
+          "hash": "z5ZjynT3u0XvjgQ2ThYMFw=="
         }
       },
       "is_incremental": false,
@@ -1938,7 +2214,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.PagedCollectionExtensions.html",
-          "hash": "DhtRnpgKA3GzifRUvQA0ig=="
+          "hash": "GiP3PJzJqlUpZqivydD/Lw=="
         }
       },
       "is_incremental": false,
@@ -1950,7 +2226,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.PagedSettings.html",
-          "hash": "BrDCzGuMEkkGlOlnBNzEUw=="
+          "hash": "j06nqzOX4M1WF8oLVvTuPA=="
         }
       },
       "is_incremental": false,
@@ -1962,7 +2238,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.PartitionCollection-1.html",
-          "hash": "PUr0OAs3M9rGbfB2+VqpEQ=="
+          "hash": "HlMi7XZpJiStxD41+miXcw=="
         }
       },
       "is_incremental": false,
@@ -1974,7 +2250,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.PartitionCollectionExtensions.html",
-          "hash": "/gnX/L7VUZTWUs0iIfYFSw=="
+          "hash": "NKGtfZIFNUxcUe9UjME1Kw=="
         }
       },
       "is_incremental": false,
@@ -1986,7 +2262,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.ReferenceComparer-1.html",
-          "hash": "s6XslfBNY0A2jTw2VyZsYQ=="
+          "hash": "/cKByosGWuQmJoDkwgWjhA=="
         }
       },
       "is_incremental": false,
@@ -1998,7 +2274,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Generic.html",
-          "hash": "yJZsdmdz71LVUdMyWhtaHg=="
+          "hash": "AT826isxZ0Mns9kx89CCTw=="
         }
       },
       "is_incremental": false,
@@ -2010,7 +2286,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Specialized.NameValueCollectionConverter.html",
-          "hash": "8WulUmPD5M8q3IuNL7ivfA=="
+          "hash": "BVz8HeqQ8kBHN1YdwoXjvA=="
         }
       },
       "is_incremental": false,
@@ -2022,7 +2298,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Specialized.NameValueCollectionConverterExtensions.html",
-          "hash": "aSprM1kkRU2jP38HySyymg=="
+          "hash": "/43ulF8siW3XB5Q4d/Rv3w=="
         }
       },
       "is_incremental": false,
@@ -2034,7 +2310,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Specialized.NameValueCollectionUtility.html",
-          "hash": "zNr1RgCjgelCw7Yk/iFBIg=="
+          "hash": "0pyN8DC2aPq+4S6xwjRYmw=="
         }
       },
       "is_incremental": false,
@@ -2046,7 +2322,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.Specialized.html",
-          "hash": "cT1mO83YmAzjenaLTM1yhQ=="
+          "hash": "Qc37WvC/Zi9u40dWdqyc7A=="
         }
       },
       "is_incremental": false,
@@ -2058,7 +2334,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Collections.html",
-          "hash": "n6HmcMnb0OTJT8NlMCm2Bw=="
+          "hash": "v2nn9Yy1ywscJlh/xJPUnQ=="
         }
       },
       "is_incremental": false,
@@ -2070,7 +2346,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Condition.html",
-          "hash": "iGRuX93zlWGucMEwHdkwaA=="
+          "hash": "8PKYeYyTSF9qt1VSgHYmaA=="
         }
       },
       "is_incremental": false,
@@ -2082,7 +2358,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.ConditionBuilder-1.html",
-          "hash": "TdougOqq8boXGjsgL2WXrg=="
+          "hash": "CyIJWOJeaJY5iJ4tsX1c4Q=="
         }
       },
       "is_incremental": false,
@@ -2094,7 +2370,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.ConditionExtensions.html",
-          "hash": "2taTsf+9AYV+YGT8FXqDLA=="
+          "hash": "W910cK+Eoj0ifrT2ORx9ow=="
         }
       },
       "is_incremental": false,
@@ -2106,7 +2382,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Configuration.Configurable-1.html",
-          "hash": "pKQb7gh29CID9SY+gLlpHQ=="
+          "hash": "EdWIxBDJtwJAKX87NGNV0g=="
         }
       },
       "is_incremental": false,
@@ -2118,7 +2394,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Configuration.IConfigurable-1.html",
-          "hash": "bQ0mt5ncCSYPSeX8LzZ9dw=="
+          "hash": "jzlmZjgdYbz1nN56gK6dQQ=="
         }
       },
       "is_incremental": false,
@@ -2130,7 +2406,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Configuration.html",
-          "hash": "qcGESs5n9VDG9crBnz+FVg=="
+          "hash": "r/FLekJXqX5NidYQFht7xA=="
         }
       },
       "is_incremental": false,
@@ -2142,7 +2418,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Converter.html",
-          "hash": "6W5dbd/nxW1M7rJ4UBNqOg=="
+          "hash": "CuELCAz/V76V4++84sTP3Q=="
         }
       },
       "is_incremental": false,
@@ -2154,7 +2430,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.ConverterExtensions.html",
-          "hash": "jqf5GXzHM2T2PTdZshjXOg=="
+          "hash": "K9ADZAJv5owIlSeSXK77+w=="
         }
       },
       "is_incremental": false,
@@ -2166,7 +2442,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.ConvertibleConverter.html",
-          "hash": "xksXsmdqKivog5H722hD0w=="
+          "hash": "m8LrBZ/UMaq2AE/H+wK2zg=="
         }
       },
       "is_incremental": false,
@@ -2178,7 +2454,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.ConvertibleConverterExtensions.html",
-          "hash": "FwFmBcs0AexU5ovgkjwqfQ=="
+          "hash": "oHN+KHiWOudh9N6jKRj7JA=="
         }
       },
       "is_incremental": false,
@@ -2190,7 +2466,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.BulkCopyDataReader.html",
-          "hash": "6EXAtuRDbsBvarBx4rRKbA=="
+          "hash": "azBFAKspt+xY7PQt7L2ISA=="
         }
       },
       "is_incremental": false,
@@ -2202,7 +2478,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.CsvClient.CsvDataReader.html",
-          "hash": "1aCyMeCX2FlGoNqTZAPWOg=="
+          "hash": "SIvpmTVFeDkwU7yxvantwg=="
         }
       },
       "is_incremental": false,
@@ -2214,7 +2490,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.CsvClient.html",
-          "hash": "V0iJAWo6CEekYUubfbsztA=="
+          "hash": "qplQnYtilBmKvg222MXwJg=="
         }
       },
       "is_incremental": false,
@@ -2226,7 +2502,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.DataAdapter.html",
-          "hash": "B2VT5HROPZ1tVLzX/jYwFg=="
+          "hash": "wk/hLB+9GggPBji2NgWpwA=="
         }
       },
       "is_incremental": false,
@@ -2238,7 +2514,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.DataAdapterEventArgs.html",
-          "hash": "rqpmY8aAVapZHekN7E/A3Q=="
+          "hash": "1sTbqml4yzLnHI+PjLyK+w=="
         }
       },
       "is_incremental": false,
@@ -2250,7 +2526,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.DataAdapterException.html",
-          "hash": "/34hqmkoQTMMGsygGD2bsQ=="
+          "hash": "L+bMkcw3eJ4WZUnJDEVhhA=="
         }
       },
       "is_incremental": false,
@@ -2262,7 +2538,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.DataCommand.html",
-          "hash": "wq5GOn2MYz/1yoR/4PwJSA=="
+          "hash": "pAUKh/Zx4dO/i/mcaEHSNw=="
         }
       },
       "is_incremental": false,
@@ -2274,7 +2550,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.DataConnection.html",
-          "hash": "5kh6Al+nM2Ad1F674Ap+Jw=="
+          "hash": "QTBLdnlotrHExUGqfD3XNg=="
         }
       },
       "is_incremental": false,
@@ -2286,7 +2562,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.DataDependency.html",
-          "hash": "n6d8zygwEWuZ/QqadVA0LQ=="
+          "hash": "dgwcfwJTrgI1UGE0/GPhEg=="
         }
       },
       "is_incremental": false,
@@ -2298,7 +2574,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.DataManager.html",
-          "hash": "76uUr07D9QKliaU0NCmiLg=="
+          "hash": "mrZeXxjzBnwme1aXBCIKdg=="
         }
       },
       "is_incremental": false,
@@ -2310,7 +2586,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.DataParameterEqualityComparer.html",
-          "hash": "+ZkphEFh5lNpfa0vefukgg=="
+          "hash": "afABvl9fnAR8qK+XMLLY/A=="
         }
       },
       "is_incremental": false,
@@ -2322,7 +2598,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.DataTransfer.html",
-          "hash": "C+pl6bwiRGDecsrWU0JLpg=="
+          "hash": "n+21Nqir4rwEqy5TYQYGog=="
         }
       },
       "is_incremental": false,
@@ -2334,7 +2610,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.DataTransferColumn.html",
-          "hash": "2jP1ir0+UOktq5d9IzHtCA=="
+          "hash": "3dNyIlXMdlLr/Jhfd/Nfaw=="
         }
       },
       "is_incremental": false,
@@ -2346,7 +2622,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.DataTransferColumnCollection.html",
-          "hash": "1HA/riyBXG+quUANV0snzA=="
+          "hash": "yBDt2Tb8/C99PTSsABbvWg=="
         }
       },
       "is_incremental": false,
@@ -2358,7 +2634,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.DataTransferExtensions.html",
-          "hash": "T4lkLlbKT41OMd68aW6cZQ=="
+          "hash": "2BI8uVGEn/+F1etmdzhnHA=="
         }
       },
       "is_incremental": false,
@@ -2370,7 +2646,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.DataTransferRow.html",
-          "hash": "d1T3lwdQDN59waIoQ9Mdjw=="
+          "hash": "zi1GKQT5kseTjoTRKuwMiA=="
         }
       },
       "is_incremental": false,
@@ -2382,7 +2658,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.DataTransferRowCollection.html",
-          "hash": "IXp/WXAyURKoFpcd7Z0Nig=="
+          "hash": "bXUIiydTJuMkGzhMHmcdWg=="
         }
       },
       "is_incremental": false,
@@ -2394,7 +2670,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.DataTransferSorter.html",
-          "hash": "KsLrzNFjmuBCUVHyBJuVyQ=="
+          "hash": "PctZCnRXzcbFYSIDjWcHcA=="
         }
       },
       "is_incremental": false,
@@ -2406,7 +2682,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.DataWatcher.html",
-          "hash": "1XMln7XxdNtr+EFQVbnmyw=="
+          "hash": "gk87Om9tLnteoEaTnZh1zQ=="
         }
       },
       "is_incremental": false,
@@ -2418,7 +2694,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.DbColumn.html",
-          "hash": "LoJrxihybzpzLaudFYuZoQ=="
+          "hash": "626J1e8wdNYuJN4zfik79g=="
         }
       },
       "is_incremental": false,
@@ -2430,7 +2706,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.IDataCommand.html",
-          "hash": "c94kfw/ZyfPM9ihV9xkI8Q=="
+          "hash": "J4VzRY5G8vX/ukjKKVFSkw=="
         }
       },
       "is_incremental": false,
@@ -2442,7 +2718,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.IDataConnection.html",
-          "hash": "7M/7b9YsNYvTFk+DuNz1Ng=="
+          "hash": "FrzAZWId1+0p+aE0DUOOhQ=="
         }
       },
       "is_incremental": false,
@@ -2454,7 +2730,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.InOperator-1.html",
-          "hash": "BAnQAHV8x2p81lVKVbnJwg=="
+          "hash": "q60AJQ36qRFDN7uRJ8Vx3w=="
         }
       },
       "is_incremental": false,
@@ -2466,7 +2742,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.QueryBuilder.html",
-          "hash": "XBXAf8JPjrfvCsxh8rKhDw=="
+          "hash": "xx8OAaML5u/pOyekvYNNhQ=="
         }
       },
       "is_incremental": false,
@@ -2478,7 +2754,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.QueryFormat.html",
-          "hash": "8RpN+5yJRtLLLqErMdGyVA=="
+          "hash": "Y4bS2WefA5ieMjnp9VlhpA=="
         }
       },
       "is_incremental": false,
@@ -2490,7 +2766,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.QueryInsertAction.html",
-          "hash": "SXEiS1zCA0d8z0eOvtwg7A=="
+          "hash": "UZz8d9jzDv3N+2iG++ASqQ=="
         }
       },
       "is_incremental": false,
@@ -2502,7 +2778,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.QueryType.html",
-          "hash": "4DNKnWqWTsiHYUlgV6eaaw=="
+          "hash": "ARcEG14Gc/69vTm/W2ZfZQ=="
         }
       },
       "is_incremental": false,
@@ -2514,7 +2790,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.QueryUtility.html",
-          "hash": "h2UMutZbyd54sBfuWnzTGA=="
+          "hash": "ioLZcQp43jCgjaTJmgQ0SQ=="
         }
       },
       "is_incremental": false,
@@ -2526,7 +2802,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.SqlClient.SqlDataManager.html",
-          "hash": "cuFgH43LjxrPgT6yckqaEw=="
+          "hash": "I+oR5BsmLK8meYqfpDLd4w=="
         }
       },
       "is_incremental": false,
@@ -2538,7 +2814,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.SqlClient.SqlInOperator-1.html",
-          "hash": "5WjctaosOrK1clJyZibiwQ=="
+          "hash": "uZhewz99qOs24sIESIjFuw=="
         }
       },
       "is_incremental": false,
@@ -2550,7 +2826,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.SqlClient.SqlQueryBuilder.html",
-          "hash": "d0uKTkxh2PlFi40+Ky3qyw=="
+          "hash": "ZgVgsfV1uG3AjJliDOOJfg=="
         }
       },
       "is_incremental": false,
@@ -2562,7 +2838,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.SqlClient.html",
-          "hash": "yH+umRqzjRtHmTf0nVpx7w=="
+          "hash": "nOnWoCrI5vQMccBt/mBMHQ=="
         }
       },
       "is_incremental": false,
@@ -2574,7 +2850,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.StringDataReader.html",
-          "hash": "KcN69xOLssLobyHYNUE1UA=="
+          "hash": "X5uQjJOZu0sjd7FJzoxLLQ=="
         }
       },
       "is_incremental": false,
@@ -2586,7 +2862,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.UniqueIndexViolationException.html",
-          "hash": "/RNmbrxfMy/1wPWUwE+TBg=="
+          "hash": "KYQXW0LqHqiLxYznlei7DA=="
         }
       },
       "is_incremental": false,
@@ -2598,7 +2874,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.XmlClient.XmlDataReader.html",
-          "hash": "xO+KuVQOWrpVI3vwc/sGrw=="
+          "hash": "cZAIz0qMHXFsLtUrDsd0KQ=="
         }
       },
       "is_incremental": false,
@@ -2610,7 +2886,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.XmlClient.html",
-          "hash": "XTs0jtSx18r9kNNop/uflg=="
+          "hash": "Oedlf6/sfRj9eGfOnwPI3g=="
         }
       },
       "is_incremental": false,
@@ -2622,7 +2898,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Data.html",
-          "hash": "u+6ucvmU97ELlE+5D1aTdQ=="
+          "hash": "Tv22ToDHfSrrRsfZOiN0ZQ=="
         }
       },
       "is_incremental": false,
@@ -2634,7 +2910,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.DataPair-1.html",
-          "hash": "5bbyZGohR2KUYnmaQSoLEw=="
+          "hash": "1a8gWGSYU1fCdCFKO0YIXA=="
         }
       },
       "is_incremental": false,
@@ -2646,7 +2922,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.DataPair.html",
-          "hash": "W69wzs4uMwFWEYBUD2XeNA=="
+          "hash": "pBgsOxhTix7Rjk1CfJg4Ew=="
         }
       },
       "is_incremental": false,
@@ -2658,7 +2934,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.DateSpan.html",
-          "hash": "soBSBzb4w+nWEP6CtKbtcw=="
+          "hash": "Nr4ZdFIiRVuycnkpmVGwGA=="
         }
       },
       "is_incremental": false,
@@ -2670,7 +2946,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.DateTimeConverter.html",
-          "hash": "bkxmc+TE6DK04wyg5ebAuw=="
+          "hash": "r/w/SBhoE/BCWWWf6s8cwg=="
         }
       },
       "is_incremental": false,
@@ -2682,7 +2958,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.DateTimeConverterExtensions.html",
-          "hash": "lTyTOPqshbD9kzlcUg9zBg=="
+          "hash": "ktHIkJNNIIWwF8dFiq1vFQ=="
         }
       },
       "is_incremental": false,
@@ -2694,7 +2970,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.DateTimeExtensions.html",
-          "hash": "Ztw2S6a8S6xDZRjRkKBusQ=="
+          "hash": "M61FjHUpBnTFJIiL1N2AmQ=="
         }
       },
       "is_incremental": false,
@@ -2706,31 +2982,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.DateTimeFormatPattern.html",
-          "hash": "yjQoCOV8IsaZ9L97ZZpE7Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/core/Cuemon.DateTimeUtility.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/core/Cuemon.DateTimeUtility.html",
-          "hash": "zQXjNrKU5yQctRkfQgsBZg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/core/Cuemon.DateTimeUtilityExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/core/Cuemon.DateTimeUtilityExtensions.html",
-          "hash": "SEf9dMGZdYIcXrcTH0sUCQ=="
+          "hash": "hUSJi5knv5GKCpCU/Os3bg=="
         }
       },
       "is_incremental": false,
@@ -2742,7 +2994,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.DayPart.html",
-          "hash": "+UJFBfW8pxVNkV3P9EJf5g=="
+          "hash": "DqJzuQUqlWsO55j2FdQnCQ=="
         }
       },
       "is_incremental": false,
@@ -2754,7 +3006,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.DayParts.html",
-          "hash": "gj4xT77ZUg1GsV0dfwDV+w=="
+          "hash": "5JQksDU9pf27u06XB3vYkQ=="
         }
       },
       "is_incremental": false,
@@ -2766,7 +3018,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.DelegateUtility.html",
-          "hash": "1QBzz9SGERmoMGhaLyoX6w=="
+          "hash": "Q56ndBnW6aVYjX9I8hayLg=="
         }
       },
       "is_incremental": false,
@@ -2778,7 +3030,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.DelegateUtilityExtensions.html",
-          "hash": "gTZb4z1Rg3N2xYHB5A1Y6w=="
+          "hash": "e1TTrzgIsf/2h5t+50Pq2w=="
         }
       },
       "is_incremental": false,
@@ -2790,7 +3042,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Diagnostics.EventLogEntryType.html",
-          "hash": "n4o9oer6sEeElCBMk4cAhg=="
+          "hash": "HySNtAd0t5xPts0eDLvSKw=="
         }
       },
       "is_incremental": false,
@@ -2802,7 +3054,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Diagnostics.ExceptionDescriptor.html",
-          "hash": "WxOzBWwVhwDnRYU2mfZFtg=="
+          "hash": "QxnD2p9GoeDFjApurqW5Yw=="
         }
       },
       "is_incremental": false,
@@ -2814,7 +3066,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Diagnostics.ExceptionDescriptorAttribute.html",
-          "hash": "XpYdfgMOdl27rCRXsGjcLA=="
+          "hash": "cZHUCOQAbIZBkXd6/S1avg=="
         }
       },
       "is_incremental": false,
@@ -2826,7 +3078,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Diagnostics.ExceptionDescriptorOptions.html",
-          "hash": "LLo6PQB7kWavfa8DhfpfIw=="
+          "hash": "sWoT3Ii67ROo/0weuUXhvA=="
         }
       },
       "is_incremental": false,
@@ -2838,7 +3090,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Diagnostics.FileVersionInfoExtensions.html",
-          "hash": "G7s4r07P67PKlLvICW/h8g=="
+          "hash": "ZZbdOyhfAjHLigHeuJr5vQ=="
         }
       },
       "is_incremental": false,
@@ -2850,7 +3102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Diagnostics.Profiler.html",
-          "hash": "uMg2sSG0demaTE+xsOjpww=="
+          "hash": "TcTc0hZWBXbj2pmftInbfg=="
         }
       },
       "is_incremental": false,
@@ -2862,7 +3114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Diagnostics.ProfilerOptions.html",
-          "hash": "pTpFFX+9qhetgZdh067pdg=="
+          "hash": "8Ivi9Mq6KEmQ8XCvwnN3rQ=="
         }
       },
       "is_incremental": false,
@@ -2874,7 +3126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Diagnostics.TimeMeasure.html",
-          "hash": "pfFKN9AbiwN1tiW/w+zvUw=="
+          "hash": "vP0QypeSpEyb3BLV3XVJHA=="
         }
       },
       "is_incremental": false,
@@ -2886,7 +3138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Diagnostics.TimeMeasureOptions.html",
-          "hash": "CAcv4lk+3yQC00M0tKVkWQ=="
+          "hash": "jQq52VpeWrL9Pf0N8UxZ3Q=="
         }
       },
       "is_incremental": false,
@@ -2898,7 +3150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Diagnostics.TimeMeasureProfiler-1.html",
-          "hash": "KkFcz60ZUkEeJx75JktkDA=="
+          "hash": "m51ZkgOEIo/XXwTG/WYaJQ=="
         }
       },
       "is_incremental": false,
@@ -2910,7 +3162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Diagnostics.TimeMeasureProfiler.html",
-          "hash": "Yc2HBXxhlhywVmRWICebLg=="
+          "hash": "SvlFZ9YMILgfUKncMEpJvA=="
         }
       },
       "is_incremental": false,
@@ -2922,7 +3174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Diagnostics.html",
-          "hash": "enQE53PI2rfBat543OQ3uw=="
+          "hash": "n9Pn9QsRNlYp5f/uK9FLeQ=="
         }
       },
       "is_incremental": false,
@@ -2934,7 +3186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.DoubleConverter.html",
-          "hash": "Mo64hI44UUkuc7mfD+lZhg=="
+          "hash": "lOv6eWVgH/9N7/6RSvDrRQ=="
         }
       },
       "is_incremental": false,
@@ -2946,7 +3198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.DoubleConverterExtensions.html",
-          "hash": "0arIJ4cRhx5JFmrOsH4xsw=="
+          "hash": "tRCrIQcpGV32YxsUioVs+w=="
         }
       },
       "is_incremental": false,
@@ -2958,7 +3210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.EnumUtility.html",
-          "hash": "J0iRFVck1a6NWGZRn0B31Q=="
+          "hash": "0npRoq9ncwlzXAlR8WOS8w=="
         }
       },
       "is_incremental": false,
@@ -2970,7 +3222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.EnumUtilityExtensions.html",
-          "hash": "27Ov6gShBCXoYPQFNL062w=="
+          "hash": "ZyiCC7m1QG00L1Ba1XqI1g=="
         }
       },
       "is_incremental": false,
@@ -2982,7 +3234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.EventUtility.html",
-          "hash": "64Wbc1IP7eqhaoO8f35i8g=="
+          "hash": "9rW5G2zxJP2W7Z7xH/BJuw=="
         }
       },
       "is_incremental": false,
@@ -2994,7 +3246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.ExceptionUtility.html",
-          "hash": "DIre27Km+pZ8QuWmglo7sw=="
+          "hash": "czqS6eKHUd/5iLS3NNH5Og=="
         }
       },
       "is_incremental": false,
@@ -3006,7 +3258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.ExceptionUtilityExtensions.html",
-          "hash": "Ns+stA8NQyENdF+reSBFWQ=="
+          "hash": "2xvY9qUlCfDQRDxL3Tbh/w=="
         }
       },
       "is_incremental": false,
@@ -3018,7 +3270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.FuncFactory-2.html",
-          "hash": "AVeto/rIMMgvWSmthSGb5Q=="
+          "hash": "AtkY2TddPx9IAZZB04r7Rg=="
         }
       },
       "is_incremental": false,
@@ -3030,7 +3282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.FuncFactory.html",
-          "hash": "zdh1iqc/+kS5dHlxL9oDGA=="
+          "hash": "dTfLT/dpjZknUYBJ0IK/3A=="
         }
       },
       "is_incremental": false,
@@ -3042,7 +3294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Globalization.IMessageLocalizer.html",
-          "hash": "APL8zBsJSm3dZNSHy87r1g=="
+          "hash": "yE0gcTQYzkm9If0YD7/EAQ=="
         }
       },
       "is_incremental": false,
@@ -3054,7 +3306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Globalization.RegionInfoExtensions.html",
-          "hash": "yBweI7C3lyVLq8xhKVPDPg=="
+          "hash": "D7rU3tFU7iMidagnJyzRAw=="
         }
       },
       "is_incremental": false,
@@ -3066,7 +3318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Globalization.World.html",
-          "hash": "Q3IDAmTA3HQEQSKYs157Mg=="
+          "hash": "yCcz172mb6oRwwkglsXFgQ=="
         }
       },
       "is_incremental": false,
@@ -3078,7 +3330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Globalization.html",
-          "hash": "1tPWPR/RIqhxn9tOmTSVGA=="
+          "hash": "GoehBbI0WtL2k6gD+ODCCQ=="
         }
       },
       "is_incremental": false,
@@ -3090,7 +3342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.GuidConverter.html",
-          "hash": "ukPAaGOmedooRLlvoKAgGw=="
+          "hash": "cM0P5X3WkNibGbPTpkeWFA=="
         }
       },
       "is_incremental": false,
@@ -3102,7 +3354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.GuidConverterExtensions.html",
-          "hash": "Lo6+9xeIK/fzVBkpNnNXGA=="
+          "hash": "vR/BI8aumQ04MfGd+hmo+g=="
         }
       },
       "is_incremental": false,
@@ -3114,7 +3366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.GuidFormats.html",
-          "hash": "2QOgPF/YBRMKfEpDW4LKoA=="
+          "hash": "aWzoxD11+yR1HSzATlDPLg=="
         }
       },
       "is_incremental": false,
@@ -3126,7 +3378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.GuidUtility.html",
-          "hash": "NPxbgEAA0lTr3NsMIgrusA=="
+          "hash": "vQykULHAlz1u1P+X4ykl6A=="
         }
       },
       "is_incremental": false,
@@ -3138,7 +3390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Hierarchy-1.html",
-          "hash": "bchhvzKttqa7r4HH8/DtEQ=="
+          "hash": "hgxKDgPgWIopwk+YdLznDQ=="
         }
       },
       "is_incremental": false,
@@ -3150,7 +3402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.HierarchyExtensions.html",
-          "hash": "gffh2vAxAYNcC8J9ZPLTHQ=="
+          "hash": "splvUaQk2Hhb+KXX5a/LgQ=="
         }
       },
       "is_incremental": false,
@@ -3162,7 +3414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.HierarchySerializer.html",
-          "hash": "uSM3m5L2YCLR/2Sqxfaapg=="
+          "hash": "1/pJsMuhC7CaaElq3ZvTKw=="
         }
       },
       "is_incremental": false,
@@ -3174,7 +3426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.HierarchyUtility.html",
-          "hash": "ClIT+2DscYL+/LOnIG5ygw=="
+          "hash": "PeeRAKNPBm9h24bh7v0tRA=="
         }
       },
       "is_incremental": false,
@@ -3186,7 +3438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.HorizontalDirection.html",
-          "hash": "ctATqYg3k27DnTEnXwWn6g=="
+          "hash": "tvAkpkg3WAtm2su+E+HLYg=="
         }
       },
       "is_incremental": false,
@@ -3198,7 +3450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IData.html",
-          "hash": "5HzIyrU9o2UrjIXRULvRlA=="
+          "hash": "10FERremAGagKVzjIe+hgw=="
         }
       },
       "is_incremental": false,
@@ -3210,7 +3462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IHierarchy-1.html",
-          "hash": "5jxHYFGtNx7U6evonhrXvg=="
+          "hash": "qD2gqhYivqxbOxM+jxIlig=="
         }
       },
       "is_incremental": false,
@@ -3222,7 +3474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IO.Compression.CompressionType.html",
-          "hash": "5N68UTwR0NypTnAVs05mRg=="
+          "hash": "gYP3P9gXsCxQu7/PZhyMYw=="
         }
       },
       "is_incremental": false,
@@ -3234,7 +3486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IO.Compression.CompressionUtility.html",
-          "hash": "ev2X3xSHAwmKKa7zXsUTYQ=="
+          "hash": "dr1ScaqflsXputgd8TbJMg=="
         }
       },
       "is_incremental": false,
@@ -3246,7 +3498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IO.Compression.CompressionUtilityExtensions.html",
-          "hash": "cQlUaRWkfmZfEJDKLGJQGQ=="
+          "hash": "IuAvinemIgHZrjeJlph6Lw=="
         }
       },
       "is_incremental": false,
@@ -3258,7 +3510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IO.Compression.html",
-          "hash": "xGDvybVTAklzgFscl76SFw=="
+          "hash": "tZee+b+AcFN6M9Ae8sJOnA=="
         }
       },
       "is_incremental": false,
@@ -3270,7 +3522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IO.FileInfoConverter.html",
-          "hash": "H1+lxUpncgTUYVZ6S8mt4g=="
+          "hash": "hr2ZWhnypyHjqwOzuX+2aA=="
         }
       },
       "is_incremental": false,
@@ -3282,7 +3534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IO.JsonStreamConverter.html",
-          "hash": "rMcZp5gC1btfFw90FEH28Q=="
+          "hash": "SZXJ2Jj56b2CpJSAIJFeJg=="
         }
       },
       "is_incremental": false,
@@ -3294,7 +3546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IO.StreamConverter.html",
-          "hash": "fvMBRLEns966nRbdSusezw=="
+          "hash": "eKe7QkxS+PAWm8cGULJjqA=="
         }
       },
       "is_incremental": false,
@@ -3306,7 +3558,19 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IO.StreamConverterExtensions.html",
-          "hash": "D4dzQTgIlZZ5wiazpJHz2g=="
+          "hash": "McVflT2rUo29+lWIDCRuFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/core/Cuemon.IO.StreamExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/core/Cuemon.IO.StreamExtensions.html",
+          "hash": "m87W2mHGhdK2rB6wvExmAA=="
         }
       },
       "is_incremental": false,
@@ -3318,7 +3582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IO.StreamUtility.html",
-          "hash": "akT6WzoV3En/LlNCGoTnSg=="
+          "hash": "WMZ1CKgiPrnRKelnBP3W5g=="
         }
       },
       "is_incremental": false,
@@ -3330,7 +3594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IO.StreamUtilityExtensions.html",
-          "hash": "a16GZu6TE4FL0oA/tFWK4A=="
+          "hash": "CIR03uS+cUgzIhMKC/fq1A=="
         }
       },
       "is_incremental": false,
@@ -3342,7 +3606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IO.StreamWriterOptions.html",
-          "hash": "2hOr0rWdQ08gzQv4qsnpsA=="
+          "hash": "l8E0YlXl8SIbf/T8obJNFw=="
         }
       },
       "is_incremental": false,
@@ -3354,7 +3618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IO.StreamWriterUtility.html",
-          "hash": "Z20VZzbmaprfJouokgGELA=="
+          "hash": "r5/Zq2cJAsJXmKAWFMK20w=="
         }
       },
       "is_incremental": false,
@@ -3366,7 +3630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IO.TextReaderConverter.html",
-          "hash": "kSw0bGELY9bdOVIZKO6sgg=="
+          "hash": "kzVuIsw+0mHmbEWINMheyA=="
         }
       },
       "is_incremental": false,
@@ -3378,7 +3642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IO.TextReaderConverterExtensions.html",
-          "hash": "oOkexB6dHdl+P4lCZ954uA=="
+          "hash": "sFMIdjClYHjcXSrHRYPfkQ=="
         }
       },
       "is_incremental": false,
@@ -3390,7 +3654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IO.XmlStreamConverter.html",
-          "hash": "Fjz5mY8aqGMXWTSJBTAOvQ=="
+          "hash": "ZIDdbjNO/wX9xqS9utV2AA=="
         }
       },
       "is_incremental": false,
@@ -3402,7 +3666,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IO.html",
-          "hash": "4AZOBOt5mrIESIx8z8aZEg=="
+          "hash": "MCtuNTWO0n+EQDzj+PaiFw=="
         }
       },
       "is_incremental": false,
@@ -3414,7 +3678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IWrapper-1.html",
-          "hash": "QePBDlnXmcj0uDB3biZV3w=="
+          "hash": "s+Lt+TTeUBFNwtkZC05mPg=="
         }
       },
       "is_incremental": false,
@@ -3426,7 +3690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IndexMapping.html",
-          "hash": "24ySiIgJ6TbRG/zgMrgNEQ=="
+          "hash": "HWNxgE0OvYKkstKc6xgd0g=="
         }
       },
       "is_incremental": false,
@@ -3438,7 +3702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Initializer.html",
-          "hash": "N0QpD7ll3RbWpIhGRN/Bdw=="
+          "hash": "JgVKPA+yUV/LLMdM1KcDyA=="
         }
       },
       "is_incremental": false,
@@ -3450,7 +3714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.InitializerBuilder-1.html",
-          "hash": "v8XRTbSpiatUtW8bVlMLtA=="
+          "hash": "wSR1N8NIGQo59BeSgjg5tQ=="
         }
       },
       "is_incremental": false,
@@ -3462,7 +3726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.IntegerExtensions.html",
-          "hash": "AruGarQfXHf8fKCiKoG1EQ=="
+          "hash": "T9OM2wMg10tPEoOyNQo/qQ=="
         }
       },
       "is_incremental": false,
@@ -3474,7 +3738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Integrity.CacheValidator.html",
-          "hash": "Fjqxuh3wppWAKqp807YywQ=="
+          "hash": "bCYTrC0P2ikrdlXlXeKNXQ=="
         }
       },
       "is_incremental": false,
@@ -3486,7 +3750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Integrity.CacheValidatorExtensions.html",
-          "hash": "Tux/tJwss94qVAfLdL15Uw=="
+          "hash": "mA4HO5U7VhCAQG42+jspIg=="
         }
       },
       "is_incremental": false,
@@ -3498,7 +3762,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Integrity.CacheValidatorOptions.html",
-          "hash": "sSOuka4RgDzvygA8bl/kGw=="
+          "hash": "20bPiEL/ukxoC6kP/Y7nyQ=="
         }
       },
       "is_incremental": false,
@@ -3510,7 +3774,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Integrity.ChecksumBuilder.html",
-          "hash": "4lEpmOqSBGsiK1UQKdUTBA=="
+          "hash": "V0uBh+D1LGJEgwZX05FRpA=="
         }
       },
       "is_incremental": false,
@@ -3522,7 +3786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Integrity.ChecksumBuilderExtensions.html",
-          "hash": "bTqVPgP2QtKWSt9fLifjIw=="
+          "hash": "AftcDYHBkXGyBtuah/FiWA=="
         }
       },
       "is_incremental": false,
@@ -3534,7 +3798,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Integrity.ChecksumBuilderOptions.html",
-          "hash": "VE6SwsAT/8qJKBiMHnlB2w=="
+          "hash": "6ED7OfwJSdSBI6gcx0TAqw=="
         }
       },
       "is_incremental": false,
@@ -3546,7 +3810,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Integrity.ChecksumMethod.html",
-          "hash": "Dh4wKlmPmt4wAr+r59q2Sw=="
+          "hash": "EerZpAgyApNjbXnMCfYdKQ=="
         }
       },
       "is_incremental": false,
@@ -3558,7 +3822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Integrity.ChecksumResult.html",
-          "hash": "ts3M6krOug9kkz/Y/XC5wA=="
+          "hash": "VuLLX/TCDekWfK21pfjCew=="
         }
       },
       "is_incremental": false,
@@ -3570,7 +3834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Integrity.ChecksumStrength.html",
-          "hash": "iW95+Ato39/Do5/+e64nxA=="
+          "hash": "21C78dA8I1zbEKeTApdtiw=="
         }
       },
       "is_incremental": false,
@@ -3582,7 +3846,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Integrity.ICacheableEntity.html",
-          "hash": "PkuiXYEQdzjuTPsJMKO12w=="
+          "hash": "Ysz9Q/D2qYflE1qrxQSiOg=="
         }
       },
       "is_incremental": false,
@@ -3594,7 +3858,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Integrity.ICacheableIntegrity.html",
-          "hash": "sPehuvgtnhcUzvsQLBjspA=="
+          "hash": "BJNdNSYosca8M2REZlYiXQ=="
         }
       },
       "is_incremental": false,
@@ -3606,7 +3870,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Integrity.ICacheableTimestamp.html",
-          "hash": "vC34gK8y/cmw72LlU02WSQ=="
+          "hash": "8Y22ORN1W0YbDiW6FtxcRg=="
         }
       },
       "is_incremental": false,
@@ -3618,7 +3882,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Integrity.html",
-          "hash": "Li+33/uqddGZCjchy02FrQ=="
+          "hash": "xJuMyhvwVYOTJSimqNXYzQ=="
         }
       },
       "is_incremental": false,
@@ -3630,7 +3894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.LatencyException.html",
-          "hash": "P+Vh3Djp7mbdnfAG9DF5hA=="
+          "hash": "IDr+/vRCqA390wy9nTfYkg=="
         }
       },
       "is_incremental": false,
@@ -3642,7 +3906,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.LoopUtility.html",
-          "hash": "YgbvFEU/qnvNrIEezrDyNw=="
+          "hash": "f5hD7XByoeQ7T9HeZWbj2Q=="
         }
       },
       "is_incremental": false,
@@ -3654,7 +3918,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Mapping.html",
-          "hash": "Dx/7IPkoAUQqVnAFwliceA=="
+          "hash": "JABnrMjUtjfvXu3cKAgxqg=="
         }
       },
       "is_incremental": false,
@@ -3666,7 +3930,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.MappingExtensions.html",
-          "hash": "H0KkH6KzedOWf+60yMWn+A=="
+          "hash": "G+Xz3aTyGUL2lWKbrzxCsw=="
         }
       },
       "is_incremental": false,
@@ -3678,7 +3942,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Messaging.DynamicCorrelation.html",
-          "hash": "qqSO9tD+7P0pfOEF5+nLPA=="
+          "hash": "TPDrWtl8ch8yfwfwj5c7SQ=="
         }
       },
       "is_incremental": false,
@@ -3690,7 +3954,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Messaging.ICorrelation.html",
-          "hash": "yPW4AFN0EQXtV8bVtwCTrA=="
+          "hash": "c6KOjN06Zh/h/jcfMio7FQ=="
         }
       },
       "is_incremental": false,
@@ -3702,7 +3966,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Messaging.html",
-          "hash": "MJzZhZ9vvViBiyWYv19jmA=="
+          "hash": "ySSc1TNeY/eKwpJU+w6Xmw=="
         }
       },
       "is_incremental": false,
@@ -3714,7 +3978,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.MethodWrappedException.html",
-          "hash": "r+nTbVZnTiMJdraWHy+KvA=="
+          "hash": "18qyLWjQbKOkudrC1i3Dkg=="
         }
       },
       "is_incremental": false,
@@ -3726,7 +3990,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Net.Http.HttpManager.html",
-          "hash": "R0FAS9/0Ss1/nFyy3PQ8eg=="
+          "hash": "qg5eOnz/P6X6TucbNMjYdQ=="
         }
       },
       "is_incremental": false,
@@ -3738,7 +4002,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Net.Http.HttpManagerExtensions.html",
-          "hash": "9uniqmxX+mhQQOseYSDupg=="
+          "hash": "mQPefbOEMn83aDujYqakPA=="
         }
       },
       "is_incremental": false,
@@ -3750,7 +4014,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Net.Http.HttpManagerOptions.html",
-          "hash": "GZY2E1NJ/0OYVOa/re9jvw=="
+          "hash": "F5C13BFtYyyLrxuAA6SwXg=="
         }
       },
       "is_incremental": false,
@@ -3762,7 +4026,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Net.Http.HttpMethodConverter.html",
-          "hash": "YZ36uzA7F7uc1JK7g8KKKQ=="
+          "hash": "SRK8rFsnROh846xEQiDbIA=="
         }
       },
       "is_incremental": false,
@@ -3774,7 +4038,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Net.Http.HttpMethodExtensions.html",
-          "hash": "qOUZJVDOso9cFSjFwzVyIA=="
+          "hash": "G1TsS1pwxrWQpob9h6e8jA=="
         }
       },
       "is_incremental": false,
@@ -3786,7 +4050,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Net.Http.HttpMethods.html",
-          "hash": "Bxpk4mUMiuA02sJn++ruTw=="
+          "hash": "KiFDwsFO4V5gnekT5PCKOg=="
         }
       },
       "is_incremental": false,
@@ -3798,7 +4062,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Net.Http.HttpRequestOptions.html",
-          "hash": "8qSZ+WocIyhALFCjz9yxjQ=="
+          "hash": "Ypu2TkzA+o8ufKnHwIywJA=="
         }
       },
       "is_incremental": false,
@@ -3810,7 +4074,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Net.Http.html",
-          "hash": "x30rD8DtqoQuzvq2UZr68Q=="
+          "hash": "MvnbRWCJSxuPGNWS55E5BQ=="
         }
       },
       "is_incremental": false,
@@ -3822,7 +4086,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Net.HttpStatusCodeExtensions.html",
-          "hash": "V7qH2/u5Z6yVi9nLS8DSGQ=="
+          "hash": "FaJMjAAWNRvMPwmWRl9dVg=="
         }
       },
       "is_incremental": false,
@@ -3834,7 +4098,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Net.NetDependency.html",
-          "hash": "vZIc2E5ZmoQcg/+Xzl2uew=="
+          "hash": "bbvsA0YDoahj1bPvYGXVIA=="
         }
       },
       "is_incremental": false,
@@ -3846,7 +4110,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Net.NetWatcher.html",
-          "hash": "UZoteIuzRxXMBwIi7rCBIA=="
+          "hash": "JOmEulkGafh8z2PJjQ8a5w=="
         }
       },
       "is_incremental": false,
@@ -3858,7 +4122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Net.html",
-          "hash": "aEkGkLL4yJq66pe+auVscA=="
+          "hash": "69hwokWq2XlPu9ieeHxclA=="
         }
       },
       "is_incremental": false,
@@ -3870,7 +4134,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.NumberUtility.html",
-          "hash": "GyYeRYStzn6UWhebkmF4qg=="
+          "hash": "v/vJi0Sp53Cd/6XXkRC3Jw=="
         }
       },
       "is_incremental": false,
@@ -3882,7 +4146,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.NumberUtilityExtensions.html",
-          "hash": "8AASbAa4S6P7CjsJcnPq6A=="
+          "hash": "jXPg7GpU1d4l08jotYNZCw=="
         }
       },
       "is_incremental": false,
@@ -3894,7 +4158,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.ObjectConverter.html",
-          "hash": "d9RehOxa0X7oJp/TbkrmuA=="
+          "hash": "wVp0A0SAGe+Gwsx3GbdaVA=="
         }
       },
       "is_incremental": false,
@@ -3906,7 +4170,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.PreambleSequence.html",
-          "hash": "5HL9/JbHa8Cn8Hm7zvovGA=="
+          "hash": "abyMwpQLPlv6gNWWhRrHdg=="
         }
       },
       "is_incremental": false,
@@ -3918,7 +4182,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.RandomSeverity.html",
-          "hash": "pGeKYEPuUO2tlHbO3SH26w=="
+          "hash": "k3zDyYBkiSGxDLuZNi5Gig=="
         }
       },
       "is_incremental": false,
@@ -3930,7 +4194,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Reflection.ActivatorUtility.html",
-          "hash": "424NEPWPBo/mM2WuFbf9bg=="
+          "hash": "PYZvWrov90h66cry/aYZUw=="
         }
       },
       "is_incremental": false,
@@ -3942,7 +4206,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Reflection.AssemblyUtility.html",
-          "hash": "0BoyOXVks5kC9cVeLksfXg=="
+          "hash": "m3sACbtkqKHGmqeNWv9SHQ=="
         }
       },
       "is_incremental": false,
@@ -3954,7 +4218,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Reflection.AssemblyUtilityExtensions.html",
-          "hash": "9LMFvYoifp1lAlnGC7MrJw=="
+          "hash": "cc2qGZQB6GWDj8jrmlIMmw=="
         }
       },
       "is_incremental": false,
@@ -3966,7 +4230,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Reflection.MemberInfoExtensions.html",
-          "hash": "O+ERcVSrxVyMCiI7jyEJ7A=="
+          "hash": "TAkEMV1klegLHkKiGpST/A=="
         }
       },
       "is_incremental": false,
@@ -3978,7 +4242,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Reflection.MethodBaseConverter.html",
-          "hash": "3JBIajahGhIhRZtNnWoe6A=="
+          "hash": "XAQlV6pSOqnzuQpEdMYg+w=="
         }
       },
       "is_incremental": false,
@@ -3990,7 +4254,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Reflection.MethodBaseConverterExtensions.html",
-          "hash": "8smxdO88WXTN2O52T1kOsg=="
+          "hash": "GxpfIDzSSTAU6gQHBwYIvg=="
         }
       },
       "is_incremental": false,
@@ -4002,7 +4266,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Reflection.MethodDescriptor.html",
-          "hash": "3hqvXD/1QPOnTcDo2i3K9Q=="
+          "hash": "QsSJ+Z7jgjRCRsEWo+u2zw=="
         }
       },
       "is_incremental": false,
@@ -4014,7 +4278,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Reflection.ObjectHierarchyOptions.html",
-          "hash": "WzZ49TTwE7M/wG1b5gpFzg=="
+          "hash": "IQKjWlKJ5vnZPYV66yWUDA=="
         }
       },
       "is_incremental": false,
@@ -4026,7 +4290,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Reflection.ParameterSignature.html",
-          "hash": "D7FsI/jX22W2gjpyOmHi7A=="
+          "hash": "IpOg0B4ndTU0XJ2FRHj4Wg=="
         }
       },
       "is_incremental": false,
@@ -4038,7 +4302,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Reflection.ReflectionUtility.html",
-          "hash": "JaYYWoXUDQ8u7J4FjlphLg=="
+          "hash": "btf5jSp+dVyVKexh6c5A0Q=="
         }
       },
       "is_incremental": false,
@@ -4050,7 +4314,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Reflection.ReflectionUtilityExtensions.html",
-          "hash": "GKU6cudYWEGXZqF5e0tbQQ=="
+          "hash": "3jzH53MPhNZ/o8xZnUrzsw=="
         }
       },
       "is_incremental": false,
@@ -4062,7 +4326,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Reflection.ResourceMatch.html",
-          "hash": "F201In+X9yuTVBwrEbqRMA=="
+          "hash": "QOlbqGNcFHIHpSG3/qGQPQ=="
         }
       },
       "is_incremental": false,
@@ -4074,7 +4338,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Reflection.html",
-          "hash": "1CCPLXha16HpZUa3TGuXCw=="
+          "hash": "1LYp4LiLTkfovaVC3M1Bvg=="
         }
       },
       "is_incremental": false,
@@ -4086,7 +4350,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.RelationalOperator.html",
-          "hash": "qk/2eaYub5MOyvLn5op7Bw=="
+          "hash": "L5rSpsiJlys0svD7DHpWtA=="
         }
       },
       "is_incremental": false,
@@ -4098,7 +4362,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.RoundOffAccuracy.html",
-          "hash": "nM7YgTLttYXTYsbabF+x/A=="
+          "hash": "orXjmEj/6u3ylYCmlmy2bw=="
         }
       },
       "is_incremental": false,
@@ -4110,7 +4374,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Runtime.Caching.CacheCollection.html",
-          "hash": "5zxZ3BMoOIk5KEvBlxyq2w=="
+          "hash": "xY674u2f7FwMM/wZrWSGoA=="
         }
       },
       "is_incremental": false,
@@ -4122,7 +4386,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Runtime.Caching.CacheEventArgs.html",
-          "hash": "FwxzvQ2IAr7bX+iqj8qnBQ=="
+          "hash": "ejBBV37R76IOtB6/DEyW7A=="
         }
       },
       "is_incremental": false,
@@ -4134,7 +4398,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Runtime.Caching.CachingManager.html",
-          "hash": "8tZfQAxDHlTGAnxidU3frQ=="
+          "hash": "gMfUSkvaD5kn0hD8gDG4uQ=="
         }
       },
       "is_incremental": false,
@@ -4146,7 +4410,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Runtime.Caching.html",
-          "hash": "wqs7GtY786PvWpLPq/itpg=="
+          "hash": "ag0mq7YC5nRBPkJJfXZTGQ=="
         }
       },
       "is_incremental": false,
@@ -4158,7 +4422,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Runtime.Dependency.html",
-          "hash": "OfIi6pEETAiPLTyre517hA=="
+          "hash": "IXxNUFdJZInTzHnPMS+KYQ=="
         }
       },
       "is_incremental": false,
@@ -4170,7 +4434,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Runtime.DependencyEventArgs.html",
-          "hash": "a79UdAy8L//V5nEANoi75g=="
+          "hash": "PhgoYSzBvTwqpbyNgl1kfA=="
         }
       },
       "is_incremental": false,
@@ -4182,7 +4446,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Runtime.IDependency.html",
-          "hash": "QuzTpVKYa+QLIN8eOeRbsQ=="
+          "hash": "IVWNVz25F98w19QAYgUDYw=="
         }
       },
       "is_incremental": false,
@@ -4194,7 +4458,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Runtime.Serialization.JsonConverter.html",
-          "hash": "m75oaxd8/xbHDT1txBRIiA=="
+          "hash": "0HYluEf/VOgY3UTHOCvFuw=="
         }
       },
       "is_incremental": false,
@@ -4206,7 +4470,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Runtime.Serialization.JsonInstance.html",
-          "hash": "d+TLVdQSKNMjiyQ+ZbnTew=="
+          "hash": "OemlDJn1XXgyKMvj/eXGBw=="
         }
       },
       "is_incremental": false,
@@ -4218,7 +4482,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Runtime.Serialization.JsonInstanceCollection.html",
-          "hash": "ier9B+kImYXhzQahWq75Qw=="
+          "hash": "HcCfJnBXpjqL9YEibHxQhQ=="
         }
       },
       "is_incremental": false,
@@ -4230,7 +4494,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Runtime.Serialization.JsonWriter.html",
-          "hash": "Sg2DBu5bAvhH7sg4Ihfi0Q=="
+          "hash": "Ht5xVEiAdcFfHAxNKxRCjQ=="
         }
       },
       "is_incremental": false,
@@ -4242,7 +4506,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Runtime.Serialization.XmlJsonInstance.html",
-          "hash": "4wt993NGBG2vZ0Nnvp3PCg=="
+          "hash": "i5XQ6eqFTYvX0oAE3/57Wg=="
         }
       },
       "is_incremental": false,
@@ -4254,7 +4518,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Runtime.Serialization.html",
-          "hash": "WZN4j00nsdUoAHwHoLD/kw=="
+          "hash": "nbP+ylTHCj70xhsjnN9Qcg=="
         }
       },
       "is_incremental": false,
@@ -4266,7 +4530,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Runtime.Watcher.html",
-          "hash": "bm7oXVphY1+rrH9f3mASLg=="
+          "hash": "wwO3vFpYjetC7BLoB2RyKA=="
         }
       },
       "is_incremental": false,
@@ -4278,7 +4542,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Runtime.WatcherEventArgs.html",
-          "hash": "1HvhtOzw175QtSD3bX7AMA=="
+          "hash": "dIMzUXiYbrT1XEnCdoTkIg=="
         }
       },
       "is_incremental": false,
@@ -4290,7 +4554,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Runtime.html",
-          "hash": "FTYoIaUdpbUACB9x4f/OiQ=="
+          "hash": "4mJkN2J29CpCuh2FpdT3xw=="
         }
       },
       "is_incremental": false,
@@ -4302,7 +4566,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.AdvancedEncryptionStandardKeySize.html",
-          "hash": "6ObVb1+nT+l+DwQ6kSMNmQ=="
+          "hash": "02Pmv+LR7iEJj0sm5M1A4Q=="
         }
       },
       "is_incremental": false,
@@ -4314,7 +4578,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.AdvancedEncryptionStandardUtility.html",
-          "hash": "rX1+NgYubWid+ttqAFELBg=="
+          "hash": "J+rq+lBs5bKOVS1ieLrSOg=="
         }
       },
       "is_incremental": false,
@@ -4326,7 +4590,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.CyclicRedundancyCheck.html",
-          "hash": "4oaM2x7WRthvwK3e7CCDmQ=="
+          "hash": "ejntGc5sK+t28IN58WTK8g=="
         }
       },
       "is_incremental": false,
@@ -4338,7 +4602,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.CyclicRedundancyCheck32.html",
-          "hash": "6U1bVX9+uxBTg3OBR3sINQ=="
+          "hash": "vJFnSYXA/yKdA6UH+oB8ww=="
         }
       },
       "is_incremental": false,
@@ -4350,7 +4614,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.HashAlgorithmType.html",
-          "hash": "BeX3Fw/Ya2rUds+18mx6kQ=="
+          "hash": "cl9w1riuEIYzUycIzOxiwg=="
         }
       },
       "is_incremental": false,
@@ -4362,7 +4626,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.HashOptions.html",
-          "hash": "/vrkJrP9mzo44r3rIAtN1A=="
+          "hash": "MK3d8NuF/mqH6vjgiVzysA=="
         }
       },
       "is_incremental": false,
@@ -4374,7 +4638,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.HashResult.html",
-          "hash": "729lDhLtx2KLgny2fN5pJg=="
+          "hash": "01vWdk4ybe2sxAHvVEELVg=="
         }
       },
       "is_incremental": false,
@@ -4386,7 +4650,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.HashUtility.html",
-          "hash": "UkFmLKJ3g5d5OSV04hXF0w=="
+          "hash": "skby6yXgwacA8I2IDgJc8g=="
         }
       },
       "is_incremental": false,
@@ -4398,7 +4662,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.HashUtilityExtensions.html",
-          "hash": "X/LXL+e7OC77LCE9TT/W5g=="
+          "hash": "T+wx57uJK83+RcUmMiBdQg=="
         }
       },
       "is_incremental": false,
@@ -4410,7 +4674,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.HmacAlgorithmType.html",
-          "hash": "w5VW0vxxJHfjNp8itx4Gkg=="
+          "hash": "aAHb1EMergf8DpkzYJ868w=="
         }
       },
       "is_incremental": false,
@@ -4422,7 +4686,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.HmacUtility.html",
-          "hash": "5gcTPtdE9zrWuwBTm9dtBg=="
+          "hash": "adTMlTUbez0mVFAsOq1WCA=="
         }
       },
       "is_incremental": false,
@@ -4434,7 +4698,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.HmacUtilityExtensions.html",
-          "hash": "AbqRb3R5WjNWyqCxVv7Qxg=="
+          "hash": "VhbnUPv9IdZgfECh64FxmA=="
         }
       },
       "is_incremental": false,
@@ -4446,7 +4710,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.KeyedHashOptions.html",
-          "hash": "fTHwRd7h3wPV3NCUHFNjZQ=="
+          "hash": "y5M8VIrMcMouOEVU8cbFIg=="
         }
       },
       "is_incremental": false,
@@ -4458,7 +4722,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.PolynomialRepresentation.html",
-          "hash": "5DnOkarLGQDtg6AsrsMyDw=="
+          "hash": "+WWJcZiFeF2ASG0FwHwyKA=="
         }
       },
       "is_incremental": false,
@@ -4470,7 +4734,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.StreamHashOptions.html",
-          "hash": "yCZKOBeG7LaVzKFruxDTWw=="
+          "hash": "cB+sRu9toDTvMm0FFtqc5w=="
         }
       },
       "is_incremental": false,
@@ -4482,7 +4746,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.StreamKeyedHashOptions.html",
-          "hash": "2P38bVkpRDz5RWs4R4OIbg=="
+          "hash": "KSRTw9lv2O++/t5sB/8DrA=="
         }
       },
       "is_incremental": false,
@@ -4494,7 +4758,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.StringHashOptions.html",
-          "hash": "OSOfSig6uap6MExU9ahi6A=="
+          "hash": "+e1ghWSWbNHoPVfR1w9xag=="
         }
       },
       "is_incremental": false,
@@ -4506,7 +4770,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.StringKeyedHashOptions.html",
-          "hash": "AFO0Q1elAl16758eOIITEQ=="
+          "hash": "z8b82Q61B71OmO7Gm2M5yA=="
         }
       },
       "is_incremental": false,
@@ -4518,7 +4782,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.StrongNumberUtility.html",
-          "hash": "8kc45v/q6xc5rSU7fRNOMw=="
+          "hash": "ShA120gUQU3V+c9Y9mSPSQ=="
         }
       },
       "is_incremental": false,
@@ -4530,7 +4794,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Cryptography.html",
-          "hash": "p8Eup9yxrcS+9W0TjvEdLQ=="
+          "hash": "ukKkGOtkNW0RljtWRkIBag=="
         }
       },
       "is_incremental": false,
@@ -4542,7 +4806,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Obfuscator.html",
-          "hash": "JUmSHR9qUZrxciCgMcvzYA=="
+          "hash": "9sWrY3k3w/12oBxDzTSmfQ=="
         }
       },
       "is_incremental": false,
@@ -4554,7 +4818,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.ObfuscatorMapping.html",
-          "hash": "UHGLiIGIL1DdYa/cDiHWFg=="
+          "hash": "ACFXnYy7Ju6lDQsrDJ2TEw=="
         }
       },
       "is_incremental": false,
@@ -4566,7 +4830,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.SecureXmlObfuscator.html",
-          "hash": "WorwadcHfOwdJmyVTLheCw=="
+          "hash": "e25yEZCkXmy6rxXwjTsjFg=="
         }
       },
       "is_incremental": false,
@@ -4578,7 +4842,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.SecurityToken.html",
-          "hash": "akFe/8Hk++OdpMw9aQRF7A=="
+          "hash": "c61LmuPQoFiiyKUzkjxl8A=="
         }
       },
       "is_incremental": false,
@@ -4590,7 +4854,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.SecurityTokenSettings.html",
-          "hash": "MY8BeayMmxN3xB/SXdh05g=="
+          "hash": "BrEasX3lLse4q4qaBArgpg=="
         }
       },
       "is_incremental": false,
@@ -4602,7 +4866,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.SecurityUtility.html",
-          "hash": "oJ/rvr6dRQDsYMeMILOwEw=="
+          "hash": "mwdVoL9MBxSG+H1bei9ZDg=="
         }
       },
       "is_incremental": false,
@@ -4614,7 +4878,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Web.JsonWebToken.html",
-          "hash": "kFbyK/ACaWariPylh6RQkg=="
+          "hash": "ZPS1skvDEhwIQ34nSdifuQ=="
         }
       },
       "is_incremental": false,
@@ -4626,7 +4890,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Web.JsonWebTokenHashAlgorithm.html",
-          "hash": "VBpdm8sYjOMi1oSgQ3hg2w=="
+          "hash": "VBaT0qR0rra2kA/dh8/hYQ=="
         }
       },
       "is_incremental": false,
@@ -4638,7 +4902,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Web.JsonWebTokenHashAlgorithmConverter.html",
-          "hash": "xq/1dC/3dFaeu0opi68ALg=="
+          "hash": "9BpoSpWRYH6sTdXdk8bS6Q=="
         }
       },
       "is_incremental": false,
@@ -4650,7 +4914,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Web.JsonWebTokenHeader.html",
-          "hash": "TKwLE68dp1xA3o+2z3Qiyg=="
+          "hash": "fJvcfBII3fVyIzbUq7D5/Q=="
         }
       },
       "is_incremental": false,
@@ -4662,7 +4926,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Web.JsonWebTokenPayload.html",
-          "hash": "f+onOuxNEHpixaRrVzA25g=="
+          "hash": "ndCTYL3Ub7s/dM6b094CHw=="
         }
       },
       "is_incremental": false,
@@ -4674,7 +4938,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.Web.html",
-          "hash": "lbmJSWIl5v6NBwv3YKVN3A=="
+          "hash": "/Jp95kSJzwuDexRjdL4nTQ=="
         }
       },
       "is_incremental": false,
@@ -4686,7 +4950,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.XmlObfuscator.html",
-          "hash": "dw0rSgKBRf0KK2wDtI6H3w=="
+          "hash": "++mBLibffcJuWIaCpy+yMA=="
         }
       },
       "is_incremental": false,
@@ -4698,7 +4962,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Security.html",
-          "hash": "1XyrwENx9epDVSEh1QZohg=="
+          "hash": "6EjMcA8hjmOSVsAgqMeTKA=="
         }
       },
       "is_incremental": false,
@@ -4710,7 +4974,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.ExceptionDescriptorSerializationOptions.html",
-          "hash": "uaHAUKNhi2Pd7qPzDiU2fg=="
+          "hash": "q14M2vmx2/CGDB/m7JIVpg=="
         }
       },
       "is_incremental": false,
@@ -4722,7 +4986,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.Formatters.Formatter-1.html",
-          "hash": "MCo2Ze7an0CmPFyAgRb9qA=="
+          "hash": "Eaay6qBMsfRQAImlOIPzbA=="
         }
       },
       "is_incremental": false,
@@ -4734,7 +4998,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.Formatters.FormatterExtensions.html",
-          "hash": "PdAppSzlDRX3Pn2D6SOKOg=="
+          "hash": "Ed9Z4BHS7LNJ6RJ7RzKd8Q=="
         }
       },
       "is_incremental": false,
@@ -4746,7 +5010,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.Formatters.html",
-          "hash": "nNWOM2KEZ3WZn0DEaIGX+A=="
+          "hash": "wFdErKgrwTAaLRaFBmjo5g=="
         }
       },
       "is_incremental": false,
@@ -4758,7 +5022,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.Xml.Converters.DefaultXmlConverter.html",
-          "hash": "mpiDWV+zTfWErsmf1qnEeA=="
+          "hash": "CR7F4uY/O+D57JMLOIm9BA=="
         }
       },
       "is_incremental": false,
@@ -4770,7 +5034,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.Xml.Converters.XmlConverter.html",
-          "hash": "0C4VTTsiicWCnwjEHR0LWg=="
+          "hash": "6l2lCojfPbEbWH7tvzQ2VA=="
         }
       },
       "is_incremental": false,
@@ -4782,7 +5046,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.html",
-          "hash": "vPa2WHURJrcRGoBaa3TRNA=="
+          "hash": "qF6eijOIpSh3UI9w/4TrHQ=="
         }
       },
       "is_incremental": false,
@@ -4794,7 +5058,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.Xml.Converters.html",
-          "hash": "XfVWyxEvwB+XQDMJg2fh9Q=="
+          "hash": "sSDazUBD/DqUJ/9lta2bSQ=="
         }
       },
       "is_incremental": false,
@@ -4806,7 +5070,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.Xml.DynamicXmlConverter.html",
-          "hash": "oICgOs6q/5GTpwOcMK5LLw=="
+          "hash": "F2bFoGy6Le7CGRe7csv6Aw=="
         }
       },
       "is_incremental": false,
@@ -4818,7 +5082,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.Xml.DynamicXmlSerializable.html",
-          "hash": "flCCmqc2bDHFMjUPSTUHWA=="
+          "hash": "H62FTVIQ8C0urEXJ8kL/Kg=="
         }
       },
       "is_incremental": false,
@@ -4830,7 +5094,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.Xml.Formatters.XmlFormatter.html",
-          "hash": "kQQ4MaT0WlNuObdwlTwWPw=="
+          "hash": "8AGY5hiUyp7Ajxhk8l65rA=="
         }
       },
       "is_incremental": false,
@@ -4842,7 +5106,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.Xml.Formatters.XmlFormatterOptions.html",
-          "hash": "7yLL88NWFKSgHy4hX+512A=="
+          "hash": "zwpL4dNh3swlIovTKbSmgg=="
         }
       },
       "is_incremental": false,
@@ -4854,7 +5118,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.Xml.Formatters.html",
-          "hash": "J5JXiUqWCHESgZFbo9R84w=="
+          "hash": "JDyxaww3KcLIfq2hhU1/ug=="
         }
       },
       "is_incremental": false,
@@ -4866,7 +5130,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.Xml.XmlConvert.html",
-          "hash": "jvLKXbld6GXfWvojWvqvOg=="
+          "hash": "Dfn98Y1sZlVPu9r8vT9Y1g=="
         }
       },
       "is_incremental": false,
@@ -4878,7 +5142,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.Xml.XmlReaderExtensions.html",
-          "hash": "P5TIa9Fo4zJLn4U6aVur1w=="
+          "hash": "ULZ4IyfmNvUG2qLkdRczPQ=="
         }
       },
       "is_incremental": false,
@@ -4890,7 +5154,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.Xml.XmlSerializer.html",
-          "hash": "d/Y7qi24PX4sIPQHZY0nYw=="
+          "hash": "t/8oE3RGd+OTcJpMKzIEKg=="
         }
       },
       "is_incremental": false,
@@ -4902,7 +5166,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.Xml.XmlSerializerSettings.html",
-          "hash": "RCl9Vat0o71wrIwuan3U5A=="
+          "hash": "nsmI/E1RFiHQ+IzwYcoBUw=="
         }
       },
       "is_incremental": false,
@@ -4914,7 +5178,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.Xml.XmlSerializerSettingsExtensions.html",
-          "hash": "ApTFa3yFL/XkESndFS5EUw=="
+          "hash": "oz6HNXhYIGtzyqST0hMZvA=="
         }
       },
       "is_incremental": false,
@@ -4926,7 +5190,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.Xml.XmlWriterExtensions.html",
-          "hash": "M/fpw0Y/4tb0S0GPJ14igw=="
+          "hash": "iNF96Whe8b5uoB19+uBSgA=="
         }
       },
       "is_incremental": false,
@@ -4938,7 +5202,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.Xml.html",
-          "hash": "5VSOl/nCan6bZgLH2n120A=="
+          "hash": "BtZr52Uvm8oXgA8jG3Rbzw=="
         }
       },
       "is_incremental": false,
@@ -4950,7 +5214,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Serialization.html",
-          "hash": "TDzp+dgztC+/DUNfqu3ICw=="
+          "hash": "nugBD/sKcIlPEkm0YmVsyg=="
         }
       },
       "is_incremental": false,
@@ -4962,7 +5226,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.SortOrder.html",
-          "hash": "MFvQuTpy8Y66sm2bZPqptA=="
+          "hash": "v+QqDyD9wyU/OJA5t5vt9g=="
         }
       },
       "is_incremental": false,
@@ -4974,7 +5238,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.StandardizedDateTimeFormatPattern.html",
-          "hash": "dhwHXHSGdHoFvtdlEPs4nA=="
+          "hash": "DUvyCcu8rOmtq9hYxFyyWg=="
         }
       },
       "is_incremental": false,
@@ -4986,7 +5250,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.StringConverter.html",
-          "hash": "FeyQDydVWdN9s5KCpfnoWA=="
+          "hash": "04kxc16xdqDeI2Q2RR1X5g=="
         }
       },
       "is_incremental": false,
@@ -4998,7 +5262,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.StringConverterExtensions.html",
-          "hash": "PcKbAXnrVkE/6U5PxeL22Q=="
+          "hash": "lUFz9n5DcllDzrXsK+ibVg=="
         }
       },
       "is_incremental": false,
@@ -5010,7 +5274,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.StringExtensions.html",
-          "hash": "SoviTXwOklh8Q93K2aXyjQ=="
+          "hash": "Q6P4hVd1Bi1lNZwQlOSejw=="
         }
       },
       "is_incremental": false,
@@ -5022,7 +5286,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.StringFormatter.html",
-          "hash": "uP3SyjHb+4x1x0OcRxtZBg=="
+          "hash": "gc4D3weuE+WznH0No0DZYA=="
         }
       },
       "is_incremental": false,
@@ -5034,7 +5298,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.StringReplacePair.html",
-          "hash": "Bg5lxOOSfzNF9cZWuM0mMg=="
+          "hash": "A8xz8/c3O5kB5aFH710WMQ=="
         }
       },
       "is_incremental": false,
@@ -5046,7 +5310,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.StringUtility.html",
-          "hash": "n3idUzn18p82oQs5AmWuIQ=="
+          "hash": "3ceWfyFIAdRmmbAtlT/5KA=="
         }
       },
       "is_incremental": false,
@@ -5058,7 +5322,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.StringUtilityExtensions.html",
-          "hash": "eHy3j8J5c+kIwkOjqqifVQ=="
+          "hash": "b6/PLgOMN1bYnWOaBLabVA=="
         }
       },
       "is_incremental": false,
@@ -5070,7 +5334,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.StructUtility.html",
-          "hash": "4fJSThYVPQJxPosYVhE7gw=="
+          "hash": "Lj3A8zGzLwrJqKHifByxJQ=="
         }
       },
       "is_incremental": false,
@@ -5082,7 +5346,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.StructUtilityExtensions.html",
-          "hash": "kN2wLlOHAGfaFargLcL/NQ=="
+          "hash": "6cUVxEbC3cU5E87fGSgnNQ=="
         }
       },
       "is_incremental": false,
@@ -5094,7 +5358,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TaskActionFactory-1.html",
-          "hash": "b4jvXImcsoYfYKMoKCTLTQ=="
+          "hash": "NtJwOynXAE/s2I9HdT41yw=="
         }
       },
       "is_incremental": false,
@@ -5106,7 +5370,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TaskActionFactory.html",
-          "hash": "kvFq7sn4UltRN/LSpV04Ag=="
+          "hash": "W4YcgkkLkg+xt0qBuDBY6w=="
         }
       },
       "is_incremental": false,
@@ -5118,7 +5382,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TaskFuncFactory-2.html",
-          "hash": "kyAOysuoK9JaFvIwTgKzyw=="
+          "hash": "ZRIl3Ob2nUSiwirfh7GZ5g=="
         }
       },
       "is_incremental": false,
@@ -5130,7 +5394,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TaskFuncFactory.html",
-          "hash": "8noNLsnNrtG/fCXR82EkZw=="
+          "hash": "XLGi9NiNPj0ZZ5zeaneJBQ=="
         }
       },
       "is_incremental": false,
@@ -5142,7 +5406,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-1.html",
-          "hash": "DYFbQsc4PhzR3aaRjuYCVQ=="
+          "hash": "DVuq0Xt8hyaPnv7FWg1ThQ=="
         }
       },
       "is_incremental": false,
@@ -5154,7 +5418,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-10.html",
-          "hash": "ZP9Ho9QtZGb1ORFJv63uEQ=="
+          "hash": "+PGcA8AyKN8WSrREC2CmOQ=="
         }
       },
       "is_incremental": false,
@@ -5166,7 +5430,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-11.html",
-          "hash": "DUg+IKqicb4kyMsWTM8S0A=="
+          "hash": "EUSV4omIz3uwfpmm25xc0A=="
         }
       },
       "is_incremental": false,
@@ -5178,7 +5442,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-12.html",
-          "hash": "FI95S8WA6hZM3MmElSEu/Q=="
+          "hash": "7NH56r9gdyVHG0yTX6G2wQ=="
         }
       },
       "is_incremental": false,
@@ -5190,7 +5454,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-13.html",
-          "hash": "w/C/3Ww/6qnLKuoncVXzFQ=="
+          "hash": "yOYOM2a7Rp5KqQsMsFEcmA=="
         }
       },
       "is_incremental": false,
@@ -5202,7 +5466,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-14.html",
-          "hash": "Ny9NmQ3dZ89B3EqTTfEo/w=="
+          "hash": "tP2LVcCQipGPV8MZubqpSg=="
         }
       },
       "is_incremental": false,
@@ -5214,7 +5478,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-15.html",
-          "hash": "zuwXDpeuvsgnr8EEHbwoxw=="
+          "hash": "FourJ+Rg/SdnHRVrbnTe7Q=="
         }
       },
       "is_incremental": false,
@@ -5226,7 +5490,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-16.html",
-          "hash": "xxTGXQgy6Z3zc71EfdPc+A=="
+          "hash": "hRoVLYkyFFuHgnOSxgrxuA=="
         }
       },
       "is_incremental": false,
@@ -5238,7 +5502,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-17.html",
-          "hash": "8yyVrSLD8dhQWTRnEHIFEA=="
+          "hash": "ngJrE9EQx2Lwj78xTTr5RQ=="
         }
       },
       "is_incremental": false,
@@ -5250,7 +5514,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-18.html",
-          "hash": "4nUs1rZdWJptaGN04JoMtw=="
+          "hash": "Qmzh6N8vSleOVPsGjNK3DA=="
         }
       },
       "is_incremental": false,
@@ -5262,7 +5526,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-19.html",
-          "hash": "p9w7Fi4vkNtylkPxKhLpzg=="
+          "hash": "Vd/RmxDK77VcBxQbi1D0uw=="
         }
       },
       "is_incremental": false,
@@ -5274,7 +5538,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-2.html",
-          "hash": "frDNJoFMp8ZCCpe6nsXACQ=="
+          "hash": "0M7Z4Et7S+1b6apPVXNHuw=="
         }
       },
       "is_incremental": false,
@@ -5286,7 +5550,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-20.html",
-          "hash": "fn+XFPZdC+8aPahamvuQtQ=="
+          "hash": "TFTXnqk9hxOPSWeMS54ANg=="
         }
       },
       "is_incremental": false,
@@ -5298,7 +5562,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-3.html",
-          "hash": "MRWGSyEk8WmqpSZ7HOkSxw=="
+          "hash": "VIDrr7HCzpPdGgl/OGA4ug=="
         }
       },
       "is_incremental": false,
@@ -5310,7 +5574,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-4.html",
-          "hash": "+LDICRxtLEFH5puoYEFLOw=="
+          "hash": "9UBJg0xsqDoPOGWPoL1Yfw=="
         }
       },
       "is_incremental": false,
@@ -5322,7 +5586,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-5.html",
-          "hash": "nwoPbq5qeAE73Imvt3Mo/Q=="
+          "hash": "+XeYDpTkOhyvQEoluPugbw=="
         }
       },
       "is_incremental": false,
@@ -5334,7 +5598,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-6.html",
-          "hash": "HBcAZTH0E4a5dSLybXglMg=="
+          "hash": "Mx5a0bjy1icLsc3bH9qrEQ=="
         }
       },
       "is_incremental": false,
@@ -5346,7 +5610,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-7.html",
-          "hash": "b5HgOYOLVh+sWGGgxglwIw=="
+          "hash": "7HwwIPCq8Q1wAFfpZkj/Kg=="
         }
       },
       "is_incremental": false,
@@ -5358,7 +5622,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-8.html",
-          "hash": "FOzyDEeT7r20MeNiu5lqhg=="
+          "hash": "Ji8cx/DFwf8P3QNvqUWGbg=="
         }
       },
       "is_incremental": false,
@@ -5370,7 +5634,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template-9.html",
-          "hash": "LvtRlFDe/TNc+lGdSXS6zg=="
+          "hash": "uW7FVvb/UdFCIYkgZwJEnw=="
         }
       },
       "is_incremental": false,
@@ -5382,7 +5646,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Template.html",
-          "hash": "6oi00iV2qeqG3fcrod1KQw=="
+          "hash": "QTmplPd/E6uUjCkqsj2jBA=="
         }
       },
       "is_incremental": false,
@@ -5394,7 +5658,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TemplateFactory-1.html",
-          "hash": "jA9o9kJlncTWiqbkViO6Tw=="
+          "hash": "hQdalUc95SFr5WS6PjF2pw=="
         }
       },
       "is_incremental": false,
@@ -5406,7 +5670,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterDoer.html",
-          "hash": "a7UzHvbUigzvUGTTjEv8Ww=="
+          "hash": "pRPQjwigJUQebFFwpd9hZA=="
         }
       },
       "is_incremental": false,
@@ -5418,7 +5682,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFunc-10.html",
-          "hash": "FW1XY61eGLIZRyxzE0uo2A=="
+          "hash": "o0GYjMzoe23N/mhQJbVSUg=="
         }
       },
       "is_incremental": false,
@@ -5430,7 +5694,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFunc-11.html",
-          "hash": "rIVT8/521n4PCyBKQFjATQ=="
+          "hash": "lYQg9OXnnhBcfYzF/YhJ7g=="
         }
       },
       "is_incremental": false,
@@ -5442,7 +5706,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFunc-12.html",
-          "hash": "y7OUM0e3fAPQ/Hq3HDg6yg=="
+          "hash": "zbc/ku+rd7fVm2+tRDepyg=="
         }
       },
       "is_incremental": false,
@@ -5454,7 +5718,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFunc-13.html",
-          "hash": "8yTSJNIPEKPqgU45cITi9Q=="
+          "hash": "eIi9cLMlSYdRg/zPQmXqyQ=="
         }
       },
       "is_incremental": false,
@@ -5466,7 +5730,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFunc-14.html",
-          "hash": "1vN2MmpZ+tQiAZmV2b+nyw=="
+          "hash": "jHK3DlZwcu+dkubl4Du/Xg=="
         }
       },
       "is_incremental": false,
@@ -5478,7 +5742,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFunc-15.html",
-          "hash": "BqGmWg6fJt8hyXFWz2OnbQ=="
+          "hash": "IKVJAd5Wd3/EaHyeoO6PWg=="
         }
       },
       "is_incremental": false,
@@ -5490,7 +5754,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFunc-16.html",
-          "hash": "IzgApQsOtBjppgHeorDyRw=="
+          "hash": "x55NT14tPLDw0CfdoCOdQQ=="
         }
       },
       "is_incremental": false,
@@ -5502,7 +5766,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFunc-17.html",
-          "hash": "ovvq12fdObrvRmaj3s6Xvg=="
+          "hash": "8+vdSe+PNNONmiTNrdDDrA=="
         }
       },
       "is_incremental": false,
@@ -5514,7 +5778,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFunc-18.html",
-          "hash": "g42TTlhfNNkSPhOCG3V6iQ=="
+          "hash": "iVs9z/wHW7Hp29iNO07tfg=="
         }
       },
       "is_incremental": false,
@@ -5526,7 +5790,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFunc-2.html",
-          "hash": "sHILtwE/n+Nd/aX8WZq2wQ=="
+          "hash": "iXaq+5fvY0L/Ngu5N09ooQ=="
         }
       },
       "is_incremental": false,
@@ -5538,7 +5802,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFunc-3.html",
-          "hash": "brwQmCV0xTisaw0IZMuPvA=="
+          "hash": "UKYpLirL0Nqcfe/TTvq1LA=="
         }
       },
       "is_incremental": false,
@@ -5550,7 +5814,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFunc-4.html",
-          "hash": "MCGxq94XSdYlwQwHXvy/fA=="
+          "hash": "rnvL5jqJOdkDiPQFlKJDew=="
         }
       },
       "is_incremental": false,
@@ -5562,7 +5826,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFunc-5.html",
-          "hash": "OAZ4rCJ1V6zosO5Kn57ecA=="
+          "hash": "JbhZjrwqbslgOrur9B+Qng=="
         }
       },
       "is_incremental": false,
@@ -5574,7 +5838,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFunc-6.html",
-          "hash": "Y0Biqg1qaFQD3Lud4FjhUg=="
+          "hash": "JNl5vmmcMzmHmUUWwhwd2g=="
         }
       },
       "is_incremental": false,
@@ -5586,7 +5850,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFunc-7.html",
-          "hash": "8Jzr3tHjD1xYwQL4Fpvvjg=="
+          "hash": "olW6IrTRpKGOce9P+P/Edg=="
         }
       },
       "is_incremental": false,
@@ -5598,7 +5862,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFunc-8.html",
-          "hash": "hFL+lWf1o2zsZ6UYqEGIdw=="
+          "hash": "i2Sbu9EY2HV+in876am/qw=="
         }
       },
       "is_incremental": false,
@@ -5610,7 +5874,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFunc-9.html",
-          "hash": "k3JWnKQLSSD3kXEhfLDGwQ=="
+          "hash": "emEASL5VY+fJsIz5ipuzLQ=="
         }
       },
       "is_incremental": false,
@@ -5622,7 +5886,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFuncFactory-3.html",
-          "hash": "ytfR2A/gbjZnqJvIjuU6ug=="
+          "hash": "UXjazhKJA70teh4gdADEng=="
         }
       },
       "is_incremental": false,
@@ -5634,7 +5898,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFuncFactory.html",
-          "hash": "peUSQJbvTrYGD3HFFzU8kw=="
+          "hash": "XX+HlcNrf8jnDChTkyqZPg=="
         }
       },
       "is_incremental": false,
@@ -5646,7 +5910,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TesterFuncUtility.html",
-          "hash": "PmaKZInw0v3aXXcTHl1UQA=="
+          "hash": "+wJQiLgpkEctb+qmuSGkeQ=="
         }
       },
       "is_incremental": false,
@@ -5658,7 +5922,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Text.EncodingConverter.html",
-          "hash": "w5HlPxvo62x6/VqyvoF1VA=="
+          "hash": "g0MKWKXIq8e27Es9YvSjDA=="
         }
       },
       "is_incremental": false,
@@ -5670,7 +5934,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Text.EncodingExtensions.html",
-          "hash": "jvNaNYrz+NZve/FhSKaY/g=="
+          "hash": "wJ5Mx29BMBuwXHI8ugP34g=="
         }
       },
       "is_incremental": false,
@@ -5682,7 +5946,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Text.EncodingOptions.html",
-          "hash": "lFS6lDdOg9qDuK9d4l5Ssw=="
+          "hash": "VsJKs7M2at/ovEjzzpcOSQ=="
         }
       },
       "is_incremental": false,
@@ -5694,7 +5958,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Text.EncodingUtility.html",
-          "hash": "//hxd2vjYpQYE2LyyYZ7yg=="
+          "hash": "CDirJjEyApkZi3iqMa4/UQ=="
         }
       },
       "is_incremental": false,
@@ -5706,7 +5970,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Text.FallbackEncodingOptions.html",
-          "hash": "wK3ohCntjOGUsCEJD2lSnw=="
+          "hash": "aaPBmDtnJ6D589d0KdefLQ=="
         }
       },
       "is_incremental": false,
@@ -5718,7 +5982,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Text.html",
-          "hash": "fa6X79tYx0V2WlhujHvTNA=="
+          "hash": "6i5K0/5pBu9p+Q0kNaX6Cg=="
         }
       },
       "is_incremental": false,
@@ -5730,7 +5994,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Threading.AsyncOptions.html",
-          "hash": "l9CEEk/4zZLiVizfISFf5g=="
+          "hash": "YSkYPtqk+B7h5T8OtJIZZg=="
         }
       },
       "is_incremental": false,
@@ -5742,7 +6006,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Threading.ParallelTasks.html",
-          "hash": "pc3Vd74//3RZ7npD3xpABg=="
+          "hash": "vWfcR1krvA5GB+M1oLJTYg=="
         }
       },
       "is_incremental": false,
@@ -5754,7 +6018,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Threading.Tasks.TaskExtensions.html",
-          "hash": "4vK3Ji6gRlZ+9kqpUuIGIg=="
+          "hash": "NbNGXwD2tReq74RESxDLLg=="
         }
       },
       "is_incremental": false,
@@ -5766,7 +6030,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Threading.Tasks.html",
-          "hash": "++zYPEuVvAIF7pGEZ+UIBQ=="
+          "hash": "PJ0jbhyAYvAiLYaBJZTDiw=="
         }
       },
       "is_incremental": false,
@@ -5778,7 +6042,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Threading.ThreadPoolUtility.html",
-          "hash": "Lx2j2v4dlXWpKDjqShTS8A=="
+          "hash": "1PlBvAVWh4Dxh1rRgpdUdg=="
         }
       },
       "is_incremental": false,
@@ -5790,7 +6054,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Threading.html",
-          "hash": "vUsDBZHAE+3bAwON6CTDxw=="
+          "hash": "SHkDFjK+LOqoJGCcNMBoxg=="
         }
       },
       "is_incremental": false,
@@ -5802,7 +6066,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TimeRange.html",
-          "hash": "Jxi0QF9JV9Q/R4XmxfVJlw=="
+          "hash": "A8vwA7lb6BCLbvF04ebqIA=="
         }
       },
       "is_incremental": false,
@@ -5814,7 +6078,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TimeSpanConverter.html",
-          "hash": "1ep1PAwBsiQ+mcLijcepQw=="
+          "hash": "X7b6Nj8wscig1eyb2U9Vaw=="
         }
       },
       "is_incremental": false,
@@ -5826,7 +6090,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TimeSpanConverterExtensions.html",
-          "hash": "7gMXfL5ij37ON1Kc88BKHQ=="
+          "hash": "qTCXpLveVNIRjZUkm+tpOg=="
         }
       },
       "is_incremental": false,
@@ -5838,7 +6102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TimeSpanExtensions.html",
-          "hash": "JWG/axJUizHDMPp786RIKw=="
+          "hash": "H7drjevsChz1N7umIFwSYw=="
         }
       },
       "is_incremental": false,
@@ -5850,7 +6114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TimeUnit.html",
-          "hash": "VwluqCXPVgWQ1wKpl334aA=="
+          "hash": "/2Q1DAYeRnNUzIKOswqTpw=="
         }
       },
       "is_incremental": false,
@@ -5862,7 +6126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TransientFaultEvidence.html",
-          "hash": "sSaAYZ8og9GZ0Xp3LSbGvA=="
+          "hash": "rO1PIAKZSvsTComOYfIsMQ=="
         }
       },
       "is_incremental": false,
@@ -5874,7 +6138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TransientFaultException.html",
-          "hash": "rSRNMLrMAD1YrHzHmeSwDA=="
+          "hash": "7ma+DGihver1LeiNarq21Q=="
         }
       },
       "is_incremental": false,
@@ -5886,7 +6150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TransientOperation.html",
-          "hash": "gjYmv6c/yaKCTQI1pqGhUg=="
+          "hash": "r/Gi4OKLrdCMr7DhQpKT+w=="
         }
       },
       "is_incremental": false,
@@ -5898,7 +6162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TransientOperationOptions.html",
-          "hash": "3ktSgkrCAZt8rUuZEjCwPQ=="
+          "hash": "mnaN2h/xe5nsZhoCmJVS3Q=="
         }
       },
       "is_incremental": false,
@@ -5910,7 +6174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TupleUtility.html",
-          "hash": "u39qrbyLFNJZsogrzU/3vQ=="
+          "hash": "sQgCGPjLUteS9ADObS+OQw=="
         }
       },
       "is_incremental": false,
@@ -5922,7 +6186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Tweaker.html",
-          "hash": "esGaYbBlUMPgGZTiYhPnFw=="
+          "hash": "zXLnxBVpS6f05jRt8yZGdg=="
         }
       },
       "is_incremental": false,
@@ -5934,7 +6198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TweakerExtensions.html",
-          "hash": "WKDWkegQJ5i1tTYqvVuZbA=="
+          "hash": "nndcSJoAPTI9IDhRt+3Arw=="
         }
       },
       "is_incremental": false,
@@ -5946,7 +6210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TypeArgumentException.html",
-          "hash": "yV1AX4ytgRg9BqQ4z5782Q=="
+          "hash": "I9hu7ktoHEplm3JiaxBz/g=="
         }
       },
       "is_incremental": false,
@@ -5958,7 +6222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TypeArgumentOutOfRangeException.html",
-          "hash": "K3mw4GD2ubcBs6LiBD5LAA=="
+          "hash": "+KgUJYzVV4cpf4bvHre+pw=="
         }
       },
       "is_incremental": false,
@@ -5970,7 +6234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TypeCodeConverter.html",
-          "hash": "qV52eFURCvMWaAWpItaaUw=="
+          "hash": "3gIFCcvkyD4gFCD7Wlw4hg=="
         }
       },
       "is_incremental": false,
@@ -5982,7 +6246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TypeCodeConverterExtensions.html",
-          "hash": "a0YAs5O9n87dqhz9RXkpYg=="
+          "hash": "a7/o4zewlWBLeFpDCqWwjA=="
         }
       },
       "is_incremental": false,
@@ -5994,7 +6258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TypeExtensions.html",
-          "hash": "XuTLSAXD9wQebh8YR/f3hw=="
+          "hash": "t+bqq6Sq+afuod8BEZBLBg=="
         }
       },
       "is_incremental": false,
@@ -6006,7 +6270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TypeUtility.html",
-          "hash": "qJFaHTy7BOibXt9bW73hdw=="
+          "hash": "ZBrcyz5nH9ZzRilt2+fHxA=="
         }
       },
       "is_incremental": false,
@@ -6018,7 +6282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.TypeUtilityExtensions.html",
-          "hash": "45TjEoYKyyyY8yh1+sWLng=="
+          "hash": "jV2LYVhKe1vIWkz07uvASg=="
         }
       },
       "is_incremental": false,
@@ -6030,7 +6294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.UriConverter.html",
-          "hash": "uS8GhTfbzQkgD2IMMRasWg=="
+          "hash": "BJn2SfpfnVo6aK7AhIMmNw=="
         }
       },
       "is_incremental": false,
@@ -6042,7 +6306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.UriScheme.html",
-          "hash": "1LbBZW29B9FZ7eb0rJkuuA=="
+          "hash": "HaX0Puom2y/CJvhV/oM24A=="
         }
       },
       "is_incremental": false,
@@ -6054,7 +6318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.UriSchemeConverter.html",
-          "hash": "L1W+T/yPmXh9N3RuVRuuwg=="
+          "hash": "Q2+xeWB/f7WjuFImte68Hw=="
         }
       },
       "is_incremental": false,
@@ -6066,7 +6330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.UriUtility.html",
-          "hash": "/h7HQlBqN2Vsa5NxzpJ1TA=="
+          "hash": "doefO7XUHzJ0X73DgsVLgw=="
         }
       },
       "is_incremental": false,
@@ -6078,7 +6342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Validator.html",
-          "hash": "UnqcNixuyFaQZ2FQY1xLnQ=="
+          "hash": "X9IEbGxoenDfUo2yV4M+MA=="
         }
       },
       "is_incremental": false,
@@ -6090,7 +6354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.VersionUtility.html",
-          "hash": "H8tGx1T2gyRSrSVKUu+00g=="
+          "hash": "iY16BrjbQ3/e9rEDTGLX2Q=="
         }
       },
       "is_incremental": false,
@@ -6102,7 +6366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.VerticalDirection.html",
-          "hash": "+gvmoG+jG4CVC9eISRVd3A=="
+          "hash": "n0E57vwGMuWoIErPQ/i5lA=="
         }
       },
       "is_incremental": false,
@@ -6114,7 +6378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Web.FieldValueFilter.html",
-          "hash": "K5YmTxR9IVpfgZ0WmWWgoA=="
+          "hash": "DoJfoWgFUiJayw8AFKhILA=="
         }
       },
       "is_incremental": false,
@@ -6126,7 +6390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Web.FieldValueSeparator.html",
-          "hash": "cEHXFmE0p6X+jpRXitnZFQ=="
+          "hash": "1AVLskr8CfnYnk6AbVB3Xg=="
         }
       },
       "is_incremental": false,
@@ -6138,7 +6402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Web.FormConverter.html",
-          "hash": "OAdUtmRASWJuye7zSgcS8w=="
+          "hash": "nmSs4kwfvPWLLuV3pFiZGA=="
         }
       },
       "is_incremental": false,
@@ -6150,7 +6414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Web.FormUtility.html",
-          "hash": "9fFiNVTo5xC0QYnmeTDx7Q=="
+          "hash": "dgg+5gmyNysFUDMiyME2xA=="
         }
       },
       "is_incremental": false,
@@ -6162,7 +6426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Web.HeadersConverter.html",
-          "hash": "4RGacRiv1OGMa9xEEqJBOw=="
+          "hash": "M0DMluHcZPaDS0Nc7ffnFw=="
         }
       },
       "is_incremental": false,
@@ -6174,7 +6438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Web.HeadersUtility.html",
-          "hash": "/tGjhMOg92Uiyc/ht5LXiA=="
+          "hash": "LZJ/deU6LgrX4EnPUBJoHA=="
         }
       },
       "is_incremental": false,
@@ -6186,7 +6450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Web.HttpUtility.html",
-          "hash": "kP+YduB/kN6lDwLLbogYZQ=="
+          "hash": "6cKCTdGOn0NThEOn9PYSog=="
         }
       },
       "is_incremental": false,
@@ -6198,7 +6462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Web.HttpUtilityExtensions.html",
-          "hash": "AF5P2maAfaR9YY4RwQELRQ=="
+          "hash": "UUsfdGiMZtNn+FNyq1gY7A=="
         }
       },
       "is_incremental": false,
@@ -6210,7 +6474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Web.QueryStringConverter.html",
-          "hash": "kIrphcfj74qJ/Qn5BQbIlA=="
+          "hash": "DJgk3bLgjM4xruIUwfaWDQ=="
         }
       },
       "is_incremental": false,
@@ -6222,7 +6486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Web.QueryStringUtility.html",
-          "hash": "BuoyvVV+Y3i+1C1r+53ywQ=="
+          "hash": "nF63UdeCa+zLn9e2Q5tDdQ=="
         }
       },
       "is_incremental": false,
@@ -6234,7 +6498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Web.Security.WebSecurityUtility.html",
-          "hash": "RlGhqrykvaxwNKKXXSB8Zg=="
+          "hash": "I3/iJraCEpVMLlGUS/CFwA=="
         }
       },
       "is_incremental": false,
@@ -6246,7 +6510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Web.Security.WebSecurityUtilityExtensions.html",
-          "hash": "0dUUx53pMNdCA1gnEPoHbw=="
+          "hash": "56m8oF7sWWID3OiLGT2XFg=="
         }
       },
       "is_incremental": false,
@@ -6258,7 +6522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Web.Security.html",
-          "hash": "b2yMv3Jtji9QZnlvXLfCvg=="
+          "hash": "IZfA260GIIwrKdbqdwry1w=="
         }
       },
       "is_incremental": false,
@@ -6270,7 +6534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Web.html",
-          "hash": "sIAqmhmxvb5CEWwsyJIzFw=="
+          "hash": "XF+JxKOxA2d7pE1QfJyQfg=="
         }
       },
       "is_incremental": false,
@@ -6282,7 +6546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Wrapper-1.html",
-          "hash": "ExaIjS9GasG78JB2nbOFVQ=="
+          "hash": "CsOYv18d9sz0hllKqF7aUg=="
         }
       },
       "is_incremental": false,
@@ -6294,7 +6558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Wrapper.html",
-          "hash": "V8zm1H3VyQSXvplILMTi/w=="
+          "hash": "ZTqHdEcHS9RHNdL39hK4jw=="
         }
       },
       "is_incremental": false,
@@ -6306,7 +6570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.WrapperExtensions.html",
-          "hash": "d5hcikh/nI9j1teNNPbShQ=="
+          "hash": "frQdZOGdxrKcHzyvGZOrmQ=="
         }
       },
       "is_incremental": false,
@@ -6318,7 +6582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.Linq.XElementExtensions.html",
-          "hash": "nkmuTqTs9JTWtUxIQ4hEnA=="
+          "hash": "1bUnLGnWt0AkETs9eVO85g=="
         }
       },
       "is_incremental": false,
@@ -6330,7 +6594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.Linq.html",
-          "hash": "JAYMnxP4sOPXmKSH4aehfg=="
+          "hash": "cAB1jGnJtum0o7mpBIl0ZA=="
         }
       },
       "is_incremental": false,
@@ -6342,7 +6606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.Serialization.SerializableOrder.html",
-          "hash": "yZBn53EpJUQ4aX7RpcgVWg=="
+          "hash": "6ZsWzDMWLzUicob/dHXUyg=="
         }
       },
       "is_incremental": false,
@@ -6354,7 +6618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.Serialization.XmlQualifiedEntity.html",
-          "hash": "gMeWW3O/lC1K3LqjFG77Ug=="
+          "hash": "acpX4iqXdP80Y+oF5THCzQ=="
         }
       },
       "is_incremental": false,
@@ -6366,7 +6630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.Serialization.XmlWrapper.html",
-          "hash": "qAz7JKYGuHbd+M9VlhbNSw=="
+          "hash": "ZV118GOwoS0IsLAgrSkMFQ=="
         }
       },
       "is_incremental": false,
@@ -6378,7 +6642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.Serialization.html",
-          "hash": "CNRNQKRu1DCx7swxLVTUWg=="
+          "hash": "mcM6wJCXoJ+im+p+d1lcVg=="
         }
       },
       "is_incremental": false,
@@ -6390,7 +6654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.XPath.XPathNavigableConverter.html",
-          "hash": "Lt6xljBrQs5O+yHh8sAe5A=="
+          "hash": "jm3qDDonEZWxYKGAc+odYg=="
         }
       },
       "is_incremental": false,
@@ -6402,7 +6666,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.XPath.html",
-          "hash": "nFsEVh751i7nCPwIMX0qbw=="
+          "hash": "NRQStO8uxHWdMVjqpQALdQ=="
         }
       },
       "is_incremental": false,
@@ -6414,7 +6678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.XmlConvertExtensions.html",
-          "hash": "p4n9CXHp/xA0XXCHKThLTw=="
+          "hash": "+5Gaiha5lWnwHMeMa4W4lQ=="
         }
       },
       "is_incremental": false,
@@ -6426,7 +6690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.XmlCopyOptions.html",
-          "hash": "RJ6fFGWAjB0zsHheEUMWDQ=="
+          "hash": "F6eVVJ+dfpP2KGlQED+7bg=="
         }
       },
       "is_incremental": false,
@@ -6438,7 +6702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.XmlDocumentConverter.html",
-          "hash": "3zFQMSby8kxxxZCReKZijw=="
+          "hash": "ym4ALGNct1BGgRl6BJ0uXQ=="
         }
       },
       "is_incremental": false,
@@ -6450,7 +6714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.XmlElementConverter.html",
-          "hash": "R+Jv2AqALTFAEx3Y2Lh/3g=="
+          "hash": "i0gxkOwNjYDUOewheF21dA=="
         }
       },
       "is_incremental": false,
@@ -6462,7 +6726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.XmlEncodingUtility.html",
-          "hash": "48ZrGTH/LCL4bXGanYtiZw=="
+          "hash": "0xf/LRGHqehiZmeOur17Ng=="
         }
       },
       "is_incremental": false,
@@ -6474,7 +6738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.XmlReaderConverter.html",
-          "hash": "MCgmymUujPQc6wWPyhK5+w=="
+          "hash": "+Ph0uCt47CnPZNjxcTAXIQ=="
         }
       },
       "is_incremental": false,
@@ -6486,7 +6750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.XmlReaderUtility.html",
-          "hash": "CybHKLrW61A44u2v07yxRA=="
+          "hash": "KRwm+JYZd//aT2IkbL07Tg=="
         }
       },
       "is_incremental": false,
@@ -6498,7 +6762,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.XmlReaderUtilityExtensions.html",
-          "hash": "x1q+a2RT5ah1AUf32gYwvA=="
+          "hash": "QYwxtbeaeemVSrLILt/UFQ=="
         }
       },
       "is_incremental": false,
@@ -6510,7 +6774,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.XmlUtility.html",
-          "hash": "iUhRArEo7ol1w+5sunWFJA=="
+          "hash": "qUVQiX+FNbwehmtErvThiw=="
         }
       },
       "is_incremental": false,
@@ -6522,7 +6786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.XmlUtilityExtensions.html",
-          "hash": "JhLPb4fUxbneKNYeBrgcag=="
+          "hash": "nz08znSiDZz2mZOyKD0Drw=="
         }
       },
       "is_incremental": false,
@@ -6534,7 +6798,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.XmlWriterUtility.html",
-          "hash": "wgrOxi+Av1aGgm7Oh1lAwA=="
+          "hash": "ZDUkWycULnF8/4c+sF+xvA=="
         }
       },
       "is_incremental": false,
@@ -6546,7 +6810,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.XmlWriterUtilityExtensions.html",
-          "hash": "YWd+4aAgWyCjYWhllrjwUQ=="
+          "hash": "ovr12Dv1UzKwKae6Ws5Z8A=="
         }
       },
       "is_incremental": false,
@@ -6558,7 +6822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.Xml.html",
-          "hash": "CnhQzbGKaeC0V/mPVWDmyA=="
+          "hash": "HhD5WpNvVD3jfKo9ZejQdw=="
         }
       },
       "is_incremental": false,
@@ -6570,7 +6834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/Cuemon.html",
-          "hash": "yl13KD89VZ3JZtAZYx1KEw=="
+          "hash": "+UxChcD7VGY/UsAQCmr8Yg=="
         }
       },
       "is_incremental": false,
@@ -6582,7 +6846,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/index.html",
-          "hash": "KkzN17offuw+stROtJDV4g=="
+          "hash": "8Mm98xbIwz3+DCh3VPSHrw=="
         }
       },
       "is_incremental": false,
@@ -6594,7 +6858,7 @@
       "output": {
         ".html": {
           "relative_path": "api/core/toc.html",
-          "hash": "k9j7MbOwhBVSvkKALwo7lg=="
+          "hash": "edzFQYjWhcdWJdE8wbO5Ug=="
         }
       },
       "is_incremental": false,
@@ -6606,7 +6870,7 @@
       "output": {
         ".html": {
           "relative_path": "api/jsoncore/Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.html",
-          "hash": "X3eS0llqQ2v/WnvmdOU9jQ=="
+          "hash": "8rjXH8vREa31mm+y8M/OWA=="
         }
       },
       "is_incremental": false,
@@ -6618,7 +6882,7 @@
       "output": {
         ".html": {
           "relative_path": "api/jsoncore/Cuemon.Serialization.Json.Converters.StringFlagsEnumConverter.html",
-          "hash": "yupbOi2hMYVrFZuQFcM4kQ=="
+          "hash": "tptW5EXWutJt84LM972u3g=="
         }
       },
       "is_incremental": false,
@@ -6630,7 +6894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/jsoncore/Cuemon.Serialization.Json.Converters.html",
-          "hash": "bd4nDu5002x0w1c6ZijQVg=="
+          "hash": "ndxqfGqxZUpjli5ihtF9Rg=="
         }
       },
       "is_incremental": false,
@@ -6642,7 +6906,7 @@
       "output": {
         ".html": {
           "relative_path": "api/jsoncore/Cuemon.Serialization.Json.DynamicContractResolver.html",
-          "hash": "rHYl9VgZjopy/dZmX+W7yQ=="
+          "hash": "vZT+2td+pqQvwMT3szTERQ=="
         }
       },
       "is_incremental": false,
@@ -6654,7 +6918,7 @@
       "output": {
         ".html": {
           "relative_path": "api/jsoncore/Cuemon.Serialization.Json.DynamicJsonConverter.html",
-          "hash": "us2GUP+6N1OVyVAPSS9zgg=="
+          "hash": "qfJxC/lxOiHzwjVzSGt7Gg=="
         }
       },
       "is_incremental": false,
@@ -6666,7 +6930,7 @@
       "output": {
         ".html": {
           "relative_path": "api/jsoncore/Cuemon.Serialization.Json.Formatters.JsonFormatter.html",
-          "hash": "y8T6NchfsQ0HgeJvwpFhyA=="
+          "hash": "krf0LO2SiLc2v6w5Kukn0g=="
         }
       },
       "is_incremental": false,
@@ -6678,7 +6942,7 @@
       "output": {
         ".html": {
           "relative_path": "api/jsoncore/Cuemon.Serialization.Json.Formatters.JsonFormatterOptions.html",
-          "hash": "Acg7DJuJBRodT1i55ApgAg=="
+          "hash": "19xgDhjpESkeUYSJQcM4BQ=="
         }
       },
       "is_incremental": false,
@@ -6690,7 +6954,7 @@
       "output": {
         ".html": {
           "relative_path": "api/jsoncore/Cuemon.Serialization.Json.Formatters.html",
-          "hash": "d0wTBqT3v9Ox3Q119ELxTQ=="
+          "hash": "YnrI5BkpuMTVKqKd9ok6zQ=="
         }
       },
       "is_incremental": false,
@@ -6702,7 +6966,7 @@
       "output": {
         ".html": {
           "relative_path": "api/jsoncore/Cuemon.Serialization.Json.JsonReaderExtensions.html",
-          "hash": "iZLf03oHiWIJY98TMcjaiw=="
+          "hash": "/krLVDjtMg6ti6ENSv/2OQ=="
         }
       },
       "is_incremental": false,
@@ -6714,7 +6978,7 @@
       "output": {
         ".html": {
           "relative_path": "api/jsoncore/Cuemon.Serialization.Json.JsonReaderParser-1.html",
-          "hash": "RrsuAhYGEbx3zEqJWvO2NQ=="
+          "hash": "zXMjFRF1cbyhD/UIZf+4Zw=="
         }
       },
       "is_incremental": false,
@@ -6726,7 +6990,7 @@
       "output": {
         ".html": {
           "relative_path": "api/jsoncore/Cuemon.Serialization.Json.JsonReaderParser.html",
-          "hash": "3Awm/NCjGJ7w5H+poOlC4A=="
+          "hash": "j4FPwHnFaTHtHYtes2sQ/Q=="
         }
       },
       "is_incremental": false,
@@ -6738,7 +7002,7 @@
       "output": {
         ".html": {
           "relative_path": "api/jsoncore/Cuemon.Serialization.Json.JsonReaderResult.html",
-          "hash": "XqrZBEymE7p4LkOwnpMN0A=="
+          "hash": "vidWpLEHwvT4HTaYWJ+3mg=="
         }
       },
       "is_incremental": false,
@@ -6750,7 +7014,7 @@
       "output": {
         ".html": {
           "relative_path": "api/jsoncore/Cuemon.Serialization.Json.JsonReaderResultExtensions.html",
-          "hash": "RS4l/iNHuMjMwpueYPcWKQ=="
+          "hash": "ZYdLskOmUzg2NXq/lwtRZA=="
         }
       },
       "is_incremental": false,
@@ -6762,7 +7026,7 @@
       "output": {
         ".html": {
           "relative_path": "api/jsoncore/Cuemon.Serialization.Json.JsonSerializerSettingsExtensions.html",
-          "hash": "790ed71Wcca1SFX/otPrUg=="
+          "hash": "iomTZcdWpJEiKTP1NEe+oQ=="
         }
       },
       "is_incremental": false,
@@ -6774,7 +7038,7 @@
       "output": {
         ".html": {
           "relative_path": "api/jsoncore/Cuemon.Serialization.Json.JsonWriterExtensions.html",
-          "hash": "+6PjgXrlQPDBJ8Rmktx0FA=="
+          "hash": "ADKuisZBZevFNFi8+/v0rg=="
         }
       },
       "is_incremental": false,
@@ -6786,7 +7050,7 @@
       "output": {
         ".html": {
           "relative_path": "api/jsoncore/Cuemon.Serialization.Json.html",
-          "hash": "LhymArKWRT6O9SHCk7rrAA=="
+          "hash": "FkrZWrSUUmtPpnEtp/BnrA=="
         }
       },
       "is_incremental": false,
@@ -6798,7 +7062,7 @@
       "output": {
         ".html": {
           "relative_path": "api/jsoncore/index.html",
-          "hash": "ormwz2BlETyImvg4A5UKVg=="
+          "hash": "cUNrOZLyrn2Jxi4yjUhKBw=="
         }
       },
       "is_incremental": false,
@@ -6822,7 +7086,7 @@
       "output": {
         ".html": {
           "relative_path": "api/mailcore/Cuemon.Net.Mail.MailDistributor.html",
-          "hash": "9eRRM/KnqAZuKfzlIz2QuA=="
+          "hash": "Uu9tD9P2hLUFFyt/pfiKKw=="
         }
       },
       "is_incremental": false,
@@ -6834,7 +7098,7 @@
       "output": {
         ".html": {
           "relative_path": "api/mailcore/Cuemon.Net.Mail.html",
-          "hash": "tJHPS6iJiD4L9v+dOEo5rQ=="
+          "hash": "VA6jbi/tz1NBErlyapOfVw=="
         }
       },
       "is_incremental": false,
@@ -6846,7 +7110,7 @@
       "output": {
         ".html": {
           "relative_path": "api/mailcore/index.html",
-          "hash": "VTv3+Mw6UH33ONIxhXZQ3A=="
+          "hash": "Jr4qX+lNF1QGIk6xXRzUhQ=="
         }
       },
       "is_incremental": false,
@@ -6903,7 +7167,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "8sfQR7KToO/1bWALi6YORw=="
+          "hash": "9T3hqUWbLjYcTLCC0PgDwg=="
         }
       },
       "is_incremental": false,
@@ -6926,27 +7190,37 @@
     {
       "status": {
         "can_incremental": false,
-        "details": "Cannot build incrementally because docfx version changed from 2.40.0.0 to 2.40.4.0.",
-        "incrementalPhase": "build"
+        "details": "Cannot build incrementally because docfx version changed from 2.40.4.0 to 2.40.8.0.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build"
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build"
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 585,
+          "skipped_file_count": 0
         }
       }
     },
@@ -6954,7 +7228,9 @@
       "status": {
         "can_incremental": false,
         "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
-        "incrementalPhase": "postProcessing"
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
       },
       "processors": {}
     }

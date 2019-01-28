@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TypeExtensions
    | Cuemon .NET Standard ">
-    <meta name="generator" content="docfx 2.40.4.0">
+    <meta name="generator" content="docfx 2.40.8.0">
     
     <link rel="shortcut icon" href="../../images/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -473,6 +473,70 @@
       <tr>
         <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Type</span>&gt;</td>
         <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> holding the derived types from the <code data-dev-comment-type="paramref" class="paramref">source</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_TypeExtensions_GetRuntimePropertiesExceptOf__1_System_Type_.md&amp;value=---%0Auid%3A%20Cuemon.TypeExtensions.GetRuntimePropertiesExceptOf%60%601(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TypeExtensions_GetRuntimePropertiesExceptOf_" data-uid="Cuemon.TypeExtensions.GetRuntimePropertiesExceptOf*"></a>
+  <h4 id="Cuemon_TypeExtensions_GetRuntimePropertiesExceptOf__1_System_Type_" data-uid="Cuemon.TypeExtensions.GetRuntimePropertiesExceptOf``1(System.Type)">GetRuntimePropertiesExceptOf&lt;T&gt;(Type)</h4>
+  <div class="markdown level1 summary"><p>Retrieves a collection that represents all the properties defined on a specified <code data-dev-comment-type="paramref" class="paramref">type</code> except those defined on <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;PropertyInfo&gt; GetRuntimePropertiesExceptOf&lt;T&gt;(this Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The type that contains the properties to include except those defined on <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Reflection.PropertyInfo</span>&gt;</td>
+        <td><p>A collection of properties for the specified <code data-dev-comment-type="paramref" class="paramref">type</code> except those defined on <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type to exclude properties on <code data-dev-comment-type="paramref" class="paramref">type</code>.</p>
 </td>
       </tr>
     </tbody>
@@ -1203,6 +1267,70 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><p><code>true</code> if the specified source is nullable; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_TypeExtensions_IsSimple_System_Type_.md&amp;value=---%0Auid%3A%20Cuemon.TypeExtensions.IsSimple(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_TypeExtensions_IsSimple_" data-uid="Cuemon.TypeExtensions.IsSimple*"></a>
+  <h4 id="Cuemon_TypeExtensions_IsSimple_System_Type_" data-uid="Cuemon.TypeExtensions.IsSimple(System.Type)">IsSimple(Type)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the specified <code data-dev-comment-type="paramref" class="paramref">source</code> is a simple <span class="xref">System.Type</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsSimple(this Type source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The <span class="xref">System.Type</span> to determine complexity for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if specified <code data-dev-comment-type="paramref" class="paramref">source</code> is a simple <span class="xref">System.Type</span>; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is null.</p>
 </td>
       </tr>
     </tbody>

@@ -1181,12 +1181,101 @@ references:
   commentId: T:Cuemon.AspNetCore.Authentication.HmacAuthenticator
   fullName: Cuemon.AspNetCore.Authentication.HmacAuthenticator
   nameWithType: HmacAuthenticator
+- uid: Cuemon.AspNetCore.Authentication.UnauthorizedException
+  name: UnauthorizedException
+  href: api/aspnetcore/Cuemon.AspNetCore.Authentication.UnauthorizedException.html
+  commentId: T:Cuemon.AspNetCore.Authentication.UnauthorizedException
+  fullName: Cuemon.AspNetCore.Authentication.UnauthorizedException
+  nameWithType: UnauthorizedException
+- uid: Cuemon.AspNetCore.Authentication.UnauthorizedException.#ctor(System.Int32,System.String)
+  name: UnauthorizedException(Int32, String)
+  href: api/aspnetcore/Cuemon.AspNetCore.Authentication.UnauthorizedException.html#Cuemon_AspNetCore_Authentication_UnauthorizedException__ctor_System_Int32_System_String_
+  commentId: M:Cuemon.AspNetCore.Authentication.UnauthorizedException.#ctor(System.Int32,System.String)
+  fullName: Cuemon.AspNetCore.Authentication.UnauthorizedException.UnauthorizedException(System.Int32, System.String)
+  nameWithType: UnauthorizedException.UnauthorizedException(Int32, String)
+- uid: Cuemon.AspNetCore.Authentication.UnauthorizedException.#ctor*
+  name: UnauthorizedException
+  href: api/aspnetcore/Cuemon.AspNetCore.Authentication.UnauthorizedException.html#Cuemon_AspNetCore_Authentication_UnauthorizedException__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Authentication.UnauthorizedException.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Authentication.UnauthorizedException.UnauthorizedException
+  nameWithType: UnauthorizedException.UnauthorizedException
 - uid: Cuemon.AspNetCore.Builder
   name: Cuemon.AspNetCore.Builder
   href: api/aspnetcore/Cuemon.AspNetCore.Builder.html
   commentId: N:Cuemon.AspNetCore.Builder
   fullName: Cuemon.AspNetCore.Builder
   nameWithType: Cuemon.AspNetCore.Builder
+- uid: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions
+  name: ApplicationBuilderExtensions
+  href: api/aspnetcore/Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.html
+  commentId: T:Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions
+  fullName: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions
+  nameWithType: ApplicationBuilderExtensions
+- uid: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseCorrelationIdentifierHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions})
+  name: UseCorrelationIdentifierHeader(IApplicationBuilder, Action<CorrelationIdentifierOptions>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.html#Cuemon_AspNetCore_Builder_ApplicationBuilderExtensions_UseCorrelationIdentifierHeader_Microsoft_AspNetCore_Builder_IApplicationBuilder_System_Action_Cuemon_AspNetCore_Http_Headers_CorrelationIdentifierOptions__
+  commentId: M:Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseCorrelationIdentifierHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions})
+  name.vb: UseCorrelationIdentifierHeader(IApplicationBuilder, Action(Of CorrelationIdentifierOptions))
+  fullName: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseCorrelationIdentifierHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions>)
+  fullName.vb: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseCorrelationIdentifierHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action(Of Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions))
+  nameWithType: ApplicationBuilderExtensions.UseCorrelationIdentifierHeader(IApplicationBuilder, Action<CorrelationIdentifierOptions>)
+  nameWithType.vb: ApplicationBuilderExtensions.UseCorrelationIdentifierHeader(IApplicationBuilder, Action(Of CorrelationIdentifierOptions))
+- uid: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseCorrelationIdentifierHeader*
+  name: UseCorrelationIdentifierHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.html#Cuemon_AspNetCore_Builder_ApplicationBuilderExtensions_UseCorrelationIdentifierHeader_
+  commentId: Overload:Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseCorrelationIdentifierHeader
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseCorrelationIdentifierHeader
+  nameWithType: ApplicationBuilderExtensions.UseCorrelationIdentifierHeader
+- uid: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseCustomThrottlingSentinel(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions})
+  name: UseCustomThrottlingSentinel(IApplicationBuilder, Action<ThrottlingSentinelOptions>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.html#Cuemon_AspNetCore_Builder_ApplicationBuilderExtensions_UseCustomThrottlingSentinel_Microsoft_AspNetCore_Builder_IApplicationBuilder_System_Action_Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions__
+  commentId: M:Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseCustomThrottlingSentinel(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions})
+  name.vb: UseCustomThrottlingSentinel(IApplicationBuilder, Action(Of ThrottlingSentinelOptions))
+  fullName: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseCustomThrottlingSentinel(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions>)
+  fullName.vb: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseCustomThrottlingSentinel(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action(Of Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions))
+  nameWithType: ApplicationBuilderExtensions.UseCustomThrottlingSentinel(IApplicationBuilder, Action<ThrottlingSentinelOptions>)
+  nameWithType.vb: ApplicationBuilderExtensions.UseCustomThrottlingSentinel(IApplicationBuilder, Action(Of ThrottlingSentinelOptions))
+- uid: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseCustomThrottlingSentinel*
+  name: UseCustomThrottlingSentinel
+  href: api/aspnetcore/Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.html#Cuemon_AspNetCore_Builder_ApplicationBuilderExtensions_UseCustomThrottlingSentinel_
+  commentId: Overload:Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseCustomThrottlingSentinel
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseCustomThrottlingSentinel
+  nameWithType: ApplicationBuilderExtensions.UseCustomThrottlingSentinel
+- uid: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseHostingEnvironmentHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions})
+  name: UseHostingEnvironmentHeader(IApplicationBuilder, Action<HostingEnvironmentOptions>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.html#Cuemon_AspNetCore_Builder_ApplicationBuilderExtensions_UseHostingEnvironmentHeader_Microsoft_AspNetCore_Builder_IApplicationBuilder_System_Action_Cuemon_AspNetCore_Hosting_HostingEnvironmentOptions__
+  commentId: M:Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseHostingEnvironmentHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions})
+  name.vb: UseHostingEnvironmentHeader(IApplicationBuilder, Action(Of HostingEnvironmentOptions))
+  fullName: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseHostingEnvironmentHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions>)
+  fullName.vb: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseHostingEnvironmentHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action(Of Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions))
+  nameWithType: ApplicationBuilderExtensions.UseHostingEnvironmentHeader(IApplicationBuilder, Action<HostingEnvironmentOptions>)
+  nameWithType.vb: ApplicationBuilderExtensions.UseHostingEnvironmentHeader(IApplicationBuilder, Action(Of HostingEnvironmentOptions))
+- uid: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseHostingEnvironmentHeader*
+  name: UseHostingEnvironmentHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.html#Cuemon_AspNetCore_Builder_ApplicationBuilderExtensions_UseHostingEnvironmentHeader_
+  commentId: Overload:Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseHostingEnvironmentHeader
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseHostingEnvironmentHeader
+  nameWithType: ApplicationBuilderExtensions.UseHostingEnvironmentHeader
+- uid: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseUserAgentSentinel(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions})
+  name: UseUserAgentSentinel(IApplicationBuilder, Action<UserAgentSentinelOptions>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.html#Cuemon_AspNetCore_Builder_ApplicationBuilderExtensions_UseUserAgentSentinel_Microsoft_AspNetCore_Builder_IApplicationBuilder_System_Action_Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions__
+  commentId: M:Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseUserAgentSentinel(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions})
+  name.vb: UseUserAgentSentinel(IApplicationBuilder, Action(Of UserAgentSentinelOptions))
+  fullName: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseUserAgentSentinel(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions>)
+  fullName.vb: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseUserAgentSentinel(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action(Of Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions))
+  nameWithType: ApplicationBuilderExtensions.UseUserAgentSentinel(IApplicationBuilder, Action<UserAgentSentinelOptions>)
+  nameWithType.vb: ApplicationBuilderExtensions.UseUserAgentSentinel(IApplicationBuilder, Action(Of UserAgentSentinelOptions))
+- uid: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseUserAgentSentinel*
+  name: UseUserAgentSentinel
+  href: api/aspnetcore/Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.html#Cuemon_AspNetCore_Builder_ApplicationBuilderExtensions_UseUserAgentSentinel_
+  commentId: Overload:Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseUserAgentSentinel
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseUserAgentSentinel
+  nameWithType: ApplicationBuilderExtensions.UseUserAgentSentinel
 - uid: Cuemon.AspNetCore.Builder.ApplicationBuilderFactory
   name: ApplicationBuilderFactory
   href: api/aspnetcore/Cuemon.AspNetCore.Builder.ApplicationBuilderFactory.html
@@ -1543,233 +1632,125 @@ references:
   fullName.vb: Cuemon.AspNetCore.ConfigurableMiddleware(Of T1, T2, T3, T4, T5, TOptions).InvokeAsync
   nameWithType: ConfigurableMiddleware<T1, T2, T3, T4, T5, TOptions>.InvokeAsync
   nameWithType.vb: ConfigurableMiddleware(Of T1, T2, T3, T4, T5, TOptions).InvokeAsync
-- uid: Cuemon.AspNetCore.CorrelationBuilderExtension
-  name: CorrelationBuilderExtension
-  href: api/aspnetcore/Cuemon.AspNetCore.CorrelationBuilderExtension.html
-  commentId: T:Cuemon.AspNetCore.CorrelationBuilderExtension
-  fullName: Cuemon.AspNetCore.CorrelationBuilderExtension
-  nameWithType: CorrelationBuilderExtension
-- uid: Cuemon.AspNetCore.CorrelationBuilderExtension.UseCorrelationIdentifierHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{Cuemon.AspNetCore.CorrelationIdentifierOptions})
-  name: UseCorrelationIdentifierHeader(IApplicationBuilder, Action<CorrelationIdentifierOptions>)
-  href: api/aspnetcore/Cuemon.AspNetCore.CorrelationBuilderExtension.html#Cuemon_AspNetCore_CorrelationBuilderExtension_UseCorrelationIdentifierHeader_Microsoft_AspNetCore_Builder_IApplicationBuilder_System_Action_Cuemon_AspNetCore_CorrelationIdentifierOptions__
-  commentId: M:Cuemon.AspNetCore.CorrelationBuilderExtension.UseCorrelationIdentifierHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{Cuemon.AspNetCore.CorrelationIdentifierOptions})
-  name.vb: UseCorrelationIdentifierHeader(IApplicationBuilder, Action(Of CorrelationIdentifierOptions))
-  fullName: Cuemon.AspNetCore.CorrelationBuilderExtension.UseCorrelationIdentifierHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<Cuemon.AspNetCore.CorrelationIdentifierOptions>)
-  fullName.vb: Cuemon.AspNetCore.CorrelationBuilderExtension.UseCorrelationIdentifierHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action(Of Cuemon.AspNetCore.CorrelationIdentifierOptions))
-  nameWithType: CorrelationBuilderExtension.UseCorrelationIdentifierHeader(IApplicationBuilder, Action<CorrelationIdentifierOptions>)
-  nameWithType.vb: CorrelationBuilderExtension.UseCorrelationIdentifierHeader(IApplicationBuilder, Action(Of CorrelationIdentifierOptions))
-- uid: Cuemon.AspNetCore.CorrelationBuilderExtension.UseCorrelationIdentifierHeader*
-  name: UseCorrelationIdentifierHeader
-  href: api/aspnetcore/Cuemon.AspNetCore.CorrelationBuilderExtension.html#Cuemon_AspNetCore_CorrelationBuilderExtension_UseCorrelationIdentifierHeader_
-  commentId: Overload:Cuemon.AspNetCore.CorrelationBuilderExtension.UseCorrelationIdentifierHeader
+- uid: Cuemon.AspNetCore.DependencyInjection
+  name: Cuemon.AspNetCore.DependencyInjection
+  href: api/aspnetcore/Cuemon.AspNetCore.DependencyInjection.html
+  commentId: N:Cuemon.AspNetCore.DependencyInjection
+  fullName: Cuemon.AspNetCore.DependencyInjection
+  nameWithType: Cuemon.AspNetCore.DependencyInjection
+- uid: Cuemon.AspNetCore.DependencyInjection.ServiceCollectionExtensions
+  name: ServiceCollectionExtensions
+  href: api/aspnetcore/Cuemon.AspNetCore.DependencyInjection.ServiceCollectionExtensions.html
+  commentId: T:Cuemon.AspNetCore.DependencyInjection.ServiceCollectionExtensions
+  fullName: Cuemon.AspNetCore.DependencyInjection.ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+- uid: Cuemon.AspNetCore.DependencyInjection.ServiceCollectionExtensions.AddMemoryThrottling(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: AddMemoryThrottling(IServiceCollection)
+  href: api/aspnetcore/Cuemon.AspNetCore.DependencyInjection.ServiceCollectionExtensions.html#Cuemon_AspNetCore_DependencyInjection_ServiceCollectionExtensions_AddMemoryThrottling_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:Cuemon.AspNetCore.DependencyInjection.ServiceCollectionExtensions.AddMemoryThrottling(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: Cuemon.AspNetCore.DependencyInjection.ServiceCollectionExtensions.AddMemoryThrottling(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: ServiceCollectionExtensions.AddMemoryThrottling(IServiceCollection)
+- uid: Cuemon.AspNetCore.DependencyInjection.ServiceCollectionExtensions.AddMemoryThrottling*
+  name: AddMemoryThrottling
+  href: api/aspnetcore/Cuemon.AspNetCore.DependencyInjection.ServiceCollectionExtensions.html#Cuemon_AspNetCore_DependencyInjection_ServiceCollectionExtensions_AddMemoryThrottling_
+  commentId: Overload:Cuemon.AspNetCore.DependencyInjection.ServiceCollectionExtensions.AddMemoryThrottling
   isSpec: "True"
-  fullName: Cuemon.AspNetCore.CorrelationBuilderExtension.UseCorrelationIdentifierHeader
-  nameWithType: CorrelationBuilderExtension.UseCorrelationIdentifierHeader
-- uid: Cuemon.AspNetCore.CorrelationIdentifierMiddleware
-  name: CorrelationIdentifierMiddleware
-  href: api/aspnetcore/Cuemon.AspNetCore.CorrelationIdentifierMiddleware.html
-  commentId: T:Cuemon.AspNetCore.CorrelationIdentifierMiddleware
-  fullName: Cuemon.AspNetCore.CorrelationIdentifierMiddleware
-  nameWithType: CorrelationIdentifierMiddleware
-- uid: Cuemon.AspNetCore.CorrelationIdentifierMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Options.IOptions{Cuemon.AspNetCore.CorrelationIdentifierOptions})
-  name: CorrelationIdentifierMiddleware(RequestDelegate, IOptions<CorrelationIdentifierOptions>)
-  href: api/aspnetcore/Cuemon.AspNetCore.CorrelationIdentifierMiddleware.html#Cuemon_AspNetCore_CorrelationIdentifierMiddleware__ctor_Microsoft_AspNetCore_Http_RequestDelegate_Microsoft_Extensions_Options_IOptions_Cuemon_AspNetCore_CorrelationIdentifierOptions__
-  commentId: M:Cuemon.AspNetCore.CorrelationIdentifierMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Options.IOptions{Cuemon.AspNetCore.CorrelationIdentifierOptions})
-  name.vb: CorrelationIdentifierMiddleware(RequestDelegate, IOptions(Of CorrelationIdentifierOptions))
-  fullName: Cuemon.AspNetCore.CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Options.IOptions<Cuemon.AspNetCore.CorrelationIdentifierOptions>)
-  fullName.vb: Cuemon.AspNetCore.CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Options.IOptions(Of Cuemon.AspNetCore.CorrelationIdentifierOptions))
-  nameWithType: CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware(RequestDelegate, IOptions<CorrelationIdentifierOptions>)
-  nameWithType.vb: CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware(RequestDelegate, IOptions(Of CorrelationIdentifierOptions))
-- uid: Cuemon.AspNetCore.CorrelationIdentifierMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,System.Action{Cuemon.AspNetCore.CorrelationIdentifierOptions})
-  name: CorrelationIdentifierMiddleware(RequestDelegate, Action<CorrelationIdentifierOptions>)
-  href: api/aspnetcore/Cuemon.AspNetCore.CorrelationIdentifierMiddleware.html#Cuemon_AspNetCore_CorrelationIdentifierMiddleware__ctor_Microsoft_AspNetCore_Http_RequestDelegate_System_Action_Cuemon_AspNetCore_CorrelationIdentifierOptions__
-  commentId: M:Cuemon.AspNetCore.CorrelationIdentifierMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,System.Action{Cuemon.AspNetCore.CorrelationIdentifierOptions})
-  name.vb: CorrelationIdentifierMiddleware(RequestDelegate, Action(Of CorrelationIdentifierOptions))
-  fullName: Cuemon.AspNetCore.CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, System.Action<Cuemon.AspNetCore.CorrelationIdentifierOptions>)
-  fullName.vb: Cuemon.AspNetCore.CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, System.Action(Of Cuemon.AspNetCore.CorrelationIdentifierOptions))
-  nameWithType: CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware(RequestDelegate, Action<CorrelationIdentifierOptions>)
-  nameWithType.vb: CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware(RequestDelegate, Action(Of CorrelationIdentifierOptions))
-- uid: Cuemon.AspNetCore.CorrelationIdentifierMiddleware.#ctor*
-  name: CorrelationIdentifierMiddleware
-  href: api/aspnetcore/Cuemon.AspNetCore.CorrelationIdentifierMiddleware.html#Cuemon_AspNetCore_CorrelationIdentifierMiddleware__ctor_
-  commentId: Overload:Cuemon.AspNetCore.CorrelationIdentifierMiddleware.#ctor
-  isSpec: "True"
-  fullName: Cuemon.AspNetCore.CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware
-  nameWithType: CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware
-- uid: Cuemon.AspNetCore.CorrelationIdentifierMiddleware.HttpContextItemsKey
-  name: HttpContextItemsKey
-  href: api/aspnetcore/Cuemon.AspNetCore.CorrelationIdentifierMiddleware.html#Cuemon_AspNetCore_CorrelationIdentifierMiddleware_HttpContextItemsKey
-  commentId: F:Cuemon.AspNetCore.CorrelationIdentifierMiddleware.HttpContextItemsKey
-  fullName: Cuemon.AspNetCore.CorrelationIdentifierMiddleware.HttpContextItemsKey
-  nameWithType: CorrelationIdentifierMiddleware.HttpContextItemsKey
-- uid: Cuemon.AspNetCore.CorrelationIdentifierMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
-  name: InvokeAsync(HttpContext)
-  href: api/aspnetcore/Cuemon.AspNetCore.CorrelationIdentifierMiddleware.html#Cuemon_AspNetCore_CorrelationIdentifierMiddleware_InvokeAsync_Microsoft_AspNetCore_Http_HttpContext_
-  commentId: M:Cuemon.AspNetCore.CorrelationIdentifierMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
-  fullName: Cuemon.AspNetCore.CorrelationIdentifierMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
-  nameWithType: CorrelationIdentifierMiddleware.InvokeAsync(HttpContext)
-- uid: Cuemon.AspNetCore.CorrelationIdentifierMiddleware.InvokeAsync*
-  name: InvokeAsync
-  href: api/aspnetcore/Cuemon.AspNetCore.CorrelationIdentifierMiddleware.html#Cuemon_AspNetCore_CorrelationIdentifierMiddleware_InvokeAsync_
-  commentId: Overload:Cuemon.AspNetCore.CorrelationIdentifierMiddleware.InvokeAsync
-  isSpec: "True"
-  fullName: Cuemon.AspNetCore.CorrelationIdentifierMiddleware.InvokeAsync
-  nameWithType: CorrelationIdentifierMiddleware.InvokeAsync
-- uid: Cuemon.AspNetCore.CorrelationIdentifierOptions
-  name: CorrelationIdentifierOptions
-  href: api/aspnetcore/Cuemon.AspNetCore.CorrelationIdentifierOptions.html
-  commentId: T:Cuemon.AspNetCore.CorrelationIdentifierOptions
-  fullName: Cuemon.AspNetCore.CorrelationIdentifierOptions
-  nameWithType: CorrelationIdentifierOptions
-- uid: Cuemon.AspNetCore.CorrelationIdentifierOptions.#ctor
-  name: CorrelationIdentifierOptions()
-  href: api/aspnetcore/Cuemon.AspNetCore.CorrelationIdentifierOptions.html#Cuemon_AspNetCore_CorrelationIdentifierOptions__ctor
-  commentId: M:Cuemon.AspNetCore.CorrelationIdentifierOptions.#ctor
-  fullName: Cuemon.AspNetCore.CorrelationIdentifierOptions.CorrelationIdentifierOptions()
-  nameWithType: CorrelationIdentifierOptions.CorrelationIdentifierOptions()
-- uid: Cuemon.AspNetCore.CorrelationIdentifierOptions.#ctor*
-  name: CorrelationIdentifierOptions
-  href: api/aspnetcore/Cuemon.AspNetCore.CorrelationIdentifierOptions.html#Cuemon_AspNetCore_CorrelationIdentifierOptions__ctor_
-  commentId: Overload:Cuemon.AspNetCore.CorrelationIdentifierOptions.#ctor
-  isSpec: "True"
-  fullName: Cuemon.AspNetCore.CorrelationIdentifierOptions.CorrelationIdentifierOptions
-  nameWithType: CorrelationIdentifierOptions.CorrelationIdentifierOptions
-- uid: Cuemon.AspNetCore.CorrelationIdentifierOptions.CorrelationProvider
-  name: CorrelationProvider
-  href: api/aspnetcore/Cuemon.AspNetCore.CorrelationIdentifierOptions.html#Cuemon_AspNetCore_CorrelationIdentifierOptions_CorrelationProvider
-  commentId: P:Cuemon.AspNetCore.CorrelationIdentifierOptions.CorrelationProvider
-  fullName: Cuemon.AspNetCore.CorrelationIdentifierOptions.CorrelationProvider
-  nameWithType: CorrelationIdentifierOptions.CorrelationProvider
-- uid: Cuemon.AspNetCore.CorrelationIdentifierOptions.CorrelationProvider*
-  name: CorrelationProvider
-  href: api/aspnetcore/Cuemon.AspNetCore.CorrelationIdentifierOptions.html#Cuemon_AspNetCore_CorrelationIdentifierOptions_CorrelationProvider_
-  commentId: Overload:Cuemon.AspNetCore.CorrelationIdentifierOptions.CorrelationProvider
-  isSpec: "True"
-  fullName: Cuemon.AspNetCore.CorrelationIdentifierOptions.CorrelationProvider
-  nameWithType: CorrelationIdentifierOptions.CorrelationProvider
-- uid: Cuemon.AspNetCore.CorrelationIdentifierOptions.HeaderName
-  name: HeaderName
-  href: api/aspnetcore/Cuemon.AspNetCore.CorrelationIdentifierOptions.html#Cuemon_AspNetCore_CorrelationIdentifierOptions_HeaderName
-  commentId: P:Cuemon.AspNetCore.CorrelationIdentifierOptions.HeaderName
-  fullName: Cuemon.AspNetCore.CorrelationIdentifierOptions.HeaderName
-  nameWithType: CorrelationIdentifierOptions.HeaderName
-- uid: Cuemon.AspNetCore.CorrelationIdentifierOptions.HeaderName*
-  name: HeaderName
-  href: api/aspnetcore/Cuemon.AspNetCore.CorrelationIdentifierOptions.html#Cuemon_AspNetCore_CorrelationIdentifierOptions_HeaderName_
-  commentId: Overload:Cuemon.AspNetCore.CorrelationIdentifierOptions.HeaderName
-  isSpec: "True"
-  fullName: Cuemon.AspNetCore.CorrelationIdentifierOptions.HeaderName
-  nameWithType: CorrelationIdentifierOptions.HeaderName
-- uid: Cuemon.AspNetCore.HostingEnvironmentBuilderExtension
-  name: HostingEnvironmentBuilderExtension
-  href: api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentBuilderExtension.html
-  commentId: T:Cuemon.AspNetCore.HostingEnvironmentBuilderExtension
-  fullName: Cuemon.AspNetCore.HostingEnvironmentBuilderExtension
-  nameWithType: HostingEnvironmentBuilderExtension
-- uid: Cuemon.AspNetCore.HostingEnvironmentBuilderExtension.UseHostingEnvironmentHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{Cuemon.AspNetCore.HostingEnvironmentOptions})
-  name: UseHostingEnvironmentHeader(IApplicationBuilder, Action<HostingEnvironmentOptions>)
-  href: api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentBuilderExtension.html#Cuemon_AspNetCore_HostingEnvironmentBuilderExtension_UseHostingEnvironmentHeader_Microsoft_AspNetCore_Builder_IApplicationBuilder_System_Action_Cuemon_AspNetCore_HostingEnvironmentOptions__
-  commentId: M:Cuemon.AspNetCore.HostingEnvironmentBuilderExtension.UseHostingEnvironmentHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{Cuemon.AspNetCore.HostingEnvironmentOptions})
-  name.vb: UseHostingEnvironmentHeader(IApplicationBuilder, Action(Of HostingEnvironmentOptions))
-  fullName: Cuemon.AspNetCore.HostingEnvironmentBuilderExtension.UseHostingEnvironmentHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<Cuemon.AspNetCore.HostingEnvironmentOptions>)
-  fullName.vb: Cuemon.AspNetCore.HostingEnvironmentBuilderExtension.UseHostingEnvironmentHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action(Of Cuemon.AspNetCore.HostingEnvironmentOptions))
-  nameWithType: HostingEnvironmentBuilderExtension.UseHostingEnvironmentHeader(IApplicationBuilder, Action<HostingEnvironmentOptions>)
-  nameWithType.vb: HostingEnvironmentBuilderExtension.UseHostingEnvironmentHeader(IApplicationBuilder, Action(Of HostingEnvironmentOptions))
-- uid: Cuemon.AspNetCore.HostingEnvironmentBuilderExtension.UseHostingEnvironmentHeader*
-  name: UseHostingEnvironmentHeader
-  href: api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentBuilderExtension.html#Cuemon_AspNetCore_HostingEnvironmentBuilderExtension_UseHostingEnvironmentHeader_
-  commentId: Overload:Cuemon.AspNetCore.HostingEnvironmentBuilderExtension.UseHostingEnvironmentHeader
-  isSpec: "True"
-  fullName: Cuemon.AspNetCore.HostingEnvironmentBuilderExtension.UseHostingEnvironmentHeader
-  nameWithType: HostingEnvironmentBuilderExtension.UseHostingEnvironmentHeader
-- uid: Cuemon.AspNetCore.HostingEnvironmentMiddleware
+  fullName: Cuemon.AspNetCore.DependencyInjection.ServiceCollectionExtensions.AddMemoryThrottling
+  nameWithType: ServiceCollectionExtensions.AddMemoryThrottling
+- uid: Cuemon.AspNetCore.Hosting
+  name: Cuemon.AspNetCore.Hosting
+  href: api/aspnetcore/Cuemon.AspNetCore.Hosting.html
+  commentId: N:Cuemon.AspNetCore.Hosting
+  fullName: Cuemon.AspNetCore.Hosting
+  nameWithType: Cuemon.AspNetCore.Hosting
+- uid: Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware
   name: HostingEnvironmentMiddleware
-  href: api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentMiddleware.html
-  commentId: T:Cuemon.AspNetCore.HostingEnvironmentMiddleware
-  fullName: Cuemon.AspNetCore.HostingEnvironmentMiddleware
+  href: api/aspnetcore/Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.html
+  commentId: T:Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware
+  fullName: Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware
   nameWithType: HostingEnvironmentMiddleware
-- uid: Cuemon.AspNetCore.HostingEnvironmentMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Options.IOptions{Cuemon.AspNetCore.HostingEnvironmentOptions})
+- uid: Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Options.IOptions{Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions})
   name: HostingEnvironmentMiddleware(RequestDelegate, IOptions<HostingEnvironmentOptions>)
-  href: api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentMiddleware.html#Cuemon_AspNetCore_HostingEnvironmentMiddleware__ctor_Microsoft_AspNetCore_Http_RequestDelegate_Microsoft_Extensions_Options_IOptions_Cuemon_AspNetCore_HostingEnvironmentOptions__
-  commentId: M:Cuemon.AspNetCore.HostingEnvironmentMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Options.IOptions{Cuemon.AspNetCore.HostingEnvironmentOptions})
+  href: api/aspnetcore/Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.html#Cuemon_AspNetCore_Hosting_HostingEnvironmentMiddleware__ctor_Microsoft_AspNetCore_Http_RequestDelegate_Microsoft_Extensions_Options_IOptions_Cuemon_AspNetCore_Hosting_HostingEnvironmentOptions__
+  commentId: M:Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Options.IOptions{Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions})
   name.vb: HostingEnvironmentMiddleware(RequestDelegate, IOptions(Of HostingEnvironmentOptions))
-  fullName: Cuemon.AspNetCore.HostingEnvironmentMiddleware.HostingEnvironmentMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Options.IOptions<Cuemon.AspNetCore.HostingEnvironmentOptions>)
-  fullName.vb: Cuemon.AspNetCore.HostingEnvironmentMiddleware.HostingEnvironmentMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Options.IOptions(Of Cuemon.AspNetCore.HostingEnvironmentOptions))
+  fullName: Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.HostingEnvironmentMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Options.IOptions<Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions>)
+  fullName.vb: Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.HostingEnvironmentMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Options.IOptions(Of Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions))
   nameWithType: HostingEnvironmentMiddleware.HostingEnvironmentMiddleware(RequestDelegate, IOptions<HostingEnvironmentOptions>)
   nameWithType.vb: HostingEnvironmentMiddleware.HostingEnvironmentMiddleware(RequestDelegate, IOptions(Of HostingEnvironmentOptions))
-- uid: Cuemon.AspNetCore.HostingEnvironmentMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,System.Action{Cuemon.AspNetCore.HostingEnvironmentOptions})
+- uid: Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,System.Action{Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions})
   name: HostingEnvironmentMiddleware(RequestDelegate, Action<HostingEnvironmentOptions>)
-  href: api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentMiddleware.html#Cuemon_AspNetCore_HostingEnvironmentMiddleware__ctor_Microsoft_AspNetCore_Http_RequestDelegate_System_Action_Cuemon_AspNetCore_HostingEnvironmentOptions__
-  commentId: M:Cuemon.AspNetCore.HostingEnvironmentMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,System.Action{Cuemon.AspNetCore.HostingEnvironmentOptions})
+  href: api/aspnetcore/Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.html#Cuemon_AspNetCore_Hosting_HostingEnvironmentMiddleware__ctor_Microsoft_AspNetCore_Http_RequestDelegate_System_Action_Cuemon_AspNetCore_Hosting_HostingEnvironmentOptions__
+  commentId: M:Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,System.Action{Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions})
   name.vb: HostingEnvironmentMiddleware(RequestDelegate, Action(Of HostingEnvironmentOptions))
-  fullName: Cuemon.AspNetCore.HostingEnvironmentMiddleware.HostingEnvironmentMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, System.Action<Cuemon.AspNetCore.HostingEnvironmentOptions>)
-  fullName.vb: Cuemon.AspNetCore.HostingEnvironmentMiddleware.HostingEnvironmentMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, System.Action(Of Cuemon.AspNetCore.HostingEnvironmentOptions))
+  fullName: Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.HostingEnvironmentMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, System.Action<Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions>)
+  fullName.vb: Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.HostingEnvironmentMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, System.Action(Of Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions))
   nameWithType: HostingEnvironmentMiddleware.HostingEnvironmentMiddleware(RequestDelegate, Action<HostingEnvironmentOptions>)
   nameWithType.vb: HostingEnvironmentMiddleware.HostingEnvironmentMiddleware(RequestDelegate, Action(Of HostingEnvironmentOptions))
-- uid: Cuemon.AspNetCore.HostingEnvironmentMiddleware.#ctor*
+- uid: Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.#ctor*
   name: HostingEnvironmentMiddleware
-  href: api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentMiddleware.html#Cuemon_AspNetCore_HostingEnvironmentMiddleware__ctor_
-  commentId: Overload:Cuemon.AspNetCore.HostingEnvironmentMiddleware.#ctor
+  href: api/aspnetcore/Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.html#Cuemon_AspNetCore_Hosting_HostingEnvironmentMiddleware__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.#ctor
   isSpec: "True"
-  fullName: Cuemon.AspNetCore.HostingEnvironmentMiddleware.HostingEnvironmentMiddleware
+  fullName: Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.HostingEnvironmentMiddleware
   nameWithType: HostingEnvironmentMiddleware.HostingEnvironmentMiddleware
-- uid: Cuemon.AspNetCore.HostingEnvironmentMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext,Microsoft.Extensions.Hosting.IHostingEnvironment)
+- uid: Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext,Microsoft.Extensions.Hosting.IHostingEnvironment)
   name: InvokeAsync(HttpContext, IHostingEnvironment)
-  href: api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentMiddleware.html#Cuemon_AspNetCore_HostingEnvironmentMiddleware_InvokeAsync_Microsoft_AspNetCore_Http_HttpContext_Microsoft_Extensions_Hosting_IHostingEnvironment_
-  commentId: M:Cuemon.AspNetCore.HostingEnvironmentMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext,Microsoft.Extensions.Hosting.IHostingEnvironment)
-  fullName: Cuemon.AspNetCore.HostingEnvironmentMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext, Microsoft.Extensions.Hosting.IHostingEnvironment)
+  href: api/aspnetcore/Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.html#Cuemon_AspNetCore_Hosting_HostingEnvironmentMiddleware_InvokeAsync_Microsoft_AspNetCore_Http_HttpContext_Microsoft_Extensions_Hosting_IHostingEnvironment_
+  commentId: M:Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext,Microsoft.Extensions.Hosting.IHostingEnvironment)
+  fullName: Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext, Microsoft.Extensions.Hosting.IHostingEnvironment)
   nameWithType: HostingEnvironmentMiddleware.InvokeAsync(HttpContext, IHostingEnvironment)
-- uid: Cuemon.AspNetCore.HostingEnvironmentMiddleware.InvokeAsync*
+- uid: Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.InvokeAsync*
   name: InvokeAsync
-  href: api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentMiddleware.html#Cuemon_AspNetCore_HostingEnvironmentMiddleware_InvokeAsync_
-  commentId: Overload:Cuemon.AspNetCore.HostingEnvironmentMiddleware.InvokeAsync
+  href: api/aspnetcore/Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.html#Cuemon_AspNetCore_Hosting_HostingEnvironmentMiddleware_InvokeAsync_
+  commentId: Overload:Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.InvokeAsync
   isSpec: "True"
-  fullName: Cuemon.AspNetCore.HostingEnvironmentMiddleware.InvokeAsync
+  fullName: Cuemon.AspNetCore.Hosting.HostingEnvironmentMiddleware.InvokeAsync
   nameWithType: HostingEnvironmentMiddleware.InvokeAsync
-- uid: Cuemon.AspNetCore.HostingEnvironmentOptions
+- uid: Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions
   name: HostingEnvironmentOptions
-  href: api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentOptions.html
-  commentId: T:Cuemon.AspNetCore.HostingEnvironmentOptions
-  fullName: Cuemon.AspNetCore.HostingEnvironmentOptions
+  href: api/aspnetcore/Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.html
+  commentId: T:Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions
+  fullName: Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions
   nameWithType: HostingEnvironmentOptions
-- uid: Cuemon.AspNetCore.HostingEnvironmentOptions.#ctor
+- uid: Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.#ctor
   name: HostingEnvironmentOptions()
-  href: api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentOptions.html#Cuemon_AspNetCore_HostingEnvironmentOptions__ctor
-  commentId: M:Cuemon.AspNetCore.HostingEnvironmentOptions.#ctor
-  fullName: Cuemon.AspNetCore.HostingEnvironmentOptions.HostingEnvironmentOptions()
+  href: api/aspnetcore/Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.html#Cuemon_AspNetCore_Hosting_HostingEnvironmentOptions__ctor
+  commentId: M:Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.#ctor
+  fullName: Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.HostingEnvironmentOptions()
   nameWithType: HostingEnvironmentOptions.HostingEnvironmentOptions()
-- uid: Cuemon.AspNetCore.HostingEnvironmentOptions.#ctor*
+- uid: Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.#ctor*
   name: HostingEnvironmentOptions
-  href: api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentOptions.html#Cuemon_AspNetCore_HostingEnvironmentOptions__ctor_
-  commentId: Overload:Cuemon.AspNetCore.HostingEnvironmentOptions.#ctor
+  href: api/aspnetcore/Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.html#Cuemon_AspNetCore_Hosting_HostingEnvironmentOptions__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.#ctor
   isSpec: "True"
-  fullName: Cuemon.AspNetCore.HostingEnvironmentOptions.HostingEnvironmentOptions
+  fullName: Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.HostingEnvironmentOptions
   nameWithType: HostingEnvironmentOptions.HostingEnvironmentOptions
-- uid: Cuemon.AspNetCore.HostingEnvironmentOptions.HeaderName
+- uid: Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.HeaderName
   name: HeaderName
-  href: api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentOptions.html#Cuemon_AspNetCore_HostingEnvironmentOptions_HeaderName
-  commentId: P:Cuemon.AspNetCore.HostingEnvironmentOptions.HeaderName
-  fullName: Cuemon.AspNetCore.HostingEnvironmentOptions.HeaderName
+  href: api/aspnetcore/Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.html#Cuemon_AspNetCore_Hosting_HostingEnvironmentOptions_HeaderName
+  commentId: P:Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.HeaderName
+  fullName: Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.HeaderName
   nameWithType: HostingEnvironmentOptions.HeaderName
-- uid: Cuemon.AspNetCore.HostingEnvironmentOptions.HeaderName*
+- uid: Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.HeaderName*
   name: HeaderName
-  href: api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentOptions.html#Cuemon_AspNetCore_HostingEnvironmentOptions_HeaderName_
-  commentId: Overload:Cuemon.AspNetCore.HostingEnvironmentOptions.HeaderName
+  href: api/aspnetcore/Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.html#Cuemon_AspNetCore_Hosting_HostingEnvironmentOptions_HeaderName_
+  commentId: Overload:Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.HeaderName
   isSpec: "True"
-  fullName: Cuemon.AspNetCore.HostingEnvironmentOptions.HeaderName
+  fullName: Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.HeaderName
   nameWithType: HostingEnvironmentOptions.HeaderName
-- uid: Cuemon.AspNetCore.HostingEnvironmentOptions.SuppressHeaderPredicate
+- uid: Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.SuppressHeaderPredicate
   name: SuppressHeaderPredicate
-  href: api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentOptions.html#Cuemon_AspNetCore_HostingEnvironmentOptions_SuppressHeaderPredicate
-  commentId: P:Cuemon.AspNetCore.HostingEnvironmentOptions.SuppressHeaderPredicate
-  fullName: Cuemon.AspNetCore.HostingEnvironmentOptions.SuppressHeaderPredicate
+  href: api/aspnetcore/Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.html#Cuemon_AspNetCore_Hosting_HostingEnvironmentOptions_SuppressHeaderPredicate
+  commentId: P:Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.SuppressHeaderPredicate
+  fullName: Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.SuppressHeaderPredicate
   nameWithType: HostingEnvironmentOptions.SuppressHeaderPredicate
-- uid: Cuemon.AspNetCore.HostingEnvironmentOptions.SuppressHeaderPredicate*
+- uid: Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.SuppressHeaderPredicate*
   name: SuppressHeaderPredicate
-  href: api/aspnetcore/Cuemon.AspNetCore.HostingEnvironmentOptions.html#Cuemon_AspNetCore_HostingEnvironmentOptions_SuppressHeaderPredicate_
-  commentId: Overload:Cuemon.AspNetCore.HostingEnvironmentOptions.SuppressHeaderPredicate
+  href: api/aspnetcore/Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.html#Cuemon_AspNetCore_Hosting_HostingEnvironmentOptions_SuppressHeaderPredicate_
+  commentId: Overload:Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.SuppressHeaderPredicate
   isSpec: "True"
-  fullName: Cuemon.AspNetCore.HostingEnvironmentOptions.SuppressHeaderPredicate
+  fullName: Cuemon.AspNetCore.Hosting.HostingEnvironmentOptions.SuppressHeaderPredicate
   nameWithType: HostingEnvironmentOptions.SuppressHeaderPredicate
 - uid: Cuemon.AspNetCore.Http
   name: Cuemon.AspNetCore.Http
@@ -1796,6 +1777,293 @@ references:
   isSpec: "True"
   fullName: Cuemon.AspNetCore.Http.HeaderDictionaryExtensions.AddOrUpdateHeader
   nameWithType: HeaderDictionaryExtensions.AddOrUpdateHeader
+- uid: Cuemon.AspNetCore.Http.HeaderDictionaryExtensions.AddOrUpdateHeaders(Microsoft.AspNetCore.Http.IHeaderDictionary,System.Net.Http.Headers.HttpResponseHeaders)
+  name: AddOrUpdateHeaders(IHeaderDictionary, HttpResponseHeaders)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HeaderDictionaryExtensions.html#Cuemon_AspNetCore_Http_HeaderDictionaryExtensions_AddOrUpdateHeaders_Microsoft_AspNetCore_Http_IHeaderDictionary_System_Net_Http_Headers_HttpResponseHeaders_
+  commentId: M:Cuemon.AspNetCore.Http.HeaderDictionaryExtensions.AddOrUpdateHeaders(Microsoft.AspNetCore.Http.IHeaderDictionary,System.Net.Http.Headers.HttpResponseHeaders)
+  fullName: Cuemon.AspNetCore.Http.HeaderDictionaryExtensions.AddOrUpdateHeaders(Microsoft.AspNetCore.Http.IHeaderDictionary, System.Net.Http.Headers.HttpResponseHeaders)
+  nameWithType: HeaderDictionaryExtensions.AddOrUpdateHeaders(IHeaderDictionary, HttpResponseHeaders)
+- uid: Cuemon.AspNetCore.Http.HeaderDictionaryExtensions.AddOrUpdateHeaders*
+  name: AddOrUpdateHeaders
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HeaderDictionaryExtensions.html#Cuemon_AspNetCore_Http_HeaderDictionaryExtensions_AddOrUpdateHeaders_
+  commentId: Overload:Cuemon.AspNetCore.Http.HeaderDictionaryExtensions.AddOrUpdateHeaders
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.HeaderDictionaryExtensions.AddOrUpdateHeaders
+  nameWithType: HeaderDictionaryExtensions.AddOrUpdateHeaders
+- uid: Cuemon.AspNetCore.Http.Headers
+  name: Cuemon.AspNetCore.Http.Headers
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.html
+  commentId: N:Cuemon.AspNetCore.Http.Headers
+  fullName: Cuemon.AspNetCore.Http.Headers
+  nameWithType: Cuemon.AspNetCore.Http.Headers
+- uid: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware
+  name: CorrelationIdentifierMiddleware
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.html
+  commentId: T:Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware
+  fullName: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware
+  nameWithType: CorrelationIdentifierMiddleware
+- uid: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Options.IOptions{Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions})
+  name: CorrelationIdentifierMiddleware(RequestDelegate, IOptions<CorrelationIdentifierOptions>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.html#Cuemon_AspNetCore_Http_Headers_CorrelationIdentifierMiddleware__ctor_Microsoft_AspNetCore_Http_RequestDelegate_Microsoft_Extensions_Options_IOptions_Cuemon_AspNetCore_Http_Headers_CorrelationIdentifierOptions__
+  commentId: M:Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Options.IOptions{Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions})
+  name.vb: CorrelationIdentifierMiddleware(RequestDelegate, IOptions(Of CorrelationIdentifierOptions))
+  fullName: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Options.IOptions<Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions>)
+  fullName.vb: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Options.IOptions(Of Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions))
+  nameWithType: CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware(RequestDelegate, IOptions<CorrelationIdentifierOptions>)
+  nameWithType.vb: CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware(RequestDelegate, IOptions(Of CorrelationIdentifierOptions))
+- uid: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,System.Action{Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions})
+  name: CorrelationIdentifierMiddleware(RequestDelegate, Action<CorrelationIdentifierOptions>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.html#Cuemon_AspNetCore_Http_Headers_CorrelationIdentifierMiddleware__ctor_Microsoft_AspNetCore_Http_RequestDelegate_System_Action_Cuemon_AspNetCore_Http_Headers_CorrelationIdentifierOptions__
+  commentId: M:Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,System.Action{Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions})
+  name.vb: CorrelationIdentifierMiddleware(RequestDelegate, Action(Of CorrelationIdentifierOptions))
+  fullName: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, System.Action<Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions>)
+  fullName.vb: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, System.Action(Of Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions))
+  nameWithType: CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware(RequestDelegate, Action<CorrelationIdentifierOptions>)
+  nameWithType.vb: CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware(RequestDelegate, Action(Of CorrelationIdentifierOptions))
+- uid: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.#ctor*
+  name: CorrelationIdentifierMiddleware
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.html#Cuemon_AspNetCore_Http_Headers_CorrelationIdentifierMiddleware__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware
+  nameWithType: CorrelationIdentifierMiddleware.CorrelationIdentifierMiddleware
+- uid: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.HttpContextItemsKey
+  name: HttpContextItemsKey
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.html#Cuemon_AspNetCore_Http_Headers_CorrelationIdentifierMiddleware_HttpContextItemsKey
+  commentId: F:Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.HttpContextItemsKey
+  fullName: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.HttpContextItemsKey
+  nameWithType: CorrelationIdentifierMiddleware.HttpContextItemsKey
+- uid: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
+  name: InvokeAsync(HttpContext)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.html#Cuemon_AspNetCore_Http_Headers_CorrelationIdentifierMiddleware_InvokeAsync_Microsoft_AspNetCore_Http_HttpContext_
+  commentId: M:Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
+  fullName: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
+  nameWithType: CorrelationIdentifierMiddleware.InvokeAsync(HttpContext)
+- uid: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.InvokeAsync*
+  name: InvokeAsync
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.html#Cuemon_AspNetCore_Http_Headers_CorrelationIdentifierMiddleware_InvokeAsync_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.InvokeAsync
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierMiddleware.InvokeAsync
+  nameWithType: CorrelationIdentifierMiddleware.InvokeAsync
+- uid: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions
+  name: CorrelationIdentifierOptions
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.html
+  commentId: T:Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions
+  fullName: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions
+  nameWithType: CorrelationIdentifierOptions
+- uid: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.#ctor
+  name: CorrelationIdentifierOptions()
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.html#Cuemon_AspNetCore_Http_Headers_CorrelationIdentifierOptions__ctor
+  commentId: M:Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.#ctor
+  fullName: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.CorrelationIdentifierOptions()
+  nameWithType: CorrelationIdentifierOptions.CorrelationIdentifierOptions()
+- uid: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.#ctor*
+  name: CorrelationIdentifierOptions
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.html#Cuemon_AspNetCore_Http_Headers_CorrelationIdentifierOptions__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.CorrelationIdentifierOptions
+  nameWithType: CorrelationIdentifierOptions.CorrelationIdentifierOptions
+- uid: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.CorrelationProvider
+  name: CorrelationProvider
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.html#Cuemon_AspNetCore_Http_Headers_CorrelationIdentifierOptions_CorrelationProvider
+  commentId: P:Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.CorrelationProvider
+  fullName: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.CorrelationProvider
+  nameWithType: CorrelationIdentifierOptions.CorrelationProvider
+- uid: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.CorrelationProvider*
+  name: CorrelationProvider
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.html#Cuemon_AspNetCore_Http_Headers_CorrelationIdentifierOptions_CorrelationProvider_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.CorrelationProvider
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.CorrelationProvider
+  nameWithType: CorrelationIdentifierOptions.CorrelationProvider
+- uid: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.HeaderName
+  name: HeaderName
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.html#Cuemon_AspNetCore_Http_Headers_CorrelationIdentifierOptions_HeaderName
+  commentId: P:Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.HeaderName
+  fullName: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.HeaderName
+  nameWithType: CorrelationIdentifierOptions.HeaderName
+- uid: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.HeaderName*
+  name: HeaderName
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.html#Cuemon_AspNetCore_Http_Headers_CorrelationIdentifierOptions_HeaderName_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.HeaderName
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.HeaderName
+  nameWithType: CorrelationIdentifierOptions.HeaderName
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentException
+  name: UserAgentException
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentException.html
+  commentId: T:Cuemon.AspNetCore.Http.Headers.UserAgentException
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentException
+  nameWithType: UserAgentException
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentException.#ctor(System.Int32,System.String)
+  name: UserAgentException(Int32, String)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentException.html#Cuemon_AspNetCore_Http_Headers_UserAgentException__ctor_System_Int32_System_String_
+  commentId: M:Cuemon.AspNetCore.Http.Headers.UserAgentException.#ctor(System.Int32,System.String)
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentException.UserAgentException(System.Int32, System.String)
+  nameWithType: UserAgentException.UserAgentException(Int32, String)
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentException.#ctor*
+  name: UserAgentException
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentException.html#Cuemon_AspNetCore_Http_Headers_UserAgentException__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.UserAgentException.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentException.UserAgentException
+  nameWithType: UserAgentException.UserAgentException
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware
+  name: UserAgentSentinelMiddleware
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.html
+  commentId: T:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware
+  nameWithType: UserAgentSentinelMiddleware
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Options.IOptions{Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions})
+  name: UserAgentSentinelMiddleware(RequestDelegate, IOptions<UserAgentSentinelOptions>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelMiddleware__ctor_Microsoft_AspNetCore_Http_RequestDelegate_Microsoft_Extensions_Options_IOptions_Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions__
+  commentId: M:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Options.IOptions{Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions})
+  name.vb: UserAgentSentinelMiddleware(RequestDelegate, IOptions(Of UserAgentSentinelOptions))
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.UserAgentSentinelMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Options.IOptions<Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions>)
+  fullName.vb: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.UserAgentSentinelMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Options.IOptions(Of Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions))
+  nameWithType: UserAgentSentinelMiddleware.UserAgentSentinelMiddleware(RequestDelegate, IOptions<UserAgentSentinelOptions>)
+  nameWithType.vb: UserAgentSentinelMiddleware.UserAgentSentinelMiddleware(RequestDelegate, IOptions(Of UserAgentSentinelOptions))
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,System.Action{Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions})
+  name: UserAgentSentinelMiddleware(RequestDelegate, Action<UserAgentSentinelOptions>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelMiddleware__ctor_Microsoft_AspNetCore_Http_RequestDelegate_System_Action_Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions__
+  commentId: M:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,System.Action{Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions})
+  name.vb: UserAgentSentinelMiddleware(RequestDelegate, Action(Of UserAgentSentinelOptions))
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.UserAgentSentinelMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, System.Action<Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions>)
+  fullName.vb: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.UserAgentSentinelMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, System.Action(Of Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions))
+  nameWithType: UserAgentSentinelMiddleware.UserAgentSentinelMiddleware(RequestDelegate, Action<UserAgentSentinelOptions>)
+  nameWithType.vb: UserAgentSentinelMiddleware.UserAgentSentinelMiddleware(RequestDelegate, Action(Of UserAgentSentinelOptions))
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.#ctor*
+  name: UserAgentSentinelMiddleware
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelMiddleware__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.UserAgentSentinelMiddleware
+  nameWithType: UserAgentSentinelMiddleware.UserAgentSentinelMiddleware
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
+  name: InvokeAsync(HttpContext)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelMiddleware_InvokeAsync_Microsoft_AspNetCore_Http_HttpContext_
+  commentId: M:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
+  nameWithType: UserAgentSentinelMiddleware.InvokeAsync(HttpContext)
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.InvokeAsync*
+  name: InvokeAsync
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelMiddleware_InvokeAsync_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.InvokeAsync
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelMiddleware.InvokeAsync
+  nameWithType: UserAgentSentinelMiddleware.InvokeAsync
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions
+  name: UserAgentSentinelOptions
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.html
+  commentId: T:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions
+  nameWithType: UserAgentSentinelOptions
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.#ctor
+  name: UserAgentSentinelOptions()
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions__ctor
+  commentId: M:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.#ctor
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.UserAgentSentinelOptions()
+  nameWithType: UserAgentSentinelOptions.UserAgentSentinelOptions()
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.#ctor*
+  name: UserAgentSentinelOptions
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.UserAgentSentinelOptions
+  nameWithType: UserAgentSentinelOptions.UserAgentSentinelOptions
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.AllowedUserAgents
+  name: AllowedUserAgents
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions_AllowedUserAgents
+  commentId: P:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.AllowedUserAgents
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.AllowedUserAgents
+  nameWithType: UserAgentSentinelOptions.AllowedUserAgents
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.AllowedUserAgents*
+  name: AllowedUserAgents
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions_AllowedUserAgents_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.AllowedUserAgents
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.AllowedUserAgents
+  nameWithType: UserAgentSentinelOptions.AllowedUserAgents
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.BadRequestMessage
+  name: BadRequestMessage
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions_BadRequestMessage
+  commentId: P:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.BadRequestMessage
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.BadRequestMessage
+  nameWithType: UserAgentSentinelOptions.BadRequestMessage
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.BadRequestMessage*
+  name: BadRequestMessage
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions_BadRequestMessage_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.BadRequestMessage
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.BadRequestMessage
+  nameWithType: UserAgentSentinelOptions.BadRequestMessage
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.ForbiddenMessage
+  name: ForbiddenMessage
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions_ForbiddenMessage
+  commentId: P:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.ForbiddenMessage
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.ForbiddenMessage
+  nameWithType: UserAgentSentinelOptions.ForbiddenMessage
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.ForbiddenMessage*
+  name: ForbiddenMessage
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions_ForbiddenMessage_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.ForbiddenMessage
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.ForbiddenMessage
+  nameWithType: UserAgentSentinelOptions.ForbiddenMessage
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.RequireUserAgentHeader
+  name: RequireUserAgentHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions_RequireUserAgentHeader
+  commentId: P:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.RequireUserAgentHeader
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.RequireUserAgentHeader
+  nameWithType: UserAgentSentinelOptions.RequireUserAgentHeader
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.RequireUserAgentHeader*
+  name: RequireUserAgentHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions_RequireUserAgentHeader_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.RequireUserAgentHeader
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.RequireUserAgentHeader
+  nameWithType: UserAgentSentinelOptions.RequireUserAgentHeader
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.ResponseBroker
+  name: ResponseBroker
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions_ResponseBroker
+  commentId: P:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.ResponseBroker
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.ResponseBroker
+  nameWithType: UserAgentSentinelOptions.ResponseBroker
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.ResponseBroker*
+  name: ResponseBroker
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions_ResponseBroker_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.ResponseBroker
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.ResponseBroker
+  nameWithType: UserAgentSentinelOptions.ResponseBroker
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.UseGenericResponse
+  name: UseGenericResponse
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions_UseGenericResponse
+  commentId: P:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.UseGenericResponse
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.UseGenericResponse
+  nameWithType: UserAgentSentinelOptions.UseGenericResponse
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.UseGenericResponse*
+  name: UseGenericResponse
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions_UseGenericResponse_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.UseGenericResponse
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.UseGenericResponse
+  nameWithType: UserAgentSentinelOptions.UseGenericResponse
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.ValidateUserAgentHeader
+  name: ValidateUserAgentHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions_ValidateUserAgentHeader
+  commentId: P:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.ValidateUserAgentHeader
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.ValidateUserAgentHeader
+  nameWithType: UserAgentSentinelOptions.ValidateUserAgentHeader
+- uid: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.ValidateUserAgentHeader*
+  name: ValidateUserAgentHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.html#Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions_ValidateUserAgentHeader_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.ValidateUserAgentHeader
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.ValidateUserAgentHeader
+  nameWithType: UserAgentSentinelOptions.ValidateUserAgentHeader
 - uid: Cuemon.AspNetCore.Http.HttpRequestExtensions
   name: HttpRequestExtensions
   href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpRequestExtensions.html
@@ -1892,6 +2160,459 @@ references:
   isSpec: "True"
   fullName: Cuemon.AspNetCore.Http.HttpResponseExtensions.SetLastModifiedHeaderInformation
   nameWithType: HttpResponseExtensions.SetLastModifiedHeaderInformation
+- uid: Cuemon.AspNetCore.Http.HttpResponseExtensions.WriteBodyAsync(Microsoft.AspNetCore.Http.HttpResponse,System.Func{System.Byte[]})
+  name: WriteBodyAsync(HttpResponse, Func<Byte[]>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpResponseExtensions.html#Cuemon_AspNetCore_Http_HttpResponseExtensions_WriteBodyAsync_Microsoft_AspNetCore_Http_HttpResponse_System_Func_System_Byte____
+  commentId: M:Cuemon.AspNetCore.Http.HttpResponseExtensions.WriteBodyAsync(Microsoft.AspNetCore.Http.HttpResponse,System.Func{System.Byte[]})
+  name.vb: WriteBodyAsync(HttpResponse, Func(Of Byte()))
+  fullName: Cuemon.AspNetCore.Http.HttpResponseExtensions.WriteBodyAsync(Microsoft.AspNetCore.Http.HttpResponse, System.Func<System.Byte[]>)
+  fullName.vb: Cuemon.AspNetCore.Http.HttpResponseExtensions.WriteBodyAsync(Microsoft.AspNetCore.Http.HttpResponse, System.Func(Of System.Byte()))
+  nameWithType: HttpResponseExtensions.WriteBodyAsync(HttpResponse, Func<Byte[]>)
+  nameWithType.vb: HttpResponseExtensions.WriteBodyAsync(HttpResponse, Func(Of Byte()))
+- uid: Cuemon.AspNetCore.Http.HttpResponseExtensions.WriteBodyAsync*
+  name: WriteBodyAsync
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpResponseExtensions.html#Cuemon_AspNetCore_Http_HttpResponseExtensions_WriteBodyAsync_
+  commentId: Overload:Cuemon.AspNetCore.Http.HttpResponseExtensions.WriteBodyAsync
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.HttpResponseExtensions.WriteBodyAsync
+  nameWithType: HttpResponseExtensions.WriteBodyAsync
+- uid: Cuemon.AspNetCore.Http.HttpResponseMessageExtensions
+  name: HttpResponseMessageExtensions
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpResponseMessageExtensions.html
+  commentId: T:Cuemon.AspNetCore.Http.HttpResponseMessageExtensions
+  fullName: Cuemon.AspNetCore.Http.HttpResponseMessageExtensions
+  nameWithType: HttpResponseMessageExtensions
+- uid: Cuemon.AspNetCore.Http.HttpResponseMessageExtensions.ToHttpResponse(System.Net.Http.HttpResponseMessage,Microsoft.AspNetCore.Http.HttpResponse,System.Action{System.Net.Http.HttpResponseMessage,Microsoft.AspNetCore.Http.HttpResponse})
+  name: ToHttpResponse(HttpResponseMessage, HttpResponse, Action<HttpResponseMessage, HttpResponse>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpResponseMessageExtensions.html#Cuemon_AspNetCore_Http_HttpResponseMessageExtensions_ToHttpResponse_System_Net_Http_HttpResponseMessage_Microsoft_AspNetCore_Http_HttpResponse_System_Action_System_Net_Http_HttpResponseMessage_Microsoft_AspNetCore_Http_HttpResponse__
+  commentId: M:Cuemon.AspNetCore.Http.HttpResponseMessageExtensions.ToHttpResponse(System.Net.Http.HttpResponseMessage,Microsoft.AspNetCore.Http.HttpResponse,System.Action{System.Net.Http.HttpResponseMessage,Microsoft.AspNetCore.Http.HttpResponse})
+  name.vb: ToHttpResponse(HttpResponseMessage, HttpResponse, Action(Of HttpResponseMessage, HttpResponse))
+  fullName: Cuemon.AspNetCore.Http.HttpResponseMessageExtensions.ToHttpResponse(System.Net.Http.HttpResponseMessage, Microsoft.AspNetCore.Http.HttpResponse, System.Action<System.Net.Http.HttpResponseMessage, Microsoft.AspNetCore.Http.HttpResponse>)
+  fullName.vb: Cuemon.AspNetCore.Http.HttpResponseMessageExtensions.ToHttpResponse(System.Net.Http.HttpResponseMessage, Microsoft.AspNetCore.Http.HttpResponse, System.Action(Of System.Net.Http.HttpResponseMessage, Microsoft.AspNetCore.Http.HttpResponse))
+  nameWithType: HttpResponseMessageExtensions.ToHttpResponse(HttpResponseMessage, HttpResponse, Action<HttpResponseMessage, HttpResponse>)
+  nameWithType.vb: HttpResponseMessageExtensions.ToHttpResponse(HttpResponseMessage, HttpResponse, Action(Of HttpResponseMessage, HttpResponse))
+- uid: Cuemon.AspNetCore.Http.HttpResponseMessageExtensions.ToHttpResponse*
+  name: ToHttpResponse
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpResponseMessageExtensions.html#Cuemon_AspNetCore_Http_HttpResponseMessageExtensions_ToHttpResponse_
+  commentId: Overload:Cuemon.AspNetCore.Http.HttpResponseMessageExtensions.ToHttpResponse
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.HttpResponseMessageExtensions.ToHttpResponse
+  nameWithType: HttpResponseMessageExtensions.ToHttpResponse
+- uid: Cuemon.AspNetCore.Http.HttpStatusCodeException
+  name: HttpStatusCodeException
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpStatusCodeException.html
+  commentId: T:Cuemon.AspNetCore.Http.HttpStatusCodeException
+  fullName: Cuemon.AspNetCore.Http.HttpStatusCodeException
+  nameWithType: HttpStatusCodeException
+- uid: Cuemon.AspNetCore.Http.HttpStatusCodeException.#ctor(System.Int32,System.String)
+  name: HttpStatusCodeException(Int32, String)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpStatusCodeException.html#Cuemon_AspNetCore_Http_HttpStatusCodeException__ctor_System_Int32_System_String_
+  commentId: M:Cuemon.AspNetCore.Http.HttpStatusCodeException.#ctor(System.Int32,System.String)
+  fullName: Cuemon.AspNetCore.Http.HttpStatusCodeException.HttpStatusCodeException(System.Int32, System.String)
+  nameWithType: HttpStatusCodeException.HttpStatusCodeException(Int32, String)
+- uid: Cuemon.AspNetCore.Http.HttpStatusCodeException.#ctor*
+  name: HttpStatusCodeException
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpStatusCodeException.html#Cuemon_AspNetCore_Http_HttpStatusCodeException__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Http.HttpStatusCodeException.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.HttpStatusCodeException.HttpStatusCodeException
+  nameWithType: HttpStatusCodeException.HttpStatusCodeException
+- uid: Cuemon.AspNetCore.Http.HttpStatusCodeException.StatusCode
+  name: StatusCode
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpStatusCodeException.html#Cuemon_AspNetCore_Http_HttpStatusCodeException_StatusCode
+  commentId: P:Cuemon.AspNetCore.Http.HttpStatusCodeException.StatusCode
+  fullName: Cuemon.AspNetCore.Http.HttpStatusCodeException.StatusCode
+  nameWithType: HttpStatusCodeException.StatusCode
+- uid: Cuemon.AspNetCore.Http.HttpStatusCodeException.StatusCode*
+  name: StatusCode
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpStatusCodeException.html#Cuemon_AspNetCore_Http_HttpStatusCodeException_StatusCode_
+  commentId: Overload:Cuemon.AspNetCore.Http.HttpStatusCodeException.StatusCode
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.HttpStatusCodeException.StatusCode
+  nameWithType: HttpStatusCodeException.StatusCode
+- uid: Cuemon.AspNetCore.Http.Throttling
+  name: Cuemon.AspNetCore.Http.Throttling
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.html
+  commentId: N:Cuemon.AspNetCore.Http.Throttling
+  fullName: Cuemon.AspNetCore.Http.Throttling
+  nameWithType: Cuemon.AspNetCore.Http.Throttling
+- uid: Cuemon.AspNetCore.Http.Throttling.IThrottlingCache
+  name: IThrottlingCache
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.IThrottlingCache.html
+  commentId: T:Cuemon.AspNetCore.Http.Throttling.IThrottlingCache
+  fullName: Cuemon.AspNetCore.Http.Throttling.IThrottlingCache
+  nameWithType: IThrottlingCache
+- uid: Cuemon.AspNetCore.Http.Throttling.MemoryThrottlingCache
+  name: MemoryThrottlingCache
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.MemoryThrottlingCache.html
+  commentId: T:Cuemon.AspNetCore.Http.Throttling.MemoryThrottlingCache
+  fullName: Cuemon.AspNetCore.Http.Throttling.MemoryThrottlingCache
+  nameWithType: MemoryThrottlingCache
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottleQuota
+  name: ThrottleQuota
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.html
+  commentId: T:Cuemon.AspNetCore.Http.Throttling.ThrottleQuota
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottleQuota
+  nameWithType: ThrottleQuota
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.#ctor(System.Int32,System.Double,Cuemon.TimeUnit)
+  name: ThrottleQuota(Int32, Double, TimeUnit)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.html#Cuemon_AspNetCore_Http_Throttling_ThrottleQuota__ctor_System_Int32_System_Double_Cuemon_TimeUnit_
+  commentId: M:Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.#ctor(System.Int32,System.Double,Cuemon.TimeUnit)
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.ThrottleQuota(System.Int32, System.Double, Cuemon.TimeUnit)
+  nameWithType: ThrottleQuota.ThrottleQuota(Int32, Double, TimeUnit)
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.#ctor(System.Int32,System.TimeSpan)
+  name: ThrottleQuota(Int32, TimeSpan)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.html#Cuemon_AspNetCore_Http_Throttling_ThrottleQuota__ctor_System_Int32_System_TimeSpan_
+  commentId: M:Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.#ctor(System.Int32,System.TimeSpan)
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.ThrottleQuota(System.Int32, System.TimeSpan)
+  nameWithType: ThrottleQuota.ThrottleQuota(Int32, TimeSpan)
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.#ctor*
+  name: ThrottleQuota
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.html#Cuemon_AspNetCore_Http_Throttling_ThrottleQuota__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.ThrottleQuota
+  nameWithType: ThrottleQuota.ThrottleQuota
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.RateLimit
+  name: RateLimit
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.html#Cuemon_AspNetCore_Http_Throttling_ThrottleQuota_RateLimit
+  commentId: P:Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.RateLimit
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.RateLimit
+  nameWithType: ThrottleQuota.RateLimit
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.RateLimit*
+  name: RateLimit
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.html#Cuemon_AspNetCore_Http_Throttling_ThrottleQuota_RateLimit_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.RateLimit
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.RateLimit
+  nameWithType: ThrottleQuota.RateLimit
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.Window
+  name: Window
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.html#Cuemon_AspNetCore_Http_Throttling_ThrottleQuota_Window
+  commentId: P:Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.Window
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.Window
+  nameWithType: ThrottleQuota.Window
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.Window*
+  name: Window
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.html#Cuemon_AspNetCore_Http_Throttling_ThrottleQuota_Window_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.Window
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottleQuota.Window
+  nameWithType: ThrottleQuota.Window
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottleRequest
+  name: ThrottleRequest
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.html
+  commentId: T:Cuemon.AspNetCore.Http.Throttling.ThrottleRequest
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottleRequest
+  nameWithType: ThrottleRequest
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.#ctor(Cuemon.AspNetCore.Http.Throttling.ThrottleQuota)
+  name: ThrottleRequest(ThrottleQuota)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.html#Cuemon_AspNetCore_Http_Throttling_ThrottleRequest__ctor_Cuemon_AspNetCore_Http_Throttling_ThrottleQuota_
+  commentId: M:Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.#ctor(Cuemon.AspNetCore.Http.Throttling.ThrottleQuota)
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.ThrottleRequest(Cuemon.AspNetCore.Http.Throttling.ThrottleQuota)
+  nameWithType: ThrottleRequest.ThrottleRequest(ThrottleQuota)
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.#ctor*
+  name: ThrottleRequest
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.html#Cuemon_AspNetCore_Http_Throttling_ThrottleRequest__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.ThrottleRequest
+  nameWithType: ThrottleRequest.ThrottleRequest
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.Expires
+  name: Expires
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.html#Cuemon_AspNetCore_Http_Throttling_ThrottleRequest_Expires
+  commentId: P:Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.Expires
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.Expires
+  nameWithType: ThrottleRequest.Expires
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.Expires*
+  name: Expires
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.html#Cuemon_AspNetCore_Http_Throttling_ThrottleRequest_Expires_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.Expires
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.Expires
+  nameWithType: ThrottleRequest.Expires
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.Quota
+  name: Quota
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.html#Cuemon_AspNetCore_Http_Throttling_ThrottleRequest_Quota
+  commentId: P:Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.Quota
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.Quota
+  nameWithType: ThrottleRequest.Quota
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.Quota*
+  name: Quota
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.html#Cuemon_AspNetCore_Http_Throttling_ThrottleRequest_Quota_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.Quota
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.Quota
+  nameWithType: ThrottleRequest.Quota
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.Total
+  name: Total
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.html#Cuemon_AspNetCore_Http_Throttling_ThrottleRequest_Total
+  commentId: P:Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.Total
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.Total
+  nameWithType: ThrottleRequest.Total
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.Total*
+  name: Total
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.html#Cuemon_AspNetCore_Http_Throttling_ThrottleRequest_Total_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.Total
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottleRequest.Total
+  nameWithType: ThrottleRequest.Total
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingException
+  name: ThrottlingException
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingException.html
+  commentId: T:Cuemon.AspNetCore.Http.Throttling.ThrottlingException
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingException
+  nameWithType: ThrottlingException
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingException.#ctor(System.Int32,System.String,System.Int32,System.TimeSpan,System.DateTime)
+  name: ThrottlingException(Int32, String, Int32, TimeSpan, DateTime)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingException.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingException__ctor_System_Int32_System_String_System_Int32_System_TimeSpan_System_DateTime_
+  commentId: M:Cuemon.AspNetCore.Http.Throttling.ThrottlingException.#ctor(System.Int32,System.String,System.Int32,System.TimeSpan,System.DateTime)
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingException.ThrottlingException(System.Int32, System.String, System.Int32, System.TimeSpan, System.DateTime)
+  nameWithType: ThrottlingException.ThrottlingException(Int32, String, Int32, TimeSpan, DateTime)
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingException.#ctor*
+  name: ThrottlingException
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingException.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingException__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottlingException.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingException.ThrottlingException
+  nameWithType: ThrottlingException.ThrottlingException
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingException.Delta
+  name: Delta
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingException.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingException_Delta
+  commentId: P:Cuemon.AspNetCore.Http.Throttling.ThrottlingException.Delta
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingException.Delta
+  nameWithType: ThrottlingException.Delta
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingException.Delta*
+  name: Delta
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingException.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingException_Delta_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottlingException.Delta
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingException.Delta
+  nameWithType: ThrottlingException.Delta
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingException.RateLimit
+  name: RateLimit
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingException.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingException_RateLimit
+  commentId: P:Cuemon.AspNetCore.Http.Throttling.ThrottlingException.RateLimit
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingException.RateLimit
+  nameWithType: ThrottlingException.RateLimit
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingException.RateLimit*
+  name: RateLimit
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingException.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingException_RateLimit_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottlingException.RateLimit
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingException.RateLimit
+  nameWithType: ThrottlingException.RateLimit
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingException.Reset
+  name: Reset
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingException.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingException_Reset
+  commentId: P:Cuemon.AspNetCore.Http.Throttling.ThrottlingException.Reset
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingException.Reset
+  nameWithType: ThrottlingException.Reset
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingException.Reset*
+  name: Reset
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingException.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingException_Reset_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottlingException.Reset
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingException.Reset
+  nameWithType: ThrottlingException.Reset
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingRetryAfterHeader
+  name: ThrottlingRetryAfterHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingRetryAfterHeader.html
+  commentId: T:Cuemon.AspNetCore.Http.Throttling.ThrottlingRetryAfterHeader
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingRetryAfterHeader
+  nameWithType: ThrottlingRetryAfterHeader
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingRetryAfterHeader.DeltaSeconds
+  name: DeltaSeconds
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingRetryAfterHeader.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingRetryAfterHeader_DeltaSeconds
+  commentId: F:Cuemon.AspNetCore.Http.Throttling.ThrottlingRetryAfterHeader.DeltaSeconds
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingRetryAfterHeader.DeltaSeconds
+  nameWithType: ThrottlingRetryAfterHeader.DeltaSeconds
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingRetryAfterHeader.HttpDate
+  name: HttpDate
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingRetryAfterHeader.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingRetryAfterHeader_HttpDate
+  commentId: F:Cuemon.AspNetCore.Http.Throttling.ThrottlingRetryAfterHeader.HttpDate
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingRetryAfterHeader.HttpDate
+  nameWithType: ThrottlingRetryAfterHeader.HttpDate
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware
+  name: ThrottlingSentinelMiddleware
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.html
+  commentId: T:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware
+  nameWithType: ThrottlingSentinelMiddleware
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Options.IOptions{Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions})
+  name: ThrottlingSentinelMiddleware(RequestDelegate, IOptions<ThrottlingSentinelOptions>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelMiddleware__ctor_Microsoft_AspNetCore_Http_RequestDelegate_Microsoft_Extensions_Options_IOptions_Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions__
+  commentId: M:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Options.IOptions{Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions})
+  name.vb: ThrottlingSentinelMiddleware(RequestDelegate, IOptions(Of ThrottlingSentinelOptions))
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.ThrottlingSentinelMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Options.IOptions<Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions>)
+  fullName.vb: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.ThrottlingSentinelMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Options.IOptions(Of Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions))
+  nameWithType: ThrottlingSentinelMiddleware.ThrottlingSentinelMiddleware(RequestDelegate, IOptions<ThrottlingSentinelOptions>)
+  nameWithType.vb: ThrottlingSentinelMiddleware.ThrottlingSentinelMiddleware(RequestDelegate, IOptions(Of ThrottlingSentinelOptions))
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,System.Action{Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions})
+  name: ThrottlingSentinelMiddleware(RequestDelegate, Action<ThrottlingSentinelOptions>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelMiddleware__ctor_Microsoft_AspNetCore_Http_RequestDelegate_System_Action_Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions__
+  commentId: M:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,System.Action{Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions})
+  name.vb: ThrottlingSentinelMiddleware(RequestDelegate, Action(Of ThrottlingSentinelOptions))
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.ThrottlingSentinelMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, System.Action<Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions>)
+  fullName.vb: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.ThrottlingSentinelMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, System.Action(Of Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions))
+  nameWithType: ThrottlingSentinelMiddleware.ThrottlingSentinelMiddleware(RequestDelegate, Action<ThrottlingSentinelOptions>)
+  nameWithType.vb: ThrottlingSentinelMiddleware.ThrottlingSentinelMiddleware(RequestDelegate, Action(Of ThrottlingSentinelOptions))
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.#ctor*
+  name: ThrottlingSentinelMiddleware
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelMiddleware__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.ThrottlingSentinelMiddleware
+  nameWithType: ThrottlingSentinelMiddleware.ThrottlingSentinelMiddleware
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext,Cuemon.AspNetCore.Http.Throttling.IThrottlingCache)
+  name: InvokeAsync(HttpContext, IThrottlingCache)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelMiddleware_InvokeAsync_Microsoft_AspNetCore_Http_HttpContext_Cuemon_AspNetCore_Http_Throttling_IThrottlingCache_
+  commentId: M:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext,Cuemon.AspNetCore.Http.Throttling.IThrottlingCache)
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext, Cuemon.AspNetCore.Http.Throttling.IThrottlingCache)
+  nameWithType: ThrottlingSentinelMiddleware.InvokeAsync(HttpContext, IThrottlingCache)
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.InvokeAsync*
+  name: InvokeAsync
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelMiddleware_InvokeAsync_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.InvokeAsync
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelMiddleware.InvokeAsync
+  nameWithType: ThrottlingSentinelMiddleware.InvokeAsync
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions
+  name: ThrottlingSentinelOptions
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html
+  commentId: T:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions
+  nameWithType: ThrottlingSentinelOptions
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.#ctor
+  name: ThrottlingSentinelOptions()
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions__ctor
+  commentId: M:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.#ctor
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.ThrottlingSentinelOptions()
+  nameWithType: ThrottlingSentinelOptions.ThrottlingSentinelOptions()
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.#ctor*
+  name: ThrottlingSentinelOptions
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.ThrottlingSentinelOptions
+  nameWithType: ThrottlingSentinelOptions.ThrottlingSentinelOptions
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.ContextResolver
+  name: ContextResolver
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions_ContextResolver
+  commentId: P:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.ContextResolver
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.ContextResolver
+  nameWithType: ThrottlingSentinelOptions.ContextResolver
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.ContextResolver*
+  name: ContextResolver
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions_ContextResolver_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.ContextResolver
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.ContextResolver
+  nameWithType: ThrottlingSentinelOptions.ContextResolver
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.Quota
+  name: Quota
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions_Quota
+  commentId: P:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.Quota
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.Quota
+  nameWithType: ThrottlingSentinelOptions.Quota
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.Quota*
+  name: Quota
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions_Quota_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.Quota
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.Quota
+  nameWithType: ThrottlingSentinelOptions.Quota
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RateLimitHeaderName
+  name: RateLimitHeaderName
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions_RateLimitHeaderName
+  commentId: P:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RateLimitHeaderName
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RateLimitHeaderName
+  nameWithType: ThrottlingSentinelOptions.RateLimitHeaderName
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RateLimitHeaderName*
+  name: RateLimitHeaderName
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions_RateLimitHeaderName_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RateLimitHeaderName
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RateLimitHeaderName
+  nameWithType: ThrottlingSentinelOptions.RateLimitHeaderName
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RateLimitRemainingHeaderName
+  name: RateLimitRemainingHeaderName
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions_RateLimitRemainingHeaderName
+  commentId: P:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RateLimitRemainingHeaderName
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RateLimitRemainingHeaderName
+  nameWithType: ThrottlingSentinelOptions.RateLimitRemainingHeaderName
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RateLimitRemainingHeaderName*
+  name: RateLimitRemainingHeaderName
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions_RateLimitRemainingHeaderName_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RateLimitRemainingHeaderName
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RateLimitRemainingHeaderName
+  nameWithType: ThrottlingSentinelOptions.RateLimitRemainingHeaderName
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RateLimitResetHeaderName
+  name: RateLimitResetHeaderName
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions_RateLimitResetHeaderName
+  commentId: P:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RateLimitResetHeaderName
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RateLimitResetHeaderName
+  nameWithType: ThrottlingSentinelOptions.RateLimitResetHeaderName
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RateLimitResetHeaderName*
+  name: RateLimitResetHeaderName
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions_RateLimitResetHeaderName_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RateLimitResetHeaderName
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RateLimitResetHeaderName
+  nameWithType: ThrottlingSentinelOptions.RateLimitResetHeaderName
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.ResponseBroker
+  name: ResponseBroker
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions_ResponseBroker
+  commentId: P:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.ResponseBroker
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.ResponseBroker
+  nameWithType: ThrottlingSentinelOptions.ResponseBroker
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.ResponseBroker*
+  name: ResponseBroker
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions_ResponseBroker_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.ResponseBroker
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.ResponseBroker
+  nameWithType: ThrottlingSentinelOptions.ResponseBroker
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RetryAfterHeader
+  name: RetryAfterHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions_RetryAfterHeader
+  commentId: P:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RetryAfterHeader
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RetryAfterHeader
+  nameWithType: ThrottlingSentinelOptions.RetryAfterHeader
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RetryAfterHeader*
+  name: RetryAfterHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions_RetryAfterHeader_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RetryAfterHeader
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.RetryAfterHeader
+  nameWithType: ThrottlingSentinelOptions.RetryAfterHeader
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.TooManyRequestsMessage
+  name: TooManyRequestsMessage
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions_TooManyRequestsMessage
+  commentId: P:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.TooManyRequestsMessage
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.TooManyRequestsMessage
+  nameWithType: ThrottlingSentinelOptions.TooManyRequestsMessage
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.TooManyRequestsMessage*
+  name: TooManyRequestsMessage
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions_TooManyRequestsMessage_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.TooManyRequestsMessage
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.TooManyRequestsMessage
+  nameWithType: ThrottlingSentinelOptions.TooManyRequestsMessage
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.UseRetryAfterHeader
+  name: UseRetryAfterHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions_UseRetryAfterHeader
+  commentId: P:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.UseRetryAfterHeader
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.UseRetryAfterHeader
+  nameWithType: ThrottlingSentinelOptions.UseRetryAfterHeader
+- uid: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.UseRetryAfterHeader*
+  name: UseRetryAfterHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.html#Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions_UseRetryAfterHeader_
+  commentId: Overload:Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.UseRetryAfterHeader
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions.UseRetryAfterHeader
+  nameWithType: ThrottlingSentinelOptions.UseRetryAfterHeader
 - uid: Cuemon.AspNetCore.Infrastructure
   name: Cuemon.AspNetCore.Infrastructure
   href: api/aspnetcore/Cuemon.AspNetCore.Infrastructure.html
@@ -4226,6 +4947,60 @@ references:
   isSpec: "True"
   fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.SuppressHeaderPredicate
   nameWithType: TimeMeasuringOptions.SuppressHeaderPredicate
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.UseServerTimingHeader
+  name: UseServerTimingHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_UseServerTimingHeader
+  commentId: P:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.UseServerTimingHeader
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.UseServerTimingHeader
+  nameWithType: TimeMeasuringOptions.UseServerTimingHeader
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.UseServerTimingHeader*
+  name: UseServerTimingHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_UseServerTimingHeader_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.UseServerTimingHeader
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.UseServerTimingHeader
+  nameWithType: TimeMeasuringOptions.UseServerTimingHeader
+- uid: Cuemon.AspNetCore.Mvc.Filters.Headers
+  name: Cuemon.AspNetCore.Mvc.Filters.Headers
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Headers.html
+  commentId: N:Cuemon.AspNetCore.Mvc.Filters.Headers
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Headers
+  nameWithType: Cuemon.AspNetCore.Mvc.Filters.Headers
+- uid: Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter
+  name: UserAgentSentinelFilter
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.html
+  commentId: T:Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter
+  nameWithType: UserAgentSentinelFilter
+- uid: Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.#ctor(Microsoft.Extensions.Options.IOptions{Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions})
+  name: UserAgentSentinelFilter(IOptions<UserAgentSentinelOptions>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.html#Cuemon_AspNetCore_Mvc_Filters_Headers_UserAgentSentinelFilter__ctor_Microsoft_Extensions_Options_IOptions_Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions__
+  commentId: M:Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.#ctor(Microsoft.Extensions.Options.IOptions{Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions})
+  name.vb: UserAgentSentinelFilter(IOptions(Of UserAgentSentinelOptions))
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.UserAgentSentinelFilter(Microsoft.Extensions.Options.IOptions<Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions>)
+  fullName.vb: Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.UserAgentSentinelFilter(Microsoft.Extensions.Options.IOptions(Of Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions))
+  nameWithType: UserAgentSentinelFilter.UserAgentSentinelFilter(IOptions<UserAgentSentinelOptions>)
+  nameWithType.vb: UserAgentSentinelFilter.UserAgentSentinelFilter(IOptions(Of UserAgentSentinelOptions))
+- uid: Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.#ctor*
+  name: UserAgentSentinelFilter
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.html#Cuemon_AspNetCore_Mvc_Filters_Headers_UserAgentSentinelFilter__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.UserAgentSentinelFilter
+  nameWithType: UserAgentSentinelFilter.UserAgentSentinelFilter
+- uid: Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.OnActionExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext,Microsoft.AspNetCore.Mvc.Filters.ActionExecutionDelegate)
+  name: OnActionExecutionAsync(ActionExecutingContext, ActionExecutionDelegate)
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.html#Cuemon_AspNetCore_Mvc_Filters_Headers_UserAgentSentinelFilter_OnActionExecutionAsync_Microsoft_AspNetCore_Mvc_Filters_ActionExecutingContext_Microsoft_AspNetCore_Mvc_Filters_ActionExecutionDelegate_
+  commentId: M:Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.OnActionExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext,Microsoft.AspNetCore.Mvc.Filters.ActionExecutionDelegate)
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.OnActionExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext, Microsoft.AspNetCore.Mvc.Filters.ActionExecutionDelegate)
+  nameWithType: UserAgentSentinelFilter.OnActionExecutionAsync(ActionExecutingContext, ActionExecutionDelegate)
+- uid: Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.OnActionExecutionAsync*
+  name: OnActionExecutionAsync
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.html#Cuemon_AspNetCore_Mvc_Filters_Headers_UserAgentSentinelFilter_OnActionExecutionAsync_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.OnActionExecutionAsync
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Headers.UserAgentSentinelFilter.OnActionExecutionAsync
+  nameWithType: UserAgentSentinelFilter.OnActionExecutionAsync
 - uid: Cuemon.AspNetCore.Mvc.Filters.ModelBinding
   name: Cuemon.AspNetCore.Mvc.Filters.ModelBinding
   href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.ModelBinding.html
@@ -4277,6 +5052,170 @@ references:
   isSpec: "True"
   fullName: Cuemon.AspNetCore.Mvc.Filters.ModelBinding.DisableModelBindingAttribute.ValueProviderFactoryType
   nameWithType: DisableModelBindingAttribute.ValueProviderFactoryType
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling
+  name: Cuemon.AspNetCore.Mvc.Filters.Throttling
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.html
+  commentId: N:Cuemon.AspNetCore.Mvc.Filters.Throttling
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling
+  nameWithType: Cuemon.AspNetCore.Mvc.Filters.Throttling
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute
+  name: ThrottlingSentinelAttribute
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html
+  commentId: T:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute
+  nameWithType: ThrottlingSentinelAttribute
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.#ctor(System.Int32,System.Double,Cuemon.TimeUnit)
+  name: ThrottlingSentinelAttribute(Int32, Double, TimeUnit)
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelAttribute__ctor_System_Int32_System_Double_Cuemon_TimeUnit_
+  commentId: M:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.#ctor(System.Int32,System.Double,Cuemon.TimeUnit)
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.ThrottlingSentinelAttribute(System.Int32, System.Double, Cuemon.TimeUnit)
+  nameWithType: ThrottlingSentinelAttribute.ThrottlingSentinelAttribute(Int32, Double, TimeUnit)
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.#ctor*
+  name: ThrottlingSentinelAttribute
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelAttribute__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.ThrottlingSentinelAttribute
+  nameWithType: ThrottlingSentinelAttribute.ThrottlingSentinelAttribute
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.CreateInstance(System.IServiceProvider)
+  name: CreateInstance(IServiceProvider)
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelAttribute_CreateInstance_System_IServiceProvider_
+  commentId: M:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.CreateInstance(System.IServiceProvider)
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.CreateInstance(System.IServiceProvider)
+  nameWithType: ThrottlingSentinelAttribute.CreateInstance(IServiceProvider)
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.CreateInstance*
+  name: CreateInstance
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelAttribute_CreateInstance_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.CreateInstance
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.CreateInstance
+  nameWithType: ThrottlingSentinelAttribute.CreateInstance
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.IsReusable
+  name: IsReusable
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelAttribute_IsReusable
+  commentId: P:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.IsReusable
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.IsReusable
+  nameWithType: ThrottlingSentinelAttribute.IsReusable
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.IsReusable*
+  name: IsReusable
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelAttribute_IsReusable_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.IsReusable
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.IsReusable
+  nameWithType: ThrottlingSentinelAttribute.IsReusable
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RateLimitHeaderName
+  name: RateLimitHeaderName
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelAttribute_RateLimitHeaderName
+  commentId: P:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RateLimitHeaderName
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RateLimitHeaderName
+  nameWithType: ThrottlingSentinelAttribute.RateLimitHeaderName
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RateLimitHeaderName*
+  name: RateLimitHeaderName
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelAttribute_RateLimitHeaderName_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RateLimitHeaderName
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RateLimitHeaderName
+  nameWithType: ThrottlingSentinelAttribute.RateLimitHeaderName
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RateLimitRemainingHeaderName
+  name: RateLimitRemainingHeaderName
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelAttribute_RateLimitRemainingHeaderName
+  commentId: P:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RateLimitRemainingHeaderName
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RateLimitRemainingHeaderName
+  nameWithType: ThrottlingSentinelAttribute.RateLimitRemainingHeaderName
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RateLimitRemainingHeaderName*
+  name: RateLimitRemainingHeaderName
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelAttribute_RateLimitRemainingHeaderName_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RateLimitRemainingHeaderName
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RateLimitRemainingHeaderName
+  nameWithType: ThrottlingSentinelAttribute.RateLimitRemainingHeaderName
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RateLimitResetHeaderName
+  name: RateLimitResetHeaderName
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelAttribute_RateLimitResetHeaderName
+  commentId: P:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RateLimitResetHeaderName
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RateLimitResetHeaderName
+  nameWithType: ThrottlingSentinelAttribute.RateLimitResetHeaderName
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RateLimitResetHeaderName*
+  name: RateLimitResetHeaderName
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelAttribute_RateLimitResetHeaderName_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RateLimitResetHeaderName
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RateLimitResetHeaderName
+  nameWithType: ThrottlingSentinelAttribute.RateLimitResetHeaderName
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RetryAfterHeader
+  name: RetryAfterHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelAttribute_RetryAfterHeader
+  commentId: P:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RetryAfterHeader
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RetryAfterHeader
+  nameWithType: ThrottlingSentinelAttribute.RetryAfterHeader
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RetryAfterHeader*
+  name: RetryAfterHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelAttribute_RetryAfterHeader_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RetryAfterHeader
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.RetryAfterHeader
+  nameWithType: ThrottlingSentinelAttribute.RetryAfterHeader
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.TooManyRequestsMessage
+  name: TooManyRequestsMessage
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelAttribute_TooManyRequestsMessage
+  commentId: P:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.TooManyRequestsMessage
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.TooManyRequestsMessage
+  nameWithType: ThrottlingSentinelAttribute.TooManyRequestsMessage
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.TooManyRequestsMessage*
+  name: TooManyRequestsMessage
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelAttribute_TooManyRequestsMessage_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.TooManyRequestsMessage
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.TooManyRequestsMessage
+  nameWithType: ThrottlingSentinelAttribute.TooManyRequestsMessage
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.UseRetryAfterHeader
+  name: UseRetryAfterHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelAttribute_UseRetryAfterHeader
+  commentId: P:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.UseRetryAfterHeader
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.UseRetryAfterHeader
+  nameWithType: ThrottlingSentinelAttribute.UseRetryAfterHeader
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.UseRetryAfterHeader*
+  name: UseRetryAfterHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelAttribute_UseRetryAfterHeader_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.UseRetryAfterHeader
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelAttribute.UseRetryAfterHeader
+  nameWithType: ThrottlingSentinelAttribute.UseRetryAfterHeader
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter
+  name: ThrottlingSentinelFilter
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.html
+  commentId: T:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter
+  nameWithType: ThrottlingSentinelFilter
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.#ctor(Microsoft.Extensions.Options.IOptions{Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions},Cuemon.AspNetCore.Http.Throttling.IThrottlingCache)
+  name: ThrottlingSentinelFilter(IOptions<ThrottlingSentinelOptions>, IThrottlingCache)
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelFilter__ctor_Microsoft_Extensions_Options_IOptions_Cuemon_AspNetCore_Http_Throttling_ThrottlingSentinelOptions__Cuemon_AspNetCore_Http_Throttling_IThrottlingCache_
+  commentId: M:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.#ctor(Microsoft.Extensions.Options.IOptions{Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions},Cuemon.AspNetCore.Http.Throttling.IThrottlingCache)
+  name.vb: ThrottlingSentinelFilter(IOptions(Of ThrottlingSentinelOptions), IThrottlingCache)
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.ThrottlingSentinelFilter(Microsoft.Extensions.Options.IOptions<Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions>, Cuemon.AspNetCore.Http.Throttling.IThrottlingCache)
+  fullName.vb: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.ThrottlingSentinelFilter(Microsoft.Extensions.Options.IOptions(Of Cuemon.AspNetCore.Http.Throttling.ThrottlingSentinelOptions), Cuemon.AspNetCore.Http.Throttling.IThrottlingCache)
+  nameWithType: ThrottlingSentinelFilter.ThrottlingSentinelFilter(IOptions<ThrottlingSentinelOptions>, IThrottlingCache)
+  nameWithType.vb: ThrottlingSentinelFilter.ThrottlingSentinelFilter(IOptions(Of ThrottlingSentinelOptions), IThrottlingCache)
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.#ctor*
+  name: ThrottlingSentinelFilter
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelFilter__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.ThrottlingSentinelFilter
+  nameWithType: ThrottlingSentinelFilter.ThrottlingSentinelFilter
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.OnActionExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext,Microsoft.AspNetCore.Mvc.Filters.ActionExecutionDelegate)
+  name: OnActionExecutionAsync(ActionExecutingContext, ActionExecutionDelegate)
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelFilter_OnActionExecutionAsync_Microsoft_AspNetCore_Mvc_Filters_ActionExecutingContext_Microsoft_AspNetCore_Mvc_Filters_ActionExecutionDelegate_
+  commentId: M:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.OnActionExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext,Microsoft.AspNetCore.Mvc.Filters.ActionExecutionDelegate)
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.OnActionExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext, Microsoft.AspNetCore.Mvc.Filters.ActionExecutionDelegate)
+  nameWithType: ThrottlingSentinelFilter.OnActionExecutionAsync(ActionExecutingContext, ActionExecutionDelegate)
+- uid: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.OnActionExecutionAsync*
+  name: OnActionExecutionAsync
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.html#Cuemon_AspNetCore_Mvc_Filters_Throttling_ThrottlingSentinelFilter_OnActionExecutionAsync_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.OnActionExecutionAsync
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Throttling.ThrottlingSentinelFilter.OnActionExecutionAsync
+  nameWithType: ThrottlingSentinelFilter.OnActionExecutionAsync
 - uid: Cuemon.AspNetCore.Mvc.Formatters.Json
   name: Cuemon.AspNetCore.Mvc.Formatters.Json
   href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.html
@@ -6017,6 +6956,15 @@ references:
   isSpec: "True"
   fullName: Cuemon.Collections.Generic.CollectionExtensions.AddRange
   nameWithType: CollectionExtensions.AddRange
+- uid: Cuemon.Collections.Generic.CollectionExtensions.AddRange``1(System.Collections.Generic.ICollection{``0},``0[])
+  name: AddRange<T>(ICollection<T>, T[])
+  href: api/core/Cuemon.Collections.Generic.CollectionExtensions.html#Cuemon_Collections_Generic_CollectionExtensions_AddRange__1_System_Collections_Generic_ICollection___0____0___
+  commentId: M:Cuemon.Collections.Generic.CollectionExtensions.AddRange``1(System.Collections.Generic.ICollection{``0},``0[])
+  name.vb: AddRange(Of T)(ICollection(Of T), T())
+  fullName: Cuemon.Collections.Generic.CollectionExtensions.AddRange<T>(System.Collections.Generic.ICollection<T>, T[])
+  fullName.vb: Cuemon.Collections.Generic.CollectionExtensions.AddRange(Of T)(System.Collections.Generic.ICollection(Of T), T())
+  nameWithType: CollectionExtensions.AddRange<T>(ICollection<T>, T[])
+  nameWithType.vb: CollectionExtensions.AddRange(Of T)(ICollection(Of T), T())
 - uid: Cuemon.Collections.Generic.CollectionExtensions.AddRange``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.IEnumerable{``0})
   name: AddRange<T>(ICollection<T>, IEnumerable<T>)
   href: api/core/Cuemon.Collections.Generic.CollectionExtensions.html#Cuemon_Collections_Generic_CollectionExtensions_AddRange__1_System_Collections_Generic_ICollection___0__System_Collections_Generic_IEnumerable___0__
@@ -14260,6 +15208,44 @@ references:
   commentId: T:Cuemon.DateTimeExtensions
   fullName: Cuemon.DateTimeExtensions
   nameWithType: DateTimeExtensions
+- uid: Cuemon.DateTimeExtensions.Ceiling(System.DateTime,System.Double,Cuemon.TimeUnit)
+  name: Ceiling(DateTime, Double, TimeUnit)
+  href: api/core/Cuemon.DateTimeExtensions.html#Cuemon_DateTimeExtensions_Ceiling_System_DateTime_System_Double_Cuemon_TimeUnit_
+  commentId: M:Cuemon.DateTimeExtensions.Ceiling(System.DateTime,System.Double,Cuemon.TimeUnit)
+  fullName: Cuemon.DateTimeExtensions.Ceiling(System.DateTime, System.Double, Cuemon.TimeUnit)
+  nameWithType: DateTimeExtensions.Ceiling(DateTime, Double, TimeUnit)
+- uid: Cuemon.DateTimeExtensions.Ceiling(System.DateTime,System.TimeSpan)
+  name: Ceiling(DateTime, TimeSpan)
+  href: api/core/Cuemon.DateTimeExtensions.html#Cuemon_DateTimeExtensions_Ceiling_System_DateTime_System_TimeSpan_
+  commentId: M:Cuemon.DateTimeExtensions.Ceiling(System.DateTime,System.TimeSpan)
+  fullName: Cuemon.DateTimeExtensions.Ceiling(System.DateTime, System.TimeSpan)
+  nameWithType: DateTimeExtensions.Ceiling(DateTime, TimeSpan)
+- uid: Cuemon.DateTimeExtensions.Ceiling*
+  name: Ceiling
+  href: api/core/Cuemon.DateTimeExtensions.html#Cuemon_DateTimeExtensions_Ceiling_
+  commentId: Overload:Cuemon.DateTimeExtensions.Ceiling
+  isSpec: "True"
+  fullName: Cuemon.DateTimeExtensions.Ceiling
+  nameWithType: DateTimeExtensions.Ceiling
+- uid: Cuemon.DateTimeExtensions.Floor(System.DateTime,System.Double,Cuemon.TimeUnit)
+  name: Floor(DateTime, Double, TimeUnit)
+  href: api/core/Cuemon.DateTimeExtensions.html#Cuemon_DateTimeExtensions_Floor_System_DateTime_System_Double_Cuemon_TimeUnit_
+  commentId: M:Cuemon.DateTimeExtensions.Floor(System.DateTime,System.Double,Cuemon.TimeUnit)
+  fullName: Cuemon.DateTimeExtensions.Floor(System.DateTime, System.Double, Cuemon.TimeUnit)
+  nameWithType: DateTimeExtensions.Floor(DateTime, Double, TimeUnit)
+- uid: Cuemon.DateTimeExtensions.Floor(System.DateTime,System.TimeSpan)
+  name: Floor(DateTime, TimeSpan)
+  href: api/core/Cuemon.DateTimeExtensions.html#Cuemon_DateTimeExtensions_Floor_System_DateTime_System_TimeSpan_
+  commentId: M:Cuemon.DateTimeExtensions.Floor(System.DateTime,System.TimeSpan)
+  fullName: Cuemon.DateTimeExtensions.Floor(System.DateTime, System.TimeSpan)
+  nameWithType: DateTimeExtensions.Floor(DateTime, TimeSpan)
+- uid: Cuemon.DateTimeExtensions.Floor*
+  name: Floor
+  href: api/core/Cuemon.DateTimeExtensions.html#Cuemon_DateTimeExtensions_Floor_
+  commentId: Overload:Cuemon.DateTimeExtensions.Floor
+  isSpec: "True"
+  fullName: Cuemon.DateTimeExtensions.Floor
+  nameWithType: DateTimeExtensions.Floor
 - uid: Cuemon.DateTimeExtensions.IsTimeOfDayAfternoon(System.DateTime)
   name: IsTimeOfDayAfternoon(DateTime)
   href: api/core/Cuemon.DateTimeExtensions.html#Cuemon_DateTimeExtensions_IsTimeOfDayAfternoon_System_DateTime_
@@ -14344,6 +15330,25 @@ references:
   isSpec: "True"
   fullName: Cuemon.DateTimeExtensions.IsWithinRange
   nameWithType: DateTimeExtensions.IsWithinRange
+- uid: Cuemon.DateTimeExtensions.Round(System.DateTime,System.Double,Cuemon.TimeUnit,Cuemon.VerticalDirection)
+  name: Round(DateTime, Double, TimeUnit, VerticalDirection)
+  href: api/core/Cuemon.DateTimeExtensions.html#Cuemon_DateTimeExtensions_Round_System_DateTime_System_Double_Cuemon_TimeUnit_Cuemon_VerticalDirection_
+  commentId: M:Cuemon.DateTimeExtensions.Round(System.DateTime,System.Double,Cuemon.TimeUnit,Cuemon.VerticalDirection)
+  fullName: Cuemon.DateTimeExtensions.Round(System.DateTime, System.Double, Cuemon.TimeUnit, Cuemon.VerticalDirection)
+  nameWithType: DateTimeExtensions.Round(DateTime, Double, TimeUnit, VerticalDirection)
+- uid: Cuemon.DateTimeExtensions.Round(System.DateTime,System.TimeSpan,Cuemon.VerticalDirection)
+  name: Round(DateTime, TimeSpan, VerticalDirection)
+  href: api/core/Cuemon.DateTimeExtensions.html#Cuemon_DateTimeExtensions_Round_System_DateTime_System_TimeSpan_Cuemon_VerticalDirection_
+  commentId: M:Cuemon.DateTimeExtensions.Round(System.DateTime,System.TimeSpan,Cuemon.VerticalDirection)
+  fullName: Cuemon.DateTimeExtensions.Round(System.DateTime, System.TimeSpan, Cuemon.VerticalDirection)
+  nameWithType: DateTimeExtensions.Round(DateTime, TimeSpan, VerticalDirection)
+- uid: Cuemon.DateTimeExtensions.Round*
+  name: Round
+  href: api/core/Cuemon.DateTimeExtensions.html#Cuemon_DateTimeExtensions_Round_
+  commentId: Overload:Cuemon.DateTimeExtensions.Round
+  isSpec: "True"
+  fullName: Cuemon.DateTimeExtensions.Round
+  nameWithType: DateTimeExtensions.Round
 - uid: Cuemon.DateTimeExtensions.ToDefaultKind(System.DateTime)
   name: ToDefaultKind(DateTime)
   href: api/core/Cuemon.DateTimeExtensions.html#Cuemon_DateTimeExtensions_ToDefaultKind_System_DateTime_
@@ -14425,132 +15430,6 @@ references:
   commentId: F:Cuemon.DateTimeFormatPattern.ShortTime
   fullName: Cuemon.DateTimeFormatPattern.ShortTime
   nameWithType: DateTimeFormatPattern.ShortTime
-- uid: Cuemon.DateTimeUtility
-  name: DateTimeUtility
-  href: api/core/Cuemon.DateTimeUtility.html
-  commentId: T:Cuemon.DateTimeUtility
-  fullName: Cuemon.DateTimeUtility
-  nameWithType: DateTimeUtility
-- uid: Cuemon.DateTimeUtility.Ceiling(System.DateTime,System.Double,Cuemon.TimeUnit)
-  name: Ceiling(DateTime, Double, TimeUnit)
-  href: api/core/Cuemon.DateTimeUtility.html#Cuemon_DateTimeUtility_Ceiling_System_DateTime_System_Double_Cuemon_TimeUnit_
-  commentId: M:Cuemon.DateTimeUtility.Ceiling(System.DateTime,System.Double,Cuemon.TimeUnit)
-  fullName: Cuemon.DateTimeUtility.Ceiling(System.DateTime, System.Double, Cuemon.TimeUnit)
-  nameWithType: DateTimeUtility.Ceiling(DateTime, Double, TimeUnit)
-- uid: Cuemon.DateTimeUtility.Ceiling(System.DateTime,System.TimeSpan)
-  name: Ceiling(DateTime, TimeSpan)
-  href: api/core/Cuemon.DateTimeUtility.html#Cuemon_DateTimeUtility_Ceiling_System_DateTime_System_TimeSpan_
-  commentId: M:Cuemon.DateTimeUtility.Ceiling(System.DateTime,System.TimeSpan)
-  fullName: Cuemon.DateTimeUtility.Ceiling(System.DateTime, System.TimeSpan)
-  nameWithType: DateTimeUtility.Ceiling(DateTime, TimeSpan)
-- uid: Cuemon.DateTimeUtility.Ceiling*
-  name: Ceiling
-  href: api/core/Cuemon.DateTimeUtility.html#Cuemon_DateTimeUtility_Ceiling_
-  commentId: Overload:Cuemon.DateTimeUtility.Ceiling
-  isSpec: "True"
-  fullName: Cuemon.DateTimeUtility.Ceiling
-  nameWithType: DateTimeUtility.Ceiling
-- uid: Cuemon.DateTimeUtility.Floor(System.DateTime,System.Double,Cuemon.TimeUnit)
-  name: Floor(DateTime, Double, TimeUnit)
-  href: api/core/Cuemon.DateTimeUtility.html#Cuemon_DateTimeUtility_Floor_System_DateTime_System_Double_Cuemon_TimeUnit_
-  commentId: M:Cuemon.DateTimeUtility.Floor(System.DateTime,System.Double,Cuemon.TimeUnit)
-  fullName: Cuemon.DateTimeUtility.Floor(System.DateTime, System.Double, Cuemon.TimeUnit)
-  nameWithType: DateTimeUtility.Floor(DateTime, Double, TimeUnit)
-- uid: Cuemon.DateTimeUtility.Floor(System.DateTime,System.TimeSpan)
-  name: Floor(DateTime, TimeSpan)
-  href: api/core/Cuemon.DateTimeUtility.html#Cuemon_DateTimeUtility_Floor_System_DateTime_System_TimeSpan_
-  commentId: M:Cuemon.DateTimeUtility.Floor(System.DateTime,System.TimeSpan)
-  fullName: Cuemon.DateTimeUtility.Floor(System.DateTime, System.TimeSpan)
-  nameWithType: DateTimeUtility.Floor(DateTime, TimeSpan)
-- uid: Cuemon.DateTimeUtility.Floor*
-  name: Floor
-  href: api/core/Cuemon.DateTimeUtility.html#Cuemon_DateTimeUtility_Floor_
-  commentId: Overload:Cuemon.DateTimeUtility.Floor
-  isSpec: "True"
-  fullName: Cuemon.DateTimeUtility.Floor
-  nameWithType: DateTimeUtility.Floor
-- uid: Cuemon.DateTimeUtility.Round(System.DateTime,System.Double,Cuemon.TimeUnit,Cuemon.VerticalDirection)
-  name: Round(DateTime, Double, TimeUnit, VerticalDirection)
-  href: api/core/Cuemon.DateTimeUtility.html#Cuemon_DateTimeUtility_Round_System_DateTime_System_Double_Cuemon_TimeUnit_Cuemon_VerticalDirection_
-  commentId: M:Cuemon.DateTimeUtility.Round(System.DateTime,System.Double,Cuemon.TimeUnit,Cuemon.VerticalDirection)
-  fullName: Cuemon.DateTimeUtility.Round(System.DateTime, System.Double, Cuemon.TimeUnit, Cuemon.VerticalDirection)
-  nameWithType: DateTimeUtility.Round(DateTime, Double, TimeUnit, VerticalDirection)
-- uid: Cuemon.DateTimeUtility.Round(System.DateTime,System.TimeSpan,Cuemon.VerticalDirection)
-  name: Round(DateTime, TimeSpan, VerticalDirection)
-  href: api/core/Cuemon.DateTimeUtility.html#Cuemon_DateTimeUtility_Round_System_DateTime_System_TimeSpan_Cuemon_VerticalDirection_
-  commentId: M:Cuemon.DateTimeUtility.Round(System.DateTime,System.TimeSpan,Cuemon.VerticalDirection)
-  fullName: Cuemon.DateTimeUtility.Round(System.DateTime, System.TimeSpan, Cuemon.VerticalDirection)
-  nameWithType: DateTimeUtility.Round(DateTime, TimeSpan, VerticalDirection)
-- uid: Cuemon.DateTimeUtility.Round*
-  name: Round
-  href: api/core/Cuemon.DateTimeUtility.html#Cuemon_DateTimeUtility_Round_
-  commentId: Overload:Cuemon.DateTimeUtility.Round
-  isSpec: "True"
-  fullName: Cuemon.DateTimeUtility.Round
-  nameWithType: DateTimeUtility.Round
-- uid: Cuemon.DateTimeUtilityExtensions
-  name: DateTimeUtilityExtensions
-  href: api/core/Cuemon.DateTimeUtilityExtensions.html
-  commentId: T:Cuemon.DateTimeUtilityExtensions
-  fullName: Cuemon.DateTimeUtilityExtensions
-  nameWithType: DateTimeUtilityExtensions
-- uid: Cuemon.DateTimeUtilityExtensions.Ceiling(System.DateTime,System.Double,Cuemon.TimeUnit)
-  name: Ceiling(DateTime, Double, TimeUnit)
-  href: api/core/Cuemon.DateTimeUtilityExtensions.html#Cuemon_DateTimeUtilityExtensions_Ceiling_System_DateTime_System_Double_Cuemon_TimeUnit_
-  commentId: M:Cuemon.DateTimeUtilityExtensions.Ceiling(System.DateTime,System.Double,Cuemon.TimeUnit)
-  fullName: Cuemon.DateTimeUtilityExtensions.Ceiling(System.DateTime, System.Double, Cuemon.TimeUnit)
-  nameWithType: DateTimeUtilityExtensions.Ceiling(DateTime, Double, TimeUnit)
-- uid: Cuemon.DateTimeUtilityExtensions.Ceiling(System.DateTime,System.TimeSpan)
-  name: Ceiling(DateTime, TimeSpan)
-  href: api/core/Cuemon.DateTimeUtilityExtensions.html#Cuemon_DateTimeUtilityExtensions_Ceiling_System_DateTime_System_TimeSpan_
-  commentId: M:Cuemon.DateTimeUtilityExtensions.Ceiling(System.DateTime,System.TimeSpan)
-  fullName: Cuemon.DateTimeUtilityExtensions.Ceiling(System.DateTime, System.TimeSpan)
-  nameWithType: DateTimeUtilityExtensions.Ceiling(DateTime, TimeSpan)
-- uid: Cuemon.DateTimeUtilityExtensions.Ceiling*
-  name: Ceiling
-  href: api/core/Cuemon.DateTimeUtilityExtensions.html#Cuemon_DateTimeUtilityExtensions_Ceiling_
-  commentId: Overload:Cuemon.DateTimeUtilityExtensions.Ceiling
-  isSpec: "True"
-  fullName: Cuemon.DateTimeUtilityExtensions.Ceiling
-  nameWithType: DateTimeUtilityExtensions.Ceiling
-- uid: Cuemon.DateTimeUtilityExtensions.Floor(System.DateTime,System.Double,Cuemon.TimeUnit)
-  name: Floor(DateTime, Double, TimeUnit)
-  href: api/core/Cuemon.DateTimeUtilityExtensions.html#Cuemon_DateTimeUtilityExtensions_Floor_System_DateTime_System_Double_Cuemon_TimeUnit_
-  commentId: M:Cuemon.DateTimeUtilityExtensions.Floor(System.DateTime,System.Double,Cuemon.TimeUnit)
-  fullName: Cuemon.DateTimeUtilityExtensions.Floor(System.DateTime, System.Double, Cuemon.TimeUnit)
-  nameWithType: DateTimeUtilityExtensions.Floor(DateTime, Double, TimeUnit)
-- uid: Cuemon.DateTimeUtilityExtensions.Floor(System.DateTime,System.TimeSpan)
-  name: Floor(DateTime, TimeSpan)
-  href: api/core/Cuemon.DateTimeUtilityExtensions.html#Cuemon_DateTimeUtilityExtensions_Floor_System_DateTime_System_TimeSpan_
-  commentId: M:Cuemon.DateTimeUtilityExtensions.Floor(System.DateTime,System.TimeSpan)
-  fullName: Cuemon.DateTimeUtilityExtensions.Floor(System.DateTime, System.TimeSpan)
-  nameWithType: DateTimeUtilityExtensions.Floor(DateTime, TimeSpan)
-- uid: Cuemon.DateTimeUtilityExtensions.Floor*
-  name: Floor
-  href: api/core/Cuemon.DateTimeUtilityExtensions.html#Cuemon_DateTimeUtilityExtensions_Floor_
-  commentId: Overload:Cuemon.DateTimeUtilityExtensions.Floor
-  isSpec: "True"
-  fullName: Cuemon.DateTimeUtilityExtensions.Floor
-  nameWithType: DateTimeUtilityExtensions.Floor
-- uid: Cuemon.DateTimeUtilityExtensions.Round(System.DateTime,System.Double,Cuemon.TimeUnit,Cuemon.VerticalDirection)
-  name: Round(DateTime, Double, TimeUnit, VerticalDirection)
-  href: api/core/Cuemon.DateTimeUtilityExtensions.html#Cuemon_DateTimeUtilityExtensions_Round_System_DateTime_System_Double_Cuemon_TimeUnit_Cuemon_VerticalDirection_
-  commentId: M:Cuemon.DateTimeUtilityExtensions.Round(System.DateTime,System.Double,Cuemon.TimeUnit,Cuemon.VerticalDirection)
-  fullName: Cuemon.DateTimeUtilityExtensions.Round(System.DateTime, System.Double, Cuemon.TimeUnit, Cuemon.VerticalDirection)
-  nameWithType: DateTimeUtilityExtensions.Round(DateTime, Double, TimeUnit, VerticalDirection)
-- uid: Cuemon.DateTimeUtilityExtensions.Round(System.DateTime,System.TimeSpan,Cuemon.VerticalDirection)
-  name: Round(DateTime, TimeSpan, VerticalDirection)
-  href: api/core/Cuemon.DateTimeUtilityExtensions.html#Cuemon_DateTimeUtilityExtensions_Round_System_DateTime_System_TimeSpan_Cuemon_VerticalDirection_
-  commentId: M:Cuemon.DateTimeUtilityExtensions.Round(System.DateTime,System.TimeSpan,Cuemon.VerticalDirection)
-  fullName: Cuemon.DateTimeUtilityExtensions.Round(System.DateTime, System.TimeSpan, Cuemon.VerticalDirection)
-  nameWithType: DateTimeUtilityExtensions.Round(DateTime, TimeSpan, VerticalDirection)
-- uid: Cuemon.DateTimeUtilityExtensions.Round*
-  name: Round
-  href: api/core/Cuemon.DateTimeUtilityExtensions.html#Cuemon_DateTimeUtilityExtensions_Round_
-  commentId: Overload:Cuemon.DateTimeUtilityExtensions.Round
-  isSpec: "True"
-  fullName: Cuemon.DateTimeUtilityExtensions.Round
-  nameWithType: DateTimeUtilityExtensions.Round
 - uid: Cuemon.DayPart
   name: DayPart
   href: api/core/Cuemon.DayPart.html
@@ -19162,6 +20041,28 @@ references:
   isSpec: "True"
   fullName: Cuemon.IO.StreamConverterExtensions.ToStream
   nameWithType: StreamConverterExtensions.ToStream
+- uid: Cuemon.IO.StreamExtensions
+  name: StreamExtensions
+  href: api/core/Cuemon.IO.StreamExtensions.html
+  commentId: T:Cuemon.IO.StreamExtensions
+  fullName: Cuemon.IO.StreamExtensions
+  nameWithType: StreamExtensions
+- uid: Cuemon.IO.StreamExtensions.WriteAsync(System.IO.Stream,System.Byte[])
+  name: WriteAsync(Stream, Byte[])
+  href: api/core/Cuemon.IO.StreamExtensions.html#Cuemon_IO_StreamExtensions_WriteAsync_System_IO_Stream_System_Byte___
+  commentId: M:Cuemon.IO.StreamExtensions.WriteAsync(System.IO.Stream,System.Byte[])
+  name.vb: WriteAsync(Stream, Byte())
+  fullName: Cuemon.IO.StreamExtensions.WriteAsync(System.IO.Stream, System.Byte[])
+  fullName.vb: Cuemon.IO.StreamExtensions.WriteAsync(System.IO.Stream, System.Byte())
+  nameWithType: StreamExtensions.WriteAsync(Stream, Byte[])
+  nameWithType.vb: StreamExtensions.WriteAsync(Stream, Byte())
+- uid: Cuemon.IO.StreamExtensions.WriteAsync*
+  name: WriteAsync
+  href: api/core/Cuemon.IO.StreamExtensions.html#Cuemon_IO_StreamExtensions_WriteAsync_
+  commentId: Overload:Cuemon.IO.StreamExtensions.WriteAsync
+  isSpec: "True"
+  fullName: Cuemon.IO.StreamExtensions.WriteAsync
+  nameWithType: StreamExtensions.WriteAsync
 - uid: Cuemon.IO.StreamUtility
   name: StreamUtility
   href: api/core/Cuemon.IO.StreamUtility.html
@@ -38153,6 +39054,44 @@ references:
   commentId: T:Cuemon.TimeSpanExtensions
   fullName: Cuemon.TimeSpanExtensions
   nameWithType: TimeSpanExtensions
+- uid: Cuemon.TimeSpanExtensions.Ceiling(System.TimeSpan,System.Double,Cuemon.TimeUnit)
+  name: Ceiling(TimeSpan, Double, TimeUnit)
+  href: api/core/Cuemon.TimeSpanExtensions.html#Cuemon_TimeSpanExtensions_Ceiling_System_TimeSpan_System_Double_Cuemon_TimeUnit_
+  commentId: M:Cuemon.TimeSpanExtensions.Ceiling(System.TimeSpan,System.Double,Cuemon.TimeUnit)
+  fullName: Cuemon.TimeSpanExtensions.Ceiling(System.TimeSpan, System.Double, Cuemon.TimeUnit)
+  nameWithType: TimeSpanExtensions.Ceiling(TimeSpan, Double, TimeUnit)
+- uid: Cuemon.TimeSpanExtensions.Ceiling(System.TimeSpan,System.TimeSpan)
+  name: Ceiling(TimeSpan, TimeSpan)
+  href: api/core/Cuemon.TimeSpanExtensions.html#Cuemon_TimeSpanExtensions_Ceiling_System_TimeSpan_System_TimeSpan_
+  commentId: M:Cuemon.TimeSpanExtensions.Ceiling(System.TimeSpan,System.TimeSpan)
+  fullName: Cuemon.TimeSpanExtensions.Ceiling(System.TimeSpan, System.TimeSpan)
+  nameWithType: TimeSpanExtensions.Ceiling(TimeSpan, TimeSpan)
+- uid: Cuemon.TimeSpanExtensions.Ceiling*
+  name: Ceiling
+  href: api/core/Cuemon.TimeSpanExtensions.html#Cuemon_TimeSpanExtensions_Ceiling_
+  commentId: Overload:Cuemon.TimeSpanExtensions.Ceiling
+  isSpec: "True"
+  fullName: Cuemon.TimeSpanExtensions.Ceiling
+  nameWithType: TimeSpanExtensions.Ceiling
+- uid: Cuemon.TimeSpanExtensions.Floor(System.TimeSpan,System.Double,Cuemon.TimeUnit)
+  name: Floor(TimeSpan, Double, TimeUnit)
+  href: api/core/Cuemon.TimeSpanExtensions.html#Cuemon_TimeSpanExtensions_Floor_System_TimeSpan_System_Double_Cuemon_TimeUnit_
+  commentId: M:Cuemon.TimeSpanExtensions.Floor(System.TimeSpan,System.Double,Cuemon.TimeUnit)
+  fullName: Cuemon.TimeSpanExtensions.Floor(System.TimeSpan, System.Double, Cuemon.TimeUnit)
+  nameWithType: TimeSpanExtensions.Floor(TimeSpan, Double, TimeUnit)
+- uid: Cuemon.TimeSpanExtensions.Floor(System.TimeSpan,System.TimeSpan)
+  name: Floor(TimeSpan, TimeSpan)
+  href: api/core/Cuemon.TimeSpanExtensions.html#Cuemon_TimeSpanExtensions_Floor_System_TimeSpan_System_TimeSpan_
+  commentId: M:Cuemon.TimeSpanExtensions.Floor(System.TimeSpan,System.TimeSpan)
+  fullName: Cuemon.TimeSpanExtensions.Floor(System.TimeSpan, System.TimeSpan)
+  nameWithType: TimeSpanExtensions.Floor(TimeSpan, TimeSpan)
+- uid: Cuemon.TimeSpanExtensions.Floor*
+  name: Floor
+  href: api/core/Cuemon.TimeSpanExtensions.html#Cuemon_TimeSpanExtensions_Floor_
+  commentId: Overload:Cuemon.TimeSpanExtensions.Floor
+  isSpec: "True"
+  fullName: Cuemon.TimeSpanExtensions.Floor
+  nameWithType: TimeSpanExtensions.Floor
 - uid: Cuemon.TimeSpanExtensions.GetMicroseconds(System.TimeSpan)
   name: GetMicroseconds(TimeSpan)
   href: api/core/Cuemon.TimeSpanExtensions.html#Cuemon_TimeSpanExtensions_GetMicroseconds_System_TimeSpan_
@@ -38205,6 +39144,25 @@ references:
   isSpec: "True"
   fullName: Cuemon.TimeSpanExtensions.GetTotalNanoseconds
   nameWithType: TimeSpanExtensions.GetTotalNanoseconds
+- uid: Cuemon.TimeSpanExtensions.Round(System.TimeSpan,System.Double,Cuemon.TimeUnit,Cuemon.VerticalDirection)
+  name: Round(TimeSpan, Double, TimeUnit, VerticalDirection)
+  href: api/core/Cuemon.TimeSpanExtensions.html#Cuemon_TimeSpanExtensions_Round_System_TimeSpan_System_Double_Cuemon_TimeUnit_Cuemon_VerticalDirection_
+  commentId: M:Cuemon.TimeSpanExtensions.Round(System.TimeSpan,System.Double,Cuemon.TimeUnit,Cuemon.VerticalDirection)
+  fullName: Cuemon.TimeSpanExtensions.Round(System.TimeSpan, System.Double, Cuemon.TimeUnit, Cuemon.VerticalDirection)
+  nameWithType: TimeSpanExtensions.Round(TimeSpan, Double, TimeUnit, VerticalDirection)
+- uid: Cuemon.TimeSpanExtensions.Round(System.TimeSpan,System.TimeSpan,Cuemon.VerticalDirection)
+  name: Round(TimeSpan, TimeSpan, VerticalDirection)
+  href: api/core/Cuemon.TimeSpanExtensions.html#Cuemon_TimeSpanExtensions_Round_System_TimeSpan_System_TimeSpan_Cuemon_VerticalDirection_
+  commentId: M:Cuemon.TimeSpanExtensions.Round(System.TimeSpan,System.TimeSpan,Cuemon.VerticalDirection)
+  fullName: Cuemon.TimeSpanExtensions.Round(System.TimeSpan, System.TimeSpan, Cuemon.VerticalDirection)
+  nameWithType: TimeSpanExtensions.Round(TimeSpan, TimeSpan, VerticalDirection)
+- uid: Cuemon.TimeSpanExtensions.Round*
+  name: Round
+  href: api/core/Cuemon.TimeSpanExtensions.html#Cuemon_TimeSpanExtensions_Round_
+  commentId: Overload:Cuemon.TimeSpanExtensions.Round
+  isSpec: "True"
+  fullName: Cuemon.TimeSpanExtensions.Round
+  nameWithType: TimeSpanExtensions.Round
 - uid: Cuemon.TimeSpanExtensions.TicksPerMicrosecond
   name: TicksPerMicrosecond
   href: api/core/Cuemon.TimeSpanExtensions.html#Cuemon_TimeSpanExtensions_TicksPerMicrosecond
@@ -39411,6 +40369,22 @@ references:
   isSpec: "True"
   fullName: Cuemon.TypeExtensions.GetDescendantsAndSelf
   nameWithType: TypeExtensions.GetDescendantsAndSelf
+- uid: Cuemon.TypeExtensions.GetRuntimePropertiesExceptOf*
+  name: GetRuntimePropertiesExceptOf
+  href: api/core/Cuemon.TypeExtensions.html#Cuemon_TypeExtensions_GetRuntimePropertiesExceptOf_
+  commentId: Overload:Cuemon.TypeExtensions.GetRuntimePropertiesExceptOf
+  isSpec: "True"
+  fullName: Cuemon.TypeExtensions.GetRuntimePropertiesExceptOf
+  nameWithType: TypeExtensions.GetRuntimePropertiesExceptOf
+- uid: Cuemon.TypeExtensions.GetRuntimePropertiesExceptOf``1(System.Type)
+  name: GetRuntimePropertiesExceptOf<T>(Type)
+  href: api/core/Cuemon.TypeExtensions.html#Cuemon_TypeExtensions_GetRuntimePropertiesExceptOf__1_System_Type_
+  commentId: M:Cuemon.TypeExtensions.GetRuntimePropertiesExceptOf``1(System.Type)
+  name.vb: GetRuntimePropertiesExceptOf(Of T)(Type)
+  fullName: Cuemon.TypeExtensions.GetRuntimePropertiesExceptOf<T>(System.Type)
+  fullName.vb: Cuemon.TypeExtensions.GetRuntimePropertiesExceptOf(Of T)(System.Type)
+  nameWithType: TypeExtensions.GetRuntimePropertiesExceptOf<T>(Type)
+  nameWithType.vb: TypeExtensions.GetRuntimePropertiesExceptOf(Of T)(Type)
 - uid: Cuemon.TypeExtensions.HasAttributes(System.Type,System.Boolean,System.Type[])
   name: HasAttributes(Type, Boolean, Type[])
   href: api/core/Cuemon.TypeExtensions.html#Cuemon_TypeExtensions_HasAttributes_System_Type_System_Boolean_System_Type___
@@ -39594,6 +40568,19 @@ references:
   isSpec: "True"
   fullName: Cuemon.TypeExtensions.IsNullable
   nameWithType: TypeExtensions.IsNullable
+- uid: Cuemon.TypeExtensions.IsSimple(System.Type)
+  name: IsSimple(Type)
+  href: api/core/Cuemon.TypeExtensions.html#Cuemon_TypeExtensions_IsSimple_System_Type_
+  commentId: M:Cuemon.TypeExtensions.IsSimple(System.Type)
+  fullName: Cuemon.TypeExtensions.IsSimple(System.Type)
+  nameWithType: TypeExtensions.IsSimple(Type)
+- uid: Cuemon.TypeExtensions.IsSimple*
+  name: IsSimple
+  href: api/core/Cuemon.TypeExtensions.html#Cuemon_TypeExtensions_IsSimple_
+  commentId: Overload:Cuemon.TypeExtensions.IsSimple
+  isSpec: "True"
+  fullName: Cuemon.TypeExtensions.IsSimple
+  nameWithType: TypeExtensions.IsSimple
 - uid: Cuemon.TypeExtensions.ToFullNameIncludingAssemblyName(System.Type)
   name: ToFullNameIncludingAssemblyName(Type)
   href: api/core/Cuemon.TypeExtensions.html#Cuemon_TypeExtensions_ToFullNameIncludingAssemblyName_System_Type_

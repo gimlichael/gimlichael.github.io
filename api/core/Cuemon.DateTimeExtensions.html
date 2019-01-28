@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class DateTimeExtensions
    | Cuemon .NET Standard ">
-    <meta name="generator" content="docfx 2.40.4.0">
+    <meta name="generator" content="docfx 2.40.8.0">
     
     <link rel="shortcut icon" href="../../images/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -107,6 +107,266 @@
   </div>
   <h3 id="methods">Methods
   </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_DateTimeExtensions_Ceiling_System_DateTime_System_Double_Cuemon_TimeUnit_.md&amp;value=---%0Auid%3A%20Cuemon.DateTimeExtensions.Ceiling(System.DateTime%2CSystem.Double%2CCuemon.TimeUnit)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateTimeExtensions_Ceiling_" data-uid="Cuemon.DateTimeExtensions.Ceiling*"></a>
+  <h4 id="Cuemon_DateTimeExtensions_Ceiling_System_DateTime_System_Double_Cuemon_TimeUnit_" data-uid="Cuemon.DateTimeExtensions.Ceiling(System.DateTime,System.Double,Cuemon.TimeUnit)">Ceiling(DateTime, Double, TimeUnit)</h4>
+  <div class="markdown level1 summary"><p>Returns a <span class="xref">System.DateTime</span> value that is rounded towards positive infinity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime Ceiling(this DateTime value, double interval, TimeUnit timeUnit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value to be rounded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">interval</span></td>
+        <td><p>The <span class="xref">System.Double</span> value that in combination with <code data-dev-comment-type="paramref" class="paramref">timeUnit</code> specifies the rounding of <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.TimeUnit.html">TimeUnit</a></td>
+        <td><span class="parametername">timeUnit</span></td>
+        <td><p>One of the enumeration values that specifies the time unit of <code data-dev-comment-type="paramref" class="paramref">interval</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value that is rounded towards positive infinity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">interval</code> is 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_DateTimeExtensions_Ceiling_System_DateTime_System_TimeSpan_.md&amp;value=---%0Auid%3A%20Cuemon.DateTimeExtensions.Ceiling(System.DateTime%2CSystem.TimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateTimeExtensions_Ceiling_" data-uid="Cuemon.DateTimeExtensions.Ceiling*"></a>
+  <h4 id="Cuemon_DateTimeExtensions_Ceiling_System_DateTime_System_TimeSpan_" data-uid="Cuemon.DateTimeExtensions.Ceiling(System.DateTime,System.TimeSpan)">Ceiling(DateTime, TimeSpan)</h4>
+  <div class="markdown level1 summary"><p>Returns a <span class="xref">System.DateTime</span> value that is rounded towards positive infinity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime Ceiling(this DateTime value, TimeSpan interval)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value to be rounded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">interval</span></td>
+        <td><p>The <span class="xref">System.TimeSpan</span> value that specifies the rounding of <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value that is rounded towards positive infinity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_DateTimeExtensions_Floor_System_DateTime_System_Double_Cuemon_TimeUnit_.md&amp;value=---%0Auid%3A%20Cuemon.DateTimeExtensions.Floor(System.DateTime%2CSystem.Double%2CCuemon.TimeUnit)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateTimeExtensions_Floor_" data-uid="Cuemon.DateTimeExtensions.Floor*"></a>
+  <h4 id="Cuemon_DateTimeExtensions_Floor_System_DateTime_System_Double_Cuemon_TimeUnit_" data-uid="Cuemon.DateTimeExtensions.Floor(System.DateTime,System.Double,Cuemon.TimeUnit)">Floor(DateTime, Double, TimeUnit)</h4>
+  <div class="markdown level1 summary"><p>Returns a <span class="xref">System.DateTime</span> value that is rounded towards negative infinity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime Floor(this DateTime value, double interval, TimeUnit timeUnit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value to be rounded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">interval</span></td>
+        <td><p>The <span class="xref">System.Double</span> value that in combination with <code data-dev-comment-type="paramref" class="paramref">timeUnit</code> specifies the rounding of <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.TimeUnit.html">TimeUnit</a></td>
+        <td><span class="parametername">timeUnit</span></td>
+        <td><p>One of the enumeration values that specifies the time unit of <code data-dev-comment-type="paramref" class="paramref">interval</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value that is rounded towards negative infinity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">interval</code> is 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_DateTimeExtensions_Floor_System_DateTime_System_TimeSpan_.md&amp;value=---%0Auid%3A%20Cuemon.DateTimeExtensions.Floor(System.DateTime%2CSystem.TimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateTimeExtensions_Floor_" data-uid="Cuemon.DateTimeExtensions.Floor*"></a>
+  <h4 id="Cuemon_DateTimeExtensions_Floor_System_DateTime_System_TimeSpan_" data-uid="Cuemon.DateTimeExtensions.Floor(System.DateTime,System.TimeSpan)">Floor(DateTime, TimeSpan)</h4>
+  <div class="markdown level1 summary"><p>Returns a <span class="xref">System.DateTime</span> value that is rounded towards negative infinity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime Floor(this DateTime value, TimeSpan interval)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value to be rounded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">interval</span></td>
+        <td><p>The <span class="xref">System.TimeSpan</span> value that specifies the rounding of <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value that is rounded towards negative infinity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_DateTimeExtensions_IsTimeOfDayAfternoon_System_DateTime_.md&amp;value=---%0Auid%3A%20Cuemon.DateTimeExtensions.IsTimeOfDayAfternoon(System.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -457,6 +717,174 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">dt</code> is within the specified range of <code data-dev-comment-type="paramref" class="paramref">min</code> and <code data-dev-comment-type="paramref" class="paramref">max</code>; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_DateTimeExtensions_Round_System_DateTime_System_Double_Cuemon_TimeUnit_Cuemon_VerticalDirection_.md&amp;value=---%0Auid%3A%20Cuemon.DateTimeExtensions.Round(System.DateTime%2CSystem.Double%2CCuemon.TimeUnit%2CCuemon.VerticalDirection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateTimeExtensions_Round_" data-uid="Cuemon.DateTimeExtensions.Round*"></a>
+  <h4 id="Cuemon_DateTimeExtensions_Round_System_DateTime_System_Double_Cuemon_TimeUnit_Cuemon_VerticalDirection_" data-uid="Cuemon.DateTimeExtensions.Round(System.DateTime,System.Double,Cuemon.TimeUnit,Cuemon.VerticalDirection)">Round(DateTime, Double, TimeUnit, VerticalDirection)</h4>
+  <div class="markdown level1 summary"><p>Returns a <span class="xref">System.DateTime</span> value that is rounded either towards negative infinity or positive infinity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime Round(this DateTime value, double interval, TimeUnit timeUnit, VerticalDirection direction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value to be rounded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">interval</span></td>
+        <td><p>The <span class="xref">System.Double</span> value that in combination with <code data-dev-comment-type="paramref" class="paramref">timeUnit</code> specifies the rounding of <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.TimeUnit.html">TimeUnit</a></td>
+        <td><span class="parametername">timeUnit</span></td>
+        <td><p>One of the enumeration values that specifies the time unit of <code data-dev-comment-type="paramref" class="paramref">interval</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.VerticalDirection.html">VerticalDirection</a></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>One of the enumeration values that specifies the direction of the rounding.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value that is rounded either towards negative infinity or positive infinity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">direction</code> is an invalid enumeration value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">interval</code> is <span class="xref">System.TimeSpan.Zero</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_DateTimeExtensions_Round_System_DateTime_System_TimeSpan_Cuemon_VerticalDirection_.md&amp;value=---%0Auid%3A%20Cuemon.DateTimeExtensions.Round(System.DateTime%2CSystem.TimeSpan%2CCuemon.VerticalDirection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_DateTimeExtensions_Round_" data-uid="Cuemon.DateTimeExtensions.Round*"></a>
+  <h4 id="Cuemon_DateTimeExtensions_Round_System_DateTime_System_TimeSpan_Cuemon_VerticalDirection_" data-uid="Cuemon.DateTimeExtensions.Round(System.DateTime,System.TimeSpan,Cuemon.VerticalDirection)">Round(DateTime, TimeSpan, VerticalDirection)</h4>
+  <div class="markdown level1 summary"><p>Returns a <span class="xref">System.DateTime</span> value that is rounded either towards negative infinity or positive infinity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime Round(this DateTime value, TimeSpan interval, VerticalDirection direction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value to be rounded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">interval</span></td>
+        <td><p>The <span class="xref">System.TimeSpan</span> value that specifies the rounding of <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cuemon.VerticalDirection.html">VerticalDirection</a></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>One of the enumeration values that specifies the direction of the rounding.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><p>A <span class="xref">System.DateTime</span> value that is rounded either towards negative infinity or positive infinity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">direction</code> is an invalid enumeration value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">interval</code> is <span class="xref">System.TimeSpan.Zero</span>.</p>
 </td>
       </tr>
     </tbody>

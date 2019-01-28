@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class FaultDescriptorOptions
    | Cuemon .NET Standard ">
-    <meta name="generator" content="docfx 2.40.4.0">
+    <meta name="generator" content="docfx 2.40.8.0">
     
     <link rel="shortcut icon" href="../../images/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -230,7 +230,7 @@ In the default implementation, this is invoked just before the <a class="xref" h
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Func&lt;Exception, HttpStatusCode&gt; HttpStatusCodeResolver { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Func&lt;Exception, int&gt; HttpStatusCodeResolver { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -242,7 +242,7 @@ In the default implementation, this is invoked just before the <a class="xref" h
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Exception</span>, <span class="xref">System.Net.HttpStatusCode</span>&gt;</td>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Exception</span>, <span class="xref">System.Int32</span>&gt;</td>
         <td><p>The function delegate that will resolve a <span class="xref">System.Net.HttpStatusCode</span> from the specified <span class="xref">System.Exception</span>.</p>
 </td>
       </tr>

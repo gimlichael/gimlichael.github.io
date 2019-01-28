@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class HeaderDictionaryExtensions
    | Cuemon .NET Standard ">
-    <meta name="generator" content="docfx 2.40.4.0">
+    <meta name="generator" content="docfx 2.40.8.0">
     
     <link rel="shortcut icon" href="../../images/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -114,7 +114,7 @@
   
   <a id="Cuemon_AspNetCore_Http_HeaderDictionaryExtensions_AddOrUpdateHeader_" data-uid="Cuemon.AspNetCore.Http.HeaderDictionaryExtensions.AddOrUpdateHeader*"></a>
   <h4 id="Cuemon_AspNetCore_Http_HeaderDictionaryExtensions_AddOrUpdateHeader_Microsoft_AspNetCore_Http_IHeaderDictionary_System_String_Microsoft_Extensions_Primitives_StringValues_System_Boolean_" data-uid="Cuemon.AspNetCore.Http.HeaderDictionaryExtensions.AddOrUpdateHeader(Microsoft.AspNetCore.Http.IHeaderDictionary,System.String,Microsoft.Extensions.Primitives.StringValues,System.Boolean)">AddOrUpdateHeader(IHeaderDictionary, String, StringValues, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Adds an element with the provided key and value to the <span class="xref">Microsoft.AspNetCore.Http.IHeaderDictionary</span>.</p>
+  <div class="markdown level1 summary"><p>Adds or updates an element with the provided key and value to the <span class="xref">Microsoft.AspNetCore.Http.IHeaderDictionary</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -153,6 +153,44 @@
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">useAsciiEncodingConversion</span></td>
         <td><p>if set to <code>true</code> an ASCII encoding conversion is applied to the <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_AspNetCore_Http_HeaderDictionaryExtensions_AddOrUpdateHeaders_Microsoft_AspNetCore_Http_IHeaderDictionary_System_Net_Http_Headers_HttpResponseHeaders_.md&amp;value=---%0Auid%3A%20Cuemon.AspNetCore.Http.HeaderDictionaryExtensions.AddOrUpdateHeaders(Microsoft.AspNetCore.Http.IHeaderDictionary%2CSystem.Net.Http.Headers.HttpResponseHeaders)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_AspNetCore_Http_HeaderDictionaryExtensions_AddOrUpdateHeaders_" data-uid="Cuemon.AspNetCore.Http.HeaderDictionaryExtensions.AddOrUpdateHeaders*"></a>
+  <h4 id="Cuemon_AspNetCore_Http_HeaderDictionaryExtensions_AddOrUpdateHeaders_Microsoft_AspNetCore_Http_IHeaderDictionary_System_Net_Http_Headers_HttpResponseHeaders_" data-uid="Cuemon.AspNetCore.Http.HeaderDictionaryExtensions.AddOrUpdateHeaders(Microsoft.AspNetCore.Http.IHeaderDictionary,System.Net.Http.Headers.HttpResponseHeaders)">AddOrUpdateHeaders(IHeaderDictionary, HttpResponseHeaders)</h4>
+  <div class="markdown level1 summary"><p>Adds or updates one or more elements from the provided collection of <code data-dev-comment-type="paramref" class="paramref">responseHeaders</code> to the <span class="xref">Microsoft.AspNetCore.Http.IHeaderDictionary</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddOrUpdateHeaders(this IHeaderDictionary dic, HttpResponseHeaders responseHeaders)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Http.IHeaderDictionary</span></td>
+        <td><span class="parametername">dic</span></td>
+        <td><p>The <span class="xref">Microsoft.AspNetCore.Http.IHeaderDictionary</span> to extend.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Net.Http.Headers.HttpResponseHeaders</span></td>
+        <td><span class="parametername">responseHeaders</span></td>
+        <td><p>The <span class="xref">System.Net.Http.Headers.HttpResponseHeaders</span> to copy.</p>
 </td>
       </tr>
     </tbody>

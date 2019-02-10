@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TimeMeasuringOptions
    | Cuemon .NET Standard ">
-    <meta name="generator" content="docfx 2.40.8.0">
+    <meta name="generator" content="docfx 2.40.10.0">
     
     <link rel="shortcut icon" href="../../images/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -151,7 +151,7 @@
   
   <a id="Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_HeaderName_" data-uid="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.HeaderName*"></a>
   <h4 id="Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_HeaderName" data-uid="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.HeaderName">HeaderName</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the name of the time-measured HTTP header.</p>
+  <div class="markdown level1 summary"><p>Gets or sets the name of the custom time-measured HTTP header.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -169,7 +169,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The name of the time-measured HTTP header.</p>
+        <td><p>The name of the custom time-measured HTTP header.</p>
 </td>
       </tr>
     </tbody>
@@ -181,7 +181,7 @@
   
   <a id="Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_SuppressHeaderPredicate_" data-uid="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.SuppressHeaderPredicate*"></a>
   <h4 id="Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_SuppressHeaderPredicate" data-uid="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.SuppressHeaderPredicate">SuppressHeaderPredicate</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the predicate that can suppress the time-measured HTTP header.</p>
+  <div class="markdown level1 summary"><p>Gets or sets the predicate that can suppress either of the time-measured HTTP headers.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -199,7 +199,37 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Func</span>&lt;<span class="xref">Microsoft.Extensions.Hosting.IHostingEnvironment</span>, <span class="xref">System.Boolean</span>&gt;</td>
-        <td><p>The function delegate that can determine if the time-measured HTTP header should be suppressed.</p>
+        <td><p>The function delegate that can determine if either of the time-measured HTTP headers should be suppressed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_UseCustomHeader.md&amp;value=---%0Auid%3A%20Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.UseCustomHeader%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_UseCustomHeader_" data-uid="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.UseCustomHeader*"></a>
+  <h4 id="Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_UseCustomHeader" data-uid="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.UseCustomHeader">UseCustomHeader</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether to include the custom <a class="xref" href="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_HeaderName">HeaderName</a> specifying how long an action took to execute.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseCustomHeader { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> to include the custom <a class="xref" href="Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_HeaderName">HeaderName</a> specifying how long an action took to execute; otherwise, <code>false</code>.</p>
 </td>
       </tr>
     </tbody>

@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class HttpManagerOptions
    | Cuemon .NET Standard ">
-    <meta name="generator" content="docfx 2.40.8.0">
+    <meta name="generator" content="docfx 2.40.10.0">
     
     <link rel="shortcut icon" href="../../images/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -123,7 +123,7 @@
   </div>
   <h5 id="Cuemon_Net_Http_HttpManagerOptions__ctor_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The following table shows the initial property values for an instance of <a class="xref" href="Cuemon.Net.Http.HttpManagerOptions.html">HttpManagerOptions</a>.</p>
-<table><thead><tr><th>Property</th><th>Initial Value</th></tr></thead><tbody><tr><td><a class="xref" href="Cuemon.Net.Http.HttpManagerOptions.html#Cuemon_Net_Http_HttpManagerOptions_DisposeHandler">DisposeHandler</a></td><td><code>true</code></td></tr><tr><td><a class="xref" href="Cuemon.Net.Http.HttpManagerOptions.html#Cuemon_Net_Http_HttpManagerOptions_DefaultRequestHeaders">DefaultRequestHeaders</a></td><td>Connection: Keep-Alive</td></tr><tr><td><a class="xref" href="Cuemon.Net.Http.HttpManagerOptions.html#Cuemon_Net_Http_HttpManagerOptions_Handler">Handler</a></td><td><span class="xref">System.Net.Http.HttpClientHandler</span> initialized with <span class="xref">System.Net.Http.HttpClientHandler.AutomaticDecompression</span> for GZip|Deflate and <span class="xref">System.Net.Http.HttpClientHandler.MaxAutomaticRedirections</span> to 10.</td></tr></tbody></table>
+<table><thead><tr><th>Property</th><th>Initial Value</th></tr></thead><tbody><tr><td><a class="xref" href="Cuemon.Net.Http.HttpManagerOptions.html#Cuemon_Net_Http_HttpManagerOptions_DisposeHandler">DisposeHandler</a></td><td><code>true</code></td></tr><tr><td><a class="xref" href="Cuemon.Net.Http.HttpManagerOptions.html#Cuemon_Net_Http_HttpManagerOptions_DefaultRequestHeaders">DefaultRequestHeaders</a></td><td>Connection: Keep-Alive</td></tr><tr><td><a class="xref" href="Cuemon.Net.Http.HttpManagerOptions.html#Cuemon_Net_Http_HttpManagerOptions_HandlerFactory">HandlerFactory</a></td><td><span class="xref">System.Net.Http.HttpClientHandler</span> initialized with <span class="xref">System.Net.Http.HttpClientHandler.AutomaticDecompression</span> for GZip|Deflate and <span class="xref">System.Net.Http.HttpClientHandler.MaxAutomaticRedirections</span> to 10.</td></tr><tr><td><a class="xref" href="Cuemon.Net.Http.HttpManagerOptions.html#Cuemon_Net_Http_HttpManagerOptions_Timeout">Timeout</a></td><td>2 minutes</td></tr></tbody></table>
 </div>
   <h3 id="properties">Properties
   </h3>
@@ -189,17 +189,17 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_Net_Http_HttpManagerOptions_Handler.md&amp;value=---%0Auid%3A%20Cuemon.Net.Http.HttpManagerOptions.Handler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_Net_Http_HttpManagerOptions_HandlerFactory.md&amp;value=---%0Auid%3A%20Cuemon.Net.Http.HttpManagerOptions.HandlerFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   
-  <a id="Cuemon_Net_Http_HttpManagerOptions_Handler_" data-uid="Cuemon.Net.Http.HttpManagerOptions.Handler*"></a>
-  <h4 id="Cuemon_Net_Http_HttpManagerOptions_Handler" data-uid="Cuemon.Net.Http.HttpManagerOptions.Handler">Handler</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the HTTP handler stack to use for sending requests.</p>
+  <a id="Cuemon_Net_Http_HttpManagerOptions_HandlerFactory_" data-uid="Cuemon.Net.Http.HttpManagerOptions.HandlerFactory*"></a>
+  <h4 id="Cuemon_Net_Http_HttpManagerOptions_HandlerFactory" data-uid="Cuemon.Net.Http.HttpManagerOptions.HandlerFactory">HandlerFactory</h4>
+  <div class="markdown level1 summary"><p>Gets the HTTP handler stack to use for sending requests.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HttpMessageHandler Handler { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Func&lt;HttpMessageHandler&gt; HandlerFactory { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -211,8 +211,89 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Net.Http.HttpMessageHandler</span></td>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Net.Http.HttpMessageHandler</span>&gt;</td>
         <td><p>The HTTP handler stack to use for sending requests.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_Net_Http_HttpManagerOptions_Timeout.md&amp;value=---%0Auid%3A%20Cuemon.Net.Http.HttpManagerOptions.Timeout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Net_Http_HttpManagerOptions_Timeout_" data-uid="Cuemon.Net.Http.HttpManagerOptions.Timeout*"></a>
+  <h4 id="Cuemon_Net_Http_HttpManagerOptions_Timeout" data-uid="Cuemon.Net.Http.HttpManagerOptions.Timeout">Timeout</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the timespan to wait before the request times out. Default is 2 minutes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan Timeout { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><p>The timespan to wait before the request times out.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_Net_Http_HttpManagerOptions_SetHandlerFactory__1_System_Action___0__.md&amp;value=---%0Auid%3A%20Cuemon.Net.Http.HttpManagerOptions.SetHandlerFactory%60%601(System.Action%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  
+  <a id="Cuemon_Net_Http_HttpManagerOptions_SetHandlerFactory_" data-uid="Cuemon.Net.Http.HttpManagerOptions.SetHandlerFactory*"></a>
+  <h4 id="Cuemon_Net_Http_HttpManagerOptions_SetHandlerFactory__1_System_Action___0__" data-uid="Cuemon.Net.Http.HttpManagerOptions.SetHandlerFactory``1(System.Action{``0})">SetHandlerFactory&lt;T&gt;(Action&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the <a class="xref" href="Cuemon.Net.Http.HttpManagerOptions.html#Cuemon_Net_Http_HttpManagerOptions_HandlerFactory">HandlerFactory</a> property using the specified <code data-dev-comment-type="paramref" class="paramref">setup</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetHandlerFactory&lt;T&gt;(Action&lt;T&gt; setup)
+    where T : HttpMessageHandler</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">setup</span></td>
+        <td><p>The <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> which need to be configured.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the <span class="xref">System.Net.Http.HttpMessageHandler</span> to use.</p>
 </td>
       </tr>
     </tbody>

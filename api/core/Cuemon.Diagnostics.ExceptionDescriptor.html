@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ExceptionDescriptor
    | Cuemon .NET Standard ">
-    <meta name="generator" content="docfx 2.40.8.0">
+    <meta name="generator" content="docfx 2.40.10.0">
     
     <link rel="shortcut icon" href="../../images/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -91,13 +91,14 @@
   
   <h1 id="Cuemon_Diagnostics_ExceptionDescriptor" data-uid="Cuemon.Diagnostics.ExceptionDescriptor" class="text-break">Class ExceptionDescriptor
   </h1>
-  <div class="markdown level0 summary"><p>Provides information about an <span class="xref">System.Exception</span>, in a developer friendly way, optimized for open- and otherwise public application programming interfaces (API).</p>
+  <div class="markdown level0 summary"><p>Provides information about an <span class="xref">System.Exception</span>, in a developer friendly way.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ExceptionDescriptor</span></div>
+      <div class="level2"><a class="xref" href="../aspnetcore/Cuemon.AspNetCore.Http.HttpExceptionDescriptor.html">HttpExceptionDescriptor</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Cuemon.Diagnostics.html">Cuemon.Diagnostics</a></h6>
   <h6><strong id="assemblyName" data-assembly-name="Cuemon.Core">Assembly</strong>: Cuemon.Core.dll</h6>
@@ -123,17 +124,17 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_Diagnostics_ExceptionDescriptor__ctor_System_Exception_System_String_System_String_System_Action_Cuemon_Diagnostics_ExceptionDescriptorOptions__.md&amp;value=---%0Auid%3A%20Cuemon.Diagnostics.ExceptionDescriptor.%23ctor(System.Exception%2CSystem.String%2CSystem.String%2CSystem.Action%7BCuemon.Diagnostics.ExceptionDescriptorOptions%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_Diagnostics_ExceptionDescriptor__ctor_System_Exception_System_String_System_String_System_Uri_.md&amp;value=---%0Auid%3A%20Cuemon.Diagnostics.ExceptionDescriptor.%23ctor(System.Exception%2CSystem.String%2CSystem.String%2CSystem.Uri)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   
   <a id="Cuemon_Diagnostics_ExceptionDescriptor__ctor_" data-uid="Cuemon.Diagnostics.ExceptionDescriptor.#ctor*"></a>
-  <h4 id="Cuemon_Diagnostics_ExceptionDescriptor__ctor_System_Exception_System_String_System_String_System_Action_Cuemon_Diagnostics_ExceptionDescriptorOptions__" data-uid="Cuemon.Diagnostics.ExceptionDescriptor.#ctor(System.Exception,System.String,System.String,System.Action{Cuemon.Diagnostics.ExceptionDescriptorOptions})">ExceptionDescriptor(Exception, String, String, Action&lt;ExceptionDescriptorOptions&gt;)</h4>
+  <h4 id="Cuemon_Diagnostics_ExceptionDescriptor__ctor_System_Exception_System_String_System_String_System_Uri_" data-uid="Cuemon.Diagnostics.ExceptionDescriptor.#ctor(System.Exception,System.String,System.String,System.Uri)">ExceptionDescriptor(Exception, String, String, Uri)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Cuemon.Diagnostics.ExceptionDescriptor.html">ExceptionDescriptor</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ExceptionDescriptor(Exception failure, string code, string message, Action&lt;ExceptionDescriptorOptions&gt; setup = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public ExceptionDescriptor(Exception failure, string code, string message, Uri helpLink = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -164,13 +165,16 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cuemon.Diagnostics.ExceptionDescriptorOptions.html">ExceptionDescriptorOptions</a>&gt;</td>
-        <td><span class="parametername">setup</span></td>
-        <td><p>The <a class="xref" href="Cuemon.Diagnostics.ExceptionDescriptorOptions.html">ExceptionDescriptorOptions</a> which need to be configured.</p>
+        <td><span class="xref">System.Uri</span></td>
+        <td><span class="parametername">helpLink</span></td>
+        <td><p>The optional link to a help page associated with this failure.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Cuemon_Diagnostics_ExceptionDescriptor__ctor_System_Exception_System_String_System_String_System_Uri__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><code data-dev-comment-type="paramref" class="paramref">code</code> will remove any spaces that might be present.</p>
+</div>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
@@ -270,12 +274,12 @@
   
   <a id="Cuemon_Diagnostics_ExceptionDescriptor_HelpLink_" data-uid="Cuemon.Diagnostics.ExceptionDescriptor.HelpLink*"></a>
   <h4 id="Cuemon_Diagnostics_ExceptionDescriptor_HelpLink" data-uid="Cuemon.Diagnostics.ExceptionDescriptor.HelpLink">HelpLink</h4>
-  <div class="markdown level1 summary"><p>Gets a link to the help page associated with this failure.</p>
+  <div class="markdown level1 summary"><p>Gets or sets a link to the help page associated with this failure.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Uri HelpLink { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Uri HelpLink { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -319,36 +323,6 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><p>The message that explains the reason for the failure.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/gimlichael/CuemonCore/new/master/apiSpec/new?filename=Cuemon_Diagnostics_ExceptionDescriptor_RequestId.md&amp;value=---%0Auid%3A%20Cuemon.Diagnostics.ExceptionDescriptor.RequestId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  
-  <a id="Cuemon_Diagnostics_ExceptionDescriptor_RequestId_" data-uid="Cuemon.Diagnostics.ExceptionDescriptor.RequestId*"></a>
-  <h4 id="Cuemon_Diagnostics_ExceptionDescriptor_RequestId" data-uid="Cuemon.Diagnostics.ExceptionDescriptor.RequestId">RequestId</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the request identifier that uniquely identifies the service request the caller made.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string RequestId { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>An identifier that uniquely identifies the service request the caller made.</p>
 </td>
       </tr>
     </tbody>

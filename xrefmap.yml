@@ -1260,6 +1260,22 @@ references:
   isSpec: "True"
   fullName: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseHostingEnvironmentHeader
   nameWithType: ApplicationBuilderExtensions.UseHostingEnvironmentHeader
+- uid: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseRequestIdentifierHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions})
+  name: UseRequestIdentifierHeader(IApplicationBuilder, Action<RequestIdentifierOptions>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.html#Cuemon_AspNetCore_Builder_ApplicationBuilderExtensions_UseRequestIdentifierHeader_Microsoft_AspNetCore_Builder_IApplicationBuilder_System_Action_Cuemon_AspNetCore_Http_Headers_RequestIdentifierOptions__
+  commentId: M:Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseRequestIdentifierHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions})
+  name.vb: UseRequestIdentifierHeader(IApplicationBuilder, Action(Of RequestIdentifierOptions))
+  fullName: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseRequestIdentifierHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions>)
+  fullName.vb: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseRequestIdentifierHeader(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action(Of Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions))
+  nameWithType: ApplicationBuilderExtensions.UseRequestIdentifierHeader(IApplicationBuilder, Action<RequestIdentifierOptions>)
+  nameWithType.vb: ApplicationBuilderExtensions.UseRequestIdentifierHeader(IApplicationBuilder, Action(Of RequestIdentifierOptions))
+- uid: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseRequestIdentifierHeader*
+  name: UseRequestIdentifierHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.html#Cuemon_AspNetCore_Builder_ApplicationBuilderExtensions_UseRequestIdentifierHeader_
+  commentId: Overload:Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseRequestIdentifierHeader
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseRequestIdentifierHeader
+  nameWithType: ApplicationBuilderExtensions.UseRequestIdentifierHeader
 - uid: Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.UseUserAgentSentinel(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions})
   name: UseUserAgentSentinel(IApplicationBuilder, Action<UserAgentSentinelOptions>)
   href: api/aspnetcore/Cuemon.AspNetCore.Builder.ApplicationBuilderExtensions.html#Cuemon_AspNetCore_Builder_ApplicationBuilderExtensions_UseUserAgentSentinel_Microsoft_AspNetCore_Builder_IApplicationBuilder_System_Action_Cuemon_AspNetCore_Http_Headers_UserAgentSentinelOptions__
@@ -1891,6 +1907,101 @@ references:
   isSpec: "True"
   fullName: Cuemon.AspNetCore.Http.Headers.CorrelationIdentifierOptions.HeaderName
   nameWithType: CorrelationIdentifierOptions.HeaderName
+- uid: Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware
+  name: RequestIdentifierMiddleware
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.html
+  commentId: T:Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware
+  fullName: Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware
+  nameWithType: RequestIdentifierMiddleware
+- uid: Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Options.IOptions{Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions})
+  name: RequestIdentifierMiddleware(RequestDelegate, IOptions<RequestIdentifierOptions>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.html#Cuemon_AspNetCore_Http_Headers_RequestIdentifierMiddleware__ctor_Microsoft_AspNetCore_Http_RequestDelegate_Microsoft_Extensions_Options_IOptions_Cuemon_AspNetCore_Http_Headers_RequestIdentifierOptions__
+  commentId: M:Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Options.IOptions{Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions})
+  name.vb: RequestIdentifierMiddleware(RequestDelegate, IOptions(Of RequestIdentifierOptions))
+  fullName: Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.RequestIdentifierMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Options.IOptions<Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions>)
+  fullName.vb: Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.RequestIdentifierMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, Microsoft.Extensions.Options.IOptions(Of Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions))
+  nameWithType: RequestIdentifierMiddleware.RequestIdentifierMiddleware(RequestDelegate, IOptions<RequestIdentifierOptions>)
+  nameWithType.vb: RequestIdentifierMiddleware.RequestIdentifierMiddleware(RequestDelegate, IOptions(Of RequestIdentifierOptions))
+- uid: Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,System.Action{Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions})
+  name: RequestIdentifierMiddleware(RequestDelegate, Action<RequestIdentifierOptions>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.html#Cuemon_AspNetCore_Http_Headers_RequestIdentifierMiddleware__ctor_Microsoft_AspNetCore_Http_RequestDelegate_System_Action_Cuemon_AspNetCore_Http_Headers_RequestIdentifierOptions__
+  commentId: M:Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,System.Action{Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions})
+  name.vb: RequestIdentifierMiddleware(RequestDelegate, Action(Of RequestIdentifierOptions))
+  fullName: Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.RequestIdentifierMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, System.Action<Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions>)
+  fullName.vb: Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.RequestIdentifierMiddleware(Microsoft.AspNetCore.Http.RequestDelegate, System.Action(Of Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions))
+  nameWithType: RequestIdentifierMiddleware.RequestIdentifierMiddleware(RequestDelegate, Action<RequestIdentifierOptions>)
+  nameWithType.vb: RequestIdentifierMiddleware.RequestIdentifierMiddleware(RequestDelegate, Action(Of RequestIdentifierOptions))
+- uid: Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.#ctor*
+  name: RequestIdentifierMiddleware
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.html#Cuemon_AspNetCore_Http_Headers_RequestIdentifierMiddleware__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.RequestIdentifierMiddleware
+  nameWithType: RequestIdentifierMiddleware.RequestIdentifierMiddleware
+- uid: Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.HttpContextItemsKey
+  name: HttpContextItemsKey
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.html#Cuemon_AspNetCore_Http_Headers_RequestIdentifierMiddleware_HttpContextItemsKey
+  commentId: F:Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.HttpContextItemsKey
+  fullName: Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.HttpContextItemsKey
+  nameWithType: RequestIdentifierMiddleware.HttpContextItemsKey
+- uid: Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
+  name: InvokeAsync(HttpContext)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.html#Cuemon_AspNetCore_Http_Headers_RequestIdentifierMiddleware_InvokeAsync_Microsoft_AspNetCore_Http_HttpContext_
+  commentId: M:Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
+  fullName: Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)
+  nameWithType: RequestIdentifierMiddleware.InvokeAsync(HttpContext)
+- uid: Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.InvokeAsync*
+  name: InvokeAsync
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.html#Cuemon_AspNetCore_Http_Headers_RequestIdentifierMiddleware_InvokeAsync_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.InvokeAsync
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.RequestIdentifierMiddleware.InvokeAsync
+  nameWithType: RequestIdentifierMiddleware.InvokeAsync
+- uid: Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions
+  name: RequestIdentifierOptions
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.html
+  commentId: T:Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions
+  fullName: Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions
+  nameWithType: RequestIdentifierOptions
+- uid: Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.#ctor
+  name: RequestIdentifierOptions()
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.html#Cuemon_AspNetCore_Http_Headers_RequestIdentifierOptions__ctor
+  commentId: M:Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.#ctor
+  fullName: Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.RequestIdentifierOptions()
+  nameWithType: RequestIdentifierOptions.RequestIdentifierOptions()
+- uid: Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.#ctor*
+  name: RequestIdentifierOptions
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.html#Cuemon_AspNetCore_Http_Headers_RequestIdentifierOptions__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.RequestIdentifierOptions
+  nameWithType: RequestIdentifierOptions.RequestIdentifierOptions
+- uid: Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.HeaderName
+  name: HeaderName
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.html#Cuemon_AspNetCore_Http_Headers_RequestIdentifierOptions_HeaderName
+  commentId: P:Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.HeaderName
+  fullName: Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.HeaderName
+  nameWithType: RequestIdentifierOptions.HeaderName
+- uid: Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.HeaderName*
+  name: HeaderName
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.html#Cuemon_AspNetCore_Http_Headers_RequestIdentifierOptions_HeaderName_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.HeaderName
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.HeaderName
+  nameWithType: RequestIdentifierOptions.HeaderName
+- uid: Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.RequestProvider
+  name: RequestProvider
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.html#Cuemon_AspNetCore_Http_Headers_RequestIdentifierOptions_RequestProvider
+  commentId: P:Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.RequestProvider
+  fullName: Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.RequestProvider
+  nameWithType: RequestIdentifierOptions.RequestProvider
+- uid: Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.RequestProvider*
+  name: RequestProvider
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.html#Cuemon_AspNetCore_Http_Headers_RequestIdentifierOptions_RequestProvider_
+  commentId: Overload:Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.RequestProvider
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.Headers.RequestIdentifierOptions.RequestProvider
+  nameWithType: RequestIdentifierOptions.RequestProvider
 - uid: Cuemon.AspNetCore.Http.Headers.UserAgentException
   name: UserAgentException
   href: api/aspnetcore/Cuemon.AspNetCore.Http.Headers.UserAgentException.html
@@ -2064,6 +2175,64 @@ references:
   isSpec: "True"
   fullName: Cuemon.AspNetCore.Http.Headers.UserAgentSentinelOptions.ValidateUserAgentHeader
   nameWithType: UserAgentSentinelOptions.ValidateUserAgentHeader
+- uid: Cuemon.AspNetCore.Http.HttpExceptionDescriptor
+  name: HttpExceptionDescriptor
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpExceptionDescriptor.html
+  commentId: T:Cuemon.AspNetCore.Http.HttpExceptionDescriptor
+  fullName: Cuemon.AspNetCore.Http.HttpExceptionDescriptor
+  nameWithType: HttpExceptionDescriptor
+- uid: Cuemon.AspNetCore.Http.HttpExceptionDescriptor.#ctor(System.Exception,System.Int32,System.String,System.String,System.Uri)
+  name: HttpExceptionDescriptor(Exception, Int32, String, String, Uri)
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpExceptionDescriptor.html#Cuemon_AspNetCore_Http_HttpExceptionDescriptor__ctor_System_Exception_System_Int32_System_String_System_String_System_Uri_
+  commentId: M:Cuemon.AspNetCore.Http.HttpExceptionDescriptor.#ctor(System.Exception,System.Int32,System.String,System.String,System.Uri)
+  fullName: Cuemon.AspNetCore.Http.HttpExceptionDescriptor.HttpExceptionDescriptor(System.Exception, System.Int32, System.String, System.String, System.Uri)
+  nameWithType: HttpExceptionDescriptor.HttpExceptionDescriptor(Exception, Int32, String, String, Uri)
+- uid: Cuemon.AspNetCore.Http.HttpExceptionDescriptor.#ctor*
+  name: HttpExceptionDescriptor
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpExceptionDescriptor.html#Cuemon_AspNetCore_Http_HttpExceptionDescriptor__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Http.HttpExceptionDescriptor.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.HttpExceptionDescriptor.HttpExceptionDescriptor
+  nameWithType: HttpExceptionDescriptor.HttpExceptionDescriptor
+- uid: Cuemon.AspNetCore.Http.HttpExceptionDescriptor.CorrelationId
+  name: CorrelationId
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpExceptionDescriptor.html#Cuemon_AspNetCore_Http_HttpExceptionDescriptor_CorrelationId
+  commentId: P:Cuemon.AspNetCore.Http.HttpExceptionDescriptor.CorrelationId
+  fullName: Cuemon.AspNetCore.Http.HttpExceptionDescriptor.CorrelationId
+  nameWithType: HttpExceptionDescriptor.CorrelationId
+- uid: Cuemon.AspNetCore.Http.HttpExceptionDescriptor.CorrelationId*
+  name: CorrelationId
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpExceptionDescriptor.html#Cuemon_AspNetCore_Http_HttpExceptionDescriptor_CorrelationId_
+  commentId: Overload:Cuemon.AspNetCore.Http.HttpExceptionDescriptor.CorrelationId
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.HttpExceptionDescriptor.CorrelationId
+  nameWithType: HttpExceptionDescriptor.CorrelationId
+- uid: Cuemon.AspNetCore.Http.HttpExceptionDescriptor.RequestId
+  name: RequestId
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpExceptionDescriptor.html#Cuemon_AspNetCore_Http_HttpExceptionDescriptor_RequestId
+  commentId: P:Cuemon.AspNetCore.Http.HttpExceptionDescriptor.RequestId
+  fullName: Cuemon.AspNetCore.Http.HttpExceptionDescriptor.RequestId
+  nameWithType: HttpExceptionDescriptor.RequestId
+- uid: Cuemon.AspNetCore.Http.HttpExceptionDescriptor.RequestId*
+  name: RequestId
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpExceptionDescriptor.html#Cuemon_AspNetCore_Http_HttpExceptionDescriptor_RequestId_
+  commentId: Overload:Cuemon.AspNetCore.Http.HttpExceptionDescriptor.RequestId
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.HttpExceptionDescriptor.RequestId
+  nameWithType: HttpExceptionDescriptor.RequestId
+- uid: Cuemon.AspNetCore.Http.HttpExceptionDescriptor.StatusCode
+  name: StatusCode
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpExceptionDescriptor.html#Cuemon_AspNetCore_Http_HttpExceptionDescriptor_StatusCode
+  commentId: P:Cuemon.AspNetCore.Http.HttpExceptionDescriptor.StatusCode
+  fullName: Cuemon.AspNetCore.Http.HttpExceptionDescriptor.StatusCode
+  nameWithType: HttpExceptionDescriptor.StatusCode
+- uid: Cuemon.AspNetCore.Http.HttpExceptionDescriptor.StatusCode*
+  name: StatusCode
+  href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpExceptionDescriptor.html#Cuemon_AspNetCore_Http_HttpExceptionDescriptor_StatusCode_
+  commentId: Overload:Cuemon.AspNetCore.Http.HttpExceptionDescriptor.StatusCode
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Http.HttpExceptionDescriptor.StatusCode
+  nameWithType: HttpExceptionDescriptor.StatusCode
 - uid: Cuemon.AspNetCore.Http.HttpRequestExtensions
   name: HttpRequestExtensions
   href: api/aspnetcore/Cuemon.AspNetCore.Http.HttpRequestExtensions.html
@@ -2664,6 +2833,77 @@ references:
   isSpec: "True"
   fullName: Cuemon.AspNetCore.Infrastructure.MiddlewareCore.Next
   nameWithType: MiddlewareCore.Next
+- uid: Cuemon.AspNetCore.Int32Extensions
+  name: Int32Extensions
+  href: api/aspnetcore/Cuemon.AspNetCore.Int32Extensions.html
+  commentId: T:Cuemon.AspNetCore.Int32Extensions
+  fullName: Cuemon.AspNetCore.Int32Extensions
+  nameWithType: Int32Extensions
+- uid: Cuemon.AspNetCore.Int32Extensions.IsClientErrorStatusCode(System.Int32)
+  name: IsClientErrorStatusCode(Int32)
+  href: api/aspnetcore/Cuemon.AspNetCore.Int32Extensions.html#Cuemon_AspNetCore_Int32Extensions_IsClientErrorStatusCode_System_Int32_
+  commentId: M:Cuemon.AspNetCore.Int32Extensions.IsClientErrorStatusCode(System.Int32)
+  fullName: Cuemon.AspNetCore.Int32Extensions.IsClientErrorStatusCode(System.Int32)
+  nameWithType: Int32Extensions.IsClientErrorStatusCode(Int32)
+- uid: Cuemon.AspNetCore.Int32Extensions.IsClientErrorStatusCode*
+  name: IsClientErrorStatusCode
+  href: api/aspnetcore/Cuemon.AspNetCore.Int32Extensions.html#Cuemon_AspNetCore_Int32Extensions_IsClientErrorStatusCode_
+  commentId: Overload:Cuemon.AspNetCore.Int32Extensions.IsClientErrorStatusCode
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Int32Extensions.IsClientErrorStatusCode
+  nameWithType: Int32Extensions.IsClientErrorStatusCode
+- uid: Cuemon.AspNetCore.Int32Extensions.IsInformationStatusCode(System.Int32)
+  name: IsInformationStatusCode(Int32)
+  href: api/aspnetcore/Cuemon.AspNetCore.Int32Extensions.html#Cuemon_AspNetCore_Int32Extensions_IsInformationStatusCode_System_Int32_
+  commentId: M:Cuemon.AspNetCore.Int32Extensions.IsInformationStatusCode(System.Int32)
+  fullName: Cuemon.AspNetCore.Int32Extensions.IsInformationStatusCode(System.Int32)
+  nameWithType: Int32Extensions.IsInformationStatusCode(Int32)
+- uid: Cuemon.AspNetCore.Int32Extensions.IsInformationStatusCode*
+  name: IsInformationStatusCode
+  href: api/aspnetcore/Cuemon.AspNetCore.Int32Extensions.html#Cuemon_AspNetCore_Int32Extensions_IsInformationStatusCode_
+  commentId: Overload:Cuemon.AspNetCore.Int32Extensions.IsInformationStatusCode
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Int32Extensions.IsInformationStatusCode
+  nameWithType: Int32Extensions.IsInformationStatusCode
+- uid: Cuemon.AspNetCore.Int32Extensions.IsRedirectionStatusCode(System.Int32)
+  name: IsRedirectionStatusCode(Int32)
+  href: api/aspnetcore/Cuemon.AspNetCore.Int32Extensions.html#Cuemon_AspNetCore_Int32Extensions_IsRedirectionStatusCode_System_Int32_
+  commentId: M:Cuemon.AspNetCore.Int32Extensions.IsRedirectionStatusCode(System.Int32)
+  fullName: Cuemon.AspNetCore.Int32Extensions.IsRedirectionStatusCode(System.Int32)
+  nameWithType: Int32Extensions.IsRedirectionStatusCode(Int32)
+- uid: Cuemon.AspNetCore.Int32Extensions.IsRedirectionStatusCode*
+  name: IsRedirectionStatusCode
+  href: api/aspnetcore/Cuemon.AspNetCore.Int32Extensions.html#Cuemon_AspNetCore_Int32Extensions_IsRedirectionStatusCode_
+  commentId: Overload:Cuemon.AspNetCore.Int32Extensions.IsRedirectionStatusCode
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Int32Extensions.IsRedirectionStatusCode
+  nameWithType: Int32Extensions.IsRedirectionStatusCode
+- uid: Cuemon.AspNetCore.Int32Extensions.IsServerErrorStatusCode(System.Int32)
+  name: IsServerErrorStatusCode(Int32)
+  href: api/aspnetcore/Cuemon.AspNetCore.Int32Extensions.html#Cuemon_AspNetCore_Int32Extensions_IsServerErrorStatusCode_System_Int32_
+  commentId: M:Cuemon.AspNetCore.Int32Extensions.IsServerErrorStatusCode(System.Int32)
+  fullName: Cuemon.AspNetCore.Int32Extensions.IsServerErrorStatusCode(System.Int32)
+  nameWithType: Int32Extensions.IsServerErrorStatusCode(Int32)
+- uid: Cuemon.AspNetCore.Int32Extensions.IsServerErrorStatusCode*
+  name: IsServerErrorStatusCode
+  href: api/aspnetcore/Cuemon.AspNetCore.Int32Extensions.html#Cuemon_AspNetCore_Int32Extensions_IsServerErrorStatusCode_
+  commentId: Overload:Cuemon.AspNetCore.Int32Extensions.IsServerErrorStatusCode
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Int32Extensions.IsServerErrorStatusCode
+  nameWithType: Int32Extensions.IsServerErrorStatusCode
+- uid: Cuemon.AspNetCore.Int32Extensions.IsSuccessStatusCode(System.Int32)
+  name: IsSuccessStatusCode(Int32)
+  href: api/aspnetcore/Cuemon.AspNetCore.Int32Extensions.html#Cuemon_AspNetCore_Int32Extensions_IsSuccessStatusCode_System_Int32_
+  commentId: M:Cuemon.AspNetCore.Int32Extensions.IsSuccessStatusCode(System.Int32)
+  fullName: Cuemon.AspNetCore.Int32Extensions.IsSuccessStatusCode(System.Int32)
+  nameWithType: Int32Extensions.IsSuccessStatusCode(Int32)
+- uid: Cuemon.AspNetCore.Int32Extensions.IsSuccessStatusCode*
+  name: IsSuccessStatusCode
+  href: api/aspnetcore/Cuemon.AspNetCore.Int32Extensions.html#Cuemon_AspNetCore_Int32Extensions_IsSuccessStatusCode_
+  commentId: Overload:Cuemon.AspNetCore.Int32Extensions.IsSuccessStatusCode
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Int32Extensions.IsSuccessStatusCode
+  nameWithType: Int32Extensions.IsSuccessStatusCode
 - uid: Cuemon.AspNetCore.Integrity
   name: Cuemon.AspNetCore.Integrity
   href: api/aspnetcore/Cuemon.AspNetCore.Integrity.html
@@ -3365,12 +3605,12 @@ references:
   commentId: T:Cuemon.AspNetCore.Mvc.ExceptionDescriptorResult
   fullName: Cuemon.AspNetCore.Mvc.ExceptionDescriptorResult
   nameWithType: ExceptionDescriptorResult
-- uid: Cuemon.AspNetCore.Mvc.ExceptionDescriptorResult.#ctor(Cuemon.Diagnostics.ExceptionDescriptor)
-  name: ExceptionDescriptorResult(ExceptionDescriptor)
-  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.ExceptionDescriptorResult.html#Cuemon_AspNetCore_Mvc_ExceptionDescriptorResult__ctor_Cuemon_Diagnostics_ExceptionDescriptor_
-  commentId: M:Cuemon.AspNetCore.Mvc.ExceptionDescriptorResult.#ctor(Cuemon.Diagnostics.ExceptionDescriptor)
-  fullName: Cuemon.AspNetCore.Mvc.ExceptionDescriptorResult.ExceptionDescriptorResult(Cuemon.Diagnostics.ExceptionDescriptor)
-  nameWithType: ExceptionDescriptorResult.ExceptionDescriptorResult(ExceptionDescriptor)
+- uid: Cuemon.AspNetCore.Mvc.ExceptionDescriptorResult.#ctor(Cuemon.AspNetCore.Http.HttpExceptionDescriptor)
+  name: ExceptionDescriptorResult(HttpExceptionDescriptor)
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.ExceptionDescriptorResult.html#Cuemon_AspNetCore_Mvc_ExceptionDescriptorResult__ctor_Cuemon_AspNetCore_Http_HttpExceptionDescriptor_
+  commentId: M:Cuemon.AspNetCore.Mvc.ExceptionDescriptorResult.#ctor(Cuemon.AspNetCore.Http.HttpExceptionDescriptor)
+  fullName: Cuemon.AspNetCore.Mvc.ExceptionDescriptorResult.ExceptionDescriptorResult(Cuemon.AspNetCore.Http.HttpExceptionDescriptor)
+  nameWithType: ExceptionDescriptorResult.ExceptionDescriptorResult(HttpExceptionDescriptor)
 - uid: Cuemon.AspNetCore.Mvc.ExceptionDescriptorResult.#ctor*
   name: ExceptionDescriptorResult
   href: api/aspnetcore/Cuemon.AspNetCore.Mvc.ExceptionDescriptorResult.html#Cuemon_AspNetCore_Mvc_ExceptionDescriptorResult__ctor_
@@ -4628,19 +4868,32 @@ references:
   isSpec: "True"
   fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.ExceptionDescriptorResolver
   nameWithType: FaultDescriptorOptions.ExceptionDescriptorResolver
-- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.HttpStatusCodeResolver
-  name: HttpStatusCodeResolver
-  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_HttpStatusCodeResolver
-  commentId: P:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.HttpStatusCodeResolver
-  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.HttpStatusCodeResolver
-  nameWithType: FaultDescriptorOptions.HttpStatusCodeResolver
-- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.HttpStatusCodeResolver*
-  name: HttpStatusCodeResolver
-  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_HttpStatusCodeResolver_
-  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.HttpStatusCodeResolver
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.FaultResolvers
+  name: FaultResolvers
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_FaultResolvers
+  commentId: P:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.FaultResolvers
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.FaultResolvers
+  nameWithType: FaultDescriptorOptions.FaultResolvers
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.FaultResolvers*
+  name: FaultResolvers
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_FaultResolvers_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.FaultResolvers
   isSpec: "True"
-  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.HttpStatusCodeResolver
-  nameWithType: FaultDescriptorOptions.HttpStatusCodeResolver
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.FaultResolvers
+  nameWithType: FaultDescriptorOptions.FaultResolvers
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.HasRootHelpLink
+  name: HasRootHelpLink
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_HasRootHelpLink
+  commentId: P:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.HasRootHelpLink
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.HasRootHelpLink
+  nameWithType: FaultDescriptorOptions.HasRootHelpLink
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.HasRootHelpLink*
+  name: HasRootHelpLink
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_HasRootHelpLink_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.HasRootHelpLink
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.HasRootHelpLink
+  nameWithType: FaultDescriptorOptions.HasRootHelpLink
 - uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.IncludeRequest
   name: IncludeRequest
   href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_IncludeRequest
@@ -4680,6 +4933,94 @@ references:
   isSpec: "True"
   fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.RequestBodyParser
   nameWithType: FaultDescriptorOptions.RequestBodyParser
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.RootHelpLink
+  name: RootHelpLink
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_RootHelpLink
+  commentId: P:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.RootHelpLink
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.RootHelpLink
+  nameWithType: FaultDescriptorOptions.RootHelpLink
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.RootHelpLink*
+  name: RootHelpLink
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_RootHelpLink_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.RootHelpLink
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.RootHelpLink
+  nameWithType: FaultDescriptorOptions.RootHelpLink
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.UseBaseException
+  name: UseBaseException
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_UseBaseException
+  commentId: P:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.UseBaseException
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.UseBaseException
+  nameWithType: FaultDescriptorOptions.UseBaseException
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.UseBaseException*
+  name: UseBaseException
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultDescriptorOptions_UseBaseException_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.UseBaseException
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultDescriptorOptions.UseBaseException
+  nameWithType: FaultDescriptorOptions.UseBaseException
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver
+  name: FaultResolver
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver.html
+  commentId: T:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver
+  nameWithType: FaultResolver
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver.#ctor(System.Func{System.Exception,System.Boolean},System.Func{System.Exception,Cuemon.AspNetCore.Http.HttpExceptionDescriptor})
+  name: FaultResolver(Func<Exception, Boolean>, Func<Exception, HttpExceptionDescriptor>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultResolver__ctor_System_Func_System_Exception_System_Boolean__System_Func_System_Exception_Cuemon_AspNetCore_Http_HttpExceptionDescriptor__
+  commentId: M:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver.#ctor(System.Func{System.Exception,System.Boolean},System.Func{System.Exception,Cuemon.AspNetCore.Http.HttpExceptionDescriptor})
+  name.vb: FaultResolver(Func(Of Exception, Boolean), Func(Of Exception, HttpExceptionDescriptor))
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver.FaultResolver(System.Func<System.Exception, System.Boolean>, System.Func<System.Exception, Cuemon.AspNetCore.Http.HttpExceptionDescriptor>)
+  fullName.vb: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver.FaultResolver(System.Func(Of System.Exception, System.Boolean), System.Func(Of System.Exception, Cuemon.AspNetCore.Http.HttpExceptionDescriptor))
+  nameWithType: FaultResolver.FaultResolver(Func<Exception, Boolean>, Func<Exception, HttpExceptionDescriptor>)
+  nameWithType.vb: FaultResolver.FaultResolver(Func(Of Exception, Boolean), Func(Of Exception, HttpExceptionDescriptor))
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver.#ctor*
+  name: FaultResolver
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultResolver__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver.FaultResolver
+  nameWithType: FaultResolver.FaultResolver
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions
+  name: FaultResolverListExtensions
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.html
+  commentId: T:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions
+  nameWithType: FaultResolverListExtensions
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.Add*
+  name: Add
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultResolverListExtensions_Add_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.Add
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.Add
+  nameWithType: FaultResolverListExtensions.Add
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.Add``1(System.Collections.Generic.IList{Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver},System.Func{``0,Cuemon.AspNetCore.Http.HttpExceptionDescriptor},System.Func{System.Exception,System.Boolean})
+  name: Add<T>(IList<FaultResolver>, Func<T, HttpExceptionDescriptor>, Func<Exception, Boolean>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultResolverListExtensions_Add__1_System_Collections_Generic_IList_Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultResolver__System_Func___0_Cuemon_AspNetCore_Http_HttpExceptionDescriptor__System_Func_System_Exception_System_Boolean__
+  commentId: M:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.Add``1(System.Collections.Generic.IList{Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver},System.Func{``0,Cuemon.AspNetCore.Http.HttpExceptionDescriptor},System.Func{System.Exception,System.Boolean})
+  name.vb: Add(Of T)(IList(Of FaultResolver), Func(Of T, HttpExceptionDescriptor), Func(Of Exception, Boolean))
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.Add<T>(System.Collections.Generic.IList<Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver>, System.Func<T, Cuemon.AspNetCore.Http.HttpExceptionDescriptor>, System.Func<System.Exception, System.Boolean>)
+  fullName.vb: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.Add(Of T)(System.Collections.Generic.IList(Of Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver), System.Func(Of T, Cuemon.AspNetCore.Http.HttpExceptionDescriptor), System.Func(Of System.Exception, System.Boolean))
+  nameWithType: FaultResolverListExtensions.Add<T>(IList<FaultResolver>, Func<T, HttpExceptionDescriptor>, Func<Exception, Boolean>)
+  nameWithType.vb: FaultResolverListExtensions.Add(Of T)(IList(Of FaultResolver), Func(Of T, HttpExceptionDescriptor), Func(Of Exception, Boolean))
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.Add``1(System.Collections.Generic.IList{Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver},System.Int32,System.String,System.String,System.Uri,System.Func{System.Exception,System.Boolean})
+  name: Add<T>(IList<FaultResolver>, Int32, String, String, Uri, Func<Exception, Boolean>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultResolverListExtensions_Add__1_System_Collections_Generic_IList_Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultResolver__System_Int32_System_String_System_String_System_Uri_System_Func_System_Exception_System_Boolean__
+  commentId: M:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.Add``1(System.Collections.Generic.IList{Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver},System.Int32,System.String,System.String,System.Uri,System.Func{System.Exception,System.Boolean})
+  name.vb: Add(Of T)(IList(Of FaultResolver), Int32, String, String, Uri, Func(Of Exception, Boolean))
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.Add<T>(System.Collections.Generic.IList<Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver>, System.Int32, System.String, System.String, System.Uri, System.Func<System.Exception, System.Boolean>)
+  fullName.vb: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.Add(Of T)(System.Collections.Generic.IList(Of Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver), System.Int32, System.String, System.String, System.Uri, System.Func(Of System.Exception, System.Boolean))
+  nameWithType: FaultResolverListExtensions.Add<T>(IList<FaultResolver>, Int32, String, String, Uri, Func<Exception, Boolean>)
+  nameWithType.vb: FaultResolverListExtensions.Add(Of T)(IList(Of FaultResolver), Int32, String, String, Uri, Func(Of Exception, Boolean))
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.Add``1(System.Collections.Generic.IList{Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver},System.String,System.String,System.Uri,System.Func{System.Exception,System.Boolean})
+  name: Add<T>(IList<FaultResolver>, String, String, Uri, Func<Exception, Boolean>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultResolverListExtensions_Add__1_System_Collections_Generic_IList_Cuemon_AspNetCore_Mvc_Filters_Diagnostics_FaultResolver__System_String_System_String_System_Uri_System_Func_System_Exception_System_Boolean__
+  commentId: M:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.Add``1(System.Collections.Generic.IList{Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver},System.String,System.String,System.Uri,System.Func{System.Exception,System.Boolean})
+  name.vb: Add(Of T)(IList(Of FaultResolver), String, String, Uri, Func(Of Exception, Boolean))
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.Add<T>(System.Collections.Generic.IList<Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver>, System.String, System.String, System.Uri, System.Func<System.Exception, System.Boolean>)
+  fullName.vb: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolverListExtensions.Add(Of T)(System.Collections.Generic.IList(Of Cuemon.AspNetCore.Mvc.Filters.Diagnostics.FaultResolver), System.String, System.String, System.Uri, System.Func(Of System.Exception, System.Boolean))
+  nameWithType: FaultResolverListExtensions.Add<T>(IList<FaultResolver>, String, String, Uri, Func<Exception, Boolean>)
+  nameWithType.vb: FaultResolverListExtensions.Add(Of T)(IList(Of FaultResolver), String, String, Uri, Func(Of Exception, Boolean))
 - uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.HttpRequestEvidence
   name: HttpRequestEvidence
   href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.HttpRequestEvidence.html
@@ -4947,6 +5288,19 @@ references:
   isSpec: "True"
   fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.SuppressHeaderPredicate
   nameWithType: TimeMeasuringOptions.SuppressHeaderPredicate
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.UseCustomHeader
+  name: UseCustomHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_UseCustomHeader
+  commentId: P:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.UseCustomHeader
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.UseCustomHeader
+  nameWithType: TimeMeasuringOptions.UseCustomHeader
+- uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.UseCustomHeader*
+  name: UseCustomHeader
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_UseCustomHeader_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.UseCustomHeader
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.UseCustomHeader
+  nameWithType: TimeMeasuringOptions.UseCustomHeader
 - uid: Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.UseServerTimingHeader
   name: UseServerTimingHeader
   href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Filters.Diagnostics.TimeMeasuringOptions.html#Cuemon_AspNetCore_Mvc_Filters_Diagnostics_TimeMeasuringOptions_UseServerTimingHeader
@@ -5234,6 +5588,22 @@ references:
   commentId: T:Cuemon.AspNetCore.Mvc.Formatters.Json.Converters.JsonConverterCollectionExtensions
   fullName: Cuemon.AspNetCore.Mvc.Formatters.Json.Converters.JsonConverterCollectionExtensions
   nameWithType: JsonConverterCollectionExtensions
+- uid: Cuemon.AspNetCore.Mvc.Formatters.Json.Converters.JsonConverterCollectionExtensions.AddHttpExceptionDescriptorConverter(System.Collections.Generic.ICollection{Newtonsoft.Json.JsonConverter},System.Action{Cuemon.Serialization.ExceptionDescriptorSerializationOptions})
+  name: AddHttpExceptionDescriptorConverter(ICollection<JsonConverter>, Action<ExceptionDescriptorSerializationOptions>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.Converters.JsonConverterCollectionExtensions.html#Cuemon_AspNetCore_Mvc_Formatters_Json_Converters_JsonConverterCollectionExtensions_AddHttpExceptionDescriptorConverter_System_Collections_Generic_ICollection_Newtonsoft_Json_JsonConverter__System_Action_Cuemon_Serialization_ExceptionDescriptorSerializationOptions__
+  commentId: M:Cuemon.AspNetCore.Mvc.Formatters.Json.Converters.JsonConverterCollectionExtensions.AddHttpExceptionDescriptorConverter(System.Collections.Generic.ICollection{Newtonsoft.Json.JsonConverter},System.Action{Cuemon.Serialization.ExceptionDescriptorSerializationOptions})
+  name.vb: AddHttpExceptionDescriptorConverter(ICollection(Of JsonConverter), Action(Of ExceptionDescriptorSerializationOptions))
+  fullName: Cuemon.AspNetCore.Mvc.Formatters.Json.Converters.JsonConverterCollectionExtensions.AddHttpExceptionDescriptorConverter(System.Collections.Generic.ICollection<Newtonsoft.Json.JsonConverter>, System.Action<Cuemon.Serialization.ExceptionDescriptorSerializationOptions>)
+  fullName.vb: Cuemon.AspNetCore.Mvc.Formatters.Json.Converters.JsonConverterCollectionExtensions.AddHttpExceptionDescriptorConverter(System.Collections.Generic.ICollection(Of Newtonsoft.Json.JsonConverter), System.Action(Of Cuemon.Serialization.ExceptionDescriptorSerializationOptions))
+  nameWithType: JsonConverterCollectionExtensions.AddHttpExceptionDescriptorConverter(ICollection<JsonConverter>, Action<ExceptionDescriptorSerializationOptions>)
+  nameWithType.vb: JsonConverterCollectionExtensions.AddHttpExceptionDescriptorConverter(ICollection(Of JsonConverter), Action(Of ExceptionDescriptorSerializationOptions))
+- uid: Cuemon.AspNetCore.Mvc.Formatters.Json.Converters.JsonConverterCollectionExtensions.AddHttpExceptionDescriptorConverter*
+  name: AddHttpExceptionDescriptorConverter
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.Converters.JsonConverterCollectionExtensions.html#Cuemon_AspNetCore_Mvc_Formatters_Json_Converters_JsonConverterCollectionExtensions_AddHttpExceptionDescriptorConverter_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Formatters.Json.Converters.JsonConverterCollectionExtensions.AddHttpExceptionDescriptorConverter
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Formatters.Json.Converters.JsonConverterCollectionExtensions.AddHttpExceptionDescriptorConverter
+  nameWithType: JsonConverterCollectionExtensions.AddHttpExceptionDescriptorConverter
 - uid: Cuemon.AspNetCore.Mvc.Formatters.Json.Converters.JsonConverterCollectionExtensions.AddStringValuesConverter(System.Collections.Generic.ICollection{Newtonsoft.Json.JsonConverter})
   name: AddStringValuesConverter(ICollection<JsonConverter>)
   href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.Converters.JsonConverterCollectionExtensions.html#Cuemon_AspNetCore_Mvc_Formatters_Json_Converters_JsonConverterCollectionExtensions_AddStringValuesConverter_System_Collections_Generic_ICollection_Newtonsoft_Json_JsonConverter__
@@ -5250,6 +5620,38 @@ references:
   isSpec: "True"
   fullName: Cuemon.AspNetCore.Mvc.Formatters.Json.Converters.JsonConverterCollectionExtensions.AddStringValuesConverter
   nameWithType: JsonConverterCollectionExtensions.AddStringValuesConverter
+- uid: Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings
+  name: DefaultJsonSerializerSettings
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings.html
+  commentId: T:Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings
+  fullName: Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings
+  nameWithType: DefaultJsonSerializerSettings
+- uid: Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings.#ctor
+  name: DefaultJsonSerializerSettings()
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings.html#Cuemon_AspNetCore_Mvc_Formatters_Json_DefaultJsonSerializerSettings__ctor
+  commentId: M:Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings.#ctor
+  fullName: Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings.DefaultJsonSerializerSettings()
+  nameWithType: DefaultJsonSerializerSettings.DefaultJsonSerializerSettings()
+- uid: Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings.#ctor*
+  name: DefaultJsonSerializerSettings
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings.html#Cuemon_AspNetCore_Mvc_Formatters_Json_DefaultJsonSerializerSettings__ctor_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings.#ctor
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings.DefaultJsonSerializerSettings
+  nameWithType: DefaultJsonSerializerSettings.DefaultJsonSerializerSettings
+- uid: Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings.IncludeExceptionStackTrace
+  name: IncludeExceptionStackTrace
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings.html#Cuemon_AspNetCore_Mvc_Formatters_Json_DefaultJsonSerializerSettings_IncludeExceptionStackTrace
+  commentId: P:Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings.IncludeExceptionStackTrace
+  fullName: Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings.IncludeExceptionStackTrace
+  nameWithType: DefaultJsonSerializerSettings.IncludeExceptionStackTrace
+- uid: Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings.IncludeExceptionStackTrace*
+  name: IncludeExceptionStackTrace
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings.html#Cuemon_AspNetCore_Mvc_Formatters_Json_DefaultJsonSerializerSettings_IncludeExceptionStackTrace_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings.IncludeExceptionStackTrace
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Formatters.Json.DefaultJsonSerializerSettings.IncludeExceptionStackTrace
+  nameWithType: DefaultJsonSerializerSettings.IncludeExceptionStackTrace
 - uid: Cuemon.AspNetCore.Mvc.Formatters.Json.JsonMvcCoreBuilderExtensions
   name: JsonMvcCoreBuilderExtensions
   href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.JsonMvcCoreBuilderExtensions.html
@@ -5386,6 +5788,28 @@ references:
   isSpec: "True"
   fullName: Cuemon.AspNetCore.Mvc.Formatters.Json.JsonSerializationOutputFormatter.WriteResponseBodyAsync
   nameWithType: JsonSerializationOutputFormatter.WriteResponseBodyAsync
+- uid: Cuemon.AspNetCore.Mvc.Formatters.Json.JsonSerializerSettingsExtensions
+  name: JsonSerializerSettingsExtensions
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.JsonSerializerSettingsExtensions.html
+  commentId: T:Cuemon.AspNetCore.Mvc.Formatters.Json.JsonSerializerSettingsExtensions
+  fullName: Cuemon.AspNetCore.Mvc.Formatters.Json.JsonSerializerSettingsExtensions
+  nameWithType: JsonSerializerSettingsExtensions
+- uid: Cuemon.AspNetCore.Mvc.Formatters.Json.JsonSerializerSettingsExtensions.Use*
+  name: Use
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.JsonSerializerSettingsExtensions.html#Cuemon_AspNetCore_Mvc_Formatters_Json_JsonSerializerSettingsExtensions_Use_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Formatters.Json.JsonSerializerSettingsExtensions.Use
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Formatters.Json.JsonSerializerSettingsExtensions.Use
+  nameWithType: JsonSerializerSettingsExtensions.Use
+- uid: Cuemon.AspNetCore.Mvc.Formatters.Json.JsonSerializerSettingsExtensions.Use``1(Newtonsoft.Json.JsonSerializerSettings,System.Action{``0})
+  name: Use<T>(JsonSerializerSettings, Action<T>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Json.JsonSerializerSettingsExtensions.html#Cuemon_AspNetCore_Mvc_Formatters_Json_JsonSerializerSettingsExtensions_Use__1_Newtonsoft_Json_JsonSerializerSettings_System_Action___0__
+  commentId: M:Cuemon.AspNetCore.Mvc.Formatters.Json.JsonSerializerSettingsExtensions.Use``1(Newtonsoft.Json.JsonSerializerSettings,System.Action{``0})
+  name.vb: Use(Of T)(JsonSerializerSettings, Action(Of T))
+  fullName: Cuemon.AspNetCore.Mvc.Formatters.Json.JsonSerializerSettingsExtensions.Use<T>(Newtonsoft.Json.JsonSerializerSettings, System.Action<T>)
+  fullName.vb: Cuemon.AspNetCore.Mvc.Formatters.Json.JsonSerializerSettingsExtensions.Use(Of T)(Newtonsoft.Json.JsonSerializerSettings, System.Action(Of T))
+  nameWithType: JsonSerializerSettingsExtensions.Use<T>(JsonSerializerSettings, Action<T>)
+  nameWithType.vb: JsonSerializerSettingsExtensions.Use(Of T)(JsonSerializerSettings, Action(Of T))
 - uid: Cuemon.AspNetCore.Mvc.Formatters.Xml
   name: Cuemon.AspNetCore.Mvc.Formatters.Xml
   href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Xml.html
@@ -5452,6 +5876,22 @@ references:
   isSpec: "True"
   fullName: Cuemon.AspNetCore.Mvc.Formatters.Xml.Converters.XmlConverterListExtensions.AddHeaderDictionaryConverter
   nameWithType: XmlConverterListExtensions.AddHeaderDictionaryConverter
+- uid: Cuemon.AspNetCore.Mvc.Formatters.Xml.Converters.XmlConverterListExtensions.AddHttpExceptionDescriptorConverter(System.Collections.Generic.IList{Cuemon.Serialization.Xml.Converters.XmlConverter},System.Action{Cuemon.Serialization.ExceptionDescriptorSerializationOptions})
+  name: AddHttpExceptionDescriptorConverter(IList<XmlConverter>, Action<ExceptionDescriptorSerializationOptions>)
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Xml.Converters.XmlConverterListExtensions.html#Cuemon_AspNetCore_Mvc_Formatters_Xml_Converters_XmlConverterListExtensions_AddHttpExceptionDescriptorConverter_System_Collections_Generic_IList_Cuemon_Serialization_Xml_Converters_XmlConverter__System_Action_Cuemon_Serialization_ExceptionDescriptorSerializationOptions__
+  commentId: M:Cuemon.AspNetCore.Mvc.Formatters.Xml.Converters.XmlConverterListExtensions.AddHttpExceptionDescriptorConverter(System.Collections.Generic.IList{Cuemon.Serialization.Xml.Converters.XmlConverter},System.Action{Cuemon.Serialization.ExceptionDescriptorSerializationOptions})
+  name.vb: AddHttpExceptionDescriptorConverter(IList(Of XmlConverter), Action(Of ExceptionDescriptorSerializationOptions))
+  fullName: Cuemon.AspNetCore.Mvc.Formatters.Xml.Converters.XmlConverterListExtensions.AddHttpExceptionDescriptorConverter(System.Collections.Generic.IList<Cuemon.Serialization.Xml.Converters.XmlConverter>, System.Action<Cuemon.Serialization.ExceptionDescriptorSerializationOptions>)
+  fullName.vb: Cuemon.AspNetCore.Mvc.Formatters.Xml.Converters.XmlConverterListExtensions.AddHttpExceptionDescriptorConverter(System.Collections.Generic.IList(Of Cuemon.Serialization.Xml.Converters.XmlConverter), System.Action(Of Cuemon.Serialization.ExceptionDescriptorSerializationOptions))
+  nameWithType: XmlConverterListExtensions.AddHttpExceptionDescriptorConverter(IList<XmlConverter>, Action<ExceptionDescriptorSerializationOptions>)
+  nameWithType.vb: XmlConverterListExtensions.AddHttpExceptionDescriptorConverter(IList(Of XmlConverter), Action(Of ExceptionDescriptorSerializationOptions))
+- uid: Cuemon.AspNetCore.Mvc.Formatters.Xml.Converters.XmlConverterListExtensions.AddHttpExceptionDescriptorConverter*
+  name: AddHttpExceptionDescriptorConverter
+  href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Xml.Converters.XmlConverterListExtensions.html#Cuemon_AspNetCore_Mvc_Formatters_Xml_Converters_XmlConverterListExtensions_AddHttpExceptionDescriptorConverter_
+  commentId: Overload:Cuemon.AspNetCore.Mvc.Formatters.Xml.Converters.XmlConverterListExtensions.AddHttpExceptionDescriptorConverter
+  isSpec: "True"
+  fullName: Cuemon.AspNetCore.Mvc.Formatters.Xml.Converters.XmlConverterListExtensions.AddHttpExceptionDescriptorConverter
+  nameWithType: XmlConverterListExtensions.AddHttpExceptionDescriptorConverter
 - uid: Cuemon.AspNetCore.Mvc.Formatters.Xml.Converters.XmlConverterListExtensions.AddQueryCollectionConverter(System.Collections.Generic.IList{Cuemon.Serialization.Xml.Converters.XmlConverter})
   name: AddQueryCollectionConverter(IList<XmlConverter>)
   href: api/aspnetcore/Cuemon.AspNetCore.Mvc.Formatters.Xml.Converters.XmlConverterListExtensions.html#Cuemon_AspNetCore_Mvc_Formatters_Xml_Converters_XmlConverterListExtensions_AddQueryCollectionConverter_System_Collections_Generic_IList_Cuemon_Serialization_Xml_Converters_XmlConverter__
@@ -15827,15 +16267,12 @@ references:
   commentId: M:Cuemon.Diagnostics.ExceptionDescriptor.#ctor
   fullName: Cuemon.Diagnostics.ExceptionDescriptor.ExceptionDescriptor()
   nameWithType: ExceptionDescriptor.ExceptionDescriptor()
-- uid: Cuemon.Diagnostics.ExceptionDescriptor.#ctor(System.Exception,System.String,System.String,System.Action{Cuemon.Diagnostics.ExceptionDescriptorOptions})
-  name: ExceptionDescriptor(Exception, String, String, Action<ExceptionDescriptorOptions>)
-  href: api/core/Cuemon.Diagnostics.ExceptionDescriptor.html#Cuemon_Diagnostics_ExceptionDescriptor__ctor_System_Exception_System_String_System_String_System_Action_Cuemon_Diagnostics_ExceptionDescriptorOptions__
-  commentId: M:Cuemon.Diagnostics.ExceptionDescriptor.#ctor(System.Exception,System.String,System.String,System.Action{Cuemon.Diagnostics.ExceptionDescriptorOptions})
-  name.vb: ExceptionDescriptor(Exception, String, String, Action(Of ExceptionDescriptorOptions))
-  fullName: Cuemon.Diagnostics.ExceptionDescriptor.ExceptionDescriptor(System.Exception, System.String, System.String, System.Action<Cuemon.Diagnostics.ExceptionDescriptorOptions>)
-  fullName.vb: Cuemon.Diagnostics.ExceptionDescriptor.ExceptionDescriptor(System.Exception, System.String, System.String, System.Action(Of Cuemon.Diagnostics.ExceptionDescriptorOptions))
-  nameWithType: ExceptionDescriptor.ExceptionDescriptor(Exception, String, String, Action<ExceptionDescriptorOptions>)
-  nameWithType.vb: ExceptionDescriptor.ExceptionDescriptor(Exception, String, String, Action(Of ExceptionDescriptorOptions))
+- uid: Cuemon.Diagnostics.ExceptionDescriptor.#ctor(System.Exception,System.String,System.String,System.Uri)
+  name: ExceptionDescriptor(Exception, String, String, Uri)
+  href: api/core/Cuemon.Diagnostics.ExceptionDescriptor.html#Cuemon_Diagnostics_ExceptionDescriptor__ctor_System_Exception_System_String_System_String_System_Uri_
+  commentId: M:Cuemon.Diagnostics.ExceptionDescriptor.#ctor(System.Exception,System.String,System.String,System.Uri)
+  fullName: Cuemon.Diagnostics.ExceptionDescriptor.ExceptionDescriptor(System.Exception, System.String, System.String, System.Uri)
+  nameWithType: ExceptionDescriptor.ExceptionDescriptor(Exception, String, String, Uri)
 - uid: Cuemon.Diagnostics.ExceptionDescriptor.#ctor*
   name: ExceptionDescriptor
   href: api/core/Cuemon.Diagnostics.ExceptionDescriptor.html#Cuemon_Diagnostics_ExceptionDescriptor__ctor_
@@ -15946,19 +16383,6 @@ references:
   isSpec: "True"
   fullName: Cuemon.Diagnostics.ExceptionDescriptor.PostInitializeWith
   nameWithType: ExceptionDescriptor.PostInitializeWith
-- uid: Cuemon.Diagnostics.ExceptionDescriptor.RequestId
-  name: RequestId
-  href: api/core/Cuemon.Diagnostics.ExceptionDescriptor.html#Cuemon_Diagnostics_ExceptionDescriptor_RequestId
-  commentId: P:Cuemon.Diagnostics.ExceptionDescriptor.RequestId
-  fullName: Cuemon.Diagnostics.ExceptionDescriptor.RequestId
-  nameWithType: ExceptionDescriptor.RequestId
-- uid: Cuemon.Diagnostics.ExceptionDescriptor.RequestId*
-  name: RequestId
-  href: api/core/Cuemon.Diagnostics.ExceptionDescriptor.html#Cuemon_Diagnostics_ExceptionDescriptor_RequestId_
-  commentId: Overload:Cuemon.Diagnostics.ExceptionDescriptor.RequestId
-  isSpec: "True"
-  fullName: Cuemon.Diagnostics.ExceptionDescriptor.RequestId
-  nameWithType: ExceptionDescriptor.RequestId
 - uid: Cuemon.Diagnostics.ExceptionDescriptorAttribute
   name: ExceptionDescriptorAttribute
   href: api/core/Cuemon.Diagnostics.ExceptionDescriptorAttribute.html
@@ -16056,51 +16480,6 @@ references:
   isSpec: "True"
   fullName: Cuemon.Diagnostics.ExceptionDescriptorAttribute.MessageResourceType
   nameWithType: ExceptionDescriptorAttribute.MessageResourceType
-- uid: Cuemon.Diagnostics.ExceptionDescriptorOptions
-  name: ExceptionDescriptorOptions
-  href: api/core/Cuemon.Diagnostics.ExceptionDescriptorOptions.html
-  commentId: T:Cuemon.Diagnostics.ExceptionDescriptorOptions
-  fullName: Cuemon.Diagnostics.ExceptionDescriptorOptions
-  nameWithType: ExceptionDescriptorOptions
-- uid: Cuemon.Diagnostics.ExceptionDescriptorOptions.#ctor
-  name: ExceptionDescriptorOptions()
-  href: api/core/Cuemon.Diagnostics.ExceptionDescriptorOptions.html#Cuemon_Diagnostics_ExceptionDescriptorOptions__ctor
-  commentId: M:Cuemon.Diagnostics.ExceptionDescriptorOptions.#ctor
-  fullName: Cuemon.Diagnostics.ExceptionDescriptorOptions.ExceptionDescriptorOptions()
-  nameWithType: ExceptionDescriptorOptions.ExceptionDescriptorOptions()
-- uid: Cuemon.Diagnostics.ExceptionDescriptorOptions.#ctor*
-  name: ExceptionDescriptorOptions
-  href: api/core/Cuemon.Diagnostics.ExceptionDescriptorOptions.html#Cuemon_Diagnostics_ExceptionDescriptorOptions__ctor_
-  commentId: Overload:Cuemon.Diagnostics.ExceptionDescriptorOptions.#ctor
-  isSpec: "True"
-  fullName: Cuemon.Diagnostics.ExceptionDescriptorOptions.ExceptionDescriptorOptions
-  nameWithType: ExceptionDescriptorOptions.ExceptionDescriptorOptions
-- uid: Cuemon.Diagnostics.ExceptionDescriptorOptions.HelpLink
-  name: HelpLink
-  href: api/core/Cuemon.Diagnostics.ExceptionDescriptorOptions.html#Cuemon_Diagnostics_ExceptionDescriptorOptions_HelpLink
-  commentId: P:Cuemon.Diagnostics.ExceptionDescriptorOptions.HelpLink
-  fullName: Cuemon.Diagnostics.ExceptionDescriptorOptions.HelpLink
-  nameWithType: ExceptionDescriptorOptions.HelpLink
-- uid: Cuemon.Diagnostics.ExceptionDescriptorOptions.HelpLink*
-  name: HelpLink
-  href: api/core/Cuemon.Diagnostics.ExceptionDescriptorOptions.html#Cuemon_Diagnostics_ExceptionDescriptorOptions_HelpLink_
-  commentId: Overload:Cuemon.Diagnostics.ExceptionDescriptorOptions.HelpLink
-  isSpec: "True"
-  fullName: Cuemon.Diagnostics.ExceptionDescriptorOptions.HelpLink
-  nameWithType: ExceptionDescriptorOptions.HelpLink
-- uid: Cuemon.Diagnostics.ExceptionDescriptorOptions.UseBaseException
-  name: UseBaseException
-  href: api/core/Cuemon.Diagnostics.ExceptionDescriptorOptions.html#Cuemon_Diagnostics_ExceptionDescriptorOptions_UseBaseException
-  commentId: P:Cuemon.Diagnostics.ExceptionDescriptorOptions.UseBaseException
-  fullName: Cuemon.Diagnostics.ExceptionDescriptorOptions.UseBaseException
-  nameWithType: ExceptionDescriptorOptions.UseBaseException
-- uid: Cuemon.Diagnostics.ExceptionDescriptorOptions.UseBaseException*
-  name: UseBaseException
-  href: api/core/Cuemon.Diagnostics.ExceptionDescriptorOptions.html#Cuemon_Diagnostics_ExceptionDescriptorOptions_UseBaseException_
-  commentId: Overload:Cuemon.Diagnostics.ExceptionDescriptorOptions.UseBaseException
-  isSpec: "True"
-  fullName: Cuemon.Diagnostics.ExceptionDescriptorOptions.UseBaseException
-  nameWithType: ExceptionDescriptorOptions.UseBaseException
 - uid: Cuemon.Diagnostics.FileVersionInfoExtensions
   name: FileVersionInfoExtensions
   href: api/core/Cuemon.Diagnostics.FileVersionInfoExtensions.html
@@ -20387,80 +20766,6 @@ references:
   isSpec: "True"
   fullName: Cuemon.IO.TextReaderConverterExtensions.ToTextReader
   nameWithType: TextReaderConverterExtensions.ToTextReader
-- uid: Cuemon.IO.XmlStreamConverter
-  name: XmlStreamConverter
-  href: api/core/Cuemon.IO.XmlStreamConverter.html
-  commentId: T:Cuemon.IO.XmlStreamConverter
-  fullName: Cuemon.IO.XmlStreamConverter
-  nameWithType: XmlStreamConverter
-- uid: Cuemon.IO.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding)
-  name: ChangeEncoding(Stream, Encoding)
-  href: api/core/Cuemon.IO.XmlStreamConverter.html#Cuemon_IO_XmlStreamConverter_ChangeEncoding_System_IO_Stream_System_Text_Encoding_
-  commentId: M:Cuemon.IO.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding)
-  fullName: Cuemon.IO.XmlStreamConverter.ChangeEncoding(System.IO.Stream, System.Text.Encoding)
-  nameWithType: XmlStreamConverter.ChangeEncoding(Stream, Encoding)
-- uid: Cuemon.IO.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,Cuemon.PreambleSequence)
-  name: ChangeEncoding(Stream, Encoding, PreambleSequence)
-  href: api/core/Cuemon.IO.XmlStreamConverter.html#Cuemon_IO_XmlStreamConverter_ChangeEncoding_System_IO_Stream_System_Text_Encoding_Cuemon_PreambleSequence_
-  commentId: M:Cuemon.IO.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,Cuemon.PreambleSequence)
-  fullName: Cuemon.IO.XmlStreamConverter.ChangeEncoding(System.IO.Stream, System.Text.Encoding, Cuemon.PreambleSequence)
-  nameWithType: XmlStreamConverter.ChangeEncoding(Stream, Encoding, PreambleSequence)
-- uid: Cuemon.IO.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,System.Boolean)
-  name: ChangeEncoding(Stream, Encoding, Boolean)
-  href: api/core/Cuemon.IO.XmlStreamConverter.html#Cuemon_IO_XmlStreamConverter_ChangeEncoding_System_IO_Stream_System_Text_Encoding_System_Boolean_
-  commentId: M:Cuemon.IO.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,System.Boolean)
-  fullName: Cuemon.IO.XmlStreamConverter.ChangeEncoding(System.IO.Stream, System.Text.Encoding, System.Boolean)
-  nameWithType: XmlStreamConverter.ChangeEncoding(Stream, Encoding, Boolean)
-- uid: Cuemon.IO.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,System.Text.Encoding,Cuemon.PreambleSequence)
-  name: ChangeEncoding(Stream, Encoding, Encoding, PreambleSequence)
-  href: api/core/Cuemon.IO.XmlStreamConverter.html#Cuemon_IO_XmlStreamConverter_ChangeEncoding_System_IO_Stream_System_Text_Encoding_System_Text_Encoding_Cuemon_PreambleSequence_
-  commentId: M:Cuemon.IO.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,System.Text.Encoding,Cuemon.PreambleSequence)
-  fullName: Cuemon.IO.XmlStreamConverter.ChangeEncoding(System.IO.Stream, System.Text.Encoding, System.Text.Encoding, Cuemon.PreambleSequence)
-  nameWithType: XmlStreamConverter.ChangeEncoding(Stream, Encoding, Encoding, PreambleSequence)
-- uid: Cuemon.IO.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,System.Text.Encoding,Cuemon.PreambleSequence,System.Boolean)
-  name: ChangeEncoding(Stream, Encoding, Encoding, PreambleSequence, Boolean)
-  href: api/core/Cuemon.IO.XmlStreamConverter.html#Cuemon_IO_XmlStreamConverter_ChangeEncoding_System_IO_Stream_System_Text_Encoding_System_Text_Encoding_Cuemon_PreambleSequence_System_Boolean_
-  commentId: M:Cuemon.IO.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,System.Text.Encoding,Cuemon.PreambleSequence,System.Boolean)
-  fullName: Cuemon.IO.XmlStreamConverter.ChangeEncoding(System.IO.Stream, System.Text.Encoding, System.Text.Encoding, Cuemon.PreambleSequence, System.Boolean)
-  nameWithType: XmlStreamConverter.ChangeEncoding(Stream, Encoding, Encoding, PreambleSequence, Boolean)
-- uid: Cuemon.IO.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,System.Text.Encoding,System.Boolean)
-  name: ChangeEncoding(Stream, Encoding, Encoding, Boolean)
-  href: api/core/Cuemon.IO.XmlStreamConverter.html#Cuemon_IO_XmlStreamConverter_ChangeEncoding_System_IO_Stream_System_Text_Encoding_System_Text_Encoding_System_Boolean_
-  commentId: M:Cuemon.IO.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,System.Text.Encoding,System.Boolean)
-  fullName: Cuemon.IO.XmlStreamConverter.ChangeEncoding(System.IO.Stream, System.Text.Encoding, System.Text.Encoding, System.Boolean)
-  nameWithType: XmlStreamConverter.ChangeEncoding(Stream, Encoding, Encoding, Boolean)
-- uid: Cuemon.IO.XmlStreamConverter.ChangeEncoding*
-  name: ChangeEncoding
-  href: api/core/Cuemon.IO.XmlStreamConverter.html#Cuemon_IO_XmlStreamConverter_ChangeEncoding_
-  commentId: Overload:Cuemon.IO.XmlStreamConverter.ChangeEncoding
-  isSpec: "True"
-  fullName: Cuemon.IO.XmlStreamConverter.ChangeEncoding
-  nameWithType: XmlStreamConverter.ChangeEncoding
-- uid: Cuemon.IO.XmlStreamConverter.FromException(System.Exception)
-  name: FromException(Exception)
-  href: api/core/Cuemon.IO.XmlStreamConverter.html#Cuemon_IO_XmlStreamConverter_FromException_System_Exception_
-  commentId: M:Cuemon.IO.XmlStreamConverter.FromException(System.Exception)
-  fullName: Cuemon.IO.XmlStreamConverter.FromException(System.Exception)
-  nameWithType: XmlStreamConverter.FromException(Exception)
-- uid: Cuemon.IO.XmlStreamConverter.FromException(System.Exception,System.Text.Encoding)
-  name: FromException(Exception, Encoding)
-  href: api/core/Cuemon.IO.XmlStreamConverter.html#Cuemon_IO_XmlStreamConverter_FromException_System_Exception_System_Text_Encoding_
-  commentId: M:Cuemon.IO.XmlStreamConverter.FromException(System.Exception,System.Text.Encoding)
-  fullName: Cuemon.IO.XmlStreamConverter.FromException(System.Exception, System.Text.Encoding)
-  nameWithType: XmlStreamConverter.FromException(Exception, Encoding)
-- uid: Cuemon.IO.XmlStreamConverter.FromException(System.Exception,System.Text.Encoding,System.Boolean)
-  name: FromException(Exception, Encoding, Boolean)
-  href: api/core/Cuemon.IO.XmlStreamConverter.html#Cuemon_IO_XmlStreamConverter_FromException_System_Exception_System_Text_Encoding_System_Boolean_
-  commentId: M:Cuemon.IO.XmlStreamConverter.FromException(System.Exception,System.Text.Encoding,System.Boolean)
-  fullName: Cuemon.IO.XmlStreamConverter.FromException(System.Exception, System.Text.Encoding, System.Boolean)
-  nameWithType: XmlStreamConverter.FromException(Exception, Encoding, Boolean)
-- uid: Cuemon.IO.XmlStreamConverter.FromException*
-  name: FromException
-  href: api/core/Cuemon.IO.XmlStreamConverter.html#Cuemon_IO_XmlStreamConverter_FromException_
-  commentId: Overload:Cuemon.IO.XmlStreamConverter.FromException
-  isSpec: "True"
-  fullName: Cuemon.IO.XmlStreamConverter.FromException
-  nameWithType: XmlStreamConverter.FromException
 - uid: Cuemon.IWrapper`1
   name: IWrapper<T>
   href: api/core/Cuemon.IWrapper-1.html
@@ -21107,6 +21412,34 @@ references:
   isSpec: "True"
   fullName: Cuemon.Messaging.DynamicCorrelation.Create
   nameWithType: DynamicCorrelation.Create
+- uid: Cuemon.Messaging.DynamicRequest
+  name: DynamicRequest
+  href: api/core/Cuemon.Messaging.DynamicRequest.html
+  commentId: T:Cuemon.Messaging.DynamicRequest
+  fullName: Cuemon.Messaging.DynamicRequest
+  nameWithType: DynamicRequest
+- uid: Cuemon.Messaging.DynamicRequest.Create(System.Func{System.String})
+  name: Create(Func<String>)
+  href: api/core/Cuemon.Messaging.DynamicRequest.html#Cuemon_Messaging_DynamicRequest_Create_System_Func_System_String__
+  commentId: M:Cuemon.Messaging.DynamicRequest.Create(System.Func{System.String})
+  name.vb: Create(Func(Of String))
+  fullName: Cuemon.Messaging.DynamicRequest.Create(System.Func<System.String>)
+  fullName.vb: Cuemon.Messaging.DynamicRequest.Create(System.Func(Of System.String))
+  nameWithType: DynamicRequest.Create(Func<String>)
+  nameWithType.vb: DynamicRequest.Create(Func(Of String))
+- uid: Cuemon.Messaging.DynamicRequest.Create(System.String)
+  name: Create(String)
+  href: api/core/Cuemon.Messaging.DynamicRequest.html#Cuemon_Messaging_DynamicRequest_Create_System_String_
+  commentId: M:Cuemon.Messaging.DynamicRequest.Create(System.String)
+  fullName: Cuemon.Messaging.DynamicRequest.Create(System.String)
+  nameWithType: DynamicRequest.Create(String)
+- uid: Cuemon.Messaging.DynamicRequest.Create*
+  name: Create
+  href: api/core/Cuemon.Messaging.DynamicRequest.html#Cuemon_Messaging_DynamicRequest_Create_
+  commentId: Overload:Cuemon.Messaging.DynamicRequest.Create
+  isSpec: "True"
+  fullName: Cuemon.Messaging.DynamicRequest.Create
+  nameWithType: DynamicRequest.Create
 - uid: Cuemon.Messaging.ICorrelation
   name: ICorrelation
   href: api/core/Cuemon.Messaging.ICorrelation.html
@@ -21126,6 +21459,25 @@ references:
   isSpec: "True"
   fullName: Cuemon.Messaging.ICorrelation.CorrelationId
   nameWithType: ICorrelation.CorrelationId
+- uid: Cuemon.Messaging.IRequest
+  name: IRequest
+  href: api/core/Cuemon.Messaging.IRequest.html
+  commentId: T:Cuemon.Messaging.IRequest
+  fullName: Cuemon.Messaging.IRequest
+  nameWithType: IRequest
+- uid: Cuemon.Messaging.IRequest.RequestId
+  name: RequestId
+  href: api/core/Cuemon.Messaging.IRequest.html#Cuemon_Messaging_IRequest_RequestId
+  commentId: P:Cuemon.Messaging.IRequest.RequestId
+  fullName: Cuemon.Messaging.IRequest.RequestId
+  nameWithType: IRequest.RequestId
+- uid: Cuemon.Messaging.IRequest.RequestId*
+  name: RequestId
+  href: api/core/Cuemon.Messaging.IRequest.html#Cuemon_Messaging_IRequest_RequestId_
+  commentId: Overload:Cuemon.Messaging.IRequest.RequestId
+  isSpec: "True"
+  fullName: Cuemon.Messaging.IRequest.RequestId
+  nameWithType: IRequest.RequestId
 - uid: Cuemon.MethodWrappedException
   name: MethodWrappedException
   href: api/core/Cuemon.MethodWrappedException.html
@@ -21582,19 +21934,48 @@ references:
   isSpec: "True"
   fullName: Cuemon.Net.Http.HttpManagerOptions.DisposeHandler
   nameWithType: HttpManagerOptions.DisposeHandler
-- uid: Cuemon.Net.Http.HttpManagerOptions.Handler
-  name: Handler
-  href: api/core/Cuemon.Net.Http.HttpManagerOptions.html#Cuemon_Net_Http_HttpManagerOptions_Handler
-  commentId: P:Cuemon.Net.Http.HttpManagerOptions.Handler
-  fullName: Cuemon.Net.Http.HttpManagerOptions.Handler
-  nameWithType: HttpManagerOptions.Handler
-- uid: Cuemon.Net.Http.HttpManagerOptions.Handler*
-  name: Handler
-  href: api/core/Cuemon.Net.Http.HttpManagerOptions.html#Cuemon_Net_Http_HttpManagerOptions_Handler_
-  commentId: Overload:Cuemon.Net.Http.HttpManagerOptions.Handler
+- uid: Cuemon.Net.Http.HttpManagerOptions.HandlerFactory
+  name: HandlerFactory
+  href: api/core/Cuemon.Net.Http.HttpManagerOptions.html#Cuemon_Net_Http_HttpManagerOptions_HandlerFactory
+  commentId: P:Cuemon.Net.Http.HttpManagerOptions.HandlerFactory
+  fullName: Cuemon.Net.Http.HttpManagerOptions.HandlerFactory
+  nameWithType: HttpManagerOptions.HandlerFactory
+- uid: Cuemon.Net.Http.HttpManagerOptions.HandlerFactory*
+  name: HandlerFactory
+  href: api/core/Cuemon.Net.Http.HttpManagerOptions.html#Cuemon_Net_Http_HttpManagerOptions_HandlerFactory_
+  commentId: Overload:Cuemon.Net.Http.HttpManagerOptions.HandlerFactory
   isSpec: "True"
-  fullName: Cuemon.Net.Http.HttpManagerOptions.Handler
-  nameWithType: HttpManagerOptions.Handler
+  fullName: Cuemon.Net.Http.HttpManagerOptions.HandlerFactory
+  nameWithType: HttpManagerOptions.HandlerFactory
+- uid: Cuemon.Net.Http.HttpManagerOptions.SetHandlerFactory*
+  name: SetHandlerFactory
+  href: api/core/Cuemon.Net.Http.HttpManagerOptions.html#Cuemon_Net_Http_HttpManagerOptions_SetHandlerFactory_
+  commentId: Overload:Cuemon.Net.Http.HttpManagerOptions.SetHandlerFactory
+  isSpec: "True"
+  fullName: Cuemon.Net.Http.HttpManagerOptions.SetHandlerFactory
+  nameWithType: HttpManagerOptions.SetHandlerFactory
+- uid: Cuemon.Net.Http.HttpManagerOptions.SetHandlerFactory``1(System.Action{``0})
+  name: SetHandlerFactory<T>(Action<T>)
+  href: api/core/Cuemon.Net.Http.HttpManagerOptions.html#Cuemon_Net_Http_HttpManagerOptions_SetHandlerFactory__1_System_Action___0__
+  commentId: M:Cuemon.Net.Http.HttpManagerOptions.SetHandlerFactory``1(System.Action{``0})
+  name.vb: SetHandlerFactory(Of T)(Action(Of T))
+  fullName: Cuemon.Net.Http.HttpManagerOptions.SetHandlerFactory<T>(System.Action<T>)
+  fullName.vb: Cuemon.Net.Http.HttpManagerOptions.SetHandlerFactory(Of T)(System.Action(Of T))
+  nameWithType: HttpManagerOptions.SetHandlerFactory<T>(Action<T>)
+  nameWithType.vb: HttpManagerOptions.SetHandlerFactory(Of T)(Action(Of T))
+- uid: Cuemon.Net.Http.HttpManagerOptions.Timeout
+  name: Timeout
+  href: api/core/Cuemon.Net.Http.HttpManagerOptions.html#Cuemon_Net_Http_HttpManagerOptions_Timeout
+  commentId: P:Cuemon.Net.Http.HttpManagerOptions.Timeout
+  fullName: Cuemon.Net.Http.HttpManagerOptions.Timeout
+  nameWithType: HttpManagerOptions.Timeout
+- uid: Cuemon.Net.Http.HttpManagerOptions.Timeout*
+  name: Timeout
+  href: api/core/Cuemon.Net.Http.HttpManagerOptions.html#Cuemon_Net_Http_HttpManagerOptions_Timeout_
+  commentId: Overload:Cuemon.Net.Http.HttpManagerOptions.Timeout
+  isSpec: "True"
+  fullName: Cuemon.Net.Http.HttpManagerOptions.Timeout
+  nameWithType: HttpManagerOptions.Timeout
 - uid: Cuemon.Net.Http.HttpMethodConverter
   name: HttpMethodConverter
   href: api/core/Cuemon.Net.Http.HttpMethodConverter.html
@@ -21738,6 +22119,58 @@ references:
   commentId: T:Cuemon.Net.HttpStatusCodeExtensions
   fullName: Cuemon.Net.HttpStatusCodeExtensions
   nameWithType: HttpStatusCodeExtensions
+- uid: Cuemon.Net.HttpStatusCodeExtensions.IsClientErrorStatusCode(System.Net.HttpStatusCode)
+  name: IsClientErrorStatusCode(HttpStatusCode)
+  href: api/core/Cuemon.Net.HttpStatusCodeExtensions.html#Cuemon_Net_HttpStatusCodeExtensions_IsClientErrorStatusCode_System_Net_HttpStatusCode_
+  commentId: M:Cuemon.Net.HttpStatusCodeExtensions.IsClientErrorStatusCode(System.Net.HttpStatusCode)
+  fullName: Cuemon.Net.HttpStatusCodeExtensions.IsClientErrorStatusCode(System.Net.HttpStatusCode)
+  nameWithType: HttpStatusCodeExtensions.IsClientErrorStatusCode(HttpStatusCode)
+- uid: Cuemon.Net.HttpStatusCodeExtensions.IsClientErrorStatusCode*
+  name: IsClientErrorStatusCode
+  href: api/core/Cuemon.Net.HttpStatusCodeExtensions.html#Cuemon_Net_HttpStatusCodeExtensions_IsClientErrorStatusCode_
+  commentId: Overload:Cuemon.Net.HttpStatusCodeExtensions.IsClientErrorStatusCode
+  isSpec: "True"
+  fullName: Cuemon.Net.HttpStatusCodeExtensions.IsClientErrorStatusCode
+  nameWithType: HttpStatusCodeExtensions.IsClientErrorStatusCode
+- uid: Cuemon.Net.HttpStatusCodeExtensions.IsInformationStatusCode(System.Net.HttpStatusCode)
+  name: IsInformationStatusCode(HttpStatusCode)
+  href: api/core/Cuemon.Net.HttpStatusCodeExtensions.html#Cuemon_Net_HttpStatusCodeExtensions_IsInformationStatusCode_System_Net_HttpStatusCode_
+  commentId: M:Cuemon.Net.HttpStatusCodeExtensions.IsInformationStatusCode(System.Net.HttpStatusCode)
+  fullName: Cuemon.Net.HttpStatusCodeExtensions.IsInformationStatusCode(System.Net.HttpStatusCode)
+  nameWithType: HttpStatusCodeExtensions.IsInformationStatusCode(HttpStatusCode)
+- uid: Cuemon.Net.HttpStatusCodeExtensions.IsInformationStatusCode*
+  name: IsInformationStatusCode
+  href: api/core/Cuemon.Net.HttpStatusCodeExtensions.html#Cuemon_Net_HttpStatusCodeExtensions_IsInformationStatusCode_
+  commentId: Overload:Cuemon.Net.HttpStatusCodeExtensions.IsInformationStatusCode
+  isSpec: "True"
+  fullName: Cuemon.Net.HttpStatusCodeExtensions.IsInformationStatusCode
+  nameWithType: HttpStatusCodeExtensions.IsInformationStatusCode
+- uid: Cuemon.Net.HttpStatusCodeExtensions.IsRedirectionStatusCode(System.Net.HttpStatusCode)
+  name: IsRedirectionStatusCode(HttpStatusCode)
+  href: api/core/Cuemon.Net.HttpStatusCodeExtensions.html#Cuemon_Net_HttpStatusCodeExtensions_IsRedirectionStatusCode_System_Net_HttpStatusCode_
+  commentId: M:Cuemon.Net.HttpStatusCodeExtensions.IsRedirectionStatusCode(System.Net.HttpStatusCode)
+  fullName: Cuemon.Net.HttpStatusCodeExtensions.IsRedirectionStatusCode(System.Net.HttpStatusCode)
+  nameWithType: HttpStatusCodeExtensions.IsRedirectionStatusCode(HttpStatusCode)
+- uid: Cuemon.Net.HttpStatusCodeExtensions.IsRedirectionStatusCode*
+  name: IsRedirectionStatusCode
+  href: api/core/Cuemon.Net.HttpStatusCodeExtensions.html#Cuemon_Net_HttpStatusCodeExtensions_IsRedirectionStatusCode_
+  commentId: Overload:Cuemon.Net.HttpStatusCodeExtensions.IsRedirectionStatusCode
+  isSpec: "True"
+  fullName: Cuemon.Net.HttpStatusCodeExtensions.IsRedirectionStatusCode
+  nameWithType: HttpStatusCodeExtensions.IsRedirectionStatusCode
+- uid: Cuemon.Net.HttpStatusCodeExtensions.IsServerErrorStatusCode(System.Net.HttpStatusCode)
+  name: IsServerErrorStatusCode(HttpStatusCode)
+  href: api/core/Cuemon.Net.HttpStatusCodeExtensions.html#Cuemon_Net_HttpStatusCodeExtensions_IsServerErrorStatusCode_System_Net_HttpStatusCode_
+  commentId: M:Cuemon.Net.HttpStatusCodeExtensions.IsServerErrorStatusCode(System.Net.HttpStatusCode)
+  fullName: Cuemon.Net.HttpStatusCodeExtensions.IsServerErrorStatusCode(System.Net.HttpStatusCode)
+  nameWithType: HttpStatusCodeExtensions.IsServerErrorStatusCode(HttpStatusCode)
+- uid: Cuemon.Net.HttpStatusCodeExtensions.IsServerErrorStatusCode*
+  name: IsServerErrorStatusCode
+  href: api/core/Cuemon.Net.HttpStatusCodeExtensions.html#Cuemon_Net_HttpStatusCodeExtensions_IsServerErrorStatusCode_
+  commentId: Overload:Cuemon.Net.HttpStatusCodeExtensions.IsServerErrorStatusCode
+  isSpec: "True"
+  fullName: Cuemon.Net.HttpStatusCodeExtensions.IsServerErrorStatusCode
+  nameWithType: HttpStatusCodeExtensions.IsServerErrorStatusCode
 - uid: Cuemon.Net.HttpStatusCodeExtensions.IsSuccessStatusCode(System.Net.HttpStatusCode)
   name: IsSuccessStatusCode(HttpStatusCode)
   href: api/core/Cuemon.Net.HttpStatusCodeExtensions.html#Cuemon_Net_HttpStatusCodeExtensions_IsSuccessStatusCode_System_Net_HttpStatusCode_
@@ -29627,6 +30060,15 @@ references:
   isSpec: "True"
   fullName: Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.AddDataPairConverter
   nameWithType: JsonConverterCollectionExtensions.AddDataPairConverter
+- uid: Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.AddExceptionConverter(ICollection{JsonConverter},Func{System.Boolean})
+  name: AddExceptionConverter(ICollection<JsonConverter>, Func<Boolean>)
+  href: api/jsoncore/Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.html#Cuemon_Serialization_Json_Converters_JsonConverterCollectionExtensions_AddExceptionConverter_ICollection_JsonConverter__Func_System_Boolean__
+  commentId: M:Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.AddExceptionConverter(ICollection{JsonConverter},Func{System.Boolean})
+  name.vb: AddExceptionConverter(ICollection(Of JsonConverter), Func(Of Boolean))
+  fullName: Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.AddExceptionConverter(ICollection<JsonConverter>, Func<System.Boolean>)
+  fullName.vb: Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.AddExceptionConverter(ICollection(Of JsonConverter), Func(Of System.Boolean))
+  nameWithType: JsonConverterCollectionExtensions.AddExceptionConverter(ICollection<JsonConverter>, Func<Boolean>)
+  nameWithType.vb: JsonConverterCollectionExtensions.AddExceptionConverter(ICollection(Of JsonConverter), Func(Of Boolean))
 - uid: Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.AddExceptionConverter(ICollection{JsonConverter},System.Boolean)
   name: AddExceptionConverter(ICollection<JsonConverter>, Boolean)
   href: api/jsoncore/Cuemon.Serialization.Json.Converters.JsonConverterCollectionExtensions.html#Cuemon_Serialization_Json_Converters_JsonConverterCollectionExtensions_AddExceptionConverter_ICollection_JsonConverter__System_Boolean_
@@ -30438,6 +30880,15 @@ references:
   fullName.vb: Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.AddExceptionConverter(System.Collections.Generic.IList(Of Cuemon.Serialization.Xml.Converters.XmlConverter), System.Boolean)
   nameWithType: XmlConverterListExtensions.AddExceptionConverter(IList<XmlConverter>, Boolean)
   nameWithType.vb: XmlConverterListExtensions.AddExceptionConverter(IList(Of XmlConverter), Boolean)
+- uid: Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.AddExceptionConverter(System.Collections.Generic.IList{Cuemon.Serialization.Xml.Converters.XmlConverter},System.Func{System.Boolean})
+  name: AddExceptionConverter(IList<XmlConverter>, Func<Boolean>)
+  href: api/core/Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.html#Cuemon_Serialization_Xml_Converters_XmlConverterListExtensions_AddExceptionConverter_System_Collections_Generic_IList_Cuemon_Serialization_Xml_Converters_XmlConverter__System_Func_System_Boolean__
+  commentId: M:Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.AddExceptionConverter(System.Collections.Generic.IList{Cuemon.Serialization.Xml.Converters.XmlConverter},System.Func{System.Boolean})
+  name.vb: AddExceptionConverter(IList(Of XmlConverter), Func(Of Boolean))
+  fullName: Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.AddExceptionConverter(System.Collections.Generic.IList<Cuemon.Serialization.Xml.Converters.XmlConverter>, System.Func<System.Boolean>)
+  fullName.vb: Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.AddExceptionConverter(System.Collections.Generic.IList(Of Cuemon.Serialization.Xml.Converters.XmlConverter), System.Func(Of System.Boolean))
+  nameWithType: XmlConverterListExtensions.AddExceptionConverter(IList<XmlConverter>, Func<Boolean>)
+  nameWithType.vb: XmlConverterListExtensions.AddExceptionConverter(IList(Of XmlConverter), Func(Of Boolean))
 - uid: Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.AddExceptionConverter*
   name: AddExceptionConverter
   href: api/core/Cuemon.Serialization.Xml.Converters.XmlConverterListExtensions.html#Cuemon_Serialization_Xml_Converters_XmlConverterListExtensions_AddExceptionConverter_
@@ -43903,37 +44354,6 @@ references:
   isSpec: "True"
   fullName: Cuemon.Xml.XmlDocumentConverter.FromUri
   nameWithType: XmlDocumentConverter.FromUri
-- uid: Cuemon.Xml.XmlElementConverter
-  name: XmlElementConverter
-  href: api/core/Cuemon.Xml.XmlElementConverter.html
-  commentId: T:Cuemon.Xml.XmlElementConverter
-  fullName: Cuemon.Xml.XmlElementConverter
-  nameWithType: XmlElementConverter
-- uid: Cuemon.Xml.XmlElementConverter.FromException(System.Exception)
-  name: FromException(Exception)
-  href: api/core/Cuemon.Xml.XmlElementConverter.html#Cuemon_Xml_XmlElementConverter_FromException_System_Exception_
-  commentId: M:Cuemon.Xml.XmlElementConverter.FromException(System.Exception)
-  fullName: Cuemon.Xml.XmlElementConverter.FromException(System.Exception)
-  nameWithType: XmlElementConverter.FromException(Exception)
-- uid: Cuemon.Xml.XmlElementConverter.FromException(System.Exception,System.Text.Encoding)
-  name: FromException(Exception, Encoding)
-  href: api/core/Cuemon.Xml.XmlElementConverter.html#Cuemon_Xml_XmlElementConverter_FromException_System_Exception_System_Text_Encoding_
-  commentId: M:Cuemon.Xml.XmlElementConverter.FromException(System.Exception,System.Text.Encoding)
-  fullName: Cuemon.Xml.XmlElementConverter.FromException(System.Exception, System.Text.Encoding)
-  nameWithType: XmlElementConverter.FromException(Exception, Encoding)
-- uid: Cuemon.Xml.XmlElementConverter.FromException(System.Exception,System.Text.Encoding,System.Boolean)
-  name: FromException(Exception, Encoding, Boolean)
-  href: api/core/Cuemon.Xml.XmlElementConverter.html#Cuemon_Xml_XmlElementConverter_FromException_System_Exception_System_Text_Encoding_System_Boolean_
-  commentId: M:Cuemon.Xml.XmlElementConverter.FromException(System.Exception,System.Text.Encoding,System.Boolean)
-  fullName: Cuemon.Xml.XmlElementConverter.FromException(System.Exception, System.Text.Encoding, System.Boolean)
-  nameWithType: XmlElementConverter.FromException(Exception, Encoding, Boolean)
-- uid: Cuemon.Xml.XmlElementConverter.FromException*
-  name: FromException
-  href: api/core/Cuemon.Xml.XmlElementConverter.html#Cuemon_Xml_XmlElementConverter_FromException_
-  commentId: Overload:Cuemon.Xml.XmlElementConverter.FromException
-  isSpec: "True"
-  fullName: Cuemon.Xml.XmlElementConverter.FromException
-  nameWithType: XmlElementConverter.FromException
 - uid: Cuemon.Xml.XmlEncodingUtility
   name: XmlEncodingUtility
   href: api/core/Cuemon.Xml.XmlEncodingUtility.html
@@ -44104,6 +44524,55 @@ references:
   isSpec: "True"
   fullName: Cuemon.Xml.XmlReaderUtilityExtensions.Chunk
   nameWithType: XmlReaderUtilityExtensions.Chunk
+- uid: Cuemon.Xml.XmlStreamConverter
+  name: XmlStreamConverter
+  href: api/core/Cuemon.Xml.XmlStreamConverter.html
+  commentId: T:Cuemon.Xml.XmlStreamConverter
+  fullName: Cuemon.Xml.XmlStreamConverter
+  nameWithType: XmlStreamConverter
+- uid: Cuemon.Xml.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding)
+  name: ChangeEncoding(Stream, Encoding)
+  href: api/core/Cuemon.Xml.XmlStreamConverter.html#Cuemon_Xml_XmlStreamConverter_ChangeEncoding_System_IO_Stream_System_Text_Encoding_
+  commentId: M:Cuemon.Xml.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding)
+  fullName: Cuemon.Xml.XmlStreamConverter.ChangeEncoding(System.IO.Stream, System.Text.Encoding)
+  nameWithType: XmlStreamConverter.ChangeEncoding(Stream, Encoding)
+- uid: Cuemon.Xml.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,Cuemon.PreambleSequence)
+  name: ChangeEncoding(Stream, Encoding, PreambleSequence)
+  href: api/core/Cuemon.Xml.XmlStreamConverter.html#Cuemon_Xml_XmlStreamConverter_ChangeEncoding_System_IO_Stream_System_Text_Encoding_Cuemon_PreambleSequence_
+  commentId: M:Cuemon.Xml.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,Cuemon.PreambleSequence)
+  fullName: Cuemon.Xml.XmlStreamConverter.ChangeEncoding(System.IO.Stream, System.Text.Encoding, Cuemon.PreambleSequence)
+  nameWithType: XmlStreamConverter.ChangeEncoding(Stream, Encoding, PreambleSequence)
+- uid: Cuemon.Xml.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,System.Boolean)
+  name: ChangeEncoding(Stream, Encoding, Boolean)
+  href: api/core/Cuemon.Xml.XmlStreamConverter.html#Cuemon_Xml_XmlStreamConverter_ChangeEncoding_System_IO_Stream_System_Text_Encoding_System_Boolean_
+  commentId: M:Cuemon.Xml.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,System.Boolean)
+  fullName: Cuemon.Xml.XmlStreamConverter.ChangeEncoding(System.IO.Stream, System.Text.Encoding, System.Boolean)
+  nameWithType: XmlStreamConverter.ChangeEncoding(Stream, Encoding, Boolean)
+- uid: Cuemon.Xml.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,System.Text.Encoding,Cuemon.PreambleSequence)
+  name: ChangeEncoding(Stream, Encoding, Encoding, PreambleSequence)
+  href: api/core/Cuemon.Xml.XmlStreamConverter.html#Cuemon_Xml_XmlStreamConverter_ChangeEncoding_System_IO_Stream_System_Text_Encoding_System_Text_Encoding_Cuemon_PreambleSequence_
+  commentId: M:Cuemon.Xml.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,System.Text.Encoding,Cuemon.PreambleSequence)
+  fullName: Cuemon.Xml.XmlStreamConverter.ChangeEncoding(System.IO.Stream, System.Text.Encoding, System.Text.Encoding, Cuemon.PreambleSequence)
+  nameWithType: XmlStreamConverter.ChangeEncoding(Stream, Encoding, Encoding, PreambleSequence)
+- uid: Cuemon.Xml.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,System.Text.Encoding,Cuemon.PreambleSequence,System.Boolean)
+  name: ChangeEncoding(Stream, Encoding, Encoding, PreambleSequence, Boolean)
+  href: api/core/Cuemon.Xml.XmlStreamConverter.html#Cuemon_Xml_XmlStreamConverter_ChangeEncoding_System_IO_Stream_System_Text_Encoding_System_Text_Encoding_Cuemon_PreambleSequence_System_Boolean_
+  commentId: M:Cuemon.Xml.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,System.Text.Encoding,Cuemon.PreambleSequence,System.Boolean)
+  fullName: Cuemon.Xml.XmlStreamConverter.ChangeEncoding(System.IO.Stream, System.Text.Encoding, System.Text.Encoding, Cuemon.PreambleSequence, System.Boolean)
+  nameWithType: XmlStreamConverter.ChangeEncoding(Stream, Encoding, Encoding, PreambleSequence, Boolean)
+- uid: Cuemon.Xml.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,System.Text.Encoding,System.Boolean)
+  name: ChangeEncoding(Stream, Encoding, Encoding, Boolean)
+  href: api/core/Cuemon.Xml.XmlStreamConverter.html#Cuemon_Xml_XmlStreamConverter_ChangeEncoding_System_IO_Stream_System_Text_Encoding_System_Text_Encoding_System_Boolean_
+  commentId: M:Cuemon.Xml.XmlStreamConverter.ChangeEncoding(System.IO.Stream,System.Text.Encoding,System.Text.Encoding,System.Boolean)
+  fullName: Cuemon.Xml.XmlStreamConverter.ChangeEncoding(System.IO.Stream, System.Text.Encoding, System.Text.Encoding, System.Boolean)
+  nameWithType: XmlStreamConverter.ChangeEncoding(Stream, Encoding, Encoding, Boolean)
+- uid: Cuemon.Xml.XmlStreamConverter.ChangeEncoding*
+  name: ChangeEncoding
+  href: api/core/Cuemon.Xml.XmlStreamConverter.html#Cuemon_Xml_XmlStreamConverter_ChangeEncoding_
+  commentId: Overload:Cuemon.Xml.XmlStreamConverter.ChangeEncoding
+  isSpec: "True"
+  fullName: Cuemon.Xml.XmlStreamConverter.ChangeEncoding
+  nameWithType: XmlStreamConverter.ChangeEncoding
 - uid: Cuemon.Xml.XmlUtility
   name: XmlUtility
   href: api/core/Cuemon.Xml.XmlUtility.html
